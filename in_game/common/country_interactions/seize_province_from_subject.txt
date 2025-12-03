@@ -1,0 +1,66 @@
+seize_province_from_subject = {
+	type = subject
+	category = CATEGORY_SUBJECT_ACTIONS
+	ai_tick = never
+	use_enroute = no
+	potential = {
+		scope:actor = {
+			country_type = location
+		}
+		scope:recipient = {
+			is_colonial_subject = yes
+			country_type = location
+			subject_loyalty >= MIN_SUBJECT_LOYALTY_FOR_ACTION
+			liberty_desire < MAX_SUBJECT_LIBERTY_DESIRE_FOR_ACTION
+		}
+	}
+	allow = {
+	}
+	select_trigger = {
+		looking_for_a = country
+		interaction_source_list = {
+			scope:actor = {
+				every_subject = {
+					add_to_list = source
+				}
+			}
+		}
+		target_flag = recipient
+		name = "choose_country"
+		column = {
+			data = name
+		}
+		visible = {
+		}
+		enabled = {
+		}
+	}
+	select_trigger = {
+		looking_for_a = province
+		source = recipient
+		target_flag = target
+		name = "seize_province_from_subject_select_title"
+		none_available_msg_key = "seize_province_from_subject_no_provinces"
+		column = {
+			data = name
+		}
+		column = {
+			data = population
+		}
+		visible = {
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				exists = scope:target
+			}
+			scope:target = {
+				change_province_owner = scope:actor
+			}
+		}
+		else = {
+			custom_tooltip = select_a_province_to_take
+		}
+	}
+}
