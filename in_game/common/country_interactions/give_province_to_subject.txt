@@ -67,9 +67,7 @@ give_province_to_subject = {
 			not = {
 				any_location_in_province = {
 					is_capital = yes
-					
 				}
-				
 			}			
 			OR = {
 				any_location_in_province = {
