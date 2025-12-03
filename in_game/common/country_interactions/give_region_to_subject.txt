@@ -1,6 +1,7 @@
 give_region_to_subject = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
+	ai_tick = never
 	use_enroute = no
 	ai_prerequisite = {
 		always = no
@@ -31,6 +32,7 @@ give_region_to_subject = {
 				country_type = building
 				country_type = pop
 			}
+			is_colonial_subject = yes
 		}
 		enabled = {
 			trigger_if = {

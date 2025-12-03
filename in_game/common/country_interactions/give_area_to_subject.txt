@@ -1,6 +1,7 @@
 give_area_to_subject = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
+	ai_tick = never
 	use_enroute = no
 	ai_prerequisite = {
 		always = no

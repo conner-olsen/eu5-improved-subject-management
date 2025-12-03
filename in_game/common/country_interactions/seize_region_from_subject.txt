@@ -7,12 +7,6 @@ seize_region_from_subject = {
 		scope:actor = {
 			country_type = location
 		}
-		scope:recipient = {
-			is_colonial_subject = yes
-			country_type = location
-			subject_loyalty >= MIN_SUBJECT_LOYALTY_FOR_ACTION
-			liberty_desire < MAX_SUBJECT_LIBERTY_DESIRE_FOR_ACTION
-		}
 	}
 	allow = {
 	}
@@ -31,8 +25,12 @@ seize_region_from_subject = {
 			data = name
 		}
 		visible = {
+			is_colonial_subject = yes
+			country_type = location
 		}
 		enabled = {
+			subject_loyalty >= MIN_SUBJECT_LOYALTY_FOR_ACTION
+			liberty_desire < MAX_SUBJECT_LIBERTY_DESIRE_FOR_ACTION
 		}
 	}
 	select_trigger = {
