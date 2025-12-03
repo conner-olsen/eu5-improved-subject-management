@@ -1,9 +1,9 @@
 ﻿{
-	"name":	"Improve Subject Management",
-	"id":	"improve.subject.management",
-	"version":	"0.1",
+	"name":	"Improved Subject Management Dev",
+	"id":	"improved.subject.management.dev",
+	"version":	"1.0",
 	"supported_game_version":	"1.0.*",
-	"short_description":	"Improves Subject Management",
+	"short_description":	"Improved Subject Management Dev",
 	"tags":	["Balance", "Diplomacy", "Fixes", "Gameplay", "Overhaul", "User Interface", "Utilities"],
 	"relationships":	[],
 	"game_custom_data":	{
