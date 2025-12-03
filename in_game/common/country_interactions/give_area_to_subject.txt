@@ -9,7 +9,6 @@ give_area_to_subject = {
 	potential = {
 		scope:actor = {
 			num_locations > 1
-			at_war = no
 		}
 	}
 	allow = {}
@@ -31,6 +30,10 @@ give_area_to_subject = {
 			NOR = {
 				country_type = building
 				country_type = pop
+			}
+			OR = {
+				is_colonial_subject = yes
+				scope:actor.at_war = no
 			}
 		}
 		enabled = {

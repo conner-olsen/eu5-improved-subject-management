@@ -11,7 +11,6 @@ give_province_to_subject = {
 	potential = {
 		scope:actor = {
 			num_locations > 1
-			at_war = no
 		}
 	}
 	
@@ -37,7 +36,10 @@ give_province_to_subject = {
 				country_type = building
 				country_type = pop
 			}
-
+			OR = {
+				is_colonial_subject = yes
+				scope:actor.at_war = no
+			}
 		}
         enabled = {
 			trigger_if = {

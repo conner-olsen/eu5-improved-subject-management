@@ -9,7 +9,6 @@ give_region_to_subject = {
 	potential = {
 		scope:actor = {
 			num_locations > 1
-			at_war = no
 		}
 	}
 	allow = {}
