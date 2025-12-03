@@ -1,0 +1,97 @@
+give_area_to_subject = {
+	type = subject
+	category = CATEGORY_SUBJECT_ACTIONS
+	use_enroute = no
+	ai_prerequisite = {
+		always = no
+	}
+	potential = {
+		scope:actor = {
+			num_locations > 1
+			at_war = no
+		}
+	}
+	allow = {}
+	select_trigger = {
+		looking_for_a = country
+		interaction_source_list = {
+			scope:actor = {
+				every_subject = {
+					add_to_list = source
+				}
+			}
+		}
+		target_flag = recipient
+		name = "choose_country"
+		column = {
+			data = name
+		}
+		visible = {
+			NOR = {
+				country_type = building
+				country_type = pop
+			}
+		}
+		enabled = {
+			trigger_if = {
+				limit = {
+					is_subject_type = tusi
+				}
+				num_locations < 10
+			}
+		}
+	}
+	select_trigger = {
+		looking_for_a = area
+		source = actor
+		target_flag = target
+		name = "select_a_area_to_give"
+		none_available_msg_key = "give_area_to_subject_no_areas"
+		# Only show areas where there is at least one owned, non-capital
+		# location that either borders the subject or is in the same sub-continent
+		visible = {
+			NOT = {
+				scope:actor.capital.area = scope:target
+			}
+			any_location_in_area = {
+				owner ?= scope:actor
+				is_capital = no
+				OR = {
+					any_coast_border_location = {
+						owner ?= scope:recipient
+					}
+					sub_continent = scope:recipient.capital.sub_continent
+				}
+			}
+		}
+		column = {
+			data = name
+		}
+		column = {
+			data = population
+		}
+	} 
+	effect = {
+		if = {
+			limit = {
+				exists = scope:target
+			}
+			scope:actor = {
+				every_owned_location = {
+					limit = {
+						area = scope:target
+					}
+					province = {
+						change_province_owner = scope:recipient
+					}
+				}
+			}
+		}
+		else = {
+			custom_tooltip = select_a_area_to_give
+		}
+	}
+	ai_will_do = {
+		add = -1000
+	}
+}
