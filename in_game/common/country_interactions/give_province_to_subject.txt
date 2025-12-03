@@ -90,16 +90,7 @@ give_province_to_subject = {
 				exists = scope:target
 			}
 			scope:target = {
-				random_location_in_province = {
-					save_scope_as = random_location
-				}
 				change_province_owner = scope:recipient
-			}
-
-			scope:random_location = {
-				province = {
-					save_scope_as = new_province
-				}
 			}
 		}
 		else = {
