@@ -4,7 +4,7 @@
 	"version":	"1.0",
 	"supported_game_version":	"1.0.*",
 	"short_description":	"Improved Subject Management",
-	"tags":	["Balance", "Diplomacy", "Fixes", "Gameplay", "Overhaul", "User Interface", "Utilities"],
+	"tags":	["Diplomacy", "Fixes", "Gameplay", "Overhaul", "User Interface", "Utilities"],
 	"relationships":	[],
 	"game_custom_data":	{
 }
