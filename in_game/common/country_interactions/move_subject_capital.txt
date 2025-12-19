@@ -47,9 +47,6 @@
 			data = population
 		}
 		column = {
-			data = province_tax_base
-		}
-		column = {
 			data = raw_material
 		}
 		column = {
