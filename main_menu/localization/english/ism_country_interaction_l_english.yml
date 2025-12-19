@@ -48,3 +48,13 @@
  PROPOSE_seize_region_from_subject: "Seize a region from $RECIPIENT$?\n$INFO$."
  select_a_region_to_take: "Click to select a region that we should take from our subject."
  seize_region_from_subject_no_regions: "$no_valid_regions$"
+ # Move Subject Capital
+ move_subject_capital: "Move Capital"
+ move_subject_capital_act: "Move Capital to [SCOPE.sCountry('target').GetName]"
+ move_subject_capital_desc: "We will move our subject's capital to a new [location|e]."
+ move_subject_capital_effect_text: "Move [SCOPE.sCountry('target').GetName] capital to a new [location|e]."
+ move_subject_capital_effect_text_past: "Moved [SCOPE.sCountry('target').GetName] capital to a new [location|e]."
+ move_subject_capital_select_title: "Select a [location|e] to move our subject's capital to!"
+ PROPOSE_move_subject_capital: "Move subject's capital to $TARGET$?\n$INFO$."
+ select_a_location_to_move_capital: "Click to select a [location|e] that we should move our subject's capital to."
+ move_subject_capital_no_locations: "$no_valid_locations$"
