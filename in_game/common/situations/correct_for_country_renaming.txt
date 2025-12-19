@@ -1,0 +1,31 @@
+﻿INJECT:colonial_revolution = {
+	tooltip = {
+		if = {
+			limit = { #is a colonial overlord
+				owner ?= {
+					any_subject = {
+						is_subject_type = colonial_nation
+					}
+				}
+			}
+			custom_tooltip = ar_colonial_overlord.tt
+		}
+		else_if = {
+			limit = {
+				owner ?= { is_subject_type = colonial_nation }
+			}
+			if = {
+				limit = { #disloyal colonial subject
+					OR = {
+						owner ?= { is_disloyal_subject = yes }
+						owner ?= { is_member_of_international_organization_of_type = { type = colonial_federation } }
+					}
+				}
+				custom_tooltip = ar_disloyal_colonial_subject.tt
+			}
+			else = { #loyal colonial subject
+				custom_tooltip = ar_loyal_colonial_subject.tt
+			}
+		}
+	}
+}

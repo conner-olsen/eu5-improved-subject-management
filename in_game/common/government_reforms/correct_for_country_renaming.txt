@@ -1,0 +1,7 @@
+﻿# country_specific.txt
+INJECT:colonial_subject = {
+	potential = {
+		has_reform = government_reform:colonial_subject
+		is_subject_type = colonial_nation
+	}
+}

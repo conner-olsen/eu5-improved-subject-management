@@ -1,0 +1,28 @@
+﻿# plantation_buildings.txt
+INJECT:sugar_plantation = {
+	location_potential = {
+		raw_material = goods:sugar
+		OR = {
+			is_overseas_for_owner = yes
+			owner ?= { is_subject_type = colonial_nation }
+		}
+	}
+}
+INJECT:cotton_plantation = {
+	location_potential = {
+		raw_material = goods:cotton
+		OR = {
+			is_overseas_for_owner = yes
+			owner ?= { is_subject_type = colonial_nation }
+		}
+	}
+}
+INJECT:tobacco_plantation = {
+	location_potential = {
+		raw_material = goods:tobacco
+		OR = {
+			is_overseas_for_owner = yes
+			owner ?= { is_subject_type = colonial_nation }
+		}
+	}
+}

@@ -1,0 +1,6 @@
+﻿# colonial_laws.txt
+INJECT:colonial_representation_law = {
+	potential = {
+		is_subject_type = colonial_nation
+	}
+}

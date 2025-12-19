@@ -1,0 +1,24 @@
+﻿# colonial_federation.txt
+INJECT:colonial_federation = {
+	create_visible_trigger = {
+		is_subject_type = colonial_nation
+		is_situation_active = situation:colonial_revolution
+	}
+	can_join_trigger = {
+		is_rebel_country = no
+		NOT = { 
+			is_member_of_international_organization_of_type = {
+				type = colonial_federation
+			}
+		}
+		is_subject_type = colonial_nation
+		is_situation_active = situation:colonial_revolution
+		exists = scope:actor
+		OR = {
+			culture = scope:actor.culture
+			religion = scope:actor.religion
+		}
+		capital.sub_continent = scope:actor.capital.sub_continent
+	}
+}
+

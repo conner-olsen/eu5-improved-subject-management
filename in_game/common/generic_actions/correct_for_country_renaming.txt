@@ -1,0 +1,132 @@
+﻿# colonial_revolution.txt
+INJECT:seek_alliance_with_overlord_rival = {
+	potential = {
+		scope:actor = {
+			is_subject = yes
+			is_subject_type = colonial_nation
+		}
+	}
+}
+
+INJECT:declare_independence_war = {
+	potential = {
+		scope:actor ?= {
+			is_subject_type = colonial_nation
+		}
+	}
+}
+
+INJECT:create_colonial_federation = {
+	potential = {
+		scope:actor ?= {
+			is_subject_type = colonial_nation
+		}
+	}
+}
+
+INJECT:join_colonial_federation = {
+	potential = {
+		scope:actor ?= {
+			is_subject_type = colonial_nation
+		}
+	}
+}
+
+INJECT:give_colony_representation = {
+	potential = {
+		scope:actor ?= {
+			any_subject = {
+				is_subject_type = colonial_nation
+			}
+		}
+	}
+	select_trigger = {
+		looking_for_a = country
+		target_flag = target_country
+		name = "choose_country"
+		none_available_msg_key = "no_valid_countries"
+		column = {
+			data = name
+		}
+		visible = {
+			is_subject_type = colonial_nation
+			overlord = scope:actor
+			has_policy = colonial_representation_law_no
+		}
+	}
+}
+
+INJECT:establish_goods_act = {
+	potential = {
+		scope:actor ?= {
+			any_subject = {
+				is_subject_type = colonial_nation
+			}
+		}
+	}
+	select_trigger = {
+		looking_for_a = country
+		target_flag = target_country
+		name = "choose_country"
+		none_available_msg_key = "no_valid_countries"
+		column = {
+			data = name
+		}
+		visible = {
+			is_subject_type = colonial_nation
+			overlord ?= scope:actor
+		}
+	}
+}
+
+INJECT:aid_colonial_war = {
+	potential = {
+		scope:actor ?= {
+			any_subject = {
+				is_subject_type = colonial_nation
+			}
+		}
+	}
+	select_trigger = {
+		looking_for_a = country
+		target_flag = target_country
+		name = "choose_country"
+		none_available_msg_key = "no_valid_countries"
+		column = {
+			data = name
+		}
+		visible = {
+			is_subject_type = colonial_nation
+			overlord = scope:actor
+			at_war = yes
+		}
+	}
+}
+
+# culture.txt
+INJECT:change_primary_culture = {
+	allow = {
+		scope:actor = {
+		   NOT = {
+			is_subject_type = colonial_nation
+		   }
+		}
+   }
+}
+
+# general_religion.txt
+INJECT:convert_religion = {
+	allow = {
+		trigger_if = {
+			limit = {
+				exists = scope:actor
+			}
+			scope:actor = {
+				modifier:blocked_from_conversion = no
+				NOT = {
+					is_subject_type = colonial_nation
+				}
+			}
+		}
+	}
+}
