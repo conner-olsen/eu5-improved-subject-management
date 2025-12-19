@@ -1,4 +1,4 @@
-move_subject_capital = { 
+﻿move_subject_capital = { 
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
 

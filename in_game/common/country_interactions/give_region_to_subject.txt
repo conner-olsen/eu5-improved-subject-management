@@ -1,4 +1,4 @@
-give_region_to_subject = {
+﻿give_region_to_subject = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
 	ai_tick = never

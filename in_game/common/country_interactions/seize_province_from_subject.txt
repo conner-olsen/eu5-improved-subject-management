@@ -1,4 +1,4 @@
-seize_province_from_subject = {
+﻿seize_province_from_subject = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
 	ai_tick = never
