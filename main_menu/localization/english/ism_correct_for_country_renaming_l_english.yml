@@ -1,0 +1,67 @@
+﻿l_english:
+ # For Translators: You should need to translate the text between the #s.
+ # It is also possible the the localization bug I am trying to address doesn't apply to your language, 
+ # in which case you can just ignore this whole file.
+ #########################################################
+ # Generic Prefixes
+ CANCEL_SUBJECT_SUF: "?"
+ CHANGE_SUBJECT_PRE: "Do we wish to ask that "
+ # Vassal
+ vassalTITLE_CHANGE: "Change to Vassal Status"
+ vassal_DESC_CHANGE: "Suggest that they change status to become our Vassal."
+ vassal_DESC_CREATION: "Change to Vassal Status."
+ CANCEL_VASSAL_PRE: "Do we wish end Vassal status of "
+ CHANGE_VASSAL_SUF: " changes status to our Vassal?"
+ # Fiefdom
+ fiefdomTITLE_CHANGE: "Change to Fiefdom Status"
+ fiefdom_DESC_CHANGE: "Suggest that they change status to become our Fiefdom."
+ fiefdom_DESC_CREATION: "Change to Fiefdom Status."
+ CANCEL_FIEFDOM_PRE: "Do we wish end Fiefdom status of "
+ CHANGE_FIEFDOM_SUF: " changes status to our Fiefdom?"
+ # March
+ marchTITLE_CHANGE: "Change to March Status"
+ march_DESC_CHANGE: "Suggest that they change status to become our March."
+ march_DESC_CREATION: "Change to March Status."
+ CANCEL_MARCH_PRE: "Do we wish end March status of "
+ CHANGE_MARCH_SUF: " changes status to our March?"
+ #########################################################
+ # For Translators: You should not need to change anything below this line, but will still need to copy it to your localization file.
+ # If you find that anything is not working as expected, make a comment on the workshop page and I will help you out.
+ # These complex localization strings are to work around a bug in the game where all subject interactions get mapped to the same key.
+ # Vassal
+ vassal_CATEGORY: "CATEGORY_SUBJECT_ACTIONS"
+ # If the nation is the subject of the player proceed to vassalTITLE, otherwise proceed to vassalTITLE_CREATION
+ vassalTITLE: "[SelectLocalization(DiplomaticActionItem.GetRecipient.GetDiplomacy.IsSubjectOf(GetPlayer), 'vassalTITLE_SUBJECT', 'vassalTITLE_CREATION')]"
+ # SUBJECT: Check if the subject is a Vassal, if it is then it is the cancel Vassal interaction, otherwise its the switch to Vassal interaction
+ vassalTITLE_SUBJECT: "[SelectLocalization(EqualTo_string(DiplomaticActionItem.GetRecipient.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Vassal'), 'CANCEL_vassalTITLE', 'vassalTITLE_CHANGE')]"
+ # NOT SUBJECT: Check if the tooltip contains the word "our", if it does then its the offer vassal interaction, otherwise its the request vassal interaction
+ vassalTITLE_CREATION: "[SelectLocalization(StringContains(DiplomaticActionItem.GetTooltip, 'our'), 'OFFER_vassalTITLE', 'REQUEST_vassalTITLE')]"
+ vassal_DESC: "[SelectLocalization(DiplomaticActionItem.GetRecipient.GetDiplomacy.IsSubjectOf(GetPlayer), 'vassal_DESC_SUBJECT', 'vassal_DESC_CREATION')]"
+ vassal_DESC_SUBJECT: "[SelectLocalization(EqualTo_string(DiplomaticActionItem.GetRecipient.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Vassal'), 'CANCEL_vassal_DESC', 'vassal_DESC_CHANGE')]"
+ # WIP: Currently the below crashes as the description is part of the tooltip, creating a circular dependency, so just using a generic description for now.
+#  vassal_DESC_CREATION: "[SelectLocalization(StringContains(DiplomaticActionItem.GetTooltip, 'our'), 'OFFER_vassal_DESC', 'REQUEST_vassal_DESC')]"
+ vassal_TOO_LOW: "$OFFER_vassal_TOO_LOW$"
+ # For the popup confirmation text
+ # If the nation is a subject of the player, and is a vassal, then show the cancel text, if its a subject but not a vassal, then show the change text, 
+ # if its not a subject, then show the offer text.
+ vassal_NEWDESC: "[SelectLocalization(And(COUNTRY.GetDiplomacy.IsSubjectOf(GetPlayer), EqualTo_string(COUNTRY.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Vassal')), 'CANCEL_VASSAL_PRE', 'CHANGE_SUBJECT_PRE')][COUNTRY.GetName][SelectLocalization(And(COUNTRY.GetDiplomacy.IsSubjectOf(GetPlayer), EqualTo_string(COUNTRY.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Vassal')), 'CANCEL_SUBJECT_SUF', 'CHANGE_VASSAL_SUF')]"
+ 
+ # Fiefdom
+ fiefdom_CATEGORY: "CATEGORY_SUBJECT_ACTIONS"
+ fiefdomTITLE: "[SelectLocalization(DiplomaticActionItem.GetRecipient.GetDiplomacy.IsSubjectOf(GetPlayer), 'fiefdomTITLE_SUBJECT', 'fiefdomTITLE_CREATION')]"
+ fiefdomTITLE_SUBJECT: "[SelectLocalization(EqualTo_string(DiplomaticActionItem.GetRecipient.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Fiefdom'), 'CANCEL_fiefdomTITLE', 'fiefdomTITLE_CHANGE')]"
+ fiefdomTITLE_CREATION: "[SelectLocalization(StringContains(DiplomaticActionItem.GetTooltip, 'our'), 'OFFER_fiefdomTITLE', 'REQUEST_fiefdomTITLE')]"
+ fiefdom_DESC: "[SelectLocalization(DiplomaticActionItem.GetRecipient.GetDiplomacy.IsSubjectOf(GetPlayer), 'fiefdom_DESC_SUBJECT', 'fiefdom_DESC_CREATION')]"
+ fiefdom_DESC_SUBJECT: "[SelectLocalization(EqualTo_string(DiplomaticActionItem.GetRecipient.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Fiefdom'), 'CANCEL_fiefdom_DESC', 'fiefdom_DESC_CHANGE')]"
+ fiefdom_TOO_LOW: "$OFFER_fiefdom_TOO_LOW$"
+ fiefdom_NEWDESC: "[SelectLocalization(And(COUNTRY.GetDiplomacy.IsSubjectOf(GetPlayer), EqualTo_string(COUNTRY.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Fiefdom')), 'CANCEL_FIEFDOM_PRE', 'CHANGE_SUBJECT_PRE')][COUNTRY.GetName][SelectLocalization(And(COUNTRY.GetDiplomacy.IsSubjectOf(GetPlayer), EqualTo_string(COUNTRY.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Fiefdom')), 'CANCEL_SUBJECT_SUF', 'CHANGE_FIEFDOM_SUF')]"
+
+ # March
+ march_CATEGORY: "CATEGORY_SUBJECT_ACTIONS"
+ marchTITLE: "[SelectLocalization(DiplomaticActionItem.GetRecipient.GetDiplomacy.IsSubjectOf(GetPlayer), 'marchTITLE_SUBJECT', 'marchTITLE_CREATION')]"
+ marchTITLE_SUBJECT: "[SelectLocalization(EqualTo_string(DiplomaticActionItem.GetRecipient.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'March'), 'CANCEL_marchTITLE', 'marchTITLE_CHANGE')]"
+ marchTITLE_CREATION: "[SelectLocalization(StringContains(DiplomaticActionItem.GetTooltip, 'our'), 'OFFER_marchTITLE', 'REQUEST_marchTITLE')]"
+ march_DESC: "[SelectLocalization(DiplomaticActionItem.GetRecipient.GetDiplomacy.IsSubjectOf(GetPlayer), 'march_DESC_SUBJECT', 'march_DESC_CREATION')]"
+ march_DESC_SUBJECT: "[SelectLocalization(EqualTo_string(DiplomaticActionItem.GetRecipient.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'March'), 'CANCEL_march_DESC', 'march_DESC_CHANGE')]"
+ march_TOO_LOW: "$OFFER_march_TOO_LOW$"
+ march_NEWDESC: "[SelectLocalization(And(COUNTRY.GetDiplomacy.IsSubjectOf(GetPlayer), EqualTo_string(COUNTRY.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'March')), 'CANCEL_MARCH_PRE', 'CHANGE_SUBJECT_PRE')][COUNTRY.GetName][SelectLocalization(And(COUNTRY.GetDiplomacy.IsSubjectOf(GetPlayer), EqualTo_string(COUNTRY.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'March')), 'CANCEL_SUBJECT_SUF', 'CHANGE_MARCH_SUF')]"

@@ -4,12 +4,12 @@
 INJECT:fiefdom = {
     is_colonial_subject = yes
 }
-INJECT:trade_company = {
-    is_colonial_subject = yes
-}
 INJECT:march = {
     is_colonial_subject = yes
 }
-INJECT:dominion = {
-	is_colonial_subject = yes
-}
+# INJECT:trade_company = {
+#     is_colonial_subject = yes
+# }
+# INJECT:dominion = {
+# 	is_colonial_subject = yes
+# }
