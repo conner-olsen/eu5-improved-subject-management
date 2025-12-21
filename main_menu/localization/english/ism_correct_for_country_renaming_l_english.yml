@@ -15,7 +15,9 @@
  vassal_DESC: "[SelectLocalization(DiplomaticActionItem.GetRecipient.GetDiplomacy.IsSubjectOf(GetPlayer), 'vassal_DESC_SUBJECT', 'vassal_DESC_CREATION')]"
  vassal_DESC_SUBJECT: "[SelectLocalization(EqualTo_string(DiplomaticActionItem.GetRecipient.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Vassal'), 'CANCEL_vassal_DESC', 'vassal_DESC_CHANGE')]"
  vassal_DESC_CHANGE: "Suggest that they change status to become our Vassal."
- vassal_DESC_CREATION: "[SelectLocalization(StringContains(DiplomaticActionItem.GetTooltip, 'our'), 'OFFER_vassal_DESC', 'REQUEST_vassal_DESC')]"
+ # WIP: Currently the below crashes as the description is part of the tooltip, creating a circular dependency, so just using a generic description for now.
+#  vassal_DESC_CREATION: "[SelectLocalization(StringContains(DiplomaticActionItem.GetTooltip, 'our'), 'OFFER_vassal_DESC', 'REQUEST_vassal_DESC')]"
+ vassal_DESC_CREATION: "Change to Vassal Status."
  vassal_TOO_LOW: "$OFFER_vassal_TOO_LOW$"
  # For the popup confirmation text
  # If the nation is a subject of the player, and is a vassal, then show the cancel text, if its a subject but not a vassal, then show the change text, 
@@ -34,7 +36,7 @@
  fiefdom_DESC: "[SelectLocalization(DiplomaticActionItem.GetRecipient.GetDiplomacy.IsSubjectOf(GetPlayer), 'fiefdom_DESC_SUBJECT', 'fiefdom_DESC_CREATION')]"
  fiefdom_DESC_SUBJECT: "[SelectLocalization(EqualTo_string(DiplomaticActionItem.GetRecipient.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Fiefdom'), 'CANCEL_fiefdom_DESC', 'fiefdom_DESC_CHANGE')]"
  fiefdom_DESC_CHANGE: "Suggest that they change status to become our Fiefdom."
- fiefdom_DESC_CREATION: "[SelectLocalization(StringContains(DiplomaticActionItem.GetTooltip, 'our'), 'OFFER_fiefdom_DESC', 'REQUEST_fiefdom_DESC')]"
+ fiefdom_DESC_CREATION: "Change to Fiefdom Status."
  fiefdom_TOO_LOW: "$OFFER_fiefdom_TOO_LOW$"
  fiefdom_NEWDESC: "[SelectLocalization(And(COUNTRY.GetDiplomacy.IsSubjectOf(GetPlayer), EqualTo_string(COUNTRY.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Fiefdom')), 'CANCEL_FIEFDOM_PRE', 'CHANGE_SUBJECT_PRE')][COUNTRY.GetName][SelectLocalization(And(COUNTRY.GetDiplomacy.IsSubjectOf(GetPlayer), EqualTo_string(COUNTRY.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Fiefdom')), 'CANCEL_SUBJECT_SUF', 'CHANGE_FIEFDOM_SUF')]"
  CANCEL_FIEFDOM_PRE: "Do we wish end Fiefdom status of "
@@ -49,7 +51,7 @@
  march_DESC: "[SelectLocalization(DiplomaticActionItem.GetRecipient.GetDiplomacy.IsSubjectOf(GetPlayer), 'march_DESC_SUBJECT', 'march_DESC_CREATION')]"
  march_DESC_SUBJECT: "[SelectLocalization(EqualTo_string(DiplomaticActionItem.GetRecipient.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'March'), 'CANCEL_march_DESC', 'march_DESC_CHANGE')]"
  march_DESC_CHANGE: "Suggest that they change status to become our March."
- march_DESC_CREATION: "[SelectLocalization(StringContains(DiplomaticActionItem.GetTooltip, 'our'), 'OFFER_march_DESC', 'REQUEST_march_DESC')]"
+ march_DESC_CREATION: "Change to March Status."
  march_TOO_LOW: "$OFFER_march_TOO_LOW$"
  march_NEWDESC: "[SelectLocalization(And(COUNTRY.GetDiplomacy.IsSubjectOf(GetPlayer), EqualTo_string(COUNTRY.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'March')), 'CANCEL_MARCH_PRE', 'CHANGE_SUBJECT_PRE')][COUNTRY.GetName][SelectLocalization(And(COUNTRY.GetDiplomacy.IsSubjectOf(GetPlayer), EqualTo_string(COUNTRY.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'March')), 'CANCEL_SUBJECT_SUF', 'CHANGE_MARCH_SUF')]"
  CANCEL_MARCH_PRE: "Do we wish end March status of "
