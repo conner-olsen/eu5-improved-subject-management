@@ -35,7 +35,7 @@
  # SUBJECT: Check if the subject is a Vassal, if it is then it is the cancel Vassal interaction, otherwise its the switch to Vassal interaction
  vassalTITLE_SUBJECT: "[SelectLocalization(EqualTo_string(DiplomaticActionItem.GetRecipient.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Vassal'), 'CANCEL_vassalTITLE', 'vassalTITLE_CHANGE')]"
  # NOT SUBJECT: Check if the tooltip contains the word "our", if it does then its the offer vassal interaction, otherwise its the request vassal interaction
- vassalTITLE_CREATION: "[SelectLocalization(StringContains(DiplomaticActionItem.GetTooltip, 'our'), 'OFFER_vassalTITLE', 'REQUEST_vassalTITLE'))]"
+ vassalTITLE_CREATION: "[SelectLocalization(StringContains(DiplomaticActionItem.GetTooltip, 'our'), 'OFFER_vassalTITLE', 'REQUEST_vassalTITLE')]"
  vassal_DESC: "[SelectLocalization(DiplomaticActionItem.GetRecipient.GetDiplomacy.IsSubjectOf(GetPlayer), 'vassal_DESC_SUBJECT', 'vassal_DESC_CREATION')]"
  vassal_DESC_SUBJECT: "[SelectLocalization(EqualTo_string(DiplomaticActionItem.GetRecipient.GetDiplomacy.GetSubjectType.GetNameWithNoTooltip, 'Vassal'), 'CANCEL_vassal_DESC', 'vassal_DESC_CHANGE')]"
  # WIP: Currently the below crashes as the description is part of the tooltip, creating a circular dependency, so just using a generic description for now.
