@@ -39,7 +39,7 @@
 		target_flag = target
 		source_flags = only_actual_locations
 		name = "select_a_location_to_move_capital"
-		none_available_msg_key = "move_subject_capital_no_locations"
+		none_available_msg_key = "no_valid_locations"
 		column = {
 			data = name
 		}

@@ -18,7 +18,7 @@ ism_perform_land_transfer = {
                     }
                 }
             }
-            else = { custom_tooltip = select_a_region_to_take }
+            else = { custom_tooltip = select_region_to_transfer }
         }
         else_if = {
             limit = { scope:transfer_mode = { situation:ism_transfer_mode_area = this } }
@@ -31,7 +31,7 @@ ism_perform_land_transfer = {
                     }
                 }
             }
-            else = { custom_tooltip = select_a_area_to_take }
+            else = { custom_tooltip = select_area_to_transfer }
         }
         else_if = {
             limit = { scope:transfer_mode = { situation:ism_transfer_mode_province = this } }
@@ -39,15 +39,9 @@ ism_perform_land_transfer = {
                 limit = { exists = scope:target_province }
                 scope:target_province = { change_province_owner = $receiver$ }
             }
-            else = { custom_tooltip = select_a_province_to_take }
+            else = { custom_tooltip = select_province_to_transfer }
         }
         else_if = {
-            limit = { scope:transfer_mode = { situation:ism_transfer_mode_location = this } }
-            if = {
-                limit = { exists = scope:target_location }
-                scope:target_location = { change_location_owner = $receiver$ }
-            }
-            else = { custom_tooltip = select_a_location_to_take }
         }
     }
     else = {

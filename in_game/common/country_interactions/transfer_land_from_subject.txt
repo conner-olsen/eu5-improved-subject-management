@@ -102,8 +102,8 @@
         source = recipient
         target_flag = target_location
         source_flags = only_actual_locations
-        name = "seize_location_from_subject_select_title"
-        none_available_msg_key = "seize_location_from_subject_no_locations"
+        name = "transfer_location_from_subject_select_title"
+        none_available_msg_key = "no_valid_locations"
 
         show_if = {
             exists = scope:transfer_mode
@@ -117,8 +117,8 @@
         looking_for_a = province
         source = recipient
         target_flag = target_province
-        name = "seize_province_from_subject_select_title"
-        none_available_msg_key = "seize_province_from_subject_no_provinces"
+        name = "transfer_province_from_subject_select_title"
+        none_available_msg_key = "no_valid_locations"
 
         show_if = {
             exists = scope:transfer_mode
@@ -132,8 +132,8 @@
         looking_for_a = area
         source = recipient
         target_flag = target_area
-        name = "seize_area_from_subject_select_title"
-        none_available_msg_key = "seize_area_from_subject_no_areas"
+        name = "transfer_area_from_subject_select_title"
+        none_available_msg_key = "no_valid_areas"
 
         show_if = {
             exists = scope:transfer_mode
@@ -151,8 +151,8 @@
         looking_for_a = region
         source = recipient
         target_flag = target_region
-        name = "seize_region_from_subject_select_title"
-        none_available_msg_key = "seize_region_from_subject_no_regions"
+        name = "transfer_region_from_subject_select_title"
+        none_available_msg_key = "no_valid_regions"
 
         show_if = {
             exists = scope:transfer_mode
