@@ -7,15 +7,21 @@
 ism_share_maps = {
     trigger = {
         is_overlord = yes
+        OR = {
+            NOT = { is_subject = yes }
+            is_human = yes
+        }
+
     }
     effect = {
         save_temporary_scope_as = top_overlord
         every_area = {
+            save_temporary_scope_as = current_area
             limit = {
-                NOT = { scope:top_overlord = { has_discovered_area = prev } }
-                scope:top_overlord = { any_subject_or_below = { has_discovered_area = prev.prev } }
+                NOT = { scope:top_overlord = { has_discovered_area = scope:current_area } }
+                scope:top_overlord = { any_subject_or_below = { has_discovered_area = scope:current_area } }
             }
-            scope:top_overlord = { discover_area = prev }
+            scope:top_overlord = { discover_area = scope:current_area }
         }
     }
 }
