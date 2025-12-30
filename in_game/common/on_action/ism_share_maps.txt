@@ -14,14 +14,16 @@ ism_share_maps = {
 
     }
     effect = {
-        save_temporary_scope_as = top_overlord
+        save_temporary_scope_as = highest_overlord
         every_area = {
-            save_temporary_scope_as = current_area
-            limit = {
-                NOT = { scope:top_overlord = { has_discovered_area = scope:current_area } }
-                scope:top_overlord = { any_subject_or_below = { has_discovered_area = scope:current_area } }
+            if = {
+                limit = {
+                    save_temporary_scope_as = current_area
+                    NOT = { scope:highest_overlord = { has_discovered_area = scope:current_area } }
+                    scope:highest_overlord = { any_subject_or_below = { has_discovered_area = scope:current_area } }
+                }
+                scope:highest_overlord = { discover_area = scope:current_area }
             }
-            scope:top_overlord = { discover_area = scope:current_area }
         }
     }
 }
