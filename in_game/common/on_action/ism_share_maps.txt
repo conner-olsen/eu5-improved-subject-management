@@ -8,10 +8,9 @@ ism_share_maps = {
     trigger = {
         is_overlord = yes
         OR = {
-            NOT = { is_subject = yes }
+            is_subject = no
             is_human = yes
         }
-
     }
     effect = {
         save_temporary_scope_as = highest_overlord
