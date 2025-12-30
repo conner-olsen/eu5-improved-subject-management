@@ -73,10 +73,13 @@
                 # Can always transfer from colonial nations
                 scope:recipient = { is_subject_type = colonial_nation }
                 # Cannot transfer land from a nation to a nation if they are not in the same war
-                scope:recipient = { at_war = no }
-                AND = {
-                    scope:recipient = { at_war = yes}
-                    at_war = yes
+                custom_tooltip = {
+                    text = "is_in_same_war"
+                    scope:recipient = { at_war = no }
+                    AND = {
+                        scope:recipient = { at_war = yes}
+                        at_war = yes
+                    }
                 }
             }
         }

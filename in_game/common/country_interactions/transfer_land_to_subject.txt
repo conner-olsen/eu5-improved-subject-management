@@ -58,10 +58,13 @@
                 # Can always transfer from colonial nations
                 subject_type = subject_type:colonial_nation
                 # Cannot transfer land from a nation to a nation if they are not in the same war
-                at_war = no
-                AND = {
-                    at_war = yes
-                    scope:recipient = { at_war = yes}
+                custom_tooltip = {
+                    text = "is_in_same_war"
+                    at_war = no
+                    AND = {
+                        at_war = yes
+                        scope:recipient = { at_war = yes }
+                    }
                 }
             }
         }
