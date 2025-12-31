@@ -1,7 +1,7 @@
 ﻿{
 	"name":	"Improved Subject Management",
 	"id":	"improved.subject.management",
-	"version":	"1.1",
+	"version":	"1.2",
 	"supported_game_version":	"1.0.*",
 	"short_description":	"Improved Subject Management",
 	"tags":	["Diplomacy", "Fixes", "Gameplay", "Overhaul", "User Interface", "Utilities"],
