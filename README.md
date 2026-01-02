@@ -1,12 +1,8 @@
 # EU5 Improved Subject Management
 
-A mod for Europa Universalis V that adds and modifies various subject interactions to significantly improve subject management.
+Managing subjects in EU5 can be frustrating due to numerous restrictions and missing features. This mod addresses these pain points by removing arbitrary limitations on land transfers, adding new management capabilities, and improving quality of life for players who want more control over their subject nations.
 
 [![Steam Workshop](https://img.shields.io/badge/Steam%20Workshop-Subscribe-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338)
-
-## Overview
-
-Managing subjects in EU5 can be frustrating due to numerous restrictions and missing features. This mod addresses these pain points by removing arbitrary limitations on land transfers, adding new management capabilities, and improving quality of life for players who want more control over their subject nations.
 
 ## Features
 
