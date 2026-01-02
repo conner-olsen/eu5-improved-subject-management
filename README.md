@@ -3,7 +3,6 @@
 A mod for Europa Universalis V that adds and modifies various subject interactions to significantly improve subject management.
 
 [![Steam Workshop](https://img.shields.io/badge/Steam%20Workshop-Subscribe-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black)](https://github.com/conner-olsen/eu5-improved-subject-management)
 
 ## Overview
 
@@ -52,8 +51,6 @@ Every year, any area discovered by a subject that borders an area discovered by 
 ## Technical Implementation
 
 ### Land Transfer System
-
-The mod implements a comprehensive land transfer system through custom country interactions:
 
 - **`transfer_land_to_subject`** - Select a recipient first, then the giver, then the transfer mode and target
 - **`transfer_land_from_subject`** - Select the giver first, then the recipient, then the transfer mode and target
@@ -183,12 +180,6 @@ eu5-improved-subject-management/
 ## Contributing
 
 Contributions are welcome! If you're interested in helping with development:
-
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
-
-For discussion and coordination:
 - Join the [EU5 Community Discord](https://discord.gg/EU5)
 - Visit the `#improved-subject-management` channel
 - Ping or add **@arealconner** on Discord
