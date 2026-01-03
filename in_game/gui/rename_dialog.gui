@@ -132,7 +132,7 @@ window = {
                             # 1. Execute the rename command using the Country Tag and the text Variable
                             onclick = "[ExecuteConsoleCommand( Concatenate( 'effect c:', Concatenate( RenameDialog.GetCountry.GetTag, Concatenate( ' = { change_country_name = \"', Concatenate( GetVariableSystem.Get('renaming_new_name'), '\" }' ) ) ) ) )]"
                             # 2. Close the window
-                            onclick = "[DialogConfig.OnDecline]"
+                            onclick = "[DialogConfig.OnAccept]"
 
                             input_action = "confirm"
                             use_global_input_instance = yes
