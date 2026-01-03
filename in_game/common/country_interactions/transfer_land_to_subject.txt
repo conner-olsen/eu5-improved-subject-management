@@ -58,6 +58,11 @@
             OR = {
                 # Can always transfer from colonial nations
                 subject_type = subject_type:colonial_nation
+                # Can always transfer land to colonial nation from yourself
+                AND = {
+                    scope:giver = { subject_type = subject_type:colonial_nation }
+                    is_human = yes
+                }
                 # Cannot transfer land from a nation to a nation if they are not in the same war
                 custom_tooltip = {
                     text = "is_in_same_war"

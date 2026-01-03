@@ -62,7 +62,6 @@
 	
 	
 	effect = {
-	
 		if = {
 			limit = {
 				exists = scope:target
