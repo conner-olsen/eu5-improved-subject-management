@@ -48,32 +48,15 @@
         column = { data = name }
 
         visible = {
-            NOT = { this = scope:recipient }
-            NOR = {
-                country_type = building
-                country_type = pop
+            can_transfer_land = {
+                giver = ROOT
+                receiver = scope:recipient
             }
         }
         enabled = {
-            OR = {
-                # Can always transfer from colonial nations
-                is_subject_type = colonial_nation
-                # Can always transfer land to colonial nation from yourself
-                AND = {
-                    scope:recipient = { is_subject_type = colonial_nation }
-                    is_human = yes
-                }
-                # Cannot transfer land from a nation to a nation if they are not in the same war
-                custom_tooltip = {
-                    text = "is_in_same_war"
-                    OR = {
-                        at_war = no
-                        AND = {
-                            at_war = yes
-                            scope:recipient = { at_war = yes }
-                        }
-                    }
-                }
+            allow_transfer_land = {
+                giver = ROOT
+                receiver = scope:recipient
             }
         }
     }
@@ -105,7 +88,16 @@
             exists = scope:transfer_mode
             scope:transfer_mode = situation:ism_transfer_mode_location
         }
+
         column = { data = name }
+        column = { data = population }
+
+        visible = {
+            can_transfer_location = {
+                giver = scope:giver
+                receiver = scope:recipient
+            }
+        }
 
         enabled = {
             custom_tooltip = {
@@ -128,7 +120,17 @@
             exists = scope:transfer_mode
             scope:transfer_mode = situation:ism_transfer_mode_province
         }
+
         column = { data = name }
+        column = { data = population }
+
+        visible = {
+            can_transfer_province = {
+                giver = scope:giver
+                receiver = scope:recipient
+            }
+        }
+
         enabled = {
             custom_tooltip = {
                 text = cannot_transfer_capital
@@ -150,11 +152,14 @@
             exists = scope:transfer_mode
             scope:transfer_mode = situation:ism_transfer_mode_area
         }
+
         column = { data = name }
+        column = { data = population }
 
         visible = {
-            any_location_in_area = {
-                owner ?= scope:giver
+            can_transfer_area = {
+                giver = scope:giver
+                receiver = scope:recipient
             }
         }
 
@@ -180,11 +185,14 @@
             exists = scope:transfer_mode
             scope:transfer_mode = situation:ism_transfer_mode_region
         }
+
         column = { data = name }
+        column = { data = population }
 
         visible = {
-            any_location_in_region = {
-                owner ?= scope:giver
+            can_transfer_region = {
+                giver = scope:giver
+                receiver = scope:recipient
             }
         }
 
