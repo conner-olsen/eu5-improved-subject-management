@@ -27,7 +27,10 @@
 			data = name
 		}
 		visible = {
-			country_type = location
+            NOR = {
+                country_type = building
+                country_type = pop
+            }
 		}
         enabled = {
 		}
