@@ -56,7 +56,6 @@
         }
     }
 
-
     effect = {
         if = {
             limit = {
@@ -88,10 +87,8 @@
                         value = scope:target.total_building_levels
                         multiply = 0.1
                     }
-
                 }
             }
         }
     }
-
 }
