@@ -1,7 +1,0 @@
-﻿overlord_blocking_colonization = {
-	game_data = {
-		category = country
-	}
-
-	blocked_from_colonization = yes
-}
