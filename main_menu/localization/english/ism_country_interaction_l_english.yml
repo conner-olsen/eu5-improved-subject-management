@@ -26,7 +26,6 @@
  transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName] will transfer land to [SCOPE.sCountry('recipient').GetName]"
  transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] transferred land to [SCOPE.sCountry('recipient').GetName]"
  PROPOSE_transfer_land_to_subject: "Transfer land to $RECIPIENT$?\n$INFO$."
- select_a_country_to_transfer_to: "Click to select a subject that we should transfer land to."
  transfer_land_to_subject_no_countries: "$no_valid_countries$"
 
  # Transfer Land from Subject
@@ -36,7 +35,6 @@
  transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName] will transfer land from [SCOPE.sCountry('recipient').GetName]"
  transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] transferred land from [SCOPE.sCountry('recipient').GetName]"
  PROPOSE_transfer_land_from_subject: "Transfer land from $RECIPIENT$?\n$INFO$."
- select_a_country_to_take_from: "Click to select a subject that we should transfer land from."
  transfer_land_from_subject_no_countries: "$no_valid_countries$"
 
  # Move Subject Capital
