@@ -1,5 +1,5 @@
 ﻿# Vanilla interaction, but hidden for players, only to allow the AI to use it.
-give_province_to_subject = {
+REPLACE:give_province_to_subject = {
     type = subject
     category = CATEGORY_SUBJECT_ACTIONS
 
