@@ -3,7 +3,19 @@
  MODIFIER_TYPE_DESC_blocked_from_colonization: "This forbids the country to create new [colonial_charters|e]."
  STATIC_MODIFIER_NAME_overlord_blocking_colonization: "Colonization Blocked by Overlord"
  STATIC_MODIFIER_DESC_overlord_blocking_colonization: "This colonial nation has been blocked by its [overlord|e] from creating new [colonial_charters|e]."
+
+ # Block subject colonization
  block_subject_colonization: "Block Colonization"
  block_subject_colonization_desc: "We will prevent our colonial nation from creating new [colonial_charters|e]."
+ block_subject_colonization_act: "Blocks Colonization"
+ block_subject_colonization_effect_text: "[SCOPE.sCountry('actor').GetName] blocks the colonization of [SCOPE.sCountry('recipient').GetName]"
+ block_subject_colonization_effect_text_past: "[SCOPE.sCountry('actor').GetName] is now blocking the colonization of [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_block_subject_colonization: "Block Colonization of $TARGET$?"
+
+ # Allow subject colonization
  allow_subject_colonization: "Allow Colonization"
  allow_subject_colonization_desc: "We will allow our colonial nation to create new [colonial_charters|e]."
+ allow_subject_colonization_act: "Allows Colonization"
+ allow_subject_colonization_effect_text: "[SCOPE.sCountry('actor').GetName] allows the colonization of [SCOPE.sCountry('recipient').GetName]"
+ allow_subject_colonization_effect_text_past: "[SCOPE.sCountry('actor').GetName] is no longer blocking the colonization of [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_allow_subject_colonization: "Allow Colonization of $TARGET$?"
