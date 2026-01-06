@@ -1,0 +1,10 @@
+﻿REPLACE:colonial_nation_can_declare_wars_trigger = {
+	scope:attacker ?= {
+		AND = {
+			NOT = { scope:attacker.top_overlord ?= scope:defender.top_overlord }
+			scope:defender ?= {
+				capital.continent = scope:attacker.capital.continent
+			}
+		}
+	}
+}
