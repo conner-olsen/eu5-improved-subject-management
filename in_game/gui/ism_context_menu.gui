@@ -144,7 +144,7 @@
 						blockoverride "tooltip" {
 							tooltipwidget = {
 								using = diplomatic_action_tooltip
-								blockoverride "diplomatic_action_tooltip_content_extra"{
+								blockoverride "diplomatic_action_tooltip_content_extra" {
 									TooltipScrolledStringPairList = {
 										visible = "[EqualTo_string(DiplomaticActionItem.GetTag, 'IMPROVE_RELATION')]"
 										blockoverride "block_scrollarea" { maximumsize = { -1 420 }}
