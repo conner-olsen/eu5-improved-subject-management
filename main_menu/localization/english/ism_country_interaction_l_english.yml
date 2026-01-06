@@ -49,3 +49,12 @@
  PROPOSE_move_subject_capital: "Move subject's capital to $TARGET$?\n$INFO$."
  select_a_location_to_move_capital: "Click to select a [location|e] that we should move our subject's capital to."
  move_subject_capital_no_locations: "$no_valid_locations$"
+
+ # Change Subject Liturgical Language
+ STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "Forced us to use their $game_concept_liturgical_language$"
+ change_subject_liturgical_language: "Change Liturgical Language"
+ change_subject_liturgical_language_act: "Change Liturgical Language in [SCOPE.sCountry('recipient').GetName]"
+ change_subject_liturgical_language_desc: "We will demand that they adopt our [liturgical_language|e]!"
+ change_subject_liturgical_language_effect_text: "[SCOPE.sCountry('actor').GetName] change the [liturgical_language|e] in [SCOPE.sCountry('recipient').GetName]"
+ change_subject_liturgical_language_effect_text_past: "[SCOPE.sCountry('actor').GetName] changed the [liturgical_language|e] in [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_change_subject_liturgical_language: "Change [liturgical_language|e] in $RECIPIENT$?\n$INFO$."
