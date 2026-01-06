@@ -1,5 +1,5 @@
 ﻿# Vanilla interaction but hidden for colonial subjects (as there would be no point to use this)
-REPLACE:seize_location_from_subject = {
+seize_location_from_subject = {
     type = subject
     category = CATEGORY_SUBJECT_ACTIONS
 
