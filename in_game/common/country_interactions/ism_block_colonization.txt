@@ -31,7 +31,6 @@
 				country_type = building
 				country_type = pop
 			}
-			is_subject_type = colonial_nation
 			NOT = { has_country_modifier = overlord_blocking_colonization }
 		}
         enabled = {
@@ -87,7 +86,6 @@ allow_subject_colonization = {
 				country_type = building
 				country_type = pop
 			}
-			is_subject_type = colonial_nation
 			has_country_modifier = overlord_blocking_colonization
 		}
         enabled = {
