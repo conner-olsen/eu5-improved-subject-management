@@ -1,4 +1,4 @@
-﻿ism_transfer_province_action = {
+﻿ism_transfer_area_action = {
     type = owncountry
     show_message = no
     show_message_to_target = no
@@ -10,17 +10,17 @@
     allow = {  }
 
     select_trigger = {
-        looking_for_a = province
+        looking_for_a = area
         source = actor
-        target_flag = target_province
-        name = "transfer_province_to_subject_select_title"
-        none_available_msg_key = "no_valid_provinces"
+        target_flag = target_area
+        name = "transfer_area_to_subject_select_title"
+        none_available_msg_key = "no_valid_areas"
 
         column = { data = name }
         column = { data = population }
 
         visible = {
-            can_transfer_province = {
+            can_transfer_area = {
                 giver = scope:actor
                 receiver = scope:recipient
             }
@@ -30,21 +30,21 @@
             custom_tooltip = {
                 text = cannot_transfer_capital
                 NOT = {
-                    scope:actor.capital.province = this
+                    scope:actor.capital.area = this
                 }
             }
         }
     }
 
     effect = {
-        ism_transfer_province_effect = {
+        ism_transfer_area_effect = {
             giver = scope:actor
             receiver = scope:recipient
-            target_province = scope:target_province
+            target_area = scope:target_area
         }
         hidden_effect = {
             fire_generic_action = {
-                type = ism_transfer_province_action
+                type = ism_transfer_area_action
                 actor = scope:actor
                 recipient = scope:recipient
             }

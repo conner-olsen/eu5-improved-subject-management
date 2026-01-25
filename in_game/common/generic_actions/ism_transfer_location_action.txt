@@ -42,10 +42,12 @@
             receiver = scope:recipient
             target_location = scope:target_location
         }
-        fire_generic_action = {
-            type = ism_transfer_location_action
-            actor = scope:actor
-            recipient = scope:recipient
+        hidden_effect = {
+            fire_generic_action = {
+                type = ism_transfer_location_action
+                actor = scope:actor
+                recipient = scope:recipient
+            }
         }
     }
 }

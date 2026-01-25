@@ -3,6 +3,8 @@
     category = CATEGORY_SUBJECT_ACTIONS
     ai_tick = never
     use_enroute = no
+    show_message = no
+    show_message_to_target = no
 
     potential = {
         scope:actor = { country_type = location }
@@ -61,124 +63,12 @@
         }
     }
 
-    select_trigger = {
-        looking_for_a = situation
-        target_flag = transfer_mode
-        name = select_transfer_mode
-
-        interaction_source_list = {
-            situation:ism_transfer_mode_location = { add_to_list = source }
-            situation:ism_transfer_mode_province = { add_to_list = source }
-            situation:ism_transfer_mode_area     = { add_to_list = source }
-            situation:ism_transfer_mode_region   = { add_to_list = source }
-        }
-
-        column = { data = name }
-    }
-
-
-    select_trigger = {
-        looking_for_a = area
-        source = giver
-        target_flag = target_area
-        name = "transfer_area_to_subject_select_title"
-        none_available_msg_key = "no_valid_areas"
-
-        show_if = {
-            exists = scope:transfer_mode
-            scope:transfer_mode = situation:ism_transfer_mode_area
-        }
-
-        column = { data = name }
-        column = { data = population }
-
-        visible = {
-            can_transfer_area = {
-                giver = scope:giver
-                receiver = scope:recipient
-            }
-        }
-
-        enabled = {
-            custom_tooltip = {
-                text = cannot_transfer_capital
-                NAND = {
-                    scope:actor = { scope:giver = this }
-                    scope:actor.capital.area = this
-                }
-            }
-        }
-    }
-
-    select_trigger = {
-        looking_for_a = region
-        source = giver
-        target_flag = target_region
-        name = "transfer_region_to_subject_select_title"
-        none_available_msg_key = "no_valid_regions"
-
-        show_if = {
-            exists = scope:transfer_mode
-            scope:transfer_mode = situation:ism_transfer_mode_region
-        }
-
-        column = { data = name }
-        column = { data = population }
-
-        visible = {
-            can_transfer_region = {
-                giver = scope:giver
-                receiver = scope:recipient
-            }
-        }
-
-        enabled = {
-            custom_tooltip = {
-                text = cannot_transfer_capital
-                NAND = {
-                    scope:actor ?= scope:giver
-                    scope:actor.capital.region = this
-                }
-            }
-        }
-    }
-
     effect = {
-        if = {
-            limit = {
-                exists = scope:transfer_mode
-            }
-
-            # Location
-            if = {
-                limit = {
-                    scope:transfer_mode = situation:ism_transfer_mode_location
-                }
-                fire_generic_action = {
-                    type = ism_transfer_location_action
-                    actor = scope:actor
-                    recipient = scope:recipient
-                }
-            }
-            else = { custom_tooltip = select_location_to_transfer }
-
-            # Province
-            if = {
-                limit = {
-                    scope:transfer_mode = situation:ism_transfer_mode_province
-                }
-                fire_generic_action = {
-                    type = ism_transfer_province_action
-                    actor = scope:actor
-                    recipient = scope:recipient
-                }
-            }
-            else = { custom_tooltip = select_province_to_transfer }
-        }
-        else = {
-            ism_perform_land_transfer = {
-                giver = scope:giver
-                receiver = scope:recipient
+        hidden_effect = {
+            fire_generic_action = {
+                type = ism_select_land_size_action
+                actor = scope:giver
+                recipient = scope:recipient
             }
         }
     }

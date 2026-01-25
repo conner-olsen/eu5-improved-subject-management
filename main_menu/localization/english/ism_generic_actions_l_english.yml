@@ -1,4 +1,7 @@
 ﻿l_english:
+ ism_select_land_size_action: "Select Land Size"
+ ism_select_land_size_action_desc: "This land will be transferred."
+
  ism_transfer_location_action: "Transfer Location"
  ism_transfer_location_action_desc: "Transfer ownership of a location to another country."
 
