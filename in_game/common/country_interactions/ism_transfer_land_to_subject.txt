@@ -76,70 +76,6 @@
         column = { data = name }
     }
 
-    select_trigger = {
-        looking_for_a = location
-        source = giver
-        target_flag = target_location
-        source_flags = only_actual_locations
-        name = "transfer_location_to_subject_select_title"
-        none_available_msg_key = "no_valid_locations"
-
-        show_if = {
-            exists = scope:transfer_mode
-            scope:transfer_mode = situation:ism_transfer_mode_location
-        }
-
-        column = { data = name }
-        column = { data = population }
-
-        visible = {
-            can_transfer_location = {
-                giver = scope:giver
-                receiver = scope:recipient
-            }
-        }
-
-        enabled = {
-            custom_tooltip = {
-                text = cannot_transfer_capital
-                NOT = {
-                    scope:actor.capital = this
-                }
-            }
-        }
-    }
-
-    select_trigger = {
-        looking_for_a = province
-        source = giver
-        target_flag = target_province
-        name = "transfer_province_to_subject_select_title"
-        none_available_msg_key = "no_valid_provinces"
-
-        show_if = {
-            exists = scope:transfer_mode
-            scope:transfer_mode = situation:ism_transfer_mode_province
-        }
-
-        column = { data = name }
-        column = { data = population }
-
-        visible = {
-            can_transfer_province = {
-                giver = scope:giver
-                receiver = scope:recipient
-            }
-        }
-
-        enabled = {
-            custom_tooltip = {
-                text = cannot_transfer_capital
-                NOT = {
-                    scope:actor.capital.province = this
-                }
-            }
-        }
-    }
 
     select_trigger = {
         looking_for_a = area
@@ -208,9 +144,42 @@
     }
 
     effect = {
-        ism_perform_land_transfer = {
-            giver = scope:giver
-            receiver = scope:recipient
+        if = {
+            limit = {
+                exists = scope:transfer_mode
+            }
+
+            # Location
+            if = {
+                limit = {
+                    scope:transfer_mode = situation:ism_transfer_mode_location
+                }
+                fire_generic_action = {
+                    type = ism_transfer_location_action
+                    actor = scope:actor
+                    recipient = scope:recipient
+                }
+            }
+            else = { custom_tooltip = select_location_to_transfer }
+
+            # Province
+            if = {
+                limit = {
+                    scope:transfer_mode = situation:ism_transfer_mode_province
+                }
+                fire_generic_action = {
+                    type = ism_transfer_province_action
+                    actor = scope:actor
+                    recipient = scope:recipient
+                }
+            }
+            else = { custom_tooltip = select_province_to_transfer }
+        }
+        else = {
+            ism_perform_land_transfer = {
+                giver = scope:giver
+                receiver = scope:recipient
+            }
         }
     }
 }

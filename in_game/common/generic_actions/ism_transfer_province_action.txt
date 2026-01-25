@@ -1,0 +1,51 @@
+﻿ism_transfer_province_action = {
+    type = owncountry
+    show_message = no
+    show_message_to_target = no
+    show_in_gui_list = no
+    ai_tick = never
+    automation_tick = never
+
+    potential = {  }
+    allow = {  }
+
+    select_trigger = {
+        looking_for_a = province
+        source = actor
+        target_flag = target_province
+        name = "transfer_province_to_subject_select_title"
+        none_available_msg_key = "no_valid_provinces"
+
+        column = { data = name }
+        column = { data = population }
+
+        visible = {
+            can_transfer_province = {
+                giver = scope:actor
+                receiver = scope:recipient
+            }
+        }
+
+        enabled = {
+            custom_tooltip = {
+                text = cannot_transfer_capital
+                NOT = {
+                    scope:actor.capital.province = this
+                }
+            }
+        }
+    }
+
+    effect = {
+        ism_transfer_province_effect = {
+            giver = scope:actor
+            receiver = scope:recipient
+            target_province = scope:target_province
+        }
+        fire_generic_action = {
+            type = ism_transfer_province_action
+            actor = scope:actor
+            recipient = scope:recipient
+        }
+    }
+}

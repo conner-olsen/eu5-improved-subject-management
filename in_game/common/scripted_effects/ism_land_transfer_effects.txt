@@ -13,7 +13,7 @@ ism_perform_land_transfer = {
                 limit = { exists = scope:target_location }
                 scope:target_location = { change_location_owner = $receiver$ }
             }
-            else = { custom_tooltip = select_a_location_to_take }
+            else = { custom_tooltip = select_location_to_transfer }
         }
         else_if = {
             limit = { scope:transfer_mode = { situation:ism_transfer_mode_province = this } }
@@ -52,5 +52,27 @@ ism_perform_land_transfer = {
     }
     else = {
         custom_tooltip = select_transfer_mode
+    }
+}
+
+ism_transfer_location_effect = {
+    if = {
+        limit = {
+            $target_location$ = { is_ownable = yes }
+            $target_location$ = { owner = $giver$ }
+        }
+        $target_location$ = { change_location_owner = $receiver$ }
+    }
+}
+
+ism_transfer_province_effect = {
+    $target_province$ = {
+        every_location_in_province = {
+            ism_transfer_location_effect = {
+                giver = $giver$
+                receiver = $receiver$
+                target_location = this
+            }
+        }
     }
 }
