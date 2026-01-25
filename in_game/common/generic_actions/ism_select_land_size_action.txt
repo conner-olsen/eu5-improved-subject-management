@@ -50,9 +50,7 @@
         enabled = {
             custom_tooltip = {
                 text = cannot_transfer_capital
-                NOT = {
-                    scope:actor.capital = this
-                }
+                ism_allow_transfer_location = yes
             }
         }
     }
@@ -82,9 +80,7 @@
         enabled = {
             custom_tooltip = {
                 text = cannot_transfer_capital
-                NOT = {
-                    scope:actor.capital.province = this
-                }
+                ism_allow_transfer_province = yes
             }
         }
     }
@@ -114,9 +110,7 @@
         enabled = {
             custom_tooltip = {
                 text = cannot_transfer_capital
-                NOT = {
-                    scope:actor.capital.area = this
-                }
+                ism_allow_transfer_area = yes
             }
         }
     }
@@ -146,9 +140,7 @@
         enabled = {
             custom_tooltip = {
                 text = cannot_transfer_capital
-                NOT = {
-                    scope:actor.capital.region = this
-                }
+                ism_allow_transfer_region = yes
             }
         }
     }

@@ -29,9 +29,7 @@
         enabled = {
             custom_tooltip = {
                 text = cannot_transfer_capital
-                NOT = {
-                    scope:actor.capital.region = this
-                }
+                ism_allow_transfer_region = yes
             }
         }
     }
