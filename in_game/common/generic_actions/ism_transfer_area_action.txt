@@ -11,8 +11,12 @@
 
     select_trigger = {
         looking_for_a = area
-        source = recipient
-        target_flag = target_area
+        interaction_source_list = {
+            every_area_with_owned_province = {
+                add_to_list = source
+            }
+        }
+        target_flag = recipient
         name = "transfer_area_to_subject_select_title"
         none_available_msg_key = "no_valid_areas"
 
@@ -21,7 +25,7 @@
 
         visible = {
             can_transfer_area = {
-                giver = scope:recipient
+                giver = scope:actor.var:ism_giver_nation
                 receiver = scope:actor.var:ism_receiver_nation
             }
         }
@@ -35,16 +39,20 @@
     }
 
     effect = {
-        ism_transfer_area_effect = {
-            giver = scope:recipient
-            receiver = scope:actor.var:ism_receiver_nation
-            target_area = scope:target_area
-        }
-        hidden_effect = {
-            fire_generic_action = {
-                type = ism_transfer_area_action
-                actor = scope:actor
-                recipient = scope:recipient
+        if = {
+            limit = {
+                exists = scope:recipient
+            }
+            ism_transfer_area_effect = {
+                giver = scope:actor.var:ism_giver_nation
+                receiver = scope:actor.var:ism_receiver_nation
+                target_area = scope:recipient
+            }
+            hidden_effect = {
+                fire_generic_action = {
+                    type = ism_transfer_area_action
+                    actor = scope:actor.var:ism_giver_nation
+                }
             }
         }
     }

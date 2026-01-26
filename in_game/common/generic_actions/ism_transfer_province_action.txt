@@ -11,8 +11,19 @@
 
     select_trigger = {
         looking_for_a = province
-        source = recipient
-        target_flag = target_province
+        interaction_source_list = {
+            scope:actor.var:ism_giver_nation = {
+                every_owned_location = {
+                    if = {
+                        limit = {
+                            is_province_capital = yes
+                        }
+                        province = { add_to_list = source }
+                    }
+                }
+            }
+        }
+        target_flag = recipient
         name = "transfer_province_to_subject_select_title"
         none_available_msg_key = "no_valid_provinces"
 
@@ -21,7 +32,7 @@
 
         visible = {
             can_transfer_province = {
-                giver = scope:recipient
+                giver = scope:actor.var:ism_giver_nation
                 receiver = scope:actor.var:ism_receiver_nation
             }
         }
@@ -35,16 +46,20 @@
     }
 
     effect = {
-        ism_transfer_province_effect = {
-            giver = scope:recipient
-            receiver = scope:actor.var:ism_receiver_nation
-            target_province = scope:target_province
-        }
-        hidden_effect = {
-            fire_generic_action = {
-                type = ism_transfer_province_action
-                actor = scope:actor
-                recipient = scope:recipient
+        if = {
+            limit = {
+                exists = scope:recipient
+            }
+            ism_transfer_province_effect = {
+                giver = scope:actor.var:ism_giver_nation
+                receiver = scope:actor.var:ism_receiver_nation
+                target_province = scope:recipient
+            }
+            hidden_effect = {
+                fire_generic_action = {
+                    type = ism_transfer_province_action
+                    actor = scope:actor
+                }
             }
         }
     }
