@@ -51,7 +51,7 @@
             hidden_effect = {
                 fire_generic_action = {
                     type = ism_transfer_area_action
-                    actor = scope:actor.var:ism_giver_nation
+                    actor = scope:actor
                 }
             }
         }
