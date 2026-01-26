@@ -70,26 +70,115 @@
         }
     }
 
-    effect = {
-        hidden_effect = {
-            if = {
-                limit = {
-                    exists = scope:actor
-                    exists = scope:recipient
-                    exists = scope:real_receiver
-                }
-                scope:actor = {
-                    set_variable = {
-                        name = ism_receiver_nation
-                        value = scope:real_receiver
-                    }
-                }
-                fire_generic_action = {
-                    type = ism_select_land_size_action
-                    actor = scope:actor
-                    recipient = scope:recipient
-                }
+    select_trigger = {
+        looking_for_a = situation
+        target_flag = transfer_mode
+        name = select_transfer_mode
+
+        interaction_source_list = {
+            situation:ism_transfer_mode_region   = { add_to_list = source }
+            situation:ism_transfer_mode_area     = { add_to_list = source }
+            situation:ism_transfer_mode_province = { add_to_list = source }
+            situation:ism_transfer_mode_location = { add_to_list = source }
+        }
+
+        column = { data = name }
+    }
+
+    select_trigger = {
+        looking_for_a = location
+        source = recipient
+        target_flag = target_location
+        source_flags = only_actual_locations
+        name = "transfer_location_from_subject_select_title"
+        none_available_msg_key = "no_valid_locations"
+
+        show_if = {
+            exists = scope:transfer_mode
+            scope:transfer_mode = situation:ism_transfer_mode_location
+        }
+
+        column = { data = name }
+        column = { data = population }
+
+        visible = {
+            can_transfer_location = {
+                giver = scope:recipient
+                receiver = scope:real_receiver
             }
+        }
+    }
+
+    select_trigger = {
+        looking_for_a = province
+        source = recipient
+        target_flag = target_province
+        name = "transfer_province_from_subject_select_title"
+        none_available_msg_key = "no_valid_locations"
+
+        show_if = {
+            exists = scope:transfer_mode
+            scope:transfer_mode = situation:ism_transfer_mode_province
+        }
+        column = { data = name }
+        column = { data = population }
+
+        visible = {
+            can_transfer_province = {
+                giver = scope:recipient
+                receiver = scope:real_receiver
+            }
+        }
+    }
+
+    select_trigger = {
+        looking_for_a = area
+        source = recipient
+        target_flag = target_area
+        name = "transfer_area_from_subject_select_title"
+        none_available_msg_key = "no_valid_areas"
+
+        show_if = {
+            exists = scope:transfer_mode
+            scope:transfer_mode = situation:ism_transfer_mode_area
+        }
+        column = { data = name }
+        column = { data = population }
+
+        visible = {
+            can_transfer_area = {
+                giver = scope:recipient
+                receiver = scope:real_receiver
+            }
+        }
+    }
+
+    select_trigger = {
+        looking_for_a = region
+        source = recipient
+        target_flag = target_region
+        name = "transfer_region_from_subject_select_title"
+        none_available_msg_key = "no_valid_regions"
+
+        show_if = {
+            exists = scope:transfer_mode
+            scope:transfer_mode = situation:ism_transfer_mode_region
+        }
+        column = { data = name }
+        column = { data = population }
+
+        visible = {
+            can_transfer_region = {
+                giver = scope:recipient
+                receiver = scope:real_receiver
+            }
+        }
+    }
+
+    effect = {
+        ism_perform_land_transfer = {
+            giver = scope:recipient
+            receiver = scope:real_receiver
         }
     }
 }

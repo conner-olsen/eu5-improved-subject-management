@@ -16,6 +16,11 @@
  transfer_area_to_subject_select_title: "Select an area to transfer to our subject."
  transfer_region_to_subject_select_title: "Select a region to transfer to our subject."
 
+ select_location_to_transfer: "Select a location to transfer."
+ select_province_to_transfer: "Select a province to transfer."
+ select_area_to_transfer: "Select an area to transfer."
+ select_region_to_transfer: "Select a region to transfer."
+
  select_a_location_to_move_capital: "Click to select a [location|e] that we should move our subject's capital to."
 
  # Transfer Land to Subject

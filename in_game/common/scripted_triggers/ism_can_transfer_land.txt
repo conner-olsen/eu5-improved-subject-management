@@ -7,7 +7,7 @@ can_transfer_location = {
         # Can always take land from colonial nations
         AND = {
             $giver$ = { is_subject_type = colonial_nation }
-            $receiver$ = scope:actor
+            $receiver$ = { is_human = yes }
         }
         OR = {
             any_coast_border_location = {
@@ -111,33 +111,5 @@ allow_transfer_land = {
                 }
             }
         }
-    }
-}
-
-ism_allow_transfer_location = {
-    OR = {
-        NOT = { scope:actor.capital = this }
-        NOT = { scope:actor = scope:actor.var:ism_giver_nation }
-    }
-}
-
-ism_allow_transfer_province = {
-    OR = {
-        NOT = { scope:actor.capital.province = this }
-        NOT = { scope:actor = scope:actor.var:ism_giver_nation }
-    }
-}
-
-ism_allow_transfer_area = {
-    OR = {
-        NOT = { scope:actor.capital.area = this }
-        NOT = { scope:actor = scope:actor.var:ism_giver_nation }
-    }
-}
-
-ism_allow_transfer_region = {
-    OR = {
-        NOT = { scope:actor.capital.region = this }
-        NOT = { scope:actor = scope:actor.var:ism_giver_nation }
     }
 }
