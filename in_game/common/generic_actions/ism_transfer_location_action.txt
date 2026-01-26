@@ -10,7 +10,7 @@
 
     select_trigger = {
         looking_for_a = location
-        source = actor
+        source = recipient
         target_flag = target_location
         source_flags = only_actual_locations
         name = "transfer_location_to_subject_select_title"
@@ -21,8 +21,8 @@
 
         visible = {
             can_transfer_location = {
-                giver = scope:actor
-                receiver = scope:recipient
+                giver = scope:recipient
+                receiver = scope:actor.var:ism_receiver_nation
             }
         }
 
@@ -36,8 +36,8 @@
 
     effect = {
         ism_transfer_location_effect = {
-            giver = scope:actor
-            receiver = scope:recipient
+            giver = scope:recipient
+            receiver = scope:actor.var:ism_receiver_nation
             target_location = scope:target_location
         }
         hidden_effect = {

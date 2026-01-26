@@ -11,7 +11,7 @@
 
     select_trigger = {
         looking_for_a = region
-        source = actor
+        source = recipient
         target_flag = target_region
         name = "transfer_region_to_subject_select_title"
         none_available_msg_key = "no_valid_regions"
@@ -21,8 +21,8 @@
 
         visible = {
             can_transfer_region = {
-                giver = scope:actor
-                receiver = scope:recipient
+                giver = scope:recipient
+                receiver = scope:actor.var:ism_receiver_nation
             }
         }
 
@@ -36,8 +36,8 @@
 
     effect = {
         ism_transfer_region_effect = {
-            giver = scope:actor
-            receiver = scope:recipient
+            giver = scope:recipient
+            receiver = scope:actor.var:ism_receiver_nation
             target_region = scope:target_region
         }
         hidden_effect = {
