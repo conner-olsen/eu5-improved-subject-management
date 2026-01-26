@@ -72,16 +72,23 @@
 
     effect = {
         hidden_effect = {
-            scope:actor = {
-                set_variable = {
-                    name = ism_receiver_nation
-                    value = scope:real_receiver
+            if = {
+                limit = {
+                    exists = scope:actor
+                    exists = scope:recipient
+                    exists = scope:real_receiver
                 }
-            }
-            fire_generic_action = {
-                type = ism_select_land_size_action
-                actor = scope:actor
-                recipient = scope:recipient
+                scope:actor = {
+                    set_variable = {
+                        name = ism_receiver_nation
+                        value = scope:real_receiver
+                    }
+                }
+                fire_generic_action = {
+                    type = ism_select_land_size_action
+                    actor = scope:actor
+                    recipient = scope:recipient
+                }
             }
         }
     }
