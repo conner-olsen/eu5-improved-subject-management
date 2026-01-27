@@ -5,6 +5,7 @@
 	}
 	loyalty_to_overlord = -15
     change_liturgical_language_cost_modifier = 10
+
 }
 
 overlord_blocking_colonization = {
@@ -12,4 +13,11 @@ overlord_blocking_colonization = {
         category = country
     }
     blocked_from_colonization = yes
+}
+
+overlord_blocking_urbanization = {
+    game_data = {
+        category = country
+    }
+    town_upgrade_cost_modifier = 1000
 }
