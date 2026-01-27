@@ -21,3 +21,10 @@ overlord_blocking_urbanization = {
     }
     town_upgrade_cost_modifier = 1000
 }
+
+overlord_blocking_declaring_war = {
+    game_data = {
+        category = country
+    }
+    blocked_from_declaring_war = yes
+}
