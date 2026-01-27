@@ -52,7 +52,7 @@
 
  # Block subject colonization
  block_subject_colonization: "Block Colonization"
- block_subject_colonization_desc: "We will prevent our colonial nation from creating new [colonial_charters|e]."
+ block_subject_colonization_desc: "We will prevent our subject from creating new [colonial_charters|e]."
  block_subject_colonization_act: "Blocks Colonization"
  block_subject_colonization_effect_text: "[SCOPE.sCountry('actor').GetName] blocks the colonization of [SCOPE.sCountry('recipient').GetName]"
  block_subject_colonization_effect_text_past: "[SCOPE.sCountry('actor').GetName] is now blocking the colonization of [SCOPE.sCountry('recipient').GetName]"
@@ -60,8 +60,24 @@
 
  # Allow subject colonization
  allow_subject_colonization: "Allow Colonization"
- allow_subject_colonization_desc: "We will allow our colonial nation to create new [colonial_charters|e]."
+ allow_subject_colonization_desc: "We will allow our subject to create new [colonial_charters|e]."
  allow_subject_colonization_act: "Allows Colonization"
  allow_subject_colonization_effect_text: "[SCOPE.sCountry('actor').GetName] allows the colonization of [SCOPE.sCountry('recipient').GetName]"
  allow_subject_colonization_effect_text_past: "[SCOPE.sCountry('actor').GetName] is no longer blocking the colonization of [SCOPE.sCountry('recipient').GetName]"
  PROPOSE_allow_subject_colonization: "Allow Colonization of $TARGET$?"
+
+ # Block subject urbanization
+ block_subject_urbanization: "Block Urbanization"
+ block_subject_urbanization_desc: "We will prevent our subject from creating new towns."
+ block_subject_urbanization_act: "Blocks Urbanization"
+ block_subject_urbanization_effect_text: "[SCOPE.sCountry('actor').GetName] blocks the urbanization of [SCOPE.sCountry('recipient').GetName]"
+ block_subject_urbanization_effect_text_past: "[SCOPE.sCountry('actor').GetName] is now blocking the urbanization of [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_block_subject_urbanization: "Block Urbanization of $TARGET$?"
+
+ # Allow subject urbanization
+ allow_subject_urbanization: "Allow Urbanization"
+ allow_subject_urbanization_desc: "We will allow our subject to create new towns."
+ allow_subject_urbanization_act: "Allows Urbanization"
+ allow_subject_urbanization_effect_text: "[SCOPE.sCountry('actor').GetName] allows the urbanization of [SCOPE.sCountry('recipient').GetName]"
+ allow_subject_urbanization_effect_text_past: "[SCOPE.sCountry('actor').GetName] is no longer blocking the urbanization of [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_allow_subject_urbanization: "Allow Urbanization of $TARGET$?"

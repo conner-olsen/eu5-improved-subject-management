@@ -92,6 +92,13 @@ allow_transfer_land = {
         NOT = { scope:actor = $receiver$ }
         $giver$ = { is_subject_type = colonial_nation }
     }
+    # Cannot transfer land from non-colonial subjects to colonial subjects
+    # To prevent transferring from vassal->colonial subject->self.
+    OR = {
+        NOT = { $giver$ = { is_subject_type = colonial_nation } }
+        $receiver$ = { is_subject_type = colonial_nation }
+        scope:actor = $receiver$
+    }
     OR = {
         # Can always transfer from colonial nations
         $giver$ = { is_subject_type = colonial_nation }
