@@ -12,5 +12,5 @@
  STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "Urbanization Blocked by Overlord"
  STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "This nation has been blocked by its [overlord|e] from founding new towns."
 
- STATIC_MODIFIER_NAME_overlord_blocking_war_declaration: "War Declarations by Overlord"
- STATIC_MODIFIER_DESC_overlord_blocking_war_declaration: "This nation has been blocked by its [overlord|e] from declaring war."
+ STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "War Declarations Blocked by Overlord"
+ STATIC_MODIFIER_DESC_overlord_blocking_declaring_war: "This nation has been blocked by its [overlord|e] from declaring war."
