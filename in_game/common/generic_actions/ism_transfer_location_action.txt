@@ -26,7 +26,7 @@
         column = { data = population }
 
         visible = {
-            can_transfer_location = {
+            ism_can_transfer_location = {
                 giver = scope:actor.var:ism_giver_nation
                 receiver = scope:actor.var:ism_receiver_nation
             }
