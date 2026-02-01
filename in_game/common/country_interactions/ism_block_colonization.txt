@@ -1,4 +1,4 @@
-﻿block_subject_colonization = {
+﻿ism_block_subject_colonization = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
 

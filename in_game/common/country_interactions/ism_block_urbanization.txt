@@ -1,4 +1,4 @@
-﻿block_subject_urbanization = {
+﻿ism_block_subject_urbanization = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
 

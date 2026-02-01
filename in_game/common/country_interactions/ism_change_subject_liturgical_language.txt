@@ -1,4 +1,4 @@
-﻿change_subject_liturgical_language = {
+﻿ism_change_subject_liturgical_language = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
 

@@ -1,4 +1,4 @@
-﻿block_subject_declaring_war = {
+﻿ism_block_subject_declaring_war = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
 
