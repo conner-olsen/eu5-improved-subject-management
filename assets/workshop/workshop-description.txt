@@ -38,6 +38,7 @@ Adds new interactions, modifications, and automations to significantly improve s
 [*][b]Allow playing as custom nation upon release[/b]
 [*][b]Add option to filter land by unintegrated.[/b]
 [*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
+[*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
 [/olist]
 
 If anyone has any requests for features for improving subject management in any way, leave a comment in the [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]suggestions discussion[/url].
