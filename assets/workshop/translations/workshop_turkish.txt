@@ -1,0 +1,57 @@
+===WORKSHOP_TITLE===
+Geliştirilmiş Tabi Yönetimi
+===WORKSHOP_DESCRIPTION===
+[h1]Genel Bakış:[/h1]
+...
+
+[h1]Özellikler:[/h1]
+[olist]
+ [*][b]Özellik 1:[/b] Özellik 1 açıklaması
+	[list]
+	 [*][b]Alt Özellik 1:[/b] Özellik 1 alt özellik açıklaması
+	 [*][b]Alt Özellik 2:[/b] Özellik 1 alt özellik açıklaması
+	[/list]
+ [*][b]Özellik 2:[/b] Özellik 2 açıklaması
+ [*][b]...[/b]
+[/olist]
+
+[h1]Planlananlar/Gelecekler:[/h1]
+[olist]
+ [*][b]Planlanan Özellik 1:[/b] Planlanan Özellik 1 açıklaması
+ [*][b]Planlanan Özellik 2:[/b] Planlanan Özellik 2 açıklaması
+ [*][b]...[/b]
+[/olist]
+
+[h2]Doğal Yerelleştirmeler:[/h2]
+[list]
+ [*][b]İngilizce:[/b] Birincil
+[/list]
+
+[h2]DeepL ile Çevrilen Yerelleştirmeler:[/h2]
+[list]
+ [*][b]Çince / 中文[/b]
+ [*][b]Fransızca / Français[/b]
+ [*][b]Almanca / Deutsch[/b]
+ [*][b]Japonca / 日本語[/b]
+ [*][b]Korece / 한국어[/b]
+ [*][b]Lehçe / Polski[/b]
+ [*][b]Portekizce (Brezilya) / Português (Brasil)[/b]
+ [*][b]Rusça / Русский[/b]
+ [*][b]İspanyolca / Español[/b]
+ [*][b]Türkçe / Türkçe[/b]
+[/list]
+
+[h1]Değişiklik Günlüğü:[/h1]
+Atölye sayfasındaki [url=$REPLACE_ME$]Değişiklik Notlarına[/url] bakın.
+
+[h1]Uyumluluk:[/h1]
+[list]
+ [*]Ironman uyumlu değildir.
+ [*]Kayıtlı oyunlarla tam uyumludur.
+ [*]Herhangi bir modla çalışmalıdır.
+ [*]İstek üzerine uyumluluk yamaları ekleyebilirim.
+[/list]
+
+Sabitlenmiş öneri tartışmasına ek olarak, sorularınızı sorabilir, hataları bildirebilir veya $REPLACE_ME$ discord sunucusunun[/url] [url=$REPLACE_ME$]#$REPLACE_ME$ kanalında önerilerde bulunabilirsiniz. Ve eğer bu modun veya diğer modlarımdan birinin geliştirilmesine katılmakla ilgileniyorsanız, Discord üzerinden @$REPLACE_ME$ kullanıcı adıyla bana ulaşabilir veya beni ekleyebilirsiniz. Tüm katkılara açığız.
+
+Modun kaynak ve geliştirme sürümleri [url=$REPLACE_ME$]GitHub'da[/url] mevcuttur.

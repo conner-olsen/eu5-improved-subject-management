@@ -1,0 +1,5 @@
+﻿l_korean:
+ no_valid_regions: "@trigger_no! 유효한 [regions|e] 없음"
+ cannot_transfer_capital: "자본을 양도할 수 없습니다."
+ is_in_same_war: "같은 전쟁에 참여하지 않은 국가 간에는 영토를 이동할 수 없습니다."
+

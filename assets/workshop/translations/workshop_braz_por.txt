@@ -1,0 +1,57 @@
+===WORKSHOP_TITLE===
+Gerenciamento de Sujeitos Aprimorado
+===WORKSHOP_DESCRIPTION===
+[h1]Visão Geral:[/h1]
+...
+
+[h1]Recursos:[/h1]
+[olist]
+ [*][b]Recurso 1:[/b] Descrição do Recurso 1
+	[list]
+	 [*][b]Sub-recurso 1:[/b] Descrição do sub-recurso 1
+	 [*][b]Sub-recurso 2:[/b] Descrição do sub-recurso 1
+	[/list]
+ [*][b]Recurso 2:[/b] Descrição do Recurso 2
+ [*][b]...[/b]
+[/olist]
+
+[h1]Planejado/Próximos:[/h1]
+[olist]
+ [*][b]Recurso Planejado 1:[/b] Descrição do Recurso Planejado 1
+ [*][b]Recurso Planejado 2:[/b] Descrição do Recurso Planejado 2
+ [*][b]...[/b]
+[/olist]
+
+[h2]Localizações Nativas:[/h2]
+[list]
+ [*][b]Inglês:[/b] Principal
+[/list]
+
+[h2]Localizações Traduzidas pelo DeepL:[/h2]
+[list]
+ [*][b]Chinês / 中文[/b]
+ [*][b]Francês / Français[/b]
+ [*][b]Alemão / Deutsch[/b]
+ [*][b]Japonês / 日本語[/b]
+ [*][b]Coreano / 한국어[/b]
+ [*][b]Polonês / Polski[/b]
+ [*][b]Português (Brasil) / Português (Brasil)[/b]
+ [*][b]Russo / Русский[/b]
+ [*][b]Espanhol / Español[/b]
+ [*][b]Turco / Türkçe[/b]
+[/list]
+
+[h1]Registro de Alterações:[/h1]
+Veja as [url=$REPLACE_ME$]Notas de Alteração na página da oficina[/url].
+
+[h1]Compatibilidade:[/h1]
+[list]
+ [*]Não compatível com Ironman.
+ [*]Totalmente compatível com jogos salvos.
+ [*]Deve funcionar com qualquer mod.
+ [*]Posso adicionar patches de compatibilidade mediante solicitação.
+[/list]
+
+Além da discussão de sugestões fixada, você também pode fazer perguntas, relatar bugs ou dar sugestões no canal [url=$REPLACE_ME$]#$REPLACE_ME$ do $REPLACE_ME$ servidor do discord[/url]. E se você estiver interessado em participar do desenvolvimento deste ou de um dos meus outros mods, você pode me marcar ou adicionar no Discord @$REPLACE_ME$. Todas as contribuições são bem-vindas.
+
+As versões fonte e de desenvolvimento do mod estão disponíveis no [url=$REPLACE_ME$]GitHub.[/url]

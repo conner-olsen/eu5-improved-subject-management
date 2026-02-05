@@ -1,0 +1,57 @@
+===WORKSHOP_TITLE===
+改进臣属管理
+===WORKSHOP_DESCRIPTION===
+[h1]概览：[/h1]
+...
+
+[h1]内容特色：[/h1]
+[olist]
+ [*][b]特色 1：[/b] 特色 1 描述
+	[list]
+	 [*][b]子特色 1：[/b] 特色 1 子特色描述
+	 [*][b]子特色 2：[/b] 特色 1 子特色描述
+	[/list]
+ [*][b]特色 2：[/b] 特色 2 描述
+ [*][b]...[/b]
+[/olist]
+
+[h1]计划中/即将推出：[/h1]
+[olist]
+ [*][b]计划特色 1：[/b] 计划特色 1 描述
+ [*][b]计划特色 2：[/b] 计划特色 2 描述
+ [*][b]...[/b]
+[/olist]
+
+[h2]原生本地化：[/h2]
+[list]
+ [*][b]英语：[/b] 主要语言
+[/list]
+
+[h2]DeepL 翻译本地化：[/h2]
+[list]
+ [*][b]Chinese / 中文[/b]
+ [*][b]French / Français[/b]
+ [*][b]German / Deutsch[/b]
+ [*][b]Japanese / 日本語[/b]
+ [*][b]Korean / 한국어[/b]
+ [*][b]Polish / Polski[/b]
+ [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
+ [*][b]Russian / Русский[/b]
+ [*][b]Spanish / Español[/b]
+ [*][b]Turkish / Türkçe[/b]
+[/list]
+
+[h1]更新日志：[/h1]
+请参阅[url=$REPLACE_ME$]创意工坊页面上的更新说明[/url]。
+
+[h1]兼容性：[/h1]
+[list]
+ [*]不兼容铁人模式。
+ [*]完全兼容存档。
+ [*]应与任何模组（Mod）兼容。
+ [*]我可以根据需求添加兼容性补丁。
+[/list]
+
+除了置顶的建议讨论区外，你也可以在 $REPLACE_ME$ Discord 服务器的 [url=$REPLACE_ME$]#$REPLACE_ME$ 频道[/url]中提出任何问题、反馈错误或提供建议。如果你有兴趣参与本模组或我其他模组的开发，可以在 Discord 上 @$REPLACE_ME$ 或添加我为好友。欢迎任何形式的贡献。
+
+模组的源码和开发版本可在 [url=$REPLACE_ME$]GitHub[/url] 上获取。

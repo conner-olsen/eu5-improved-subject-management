@@ -1,0 +1,57 @@
+===WORKSHOP_TITLE===
+Verbesserte Untertanenverwaltung
+===WORKSHOP_DESCRIPTION===
+[h1]Übersicht:[/h1]
+...
+
+[h1]Features:[/h1]
+[olist]
+ [*][b]Feature 1:[/b] Feature 1 Beschreibung
+	[list]
+	 [*][b]Unterfeature 1:[/b] Feature 1 Unterfeature-Beschreibung
+	 [*][b]Unterfeature 2:[/b] Feature 1 Unterfeature-Beschreibung
+	[/list]
+ [*][b]Feature 2:[/b] Feature 2 Beschreibung
+ [*][b]...[/b]
+[/olist]
+
+[h1]Geplant/Demnächst:[/h1]
+[olist]
+ [*][b]Geplantes Feature 1:[/b] Geplantes Feature 1 Beschreibung
+ [*][b]Geplantes Feature 2:[/b] Geplantes Feature 2 Beschreibung
+ [*][b]...[/b]
+[/olist]
+
+[h2]Native Lokalisierungen:[/h2]
+[list]
+ [*][b]Englisch:[/b] Primär
+[/list]
+
+[h2]Mit DeepL übersetzte Lokalisierungen:[/h2]
+[list]
+ [*][b]Chinesisch / 中文[/b]
+ [*][b]Französisch / Français[/b]
+ [*][b]Deutsch / Deutsch[/b]
+ [*][b]Japanisch / 日本語[/b]
+ [*][b]Koreanisch / 한국어[/b]
+ [*][b]Polnisch / Polski[/b]
+ [*][b]Portugiesisch (Brasilien) / Português (Brasil)[/b]
+ [*][b]Russisch / Русский[/b]
+ [*][b]Spanisch / Español[/b]
+ [*][b]Türkisch / Türkçe[/b]
+[/list]
+
+[h1]Änderungsprotokoll:[/h1]
+Siehe die [url=$REPLACE_ME$]Änderungshinweise auf der Workshop-Seite[/url].
+
+[h1]Kompatibilität:[/h1]
+[list]
+ [*]Nicht Ironman-kompatibel.
+ [*]Vollständig spielstandkompatibel.
+ [*]Sollte mit jedem Mod funktionieren.
+ [*]Ich kann auf Anfrage Kompatibilitätspatches hinzufügen.
+[/list]
+
+Zusätzlich zur angepinnten Diskussion für Vorschläge kannst du auch Fragen stellen, Fehler melden oder Vorschläge im Kanal [url=$REPLACE_ME$]#$REPLACE_ME$ des $REPLACE_ME$ Discord-Servers[/url] einreichen. Und wenn du daran interessiert bist, dich an der Entwicklung dieses oder eines meiner anderen Mods zu beteiligen, kannst du mich auf Discord unter @$REPLACE_ME$ pingen oder hinzufügen. Alle Beiträge sind willkommen.
+
+Die Quell- und Entwicklungsversionen des Mods sind auf [url=$REPLACE_ME$]GitHub.[/url]

@@ -1,0 +1,57 @@
+===WORKSHOP_TITLE===
+Ulepszone zarządzanie poddanymi
+===WORKSHOP_DESCRIPTION===
+[h1]Przegląd:[/h1]
+...
+
+[h1]Cechy:[/h1]
+[olist]
+ [*][b]Cecha 1:[/b] Opis cechy 1
+	[list]
+	 [*][b]Podcecha 1:[/b] Opis podcechy 1 cechy 1
+	 [*][b]Podcecha 2:[/b] Opis podcechy 2 cechy 1
+	[/list]
+ [*][b]Cecha 2:[/b] Opis cechy 2
+ [*][b]...[/b]
+[/olist]
+
+[h1]Planowane/Nadchodzące:[/h1]
+[olist]
+ [*][b]Planowana cecha 1:[/b] Opis planowanej cechy 1
+ [*][b]Planowana cecha 2:[/b] Opis planowanej cechy 2
+ [*][b]...[/b]
+[/olist]
+
+[h2]Natywne lokalizacje:[/h2]
+[list]
+ [*][b]Angielski:[/b] Główna
+[/list]
+
+[h2]Lokalizacje przetłumaczone przez DeepL:[/h2]
+[list]
+ [*][b]Chiński / 中文[/b]
+ [*][b]Francuski / Français[/b]
+ [*][b]Niemiecki / Deutsch[/b]
+ [*][b]Japoński / 日本語[/b]
+ [*][b]Koreański / 한국어[/b]
+ [*][b]Polski / Polski[/b]
+ [*][b]Portugalski (Brazylia) / Português (Brasil)[/b]
+ [*][b]Rosyjski / Русский[/b]
+ [*][b]Hiszpański / Español[/b]
+ [*][b]Turecki / Türkçe[/b]
+[/list]
+
+[h1]Lista zmian:[/h1]
+Zobacz [url=$REPLACE_ME$]listę zmian na stronie warsztatu[/url].
+
+[h1]Kompatybilność:[/h1]
+[list]
+ [*]Niekompatybilny z trybem Ironman.
+ [*]W pełni kompatybilny z zapisami gry.
+ [*]Powinien działać z każdym modem.
+ [*]Na prośbę mogę dodać patche kompatybilności.
+[/list]
+
+Oprócz przypiętej dyskusji na temat sugestii, możesz również zadawać pytania, zgłaszać błędy lub przesyłać sugestie na kanale [url=$REPLACE_ME$]#$REPLACE_ME$ serwera Discord $REPLACE_ME$[/url]. A jeśli jesteś zainteresowany dołączeniem do prac nad tym lub jednym z moich innych modów, możesz mnie oznaczyć lub dodać na Discordzie @$REPLACE_ME$. Wszelki wkład jest mile widziany.
+
+Wersje źródłowe i deweloperskie moda są dostępne na [url=$REPLACE_ME$]GitHubie.[/url]

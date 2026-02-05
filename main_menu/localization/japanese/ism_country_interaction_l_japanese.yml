@@ -1,0 +1,99 @@
+﻿l_japanese:
+ # Note to translators: The `#E #!` and `#F #!` prefixes are just used to order the interactions in the list.
+ # Options
+ select_country_to_transfer_land_from: "土地を移したい[country|e]を選択する："
+ select_country_to_transfer_land_to: "土地を移したい[country|e]を選択する："
+ select_transfer_mode: "転送モードの選択"
+
+ # Generic Land Transfer
+ transfer_location_from_subject_select_title: "移籍先を選択してください。"
+ transfer_province_from_subject_select_title: "私たちのテーマから移籍する都道府県を選択してください。"
+ transfer_area_from_subject_select_title: "私たちの科目から移籍する分野を選択してください。"
+ transfer_region_from_subject_select_title: "対象地域から移籍する地域を選択する。"
+
+ transfer_location_to_subject_select_title: "移籍先を選択してください。"
+ transfer_province_to_subject_select_title: "私たちのテーマに転送する県を選択します。"
+ transfer_area_to_subject_select_title: "私たちの主題に転送する領域を選択します。"
+ transfer_region_to_subject_select_title: "私たちのテーマに転送する地域を選択します。"
+
+ select_a_location_to_move_capital: "[location|e]をクリックして、対象者の資本を移動させる[location|e]を選択する。"
+
+ # Transfer Land to Subject
+ ism_transfer_land_to_subject: "#E #!土地の譲渡先"
+ ism_transfer_land_to_subject_desc: "我々は対象者に土地を譲渡する。"
+ ism_transfer_land_to_subject_act: "[SCOPE.sCountry('recipient').GetName]に土地を譲渡"
+ ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]に土地を譲渡する。"
+ ism_transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]に土地を譲渡した。"
+ PROPOSE_ism_transfer_land_to_subject: "土地を$RECIPIENT$に譲渡する。\n$INFO$。"
+
+ # Transfer Land from Subject
+ ism_transfer_land_from_subject: "#E #!土地の譲渡元"
+ ism_transfer_land_from_subject_desc: "我々は対象者から土地を譲渡する。"
+ ism_transfer_land_from_subject_act: "[SCOPE.sCountry('recipient').GetName]から土地を譲渡"
+ ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]から土地を譲渡する。"
+ ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]から土地を譲渡した。"
+ PROPOSE_ism_transfer_land_from_subject: "$RECIPIENT$から土地を譲渡する。\n$INFO$。"
+
+ # Move Subject Capital
+ ism_move_subject_capital: "#F #!資本移動"
+ ism_move_subject_capital_desc: "対象者の資本を新しい[location|e]に移す。"
+ ism_move_subject_capital_act: "資本金を[SCOPE.sCountry('target').GetName]に移す"
+ ism_move_subject_capital_effect_text: "[SCOPE.sCountry('target').GetName]の資本を新しい[location|e]に移動する。"
+ ism_move_subject_capital_effect_text_past: "[SCOPE.sCountry('target').GetName]の資本を新しい[location|e]に移動。"
+ PROPOSE_ism_move_subject_capital: "対象者の資本金を$TARGET$に移動する。\n$INFO$。"
+
+ # Change Subject Liturgical Language
+ ism_change_subject_liturgical_language: "典礼語の変更"
+ ism_change_subject_liturgical_language_desc: "私たちの[liturgical_language|e]を採用するよう要求する！"
+ ism_change_subject_liturgical_language_act: "[SCOPE.sCountry('recipient').GetName]の典礼語の変更"
+ ism_change_subject_liturgical_language_effect_text: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]の[liturgical_language|e]を変更する。"
+ ism_change_subject_liturgical_language_effect_text_past: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]の[liturgical_language|e]を変更した。"
+ PROPOSE_ism_change_subject_liturgical_language: "$RECIPIENT$の[liturgical_language|e]を変更しますか？\n$INFO$。"
+
+ # Block subject colonization
+ ism_block_subject_colonization: "ブロック殖民"
+ ism_block_subject_colonization_desc: "[colonial_charters|e]を新たに作成しないようにする。"
+ ism_block_subject_colonization_act: "植民地化を阻止"
+ ism_block_subject_colonization_effect_text: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]の植民地化を阻止する。"
+ ism_block_subject_colonization_effect_text_past: "[SCOPE.sCountry('actor').GetName]が[SCOPE.sCountry('recipient').GetName]の植民地化を妨害している。"
+ PROPOSE_ism_block_subject_colonization: "$TARGET$の植民地化を阻止？"
+
+ # Allow subject colonization
+ allow_subject_colonization: "植民地化を許可する"
+ allow_subject_colonization_desc: "[colonial_charters|e]の新規作成を許可する。"
+ allow_subject_colonization_act: "植民地化"
+ allow_subject_colonization_effect_text: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]の植民地化を可能にする。"
+ allow_subject_colonization_effect_text_past: "[SCOPE.sCountry('actor').GetName]はもはや[SCOPE.sCountry('recipient').GetName]の植民地化をブロックしていない。"
+ PROPOSE_allow_subject_colonization: "$TARGET$の植民地化を許可するか？"
+
+ # Block subject urbanization
+ ism_block_subject_urbanization: "ブロック都市化"
+ ism_block_subject_urbanization_desc: "私たちの主体が新しい町を作るのを阻止する。"
+ ism_block_subject_urbanization_act: "ブロック 都市化"
+ ism_block_subject_urbanization_effect_text: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]の都市化を阻止する。"
+ ism_block_subject_urbanization_effect_text_past: "[SCOPE.sCountry('actor').GetName]は現在、[SCOPE.sCountry('recipient').GetName]の都市化を阻んでいる。"
+ PROPOSE_ism_block_subject_urbanization: "$TARGET$のブロック都市化？"
+
+ # Allow subject urbanization
+ allow_subject_urbanization: "都市化を許可する"
+ allow_subject_urbanization_desc: "私たちの主体が新しい町を作ることを許可する。"
+ allow_subject_urbanization_act: "都市化"
+ allow_subject_urbanization_effect_text: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]の都市化を可能にする。"
+ allow_subject_urbanization_effect_text_past: "[SCOPE.sCountry('actor').GetName]はもはや[SCOPE.sCountry('recipient').GetName]の都市化を妨げていない。"
+ PROPOSE_allow_subject_urbanization: "$TARGET$の都市化を許可するか？"
+
+ # Block subject declaring war
+ ism_block_subject_declaring_war: "ブロック宣戦布告"
+ ism_block_subject_declaring_war_desc: "臣民の宣戦布告を阻止する。"
+ ism_block_subject_declaring_war_act: "宣戦布告のブロック"
+ ism_block_subject_declaring_war_effect_text: "[SCOPE.sCountry('actor').GetName]が[SCOPE.sCountry('recipient').GetName]の宣戦布告を阻止"
+ ism_block_subject_declaring_war_effect_text_past: "[SCOPE.sCountry('actor').GetName]が[SCOPE.sCountry('recipient').GetName]の宣戦布告を妨害している"
+ PROPOSE_ism_block_subject_declaring_war: "$TARGET$の宣戦布告を阻止する？"
+
+ # Allow subject declaring war
+ allow_subject_declaring_war: "宣戦布告の許可"
+ allow_subject_declaring_war_desc: "我々は臣民に宣戦布告を許可する。"
+ allow_subject_declaring_war_act: "宣戦布告を許可"
+ allow_subject_declaring_war_effect_text: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]に宣戦布告を許可する"
+ allow_subject_declaring_war_effect_text_past: "[SCOPE.sCountry('actor').GetName]はもはや[SCOPE.sCountry('recipient').GetName]の宣戦布告を妨害していない"
+ PROPOSE_allow_subject_declaring_war: "$TARGET$に宣戦布告を許可するか？"

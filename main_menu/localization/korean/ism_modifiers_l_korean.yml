@@ -1,0 +1,16 @@
+﻿l_korean:
+ # Block colonization
+ MODIFIER_TYPE_NAME_blocked_from_colonization: "식민지화에서 차단됨"
+ MODIFIER_TYPE_DESC_blocked_from_colonization: "이렇게 하면 해당 국가에서 새로운 [colonial_charters|e]을 생성할 수 없습니다."
+
+ STATIC_MODIFIER_NAME_overlord_blocking_colonization: "오버로드에 의해 식민지화 차단"
+ STATIC_MODIFIER_DESC_overlord_blocking_colonization: "이 식민지 국가는 [overlord|e]에 의해 새로운 [colonial_charters|e]을 생성하지 못하도록 차단되었습니다."
+
+ STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "전례 언어 변경이 차단됨"
+ STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "이 국가는 [overlord|e]에 의해 [liturgical_language|e]을 변경해야 했습니다."
+
+ STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "오버로드에 의해 차단된 도시화"
+ STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "이 국가는 [overlord|e]에 의해 신도시 건설이 차단되었습니다."
+
+ STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "오버로드에 의해 차단된 전쟁 선포"
+ STATIC_MODIFIER_DESC_overlord_blocking_declaring_war: "이 국가는 [overlord|e]에 의해 전쟁을 선포하지 못하도록 차단되었습니다."

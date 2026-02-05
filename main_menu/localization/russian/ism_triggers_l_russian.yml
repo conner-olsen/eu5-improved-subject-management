@@ -1,0 +1,5 @@
+﻿l_russian:
+ no_valid_regions: "@trigger_no! Нет действующих [regions|e]"
+ cannot_transfer_capital: "Вы не можете отдать свой капитал."
+ is_in_same_war: "Нельзя передавать земли между государствами, которые не участвуют в одной войне"
+

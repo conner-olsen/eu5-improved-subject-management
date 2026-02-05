@@ -1,0 +1,9 @@
+﻿l_korean:
+ ism_transfer_mode_location: "1. 위치"
+ ism_transfer_mode_location_desc: "환승 위치"
+ ism_transfer_mode_province: "2. 주"
+ ism_transfer_mode_province_desc: "지방 이전"
+ ism_transfer_mode_area: "3. 면적"
+ ism_transfer_mode_area_desc: "환승 지역"
+ ism_transfer_mode_region: "4. 지역"
+ ism_transfer_mode_region_desc: "전송 지역"

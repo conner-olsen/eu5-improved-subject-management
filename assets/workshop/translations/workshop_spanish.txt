@@ -1,0 +1,57 @@
+===WORKSHOP_TITLE===
+Gestión de súbditos mejorada
+===WORKSHOP_DESCRIPTION===
+[h1]Descripción general:[/h1]
+...
+
+[h1]Características:[/h1]
+[olist]
+ [*][b]Característica 1:[/b] Descripción de la característica 1
+	[list]
+	 [*][b]Subcaracterística 1:[/b] Descripción de la subcaracterística 1 de la característica 1
+	 [*][b]Subcaracterística 2:[/b] Descripción de la subcaracterística 2 de la característica 1
+	[/list]
+ [*][b]Característica 2:[/b] Descripción de la característica 2
+ [*][b]...[/b]
+[/olist]
+
+[h1]Planeado/Próximamente:[/h1]
+[olist]
+ [*][b]Característica planeada 1:[/b] Descripción de la característica planeada 1
+ [*][b]Característica planeada 2:[/b] Descripción de la característica planeada 2
+ [*][b]...[/b]
+[/olist]
+
+[h2]Traducciones nativas:[/h2]
+[list]
+ [*][b]Inglés:[/b] Principal
+[/list]
+
+[h2]Traducciones realizadas con DeepL:[/h2]
+[list]
+ [*][b]Chino / 中文[/b]
+ [*][b]Francés / Français[/b]
+ [*][b]Alemán / Deutsch[/b]
+ [*][b]Japonés / 日本語[/b]
+ [*][b]Coreano / 한국어[/b]
+ [*][b]Polaco / Polski[/b]
+ [*][b]Portugués (Brasil) / Português (Brasil)[/b]
+ [*][b]Ruso / Русский[/b]
+ [*][b]Español / Español[/b]
+ [*][b]Turco / Türkçe[/b]
+[/list]
+
+[h1]Registro de cambios:[/h1]
+Consulta las [url=$REPLACE_ME$]Notas de cambios en la página de la workshop[/url].
+
+[h1]Compatibilidad:[/h1]
+[list]
+ [*]No es compatible con Ironman.
+ [*]Totalmente compatible con partidas guardadas.
+ [*]Debería funcionar con cualquier mod.
+ [*]Puedo añadir parches de compatibilidad a petición.
+[/list]
+
+Además del hilo fijado de sugerencias, también puedes hacer preguntas, informar de errores o realizar sugerencias en el canal [url=$REPLACE_ME$]#$REPLACE_ME$ del servidor de Discord de $REPLACE_ME$[/url]. Y si estás interesado en participar en el desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord @$REPLACE_ME$. Todas las contribuciones son bienvenidas.
+
+Las versiones fuente y de desarrollo del mod están disponibles en [url=$REPLACE_ME$]GitHub.[/url]

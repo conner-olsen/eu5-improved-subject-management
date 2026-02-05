@@ -1,0 +1,5 @@
+﻿l_turkish:
+ no_valid_regions: "@trigger_no! Geçerli [regions|e] mevcut değil"
+ cannot_transfer_capital: "Sermayenizi başkasına veremezsiniz."
+ is_in_same_war: "Aynı savaşta olmayan ülkeler arasında toprak transferi yapılamaz"
+

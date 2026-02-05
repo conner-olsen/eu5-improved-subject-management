@@ -1,0 +1,57 @@
+===WORKSHOP_TITLE===
+Gestion des sujets améliorée
+===WORKSHOP_DESCRIPTION===
+[h1]Aperçu :[/h1]
+...
+
+[h1]Caractéristiques :[/h1]
+[olist]
+ [*][b]Caractéristique 1 :[/b] Description de la caractéristique 1
+	[list]
+	 [*][b]Sous-caractéristique 1 :[/b] Description de la sous-caractéristique de la caractéristique 1
+	 [*][b]Sous-caractéristique 2 :[/b] Description de la sous-caractéristique de la caractéristique 1
+	[/list]
+ [*][b]Caractéristique 2 :[/b] Description de la caractéristique 2
+ [*][b]...[/b]
+[/olist]
+
+[h1]Prévu / À venir :[/h1]
+[olist]
+ [*][b]Caractéristique prévue 1 :[/b] Description de la caractéristique prévue 1
+ [*][b]Caractéristique prévue 2 :[/b] Description de la caractéristique prévue 2
+ [*][b]...[/b]
+[/olist]
+
+[h2]Localisations natives :[/h2]
+[list]
+ [*][b]Anglais :[/b] Primaire
+[/list]
+
+[h2]Localisations traduites par DeepL :[/h2]
+[list]
+ [*][b]Chinese / 中文[/b]
+ [*][b]French / Français[/b]
+ [*][b]German / Deutsch[/b]
+ [*][b]Japanese / 日本語[/b]
+ [*][b]Korean / 한국어[/b]
+ [*][b]Polish / Polski[/b]
+ [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
+ [*][b]Russian / Русский[/b]
+ [*][b]Spanish / Español[/b]
+ [*][b]Turkish / Türkçe[/b]
+[/list]
+
+[h1]Journal des modifications :[/h1]
+Consultez les [url=$REPLACE_ME$]Notes de mise à jour sur la page du Workshop[/url].
+
+[h1]Compatibilité :[/h1]
+[list]
+ [*]Non compatible avec le mode Ironman.
+ [*]Entièrement compatible avec les sauvegardes.
+ [*]Devrait fonctionner avec n'importe quel mod.
+ [*]Je peux ajouter des patchs de compatibilité sur demande.
+[/list]
+
+En plus de la discussion épinglée pour les suggestions, vous pouvez également poser vos questions, signaler des bugs ou faire des suggestions dans le salon [url=$REPLACE_ME$]#$REPLACE_ME$ du serveur Discord $REPLACE_ME$[/url]. Et si vous souhaitez participer au développement de ce mod ou de l'un de mes autres mods, vous pouvez me mentionner ou m'ajouter sur Discord @$REPLACE_ME$. Toutes les contributions sont les bienvenues.
+
+Les versions source et de développement du mod sont disponibles sur [url=$REPLACE_ME$]GitHub.[/url]
