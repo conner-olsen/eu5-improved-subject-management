@@ -17,7 +17,7 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]You can now enforce peace on your colonial subjects.[/b]
  [*][b]You can select the size of the land to be transferred: Location, Province, Area, Region[/b]
  [*][b]Remove location limitation on what land can be transferred[/b] - In vanilla, you will commonly be unable to give a location one province away to your subjects.
- [*][b]You can freely transfer land between colonial subjects and yourself.[/b]  - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
+ [*][b]You can freely transfer land between colonial subjects and yourself.[/b] - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
  [*][b]Being at war no longer fully blocks managing the land of subjects[/b] - Why should being at war with a one-province minor halfway across the world prevent me from giving my newly colonized land to my subject? (You can transfer land between subjects that are in the same war, and you can always transfer land from a colonial nation.)
 [/olist]
 
@@ -31,14 +31,14 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]Make overlord always have food access in subjects (without having to request)[/b]
  [*][b]Add ability to disallow a subject from declaring war.[/b]
  [*][b]Prevent subjects from immediately converting their culture back after enforcing your culture[/b] - Likely a 10-year cooldown + disallowed if they are loyal.
-[*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
-[*][b]Make subjects land count for formable requirements[/b]
-[*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
-[*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
-[*][b]Allow playing as custom nation upon release[/b]
-[*][b]Add option to filter land by unintegrated.[/b]
-[*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
-[*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
+ [*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
+ [*][b]Make subjects land count for formable requirements[/b]
+ [*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
+ [*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
+ [*][b]Allow playing as custom nation upon release[/b]
+ [*][b]Add option to filter land by unintegrated.[/b]
+ [*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
+ [*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
 [/olist]
 
 If anyone has any requests for features for improving subject management in any way, leave a comment in the [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]suggestions discussion[/url].
