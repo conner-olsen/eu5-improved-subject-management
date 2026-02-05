@@ -1,0 +1,16 @@
+﻿l_polish:
+ # Block colonization
+ MODIFIER_TYPE_NAME_blocked_from_colonization: "Zablokowany przed kolonizacją"
+ MODIFIER_TYPE_DESC_blocked_from_colonization: "Zakazuje to krajowi tworzenia nowych [colonial_charters|e]."
+
+ STATIC_MODIFIER_NAME_overlord_blocking_colonization: "Kolonizacja zablokowana przez Overlorda"
+ STATIC_MODIFIER_DESC_overlord_blocking_colonization: "Ten kraj kolonialny został zablokowany przez swojego [overlord|e] przed tworzeniem nowych [colonial_charters|e]."
+
+ STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "Zablokowana zmiana języka liturgicznego"
+ STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "Ten kraj został zmuszony przez swojego [overlord|e] do zmiany swojego [liturgical_language|e]."
+
+ STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "Urbanizacja zablokowana przez Overlorda"
+ STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "Ten naród został zablokowany przez swojego [overlord|e] przed zakładaniem nowych miast."
+
+ STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "Deklaracje wojny zablokowane przez Overlorda"
+ STATIC_MODIFIER_DESC_overlord_blocking_declaring_war: "Ten naród został zablokowany przez swojego [overlord|e] przed wypowiedzeniem wojny."

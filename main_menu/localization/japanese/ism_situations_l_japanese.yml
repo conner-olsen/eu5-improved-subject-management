@@ -1,0 +1,9 @@
+﻿l_japanese:
+ ism_transfer_mode_location: "1. 場所"
+ ism_transfer_mode_location_desc: "転送場所"
+ ism_transfer_mode_province: "2. 県"
+ ism_transfer_mode_province_desc: "移管省"
+ ism_transfer_mode_area: "3. 面積"
+ ism_transfer_mode_area_desc: "転送エリア"
+ ism_transfer_mode_region: "4. 地域"
+ ism_transfer_mode_region_desc: "転送領域"

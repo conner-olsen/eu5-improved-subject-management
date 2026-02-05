@@ -1,0 +1,5 @@
+﻿l_polish:
+ no_valid_regions: "@trigger_no! Brak dostępnych prawidłowych [regions|e]"
+ cannot_transfer_capital: "Nie możesz rozdać swojego kapitału."
+ is_in_same_war: "Nie można przekazywać ziemi między krajami, które nie są w stanie wojny."
+

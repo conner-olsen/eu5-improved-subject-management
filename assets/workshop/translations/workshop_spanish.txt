@@ -1,0 +1,89 @@
+﻿===WORKSHOP_TITLE===
+Gestión de sujetos mejorada / Improved Subject Management
+===WORKSHOP_DESCRIPTION===
+[i]You are on the DeepL-Generated Spanish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=english]Click here for the Native English Page[/url][/i]
+
+[h1]Descripción general:[/h1]
+Añade nuevas interacciones, modificaciones y automatizaciones para mejorar significativamente la gestión de sujetos.
+
+[h1]Características:[/h1]
+[olist]
+ [*][b]Nuevas interacciones para transferir tierras entre sujetos[/b]
+	[list]
+	 [*][b]Transferir a:[/b] Entrega tierras a tu sujeto, ya sea desde otro sujeto o desde tu propio territorio.
+	 [*][b]Transferir de:[/b] Quita tierras a tu sujeto para dárselas a otro sujeto o a ti mismo (si se trata de una nación colonial).
+	[/list]
+ [*][b]Nueva interacción para cambiar la capital de los sujetos[/b] - A veces eligen ubicaciones terribles, o creas un sujeto con una capital mal posicionada inicialmente y quieres corregirlo más tarde.
+ [*][b]Nueva interacción para cambiar la Lengua Litúrgica de tu sujeto[/b] - Añade un modificador decreciente de -15 de lealtad y un 1000% de coste de cambio al sujeto, evitando que vuelvan a cambiarla inmediatamente.
+ [*][b]Nueva interacción para bloquear y desbloquear la colonización de un sujeto[/b]
+ [*][b]Nueva interacción para bloquear y desbloquear la declaración de guerras de un sujeto[/b]
+ [*][b]Nueva interacción para bloquear y desbloquear la urbanización de un sujeto[/b] - Evita que funden pueblos.
+ [*][b]Nueva función automática de compartir mapas[/b] - Cada año, cualquier área descubierta por un sujeto que no haya sido descubierta por su señor supremo y que limite con un área ya descubierta por este, se revelará al señor supremo. Esto extenderá progresivamente todos los mapas de los sujetos a sus soberanos.
+ [*][b]Evita que los sujetos coloniales del mismo señor supremo se declaren la guerra entre sí.[/b]
+ [*][b]Ahora puedes imponer la paz (Enforce Peace) a tus sujetos coloniales.[/b]
+ [*][b]Puedes seleccionar el tamaño del territorio a transferir: Localización, Provincia, Área, Región[/b]
+ [*][b]Eliminación de la limitación de ubicación al transferir tierras[/b] - En el juego base, es común no poder dar una localización a un sujeto incluso si está a solo una provincia de distancia.
+ [*][b]Puedes transferir tierras libremente entre sujetos coloniales y tú mismo.[/b] - Tú les diste las tierras en primer lugar y, en la mayoría de los casos, no es mejor poseer tierras coloniales directamente, por lo que esto no debería afectar el equilibrio del juego.
+ [*][b]Estar en guerra ya no bloquea totalmente la gestión de las tierras de los sujetos[/b] - ¿Por qué estar en guerra con un país menor de una sola provincia al otro lado del mundo debería impedirme dar mis tierras recién colonizadas a mi sujeto? (Puedes transferir tierras entre sujetos que participen en la misma guerra, y siempre puedes transferir tierras desde una nación colonial).
+[/olist]
+
+[h1]Planeado/Próximamente:[/h1]
+[olist]
+ [*][b]Convertirse siempre en el líder de guerra en cualquier guerra de un sujeto (incluyendo rebeliones y guerras de sucesión).[/b]
+ [*][b]Evitar que tus tributarios declaren la guerra a tus vasallos/feudos (pero que sigan pudiendo atacar a otros tributarios).[/b]
+ [*][b]Permitir llamar a aliados para ayudar en guerras de vasallos (como rebeliones).[/b]
+ [*][b]Evitar que las naciones coloniales cierren asentamientos y plantaciones.[/b]
+ [*][b]Evitar que las naciones coloniales funden pueblos sobre RGOs valiosos.[/b]
+ [*][b]Hacer que el señor supremo siempre tenga acceso a comida en sus sujetos (sin tener que solicitarlo).[/b]
+ [*][b]Evitar que los sujetos reconviertan su cultura inmediatamente después de imponer la tuya[/b] - Probablemente un tiempo de espera de 10 años + prohibición si son leales.
+ [*][b]Permitir desactivar el Intercambio Colombino para tus sujetos[/b] - Para darte un control total y evitar que sobrescriban RGOs valiosos.
+ [*][b]Hacer que las tierras de los sujetos cuenten para los requisitos de naciones formables.[/b]
+ [*][b]Hacer que los sujetos no sean elegibles para unirse a coaliciones contra ti[/b] - Es decir, forzar a las naciones a salir de cualquier coalición contra ti una vez subyugadas.
+ [*][b]Añadir opciones para gestionar la urbanización de los sujetos[/b] - Por ejemplo, evitar fundar sobre RGOs específicos en lugar de un bloqueo total.
+ [*][b]Permitir jugar como una nación personalizada tras su liberación.[/b]
+ [*][b]Añadir una opción para filtrar tierras por "no integradas".[/b]
+ [*][b]Evitar el mensaje "Necesitamos haber investigado [avance de plantación] para poder construir [plantación]" al intentar construir plantaciones en sujetos.[/b]
+ [*][b]Añadir opción para que los feudos adopten tu religión/cultura por defecto[/b] - Estará bajo una regla de juego no predeterminada.
+[/olist]
+
+[h1]Traducciones:[/h1]
+Mi mod incluye traducciones generadas automáticamente mediante DeepL para todos los idiomas admitidos nativamente por EU5. Soy consciente de que [b]habrá[/b] errores en la traducción. Esto no pretende sustituir a las traducciones nativas, sino servir de complemento cuando estas no estén disponibles.
+
+[h2]Localizaciones traducidas automáticamente:[/h2]
+[list]
+ [*][b]Chino / 中文[/b]
+ [*][b]Francés / Français[/b]
+ [*][b]Alemán / Deutsch[/b]
+ [*][b]Japonés / 日本語[/b]
+ [*][b]Coreano / 한국어[/b]
+ [*][b]Polaco / Polski[/b]
+ [*][b]Portugués (Brasil) / Português (Brasil)[/b]
+ [*][b]Ruso / Русский[/b]
+ [*][b]Español / Español[/b]
+ [*][b]Turco / Türkçe[/b]
+[/list]
+
+Además de la traducción automática, existen localizaciones nativas (generadas por humanos) para algunos idiomas.
+
+[h2]Localizaciones nativas:[/h2]
+[list]
+ [*][b]Inglés:[/b] Principal
+ [*][b]Chino / 中文:[/b] Disponible en el [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Gracias a [i]牛奶大魔王[/i]).
+[/list]
+Los usuarios de chino deberían seguir utilizando 凯撒汉化, ya que ofrece traducciones muy superiores; asegúrate de cargarlo después de mi mod para garantizar que sobrescriba las generadas automáticamente.
+
+[h1]Registro de cambios:[/h1]
+Consulta las [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notas de cambios en la página de la workshop[/url].
+
+[h1]Compatibilidad:[/h1]
+[list]
+ [*]No compatible con Ironman.
+ [*]Totalmente compatible con partidas guardadas.
+ [*]Debería funcionar con cualquier mod.
+ [*]Puedo añadir parches de compatibilidad bajo petición.
+[/list]
+
+Además de la discusión de sugerencias fijada, también puedes hacer preguntas, informar de errores o hacer sugerencias en el [url=https://discord.gg/xWTWMBc7Fn]canal #improved-subject-management del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en participar en el desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord como @arealconner. Todas las contribuciones son bienvenidas.
+
+El código fuente y las versiones de desarrollo del mod están disponibles en [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
+

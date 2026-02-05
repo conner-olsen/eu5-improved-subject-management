@@ -1,0 +1,15 @@
+﻿l_spanish:
+ ism_select_land_size_action: "Seleccionar tamaño del terreno"
+ ism_select_land_size_action_desc: "Esta tierra será transferida."
+
+ ism_transfer_location_action: "Lugar de transferencia"
+ ism_transfer_location_action_desc: "Transferir la propiedad de un lugar a otro país."
+
+ ism_transfer_province_action: "Provincia de transferencia"
+ ism_transfer_province_action_desc: "Transferir la propiedad de una provincia a otro país."
+
+ ism_transfer_area_action: "Área de transferencia"
+ ism_transfer_area_action_desc: "Transferir la propiedad de un área a otro país."
+
+ ism_transfer_region_action: "Región de transferencia"
+ ism_transfer_region_action_desc: "Transferir la propiedad de una región a otro país."

@@ -1,0 +1,9 @@
+﻿l_polish:
+ ism_transfer_mode_location: "1. Lokalizacja"
+ ism_transfer_mode_location_desc: "Miejsce transferu"
+ ism_transfer_mode_province: "2. Prowincja"
+ ism_transfer_mode_province_desc: "Prowincja transferu"
+ ism_transfer_mode_area: "3. Obszar"
+ ism_transfer_mode_area_desc: "Obszar transferu"
+ ism_transfer_mode_region: "4. Region"
+ ism_transfer_mode_region_desc: "Region transferu"

@@ -1,4 +1,4 @@
-﻿transfer_land_from_subject = {
+﻿ism_transfer_land_from_subject = {
     type = subject
     category = CATEGORY_SUBJECT_ACTIONS
     ai_tick = never
@@ -57,13 +57,13 @@
         column = { data = name }
 
         visible = {
-            can_transfer_land = {
+            ism_can_transfer_land = {
                 giver = scope:recipient
                 receiver = ROOT
             }
         }
         enabled = {
-            allow_transfer_land = {
+            ism_allow_transfer_land = {
                 giver = scope:recipient
                 receiver = ROOT
             }

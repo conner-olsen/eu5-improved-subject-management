@@ -1,0 +1,9 @@
+﻿l_braz_por:
+ ism_transfer_mode_location: "1. Localização"
+ ism_transfer_mode_location_desc: "Local de transferência"
+ ism_transfer_mode_province: "2. Província"
+ ism_transfer_mode_province_desc: "Transferir província"
+ ism_transfer_mode_area: "3. Área"
+ ism_transfer_mode_area_desc: "Área de transferência"
+ ism_transfer_mode_region: "4. Região"
+ ism_transfer_mode_region_desc: "Região de transferência"

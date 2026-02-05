@@ -1,7 +1,7 @@
 ﻿# Can a location be transferred from one country to another
 # ROOT: location
 # ARGS: $giver$:country, $receiver$:country
-can_transfer_location = {
+ism_can_transfer_location = {
     owner ?= $giver$
     OR = {
         # Can always take land from colonial nations
@@ -21,9 +21,9 @@ can_transfer_location = {
 # Can a province be transferred from one country to another
 # ROOT: province
 # ARGS: $giver$:country, $receiver$:country
-can_transfer_province = {
+ism_can_transfer_province = {
     any_location_in_province = {
-        can_transfer_location = {
+        ism_can_transfer_location = {
             giver = $giver$
             receiver = $receiver$
         }
@@ -33,9 +33,9 @@ can_transfer_province = {
 # Can a area be transferred from one country to another
 # ROOT: area
 # ARGS: $giver$:country, $receiver$:country
-can_transfer_area = {
+ism_can_transfer_area = {
     any_location_in_area = {
-        can_transfer_location = {
+        ism_can_transfer_location = {
             giver = $giver$
             receiver = $receiver$
         }
@@ -45,9 +45,9 @@ can_transfer_area = {
 # Can a region be transferred from one country to another
 # ROOT: region
 # ARGS: $giver$:country, $receiver$:country
-can_transfer_region = {
+ism_can_transfer_region = {
     any_location_in_region = {
-        can_transfer_location = {
+        ism_can_transfer_location = {
             giver = $giver$
             receiver = $receiver$
         }
@@ -57,7 +57,7 @@ can_transfer_region = {
 # Can the $giver$ transfer any land to the $receiver$
 # ROOT: country interaction
 # ARGS: $giver$:country, $receiver$:country
-can_transfer_land = {
+ism_can_transfer_land = {
     NOT = { $receiver$ = $giver$ }
     $receiver$ = {
         NOR = {
@@ -73,7 +73,7 @@ can_transfer_land = {
     }
     $giver$ = {
         any_owned_location = {
-            can_transfer_location = {
+            ism_can_transfer_location = {
                 giver = $giver$
                 receiver = $receiver$
             }
@@ -82,11 +82,11 @@ can_transfer_land = {
 }
 
 # Decides if the $giver$ is allowed to transfer land to the $receiver$
-# Differs from can_transfer_land which only checks if a land transfer is possible.
+# Differs from ism_can_transfer_land which only checks if a land transfer is possible.
 # This goes in the `enabled` vs `visible` check.
 # ROOT: country interaction
 # ARGS: $giver$:country, $receiver$:country
-allow_transfer_land = {
+ism_allow_transfer_land = {
     # Cannot take land from non-colonial subjects
     OR = {
         NOT = { scope:actor = $receiver$ }

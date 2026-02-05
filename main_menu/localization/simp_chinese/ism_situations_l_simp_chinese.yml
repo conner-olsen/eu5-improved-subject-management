@@ -1,0 +1,9 @@
+﻿l_simp_chinese:
+ ism_transfer_mode_location: "1. 位置"
+ ism_transfer_mode_location_desc: "转移地点"
+ ism_transfer_mode_province: "2. 省"
+ ism_transfer_mode_province_desc: "转移省份"
+ ism_transfer_mode_area: "3. 区域"
+ ism_transfer_mode_area_desc: "转运区"
+ ism_transfer_mode_region: "4. 区域"
+ ism_transfer_mode_region_desc: "转移区域"

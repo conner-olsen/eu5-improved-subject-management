@@ -1,0 +1,5 @@
+﻿l_french:
+ no_valid_regions: "@trigger_no! Aucune [regions|e] valide disponible."
+ cannot_transfer_capital: "Vous ne pouvez pas donner votre capital."
+ is_in_same_war: "Impossible de transférer des terres entre des nations qui ne sont pas en guerre les unes contre les autres."
+

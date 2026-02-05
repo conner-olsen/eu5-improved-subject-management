@@ -1,0 +1,9 @@
+﻿l_turkish:
+ ism_transfer_mode_location: "1. Konum"
+ ism_transfer_mode_location_desc: "Transfer yeri"
+ ism_transfer_mode_province: "2. Eyalet"
+ ism_transfer_mode_province_desc: "Transfer il"
+ ism_transfer_mode_area: "3. Alan"
+ ism_transfer_mode_area_desc: "Transfer alanı"
+ ism_transfer_mode_region: "4. Bölge"
+ ism_transfer_mode_region_desc: "Transfer bölgesi"

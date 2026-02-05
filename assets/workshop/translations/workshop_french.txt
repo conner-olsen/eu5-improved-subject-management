@@ -1,0 +1,89 @@
+﻿===WORKSHOP_TITLE===
+Gestion des sujets améliorée / Improved Subject Management
+===WORKSHOP_DESCRIPTION===
+[i]You are on the DeepL-Generated French Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=english]Click here for the Native English Page[/url][/i]
+
+[h1]Vue d'ensemble :[/h1]
+Ajoute de nouvelles interactions, modifications et automatisations pour améliorer considérablement la gestion des sujets.
+
+[h1]Caractéristiques :[/h1]
+[olist]
+ [*][b]Nouvelles interactions pour transférer des terres entre sujets[/b]
+	[list]
+	 [*][b]Transférer à :[/b] Donnez des terres à votre sujet, soit en provenance d'un autre sujet, soit de vous-même.
+	 [*][b]Transférer de :[/b] Prenez des terres à votre sujet pour les donner à un autre sujet, ou à vous-même (s'il s'agit d'une nation coloniale).
+	[/list]
+ [*][b]Nouvelle interaction pour changer la capitale des sujets[/b] - Parfois, ils choisissent des emplacements médiocres, ou vous créez un sujet avec une capitale mal située initialement et souhaitez corriger cela plus tard.
+ [*][b]Nouvelle interaction pour changer la langue liturgique de votre sujet[/b] - Ajoute un malus de -15 en loyauté (décroissant) et un coût de changement de 1000 % au sujet, l'empêchant de rechanger immédiatement.
+ [*][b]Nouvelle interaction pour autoriser ou interdire la colonisation par un sujet[/b]
+ [*][b]Nouvelle interaction pour autoriser ou interdire la déclaration de guerre par un sujet[/b]
+ [*][b]Nouvelle interaction pour autoriser ou interdire l'urbanisation d'un sujet[/b] - L'empêche de fonder des villes.
+ [*][b]Nouvelle fonctionnalité de partage automatique de carte[/b] - Chaque année, toute zone découverte par un sujet et non par son suzerain qui borde une zone connue du suzerain est révélée à ce dernier. Cela propagera régulièrement toutes les cartes des sujets vers leur suzerain.
+ [*][b]Empêcher les sujets coloniaux d'un même suzerain de se déclarer la guerre entre eux.[/b]
+ [*][b]Vous pouvez désormais imposer la paix à vos sujets coloniaux.[/b]
+ [*][b]Vous pouvez choisir la taille des terres à transférer : Lieu, Province, Zone, Région[/b]
+ [*][b]Suppression de la limitation de lieu sur le transfert de terres[/b] - Dans le jeu de base, il est fréquent de ne pas pouvoir donner un lieu situé à une province de distance à vos sujets.
+ [*][b]Vous pouvez transférer librement des terres entre vos sujets coloniaux et vous-même.[/b] - Vous leur avez donné ces terres au départ, et dans la plupart des cas, il n'est pas préférable de posséder soi-même des terres coloniales, cela ne devrait donc pas affecter l'équilibre du jeu.
+ [*][b]Être en guerre ne bloque plus totalement la gestion des terres des sujets[/b] - Pourquoi le fait d'être en guerre contre un mineur d'une province à l'autre bout du monde m'empêcherait-il de donner mes terres nouvellement colonisées à mon sujet ? (Vous pouvez transférer des terres entre des sujets engagés dans la même guerre, et vous pouvez toujours transférer des terres depuis une nation coloniale.)
+[/olist]
+
+[h1]Prévu / À venir :[/h1]
+[olist]
+ [*][b]Devenir systématiquement le leader de guerre dans toute guerre de sujet (y compris les rébellions et les guerres de succession).[/b]
+ [*][b]Empêcher vos États tributaires de déclarer la guerre à vos vassaux/fiefs (mais toujours possible contre d'autres tributaires).[/b]
+ [*][b]Permettre d'appeler des alliés pour aider dans les guerres de vassaux (comme les rébellions).[/b]
+ [*][b]Empêcher les nations coloniales de supprimer des colonies et des plantations.[/b]
+ [*][b]Empêcher les nations coloniales de fonder des villes sur des RGO précieux.[/b]
+ [*][b]Faire en sorte que le suzerain ait toujours accès à la nourriture chez ses sujets (sans avoir à en faire la demande).[/b]
+ [*][b]Empêcher les sujets de reconvertir immédiatement leur culture après avoir imposé la vôtre[/b] - Probablement un délai de 10 ans + interdit s'ils sont loyaux.
+ [*][b]Permettre de désactiver l'Échange Colombien pour vos sujets[/b] - pour vous donner un contrôle total et les empêcher de remplacer des RGO précieux.
+ [*][b]Faire en sorte que les terres des sujets comptent pour les conditions de formation de nations.[/b]
+ [*][b]Rendre les sujets inéligibles aux coalitions contre vous[/b] - c'est-à-dire forcer les nations à quitter toute coalition contre vous une fois subjuguées.
+ [*][b]Ajouter des options pour gérer l'urbanisation des sujets[/b] - par exemple, empêcher la fondation sur des RGO spécifiques, plutôt qu'un blocage total.
+ [*][b]Permettre de jouer en tant que nation personnalisée lors de la libération.[/b]
+ [*][b]Ajouter une option pour filtrer les terres non intégrées.[/b]
+ [*][b]Empêcher le message "Nous devons avoir recherché [avance de plantation] pour pouvoir construire [plantation]" lors de la construction de plantations chez les sujets.[/b]
+ [*][b]Ajouter une option pour que les Fiefs adoptent votre religion/culture par défaut[/b] - sera disponible via une règle de jeu non activée par défaut.
+[/olist]
+
+[h1]Traductions :[/h1]
+Mon mod inclut une traduction générée automatiquement via DeepL pour toutes les langues nativement supportées par EU5. Je suis conscient qu'il [b]y aura[/b] des erreurs de traduction. Ceci n'est pas destiné à remplacer des traductions natives, mais plutôt à servir de complément lorsqu'elles ne sont pas disponibles.
+
+[h2]Localisations traduites automatiquement :[/h2]
+[list]
+ [*][b]Chinois / 中文[/b]
+ [*][b]Français[/b]
+ [*][b]Allemand / Deutsch[/b]
+ [*][b]Japonais / 日本語[/b]
+ [*][b]Coréen / 한국어[/b]
+ [*][b]Polonais / Polski[/b]
+ [*][b]Portugais (Brésil) / Português (Brasil)[/b]
+ [*][b]Russe / Русский[/b]
+ [*][b]Espagnol / Español[/b]
+ [*][b]Turc / Türkçe[/b]
+[/list]
+
+En plus de la traduction automatique, des localisations natives (humaines) sont disponibles pour certaines langues.
+
+[h2]Localisations natives :[/h2]
+[list]
+ [*][b]Anglais :[/b] Primaire
+ [*][b]Chinois / 中文 :[/b] Disponible dans le mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation)[/url]. (Merci à [i]牛奶大魔王[/i]).
+[/list]
+Les joueurs sinophones devraient continuer d'utiliser 凯撒汉化, car il propose des traductions bien supérieures ; assurez-vous de le charger après mon mod pour garantir qu'il remplace les textes générés.
+
+[h1]Journal des modifications :[/h1]
+Consultez les [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notes de changement sur la page du workshop[/url].
+
+[h1]Compatibilité :[/h1]
+[list]
+ [*]Non compatible avec le mode Ironman.
+ [*]Entièrement compatible avec les sauvegardes en cours.
+ [*]Devrait fonctionner avec n'importe quel mod.
+ [*]Je peux ajouter des patchs de compatibilité sur demande.
+[/list]
+
+En plus de la discussion épinglée sur les suggestions, vous pouvez également poser vos questions, signaler des bugs ou faire des suggestions sur le [url=https://discord.gg/xWTWMBc7Fn]salon #improved-subject-management du serveur Discord de la communauté EU5[/url]. Et si vous souhaitez participer au développement de ce mod ou de l'un de mes autres mods, vous pouvez me contacter ou m'ajouter sur Discord @arealconner. Toutes les contributions sont les bienvenues.
+
+Le code source et les versions de développement du mod sont disponibles sur [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
+

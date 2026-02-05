@@ -1,0 +1,5 @@
+﻿l_braz_por:
+ no_valid_regions: "@trigger_no! Nenhuma [regions|e] válida disponível"
+ cannot_transfer_capital: "Você não pode dar seu capital."
+ is_in_same_war: "Não é possível transferir territórios entre nações que não estejam na mesma guerra."
+

@@ -1,0 +1,9 @@
+﻿l_russian:
+ ism_transfer_mode_location: "1. Местоположение"
+ ism_transfer_mode_location_desc: "Место перевода"
+ ism_transfer_mode_province: "2. Провинция"
+ ism_transfer_mode_province_desc: "Провинция перевода"
+ ism_transfer_mode_area: "3. Площадь"
+ ism_transfer_mode_area_desc: "Зона пересадки"
+ ism_transfer_mode_region: "4. Регион"
+ ism_transfer_mode_region_desc: "Область переноса"

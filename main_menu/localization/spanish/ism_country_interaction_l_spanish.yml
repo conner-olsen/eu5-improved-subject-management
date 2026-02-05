@@ -1,0 +1,99 @@
+﻿l_spanish:
+ # Note to translators: The `#E #!` and `#F #!` prefixes are just used to order the interactions in the list.
+ # Options
+ select_country_to_transfer_land_from: "Seleccione el [country|e] desde el que desea transferir terrenos:"
+ select_country_to_transfer_land_to: "Seleccione el [country|e] al que desea transferir la tierra:"
+ select_transfer_mode: "Seleccionar modo de transferencia"
+
+ # Generic Land Transfer
+ transfer_location_from_subject_select_title: "Seleccione una ubicación para transferir desde nuestro asunto."
+ transfer_province_from_subject_select_title: "Seleccione una provincia para transferir desde nuestro asunto."
+ transfer_area_from_subject_select_title: "Seleccione un área para transferir desde nuestro tema."
+ transfer_region_from_subject_select_title: "Seleccione una región para transferir desde nuestro tema."
+
+ transfer_location_to_subject_select_title: "Seleccione una ubicación para transferir a nuestro sujeto."
+ transfer_province_to_subject_select_title: "Seleccione una provincia para transferir a nuestro asunto."
+ transfer_area_to_subject_select_title: "Seleccione un área para transferir a nuestro asunto."
+ transfer_region_to_subject_select_title: "Seleccione una región para transferir a nuestro asunto."
+
+ select_a_location_to_move_capital: "Haga clic para seleccionar una [location|e] a la que debamos trasladar la capital de nuestro sujeto."
+
+ # Transfer Land to Subject
+ ism_transfer_land_to_subject: "#E #!Transferir terreno a"
+ ism_transfer_land_to_subject_desc: "Transferiremos tierras a nuestro súbdito."
+ ism_transfer_land_to_subject_act: "Transferir terrenos a [SCOPE.sCountry('recipient').GetName]"
+ ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName] transferirá terrenos a [SCOPE.sCountry('recipient').GetName]"
+ ism_transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] transfirió tierras a [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_ism_transfer_land_to_subject: "¿Transferir terreno a $RECIPIENT$?\n$INFO$."
+
+ # Transfer Land from Subject
+ ism_transfer_land_from_subject: "#E #!Transferir terreno desde"
+ ism_transfer_land_from_subject_desc: "Transferiremos tierras de nuestro súbdito."
+ ism_transfer_land_from_subject_act: "Transferir terrenos de [SCOPE.sCountry('recipient').GetName]"
+ ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName] transferirá terrenos de [SCOPE.sCountry('recipient').GetName]"
+ ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] transfirió tierras de [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_ism_transfer_land_from_subject: "¿Transferir terreno de $RECIPIENT$?\n$INFO$."
+
+ # Move Subject Capital
+ ism_move_subject_capital: "#F #!Mover capital"
+ ism_move_subject_capital_desc: "Trasladaremos el capital de nuestro sujeto a una nueva [location|e]."
+ ism_move_subject_capital_act: "Mover capital a [SCOPE.sCountry('target').GetName]"
+ ism_move_subject_capital_effect_text: "Trasladar la capital [SCOPE.sCountry('target').GetName] a una nueva [location|e]."
+ ism_move_subject_capital_effect_text_past: "Trasladó la capital [SCOPE.sCountry('target').GetName] a una nueva [location|e]."
+ PROPOSE_ism_move_subject_capital: "¿Mover el capital del sujeto a $TARGET$?\n$INFO$."
+
+ # Change Subject Liturgical Language
+ ism_change_subject_liturgical_language: "Cambiar el lenguaje litúrgico"
+ ism_change_subject_liturgical_language_desc: "¡Les exigiremos que adopten nuestro [liturgical_language|e]!"
+ ism_change_subject_liturgical_language_act: "Cambiar el idioma litúrgico en [SCOPE.sCountry('recipient').GetName]"
+ ism_change_subject_liturgical_language_effect_text: "[SCOPE.sCountry('actor').GetName] cambiar el [liturgical_language|e] en [SCOPE.sCountry('recipient').GetName]"
+ ism_change_subject_liturgical_language_effect_text_past: "[SCOPE.sCountry('actor').GetName] cambió el [liturgical_language|e] en [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_ism_change_subject_liturgical_language: "¿Cambiar [liturgical_language|e] en $RECIPIENT$?\n$INFO$."
+
+ # Block subject colonization
+ ism_block_subject_colonization: "Bloqueo de colonización"
+ ism_block_subject_colonization_desc: "Evitaremos que nuestro sujeto cree nuevas [colonial_charters|e]."
+ ism_block_subject_colonization_act: "Bloquea la colonización"
+ ism_block_subject_colonization_effect_text: "[SCOPE.sCountry('actor').GetName] bloquea la colonización de [SCOPE.sCountry('recipient').GetName]"
+ ism_block_subject_colonization_effect_text_past: "[SCOPE.sCountry('actor').GetName] está bloqueando ahora la colonización de [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_ism_block_subject_colonization: "¿Bloquear la colonización de $TARGET$?"
+
+ # Allow subject colonization
+ allow_subject_colonization: "Permitir la colonización"
+ allow_subject_colonization_desc: "Permitiremos que nuestro sujeto cree nuevas [colonial_charters|e]."
+ allow_subject_colonization_act: "Permite la colonización"
+ allow_subject_colonization_effect_text: "[SCOPE.sCountry('actor').GetName] permite la colonización de [SCOPE.sCountry('recipient').GetName]"
+ allow_subject_colonization_effect_text_past: "[SCOPE.sCountry('actor').GetName] ya no bloquea la colonización de [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_allow_subject_colonization: "¿Permitir la colonización de $TARGET$?"
+
+ # Block subject urbanization
+ ism_block_subject_urbanization: "Bloque Urbanización"
+ ism_block_subject_urbanization_desc: "Evitaremos que nuestro sujeto cree nuevas ciudades."
+ ism_block_subject_urbanization_act: "Bloques Urbanización"
+ ism_block_subject_urbanization_effect_text: "[SCOPE.sCountry('actor').GetName] bloquea la urbanización de [SCOPE.sCountry('recipient').GetName]"
+ ism_block_subject_urbanization_effect_text_past: "[SCOPE.sCountry('actor').GetName] está bloqueando ahora la urbanización de [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_ism_block_subject_urbanization: "¿Bloquear la urbanización de $TARGET$?"
+
+ # Allow subject urbanization
+ allow_subject_urbanization: "Permitir la urbanización"
+ allow_subject_urbanization_desc: "Permitiremos que nuestro sujeto cree nuevas ciudades."
+ allow_subject_urbanization_act: "Permite la urbanización"
+ allow_subject_urbanization_effect_text: "[SCOPE.sCountry('actor').GetName] permite la urbanización de [SCOPE.sCountry('recipient').GetName]"
+ allow_subject_urbanization_effect_text_past: "[SCOPE.sCountry('actor').GetName] ya no está bloqueando la urbanización de [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_allow_subject_urbanization: "¿Permitir la urbanización de $TARGET$?"
+
+ # Block subject declaring war
+ ism_block_subject_declaring_war: "Bloque que declara la guerra"
+ ism_block_subject_declaring_war_desc: "Evitaremos que nuestro sujeto declare la guerra."
+ ism_block_subject_declaring_war_act: "Bloques que declaran la guerra"
+ ism_block_subject_declaring_war_effect_text: "[SCOPE.sCountry('actor').GetName] impide que [SCOPE.sCountry('recipient').GetName] declare la guerra."
+ ism_block_subject_declaring_war_effect_text_past: "[SCOPE.sCountry('actor').GetName] está bloqueando ahora [SCOPE.sCountry('recipient').GetName] [SCOPE.sCountry('recipient').GetName] para que no declare la guerra."
+ PROPOSE_ism_block_subject_declaring_war: "¿Impedir que $TARGET$ declare la guerra?"
+
+ # Allow subject declaring war
+ allow_subject_declaring_war: "Permitir declarar la guerra"
+ allow_subject_declaring_war_desc: "Permitiremos que nuestro sujeto declare la guerra."
+ allow_subject_declaring_war_act: "Permite declarar la guerra"
+ allow_subject_declaring_war_effect_text: "[SCOPE.sCountry('actor').GetName] permite [SCOPE.sCountry('recipient').GetName] declarar la guerra."
+ allow_subject_declaring_war_effect_text_past: "[SCOPE.sCountry('actor').GetName] ya no impide que [SCOPE.sCountry('recipient').GetName] declare la guerra."
+ PROPOSE_allow_subject_declaring_war: "¿Permitir que $TARGET$ declare la guerra?"
