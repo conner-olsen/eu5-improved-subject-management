@@ -42,7 +42,7 @@ Adds new interactions, modifications, and automations to significantly improve s
 [/olist]
 
 [h1]Translations:[/h1]
-My mod includes auto-generated translation using DeepL for all natively supported EU5 languages. I am aware that there [b]will[/b] be mistakes in translation. This is not meant to be a replacement for native translations, rather a supplement for when they are not available (a better-than-nothing approach).
+My mod includes auto-generated translation using DeepL for all natively supported EU5 languages. I am aware that there [b]will[/b] be mistakes in translation. This is not meant to be a replacement for native translations, rather a supplement for when they are not available.
 
 [h2]Auto-Translated Localizations:[/h2]
 [list]
@@ -63,9 +63,9 @@ In addition to the auto-translation, native (human-generated) localizations are 
 [h2]Native Localizations:[/h2]
 [list]
  [*][b]English:[/b] Primary
- [*][b]Chinese / 中文:[/b] Available in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Thanks to [i]牛奶大魔王[/i]). Make sure you load this mod after mine to overwrite my existing auto-translations.
+ [*][b]Chinese / 中文:[/b] Available in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Thanks to [i]牛奶大魔王[/i]).
 [/list]
-Chinese speakers should still use 凯撒汉化, as it provides far superior translations, make sure to load it after my mod to ensure it overrides the generated ones. I only included the auto-translations for Chinese to act as a stopgap when new localization is added (or if they decide it's good enough, then it will be less work for them).
+Chinese speakers should still use 凯撒汉化, as it provides far superior translations, make sure to load it after my mod to ensure it overrides the generated ones.
 
 [h1]Change Log:[/h1]
 See the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Change Notes on the workshop page[/url].
@@ -84,15 +84,15 @@ The source and dev versions of the mod are available on [url=https://github.com/
 
 [h1]DeepL Translated Mod Pages:[/h1]
 [list]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=schinese]Chinese / 中文[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=french]French / Français[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=german]German / Deutsch[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=japanese]Japanese / 日本語[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=koreana]Korean / 한국어[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=polish]Polish / Polski[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=brazilian]Portuguese (Brazil) / Português (Brasil)[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=russian]Russian / Русский[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=spanish]Spanish / Español[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=turkish]Turkish / Türkçe[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Chinese / 中文[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=french]French / Français[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=german]German / Deutsch[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=japanese]Japanese / 日本語[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=koreana]Korean / 한국어[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=polish]Polish / Polski[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=brazilian]Portuguese (Brazil) / Português (Brasil)[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=russian]Russian / Русский[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Spanish / Español[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turkish / Türkçe[/url]
 [/list]
 (Note that I am at the max character limit for the mod description, so I cannot put both the auto-translated and native localizations on the same page.)

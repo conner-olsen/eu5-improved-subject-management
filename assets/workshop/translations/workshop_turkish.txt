@@ -2,89 +2,88 @@
 Geliştirilmiş Tebaa Yönetimi / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Turkish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=english]Click here for the Native English Page[/url][/i]
+
 [h1]Genel Bakış:[/h1]
-Tâbi devlet yönetimini önemli ölçüde iyileştirmek için yeni etkileşimler, değişiklikler ve otomasyonlar ekler.
+Tabi devlet yönetimini önemli ölçüde iyileştirmek için yeni etkileşimler, değişiklikler ve otomasyonlar ekler.
 
 [h1]Özellikler:[/h1]
 [olist]
- [*][b]Tâbi devletler arasında toprak transferi için yeni etkileşimler[/b] - Güzel sınırlar oluşturmanıza olanak tanır.
+ [*][b]Tabi devletler arasında toprak transferi için yeni etkileşimler[/b]
 	[list]
-	 [*][b]Şuraya transfer et:[/b] Tâbi devletinize, başka bir tâbi devletten veya kendinizden toprak verin.
-	[*][b]Şuradan transfer et:[/b] Tâbi devletinizden toprak alın ve başka bir tâbi devlete veya kendinize verin (*eğer bir sömürge devletinden alınıyorsa).
+	 [*][b]Şuraya transfer et:[/b] Tabi devletinize başka bir tabi devletten veya kendinizden toprak verin.
+	 [*][b]Şuradan transfer et:[/b] Tabi devletinizden toprak alın ve başka bir tabi devlete veya kendinize verin (eğer bir koloni ulusundan alıyorsanız).
 	[/list]
- [*][b]Tâbi devletlerin başkentini değiştirmek için yeni etkileşim[/b] - Bazen korkunç yerler seçerler veya başlangıçta kötü bir başkent konumuna sahip bir tâbi devlet oluşturursunuz ve bunu daha sonra düzeltmek istersiniz.
- [*][b]Tâbi devletinizin Litürjik Dilini değiştirmek için yeni etkileşim[/b] - Tâbi devlete zamanla azalan -15 sadakat ve %1000 değişim maliyeti ekleyerek dilden hemen geri dönmelerini engeller.
- [*][b]Bir tâbi devletin sömürgeleştirmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
- [*][b]Bir tâbi devletin şehirleşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Kasaba kurmalarını engeller.
- [*][b]Yeni otomatik harita paylaşımı özelliği[/b] - Her yıl, bir tâbi devlet tarafından keşfedilen ve efendisi tarafından keşfedilmemiş olan, efendisinin keşfettiği bir alana komşu olan herhangi bir alan efendiye yayılır. Bu, tüm tâbi haritalarının istikrarlı bir şekilde efendilerine yayılmasını sağlayacaktır.
- [*][b]Aynı efendiye sahip sömürge uyruklarının birbirine savaş ilan etmesini engelleme.[/b]
- [*][b]Artık sömürge uyruklarınıza barışı zorlayabilirsiniz (enforce peace).[/b]
+ [*][b]Tabi devletlerin başkentini değiştirmek için yeni etkileşim[/b] - Bazen berbat konumlar seçerler veya başlangıçta kötü bir başkent konumuna sahip bir tabi devlet oluşturursunuz ve bunu daha sonra düzeltmek istersiniz.
+ [*][b]Tabi devletinizin Litürjik Dilini değiştirmek için yeni etkileşim[/b] - Tabi devletin hemen eski haline dönmesini önlemek için azalan bir -15 sadakat ve %1000 değişim maliyeti ekler.
+ [*][b]Bir tabi devletin kolonileşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
+ [*][b]Bir tabi devletin savaş ilan etmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
+ [*][b]Bir tabi devletin şehirleşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Kasaba kurmalarını engeller.
+ [*][b]Yeni otomatik harita paylaşımı özelliği[/b] - Her yıl, bir tabi devlet tarafından keşfedilen ve efendisi tarafından keşfedilmeyen, efendisinin keşfettiği bir alana komşu olan her alan efendiye yayılır. Bu, tüm tabi devlet haritalarının kademeli olarak efendilerine yayılmasını sağlar.
+ [*][b]Aynı efendiye sahip koloni tabi devletlerinin birbirine savaş ilan etmesini engelleyin.[/b]
+ [*][b]Artık koloni tabi devletlerinize barışı zorlayabilirsiniz (Enforce Peace).[/b]
  [*][b]Transfer edilecek toprağın boyutunu seçebilirsiniz: Konum, Vilayet, Alan, Bölge[/b]
- [*][b]Hangi toprakların transfer edilebileceğine dair konum sınırlamasını kaldırma[/b] - Vanilla oyunda, genellikle tâbi devletlerinize bir vilayet ötedeki bir konumu veremezsiniz.
- [*][b]Sömürge uyrukları ve kendiniz arasında serbestçe toprak transferi yapabilirsiniz.[/b] - Toprağı onlara en başta siz verdiniz ve çoğu durumda sömürge topraklarına bizzat sahip olmak daha iyi değildir, bu yüzden bunun oyun dengesi üzerinde herhangi bir etkisi olmamalıdır.
- [*][b]Savaşta olmak artık tâbi devletlerin topraklarını yönetmeyi tamamen engellemez[/b] - Dünyanın öbür ucundaki tek vilayetlik küçük bir devletle savaşta olmak, yeni sömürgeleştirdiğim toprağı tâbi devletime vermemi neden engellesin? (Aynı savaşta olan tâbi devletler arasında toprak transferi yapabilirsiniz ve bir sömürge devletinden her zaman toprak transferi yapabilirsiniz.)
+ [*][b]Hangi toprakların transfer edilebileceğine dair konum sınırlamasını kaldırın[/b] - Vanilla oyunda, genellikle tabi devletlerinize bir vilayet ötedeki bir konumu veremezsiniz.
+ [*][b]Koloni tabi devletleri ile kendiniz arasında serbestçe toprak transferi yapabilirsiniz.[/b] - Bu toprakları en başta onlara siz verdiniz ve çoğu durumda koloni topraklarına bizzat sahip olmak daha iyi değildir, bu yüzden bunun oyun dengesi üzerinde herhangi bir etkisi olmamalıdır.
+ [*][b]Savaşta olmak artık tabi devletlerin topraklarını yönetmeyi tamamen engellemiyor[/b] - Dünyanın öbür ucundaki tek vilayetlik küçük bir devletle savaşta olmam, yeni kolonize ettiğim toprağı tabi devletime vermemi neden engellesin? (Aynı savaşta olan tabi devletler arasında toprak transferi yapabilirsiniz ve bir koloni ulusundan her zaman toprak transferi yapabilirsiniz.)
 [/olist]
 
-[h1]Planlanan/Gelecek Özellikler:[/h1]
+[h1]Planlanan/Yakında Gelecekler:[/h1]
 [olist]
- [*][b]Herhangi bir tâbi devlet savaşında (isyanlar ve veraset savaşları dahil) sizi her zaman savaş lideri yapma.[/b]
- [*][b]Haraçgüzarlarınızın vasallarınıza/tımar topraklarınıza (fiefdoms) savaş ilan etmesini engelleme (ancak diğer haraçgüzarlara hala ilan edebilirler).[/b]
- [*][b]Vasalların savaşlarında (isyanlar gibi) yardımcı olmaları için müttefikleri çağırmaya izin verme.[/b]
- [*][b]Sömürge devletlerinin yerleşimleri ve plantasyonları kapatmasını engelleme.[/b]
- [*][b]Sömürge devletlerinin değerli RGO'ların üzerine kasaba kurmasını engelleme.[/b]
- [*][b]Efendinin tâbi devletlerde her zaman gıda erişimine sahip olmasını sağlama (talep etmek zorunda kalmadan).[/b]
- [*][b]Bir tâbi devletin savaş ilan etmesini yasaklama yeteneği ekleme.[/b]
- [*][b]Kendi kültürünüzü zorla kabul ettirdikten sonra tâbi devletlerin kültürlerini hemen eski haline getirmelerini engelleme[/b] - Muhtemelen 10 yıllık bir bekleme süresi + sadıklarsa yasaklanması.
- [*][b]Tâbi devletleriniz için Kolomb Takası'nı (Columbian Exchange) devre dışı bırakma seçeneği sunma[/b] - Size tam kontrol sağlamak ve değerli RGO'ların üzerine yazmalarını önlemek için.
- [*][b]Tâbi devletlerin topraklarının kurulabilir ulus (formable) gereksinimleri için sayılmasını sağlama.[/b]
- [*][b]Tâbi devletleri size karşı koalisyonlara girmeye uygunsuz hale getirme[/b] - yani devletler boyunduruk altına alındığında onları size karşı olan koalisyonlardan çıkmaya zorlama.
- [*][b]Tâbi devletlerin şehirleşmesini yönetmek için seçenekler sunma[/b] - yani tamamen engellemek yerine, belirli RGO'lar üzerine şehir kurulmasını engelleme.
- [*][b]Serbest bırakıldığında özel ulus (custom nation) olarak oynamaya izin verme.[/b]
- [*][b]Toprakları entegre edilmemiş olanlara göre filtreleme seçeneği ekleme.[/b]
- [*][b]Tâbi devletlerde plantasyon inşa etmeye çalışırken ortaya çıkan "[plantation advance] araştırmış olmamız gerekiyor" engelini kaldırma.[/b]
- [*][b]Tımar topraklarını (Fiefdoms) varsayılan olarak dininizden/kültürünüzden yapma seçeneği ekleme[/b] - bu, varsayılan olmayan bir oyun kuralı altında olacaktır.
+ [*][b]Herhangi bir tabi devlet savaşında (isyanlar ve veraset savaşları dahil) sizi her zaman savaş lideri yapar.[/b]
+ [*][b]Haraçgüzarlarınızın vasallarınıza/fiefdomlarınıza savaş ilan etmesini engelleyin (ancak diğer haraçgüzarlara hala edebilirler).[/b]
+ [*][b]Vasal savaşlarına (isyanlar gibi) müttefiklerin yardım için çağrılmasına izin verin.[/b]
+ [*][b]Koloni uluslarının yerleşimleri (settlements) ve plantasyonları kapatmasını engelleyin.[/b]
+ [*][b]Koloni uluslarının değerli RGO'lar üzerine kasaba kurmasını engelleyin.[/b]
+ [*][b]Efendinin tabi devletlerde her zaman gıda erişimine sahip olmasını sağlayın (talep etmeye gerek kalmadan).[/b]
+ [*][b]Tabi devletlerin, kültürlerini zorla değiştirdikten sonra hemen eski kültürlerine geri dönmelerini engelleyin[/b] - Muhtemelen 10 yıllık bir bekleme süresi + sadıklarsa geri dönmeye izin verilmemesi.
+ [*][b]Tabi devletleriniz için Kolomb Değişimi'ni (Columbian Exchange) devre dışı bırakmaya izin verin[/b] - size tam kontrol sağlamak ve değerli RGO'ların üzerine yazılmasını önlemek için.
+ [*][b]Tabi devlet topraklarının kurulabilir ülke gereksinimleri için sayılmasını sağlayın.[/b]
+ [*][b]Tabi devletlerin size karşı koalisyonlara girmesini engelleyin[/b] - yani ulusları tabi kılındıklarında size karşı olan tüm koalisyonlardan çıkmaya zorlayın.
+ [*][b]Tabi devlet şehirleşmesini yönetmek için seçenekler sunun[/b] - yani tamamen engellemek yerine belirli RGO'lar üzerine şehir kurulmasını engelleyin.
+ [*][b]Serbest bırakıldığında özel bir ulus (custom nation) olarak oynamaya izin verin.[/b]
+ [*][b]Toprakları entegre edilmemiş olanlara göre filtrelemek için bir seçenek ekleyin.[/b]
+ [*][b]Tabi devletlerde plantasyon inşa etmeye çalışırken ortaya çıkan "[plantasyon geliştirmesi] araştırılmış olmalıdır" uyarısını engelleyin.[/b]
+ [*][b]Fiefdom'ları varsayılan olarak dininiz/kültürünüz yapma seçeneği ekleyin[/b] - varsayılan olmayan bir oyun kuralı altında olacaktır.
 [/olist]
-
-Herhangi bir şekilde tâbi devlet yönetimini iyileştirmeye yönelik özellik talebi olan varsa, [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]öneriler tartışması[/url] kısmına yorum bırakabilir.
 
 [h1]Çeviriler:[/h1]
-Modum, yerel olarak desteklenen tüm EU5 dilleri için DeepL kullanılarak oluşturulmuş otomatik çeviriler içerir. Çeviride hatalar [b]olacağının[/b] farkındayım. Bu, profesyonel çevirilerin yerini alması için değil, mevcut olmadıkları durumlarda bir takviye (hiç yoktan iyidir yaklaşımı) olarak düşünülmüştür.
+Modum, yerel olarak desteklenen tüm EU5 dilleri için DeepL kullanılarak otomatik olarak oluşturulmuş çeviriler içerir. Çevirilerde hatalar [b]olacağının[/b] farkındayım. Bu, yerel çevirilerin yerini alması için değil, onlara ulaşılamadığında bir takviye olması için tasarlanmıştır.
 
 [h2]Otomatik Çevrilen Yerelleştirmeler:[/h2]
 [list]
- [*][b]Çince / 中文[/b]
- [*][b]Fransızca / Français[/b]
- [*][b]Almanca / Deutsch[/b]
- [*][b]Japonca / 日本語[/b]
- [*][b]Korece / 한국어[/b]
- [*][b]Lehçe / Polski[/b]
- [*][b]Portekizce (Brezilya) / Português (Brasil)[/b]
- [*][b]Rusça / Русский[/b]
- [*][b]İspanyolca / Español[/b]
- [*][b]Türkçe / Türkçe[/b]
+ [*][b]Chinese / 中文[/b]
+ [*][b]French / Français[/b]
+ [*][b]German / Deutsch[/b]
+ [*][b]Japanese / 日本語[/b]
+ [*][b]Korean / 한국어[/b]
+ [*][b]Polish / Polski[/b]
+ [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
+ [*][b]Russian / Русский[/b]
+ [*][b]Spanish / Español[/b]
+ [*][b]Turkish / Türkçe[/b]
 [/list]
-Bu dillerin hiçbirini ana dilim olarak konuşmadığımı ve çeviri sürecini otomatikleştirdiğimi unutmayın; bu nedenle yukarıdaki çevirilerde herhangi bir sorun olması durumunda düzeltmeler yapmayacağım. Ancak, bir sorunu kendiniz düzeltmek isterseniz, GitHub üzerinden bir PR gönderebilirsiniz ve ben de bunu onaylarım.
 
-Otomatik çeviriye ek olarak, bazı diller için yerel (insan yapımı) yerelleştirmeler mevcuttur.
+Otomatik çeviriye ek olarak, bazı diller için doğal (insan tarafından oluşturulmuş) yerelleştirmeler mevcuttur.
 
-[h2]Yerel Yerelleştirmeler:[/h2]
+[h2]Doğal Yerelleştirmeler:[/h2]
 [list]
- [*][b]İngilizce:[/b] Birincil
- [*][b]Çince / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) modunda[/url] mevcuttur. ([i]牛奶大魔王[/i]'a teşekkürler). Mevcut otomatik çevirilerimin üzerine yazması için bu modu benimkinden sonra yüklediğinizden emin olun.
+ [*][b]English:[/b] Birincil
+ [*][b]Chinese / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) modunda[/url] mevcuttur. ([i]牛奶大魔王[/i]'a teşekkürler).
 [/list]
-Çince konuşanlar, çok daha üstün çeviriler sağladığı için hala 凯撒汉化 modunu kullanmalıdır; sadece oluşturulanların üzerine yazıldığından emin olmak için benim modumdan sonra yüklediğinizden emin olun. Çince için otomatik çevirileri sadece yeni bir yerelleştirme eklendiğinde, 凯撒汉化 onu ekleyene kadar bir geçiş süreci olması için (veya yeterince iyi olduğuna karar verirlerse onlar için daha az iş yükü olması için) dahil ettim.
+Çince konuşanlar hala 凯撒汉化 modunu kullanmalıdır, çünkü çok daha üstün çeviriler sağlar; oluşturulan çevirilerin üzerine yazıldığından emin olmak için bu modu benim modumdan sonra yüklediğinizden emin olun.
 
 [h1]Değişiklik Günlüğü:[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Workshop sayfasındaki Değişiklik Notlarına[/url] göz atın.
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Workshop sayfasındaki Değişiklik Notlarına[/url] bakın.
 
 [h1]Uyumluluk:[/h1]
 [list]
  [*]Ironman uyumlu değildir.
- [*]Kayıtlı oyunlarla (save game) tamamen uyumludur.
+ [*]Kayıtlı oyunlarla tam uyumludur.
  [*]Herhangi bir modla çalışmalıdır.
  [*]Talep üzerine uyumluluk yamaları ekleyebilirim.
 [/list]
 
-Sabitlenmiş öneriler tartışmasına ek olarak, [url=https://discord.gg/xWTWMBc7Fn]EU5 Community Discord sunucusunun #improved-subject-management kanalında[/url] soru sorabilir, hata bildirebilir veya önerilerde bulunabilirsiniz. Ayrıca bu modun veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord'da bana @arealconner üzerinden ping atabilir veya ekleyebilirsiniz. Her türlü katkı memnuniyetle karşılanır.
+Sabitlenmiş öneriler tartışmasına ek olarak, [url=https://discord.gg/xWTWMBc7Fn]EU5 Topluluğu discord sunucusunun #improved-subject-management kanalında[/url] soru sorabilir, hata bildirebilir veya önerilerde bulunabilirsiniz. Ve eğer bu veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord üzerinden @arealconner kullanıcı adıyla bana ulaşabilir veya ekleyebilirsiniz. Tüm katkılar memnuniyetle karşılanır.
 
-Modun kaynak ve geliştirme sürümleri [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub[/url] üzerinde mevcuttur.
+Modun kaynak ve geliştirici sürümleri [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub'da mevcuttur.[/url]
+
