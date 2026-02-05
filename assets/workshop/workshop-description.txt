@@ -3,14 +3,15 @@ Adds new interactions, modifications, and automations to significantly improve s
 
 [h1]Features:[/h1]
 [olist]
- [*][b]New Interactions to Transfer land betwen subjects[/b] - Allows you to make nice borders.
+ [*][b]New Interactions to Transfer land between subjects[/b]
 	[list]
 	 [*][b]Transfer to:[/b] Give your subject land, either from another subject or yourself.
-	 [*][b]Transfer from:[/b] Take land from your subject, and give it to another subject or yourself (*if taking from a colonial nation).
+	 [*][b]Transfer from:[/b] Take land from your subject, and give it to another subject, or yourself (if taking from a colonial nation).
 	[/list]
  [*][b]New interaction to change the capital of subjects[/b] - Sometimes they pick terrible locations, or you create a subject with a poor capital location initially and want to fix it later.
  [*][b]New interaction to change the Liturgical Language of your subject[/b] - And adds a decaying -15 loyalty and 1000% change cost to the subject, preventing them from immediately switching away.
  [*][b]New interaction to block and unblock a subject from colonizing[/b]
+ [*][b]New interaction to block and unblock a subject from declaring wars[/b]
  [*][b]New interaction to block and unblock a subject from urbanizing[/b] - Prevents them from founding towns.
  [*][b]New automatic map sharing feature[/b] - Every year, any area discovered by a subject and not by its overlord that borders an area discovered by its overlord spreads to the overlord. This will steadily spread all subject maps to their overlords.
  [*][b]Block colonial subjects with the same overlord from declaring war on each other.[/b]
@@ -25,23 +26,20 @@ Adds new interactions, modifications, and automations to significantly improve s
 [olist]
  [*][b]Always make you the war leader in any subject war (including rebellions & succession wars).[/b]
  [*][b]Prevent your tributaries from declaring war on your vassals/fiefdoms (but still other tributaries).[/b]
- [*][b]Allow calling allies to aid in vassel wars (such as rebellions).[/b]
+ [*][b]Allow calling allies to aid in vassal wars (such as rebellions).[/b]
  [*][b]Prevent colonial nations from shutting off settlements and plantations.[/b]
  [*][b]Prevent colonial nations from founding towns over valuable RGOs. [/b]
  [*][b]Make overlord always have food access in subjects (without having to request)[/b]
- [*][b]Add ability to disallow a subject from declaring war.[/b]
  [*][b]Prevent subjects from immediately converting their culture back after enforcing your culture[/b] - Likely a 10-year cooldown + disallowed if they are loyal.
  [*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
  [*][b]Make subjects land count for formable requirements[/b]
  [*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
  [*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
- [*][b]Allow playing as custom nation upon release[/b]
- [*][b]Add option to filter land by unintegrated.[/b]
+ [*][b]Allow playing as a custom nation upon release[/b]
+ [*][b]Add an option to filter land by unintegrated.[/b]
  [*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
- [*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
+ [*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will be under a non-default game rule.
 [/olist]
-
-If anyone has any requests for features for improving subject management in any way, leave a comment in the [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]suggestions discussion[/url].
 
 [h1]Translations:[/h1]
 My mod includes auto-generated translation using DeepL for all natively supported EU5 languages. I am aware that there [b]will[/b] be mistakes in translation. This is not meant to be a replacement for native translations, rather a supplement for when they are not available (a better-than-nothing approach).
@@ -59,7 +57,6 @@ My mod includes auto-generated translation using DeepL for all natively supporte
  [*][b]Spanish / Español[/b]
  [*][b]Turkish / Türkçe[/b]
 [/list]
-Note that I do not natively speak any of these languages, and I automate the translation process, so I won't create fixes for the above translations if there are any issues. However, if you would like to fix an issue yourself, you can submit a PR on GitHub, and I will approve it.
 
 In addition to the auto-translation, native (human-generated) localizations are available for some languages.
 
@@ -68,7 +65,7 @@ In addition to the auto-translation, native (human-generated) localizations are 
  [*][b]English:[/b] Primary
  [*][b]Chinese / 中文:[/b] Available in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Thanks to [i]牛奶大魔王[/i]). Make sure you load this mod after mine to overwrite my existing auto-translations.
 [/list]
-Chinese speakers should still use 凯撒汉化, as it provides far superior translations, just make sure to load it after my mod to ensure it overrides the generated ones. I only included the auto-translations for Chinese so that if a new localization is added, this will act as a stopgap until 凯撒汉化 adds a better one (or if they decide it's good enough, then it will be less work for them).
+Chinese speakers should still use 凯撒汉化, as it provides far superior translations, make sure to load it after my mod to ensure it overrides the generated ones. I only included the auto-translations for Chinese to act as a stopgap when new localization is added (or if they decide it's good enough, then it will be less work for them).
 
 [h1]Change Log:[/h1]
 See the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Change Notes on the workshop page[/url].
@@ -85,17 +82,17 @@ In addition to the pinned suggestions discussion, you can also ask any questions
 
 The source and dev versions of the mod are available on [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
 
-[h1]DeepL Translated Mod Pages[/h1]
+[h1]DeepL Translated Mod Pages:[/h1]
 [list]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Chinese / 中文[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=french]French / Français[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=german]German / Deutsch[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=japanese]Japanese / 日本語[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=koreana]Korean / 한국어[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=polish]Polish / Polski[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=brazilian]Portuguese (Brazil) / Português (Brasil)[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=russian]Russian / Русский[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Spanish / Español[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turkish / Türkçe[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=schinese]Chinese / 中文[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=french]French / Français[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=german]German / Deutsch[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=japanese]Japanese / 日本語[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=koreana]Korean / 한국어[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=polish]Polish / Polski[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=brazilian]Portuguese (Brazil) / Português (Brasil)[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=russian]Russian / Русский[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=spanish]Spanish / Español[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3660067991&l=turkish]Turkish / Türkçe[/url]
 [/list]
 (Note that I am at the max character limit for the mod description, so I cannot put both the auto-translated and native localizations on the same page.)
