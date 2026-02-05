@@ -1,16 +1,16 @@
 ﻿l_simp_chinese:
  # Block colonization
  MODIFIER_TYPE_NAME_blocked_from_colonization: "殖民受阻"
- MODIFIER_TYPE_DESC_blocked_from_colonization: "这就禁止国家创建新的 [colonial_charters|e]。"
+ MODIFIER_TYPE_DESC_blocked_from_colonization: "这禁止该国制定新的[colonial_charters|e]。"
 
- STATIC_MODIFIER_NAME_overlord_blocking_colonization: "霸主阻挠殖民"
- STATIC_MODIFIER_DESC_overlord_blocking_colonization: "这个殖民地国家因其 [overlord|e] 而无法创建新的 [colonial_charters|e]。"
+ STATIC_MODIFIER_NAME_overlord_blocking_colonization: "殖民行动被统治者阻止"
+ STATIC_MODIFIER_DESC_overlord_blocking_colonization: "这个殖民国家已被其[overlord|e]阻止创建新的[colonial_charters|e]。"
 
- STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "更改礼仪语言受阻"
- STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "这个国家被其 [overlord|e] 所迫，不得不改变其 [liturgical_language|e]。"
+ STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "被阻止更改礼仪语言"
+ STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "该国被迫在其[overlord|e]的强制下更改其[liturgical_language|e]。"
 
- STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "霸主阻挠城市化"
- STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "这个国家因其 [overlord|e] 而无法建立新城镇。"
+ STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "城市化进程被霸主阻断"
+ STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "该国因其[overlord|e]的阻挠，无法建立新城镇。"
 
- STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "被霸主阻止的宣战"
- STATIC_MODIFIER_DESC_overlord_blocking_declaring_war: "这个国家被其 [overlord|e] 阻止宣战。"
+ STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "最高统帅阻挠了宣战"
+ STATIC_MODIFIER_DESC_overlord_blocking_declaring_war: "该国已被其[overlord|e]阻止宣战。"

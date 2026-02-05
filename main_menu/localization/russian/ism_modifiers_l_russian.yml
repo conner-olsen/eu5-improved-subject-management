@@ -1,16 +1,16 @@
 ﻿l_russian:
  # Block colonization
- MODIFIER_TYPE_NAME_blocked_from_colonization: "Запрет на колонизацию"
+ MODIFIER_TYPE_NAME_blocked_from_colonization: "Блокировка колонизации"
  MODIFIER_TYPE_DESC_blocked_from_colonization: "Это запрещает стране создавать новые [colonial_charters|e]."
 
- STATIC_MODIFIER_NAME_overlord_blocking_colonization: "Колонизация заблокирована Владыкой"
- STATIC_MODIFIER_DESC_overlord_blocking_colonization: "Эта колониальная нация была заблокирована своими [overlord|e] от создания новых [colonial_charters|e]."
+ STATIC_MODIFIER_NAME_overlord_blocking_colonization: "Колонизация заблокирована Overlord"
+ STATIC_MODIFIER_DESC_overlord_blocking_colonization: "Эта колониальная нация была заблокирована своим [overlord|e] от создания новых [colonial_charters|e]."
 
- STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "Запрет на изменение литургического языка"
- STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "Эта страна была вынуждена из-за своих [overlord|e] использовать изменения в своих [liturgical_language|e]."
+ STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "Заблокировано изменение литургического языка"
+ STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "Эта страна была вынуждена своим [overlord|e] использовать изменить свой [liturgical_language|e]."
 
- STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "Урбанизация заблокирована владыкой"
- STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "Эта нация была заблокирована [overlord|e] от основания новых городов."
+ STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "Урбанизация заблокирована Overlord"
+ STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "Эта нация была заблокирована своим [overlord|e] от основания новых городов."
 
- STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "Объявление войны блокируется Владыкой"
+ STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "Объявления войны заблокированы Overlord"
  STATIC_MODIFIER_DESC_overlord_blocking_declaring_war: "Эта нация была заблокирована своим [overlord|e] от объявления войны."

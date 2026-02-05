@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- no_valid_regions: "@trigger_no! 无有效 [regions|e] 可用"
- cannot_transfer_capital: "你不能把你的资本拱手相让。"
- is_in_same_war: "非同一场战争的国家之间不能转让土地"
+ no_valid_regions: "@trigger_no! 没有有效的[regions|e]可用"
+ cannot_transfer_capital: "你不能赠予你的资本。"
+ is_in_same_war: "处于不同战争中的国家之间无法进行土地转让"
 

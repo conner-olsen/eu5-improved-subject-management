@@ -1,54 +1,54 @@
 ﻿===WORKSHOP_TITLE===
-改进的附庸管理 / Improved Subject Management
+附属国管理优化 / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]DeepL Generated Simplified Chinese Description[/i]
 [h1]概述：[/h1]
-增加新的互动、修改和自动化功能，显著优化附庸管理。
+增加了新的互动、修改和自动化功能，以显著改善附属国管理。
 
-[h1]功能：[/h1]
+[h1]功能特点：[/h1]
 [olist]
- [*][b]在附庸之间转移土地的新互动[/b] - 让你能划出美观的边界。
+ [*][b]新增在附属国之间转移土地的互动[/b] - 允许你划定美观的边界。
 	[list]
-	 [*][b]转移至：[/b] 将土地给予你的附庸（来自另一个附庸或你自己）。
-	[*][b]转移自：[/b] 从你的附庸处拿走土地，并给予另一个附庸或你自己（*仅限从殖民国家拿取）。
+	 [*][b]转移至：[/b] 将土地给予你的附属国，土地来源可以是另一个附属国或你自己。
+	[*][b]从...转移：[/b] 从你的附属国夺取土地，并将其给予另一个附属国或你自己（*仅限从殖民领夺取时）。
 	[/list]
- [*][b]更改附庸首都的新互动[/b] - 有时附庸会选择糟糕的地点，或者你创建附庸时初始首都位置不佳，之后可以进行修正。
- [*][b]更改附庸礼拜语言的新互动[/b] - 并增加一个逐渐衰减的 -15 忠诚度和 1000% 的更改成本，防止他们立即切回原来的语言。
- [*][b]禁止或允许附庸进行殖民的新互动[/b]
- [*][b]禁止或允许附庸进行城市化的新互动[/b] - 防止他们建立城镇。
- [*][b]新的自动地图分享功能[/b] - 每年，凡是由附庸发现而宗主国未发现、且与宗主国已发现区域相邻的区域，都会向宗主国传播。这将稳步地将所有附庸的地图传播给宗主国。
- [*][b]禁止同一宗主国下的殖民附庸互相宣战。[/b]
- [*][b]你现在可以对殖民附庸强迫和平。[/b]
- [*][b]你可以选择转移土地的规模：地点（Location）、省份（Province）、地区（Area）、区域（Region）[/b]
- [*][b]移除可转移土地的地理限制[/b] - 在原版中，你经常无法将仅隔一个省份的地点交给你的附庸。
- [*][b]你可以在殖民附庸和你自己之间自由转移土地。[/b]  - 土地本来就是你给他们的，而且在大多数情况下，自己拥有殖民地土地并不比附庸拥有更好，所以这不应影响游戏平衡。
- [*][b]处于战争状态不再完全阻碍管理附庸的土地[/b] - 为什么与半个地球外的单省份小国交战会阻止我将新殖民的土地交给附庸？（你可以在处于同一场战争中的附庸之间转移土地，且随时可以从殖民国家转移土地。）
+ [*][b]新增更改附属国首都的互动[/b] - 有时附属国会选择非常糟糕的位置，或者你在创建附属国时初始首都位置不佳，之后想要修正。
+ [*][b]新增更改附属国礼拜语言的互动[/b] - 增加一个衰减中的 -15 忠诚度修正和 1000% 的更改成本，防止他们立即切换回去。
+ [*][b]新增禁止/允许附属国进行殖民的互动[/b]
+ [*][b]新增禁止/允许附属国进行城市化的互动[/b] - 防止他们建立城镇。
+ [*][b]新增自动地图共享功能[/b] - 每年，任何由附属国发现但宗主国未发现、且与宗主国已发现区域相邻的区域，都会扩散给宗主国。这将稳步地将所有附属国的地图扩散给其宗主国。
+ [*][b]禁止同一宗主国下的殖民领附属国互相宣战。[/b]
+ [*][b]你现在可以对你的殖民领附属国强迫和平。[/b]
+ [*][b]你可以选择转移土地的大小：地块 (Location)、省份 (Province)、地区 (Area)、区域 (Region)[/b]
+ [*][b]移除转移土地时的位置限制[/b] - 在原版中，你经常无法将仅一省之隔的地块交给你的附属国。
+ [*][b]你可以自由地在殖民领附属国和你自己之间转移土地。[/b] - 土地最初就是你给他们的，而且在大多数情况下，自己持有殖民地土地并不比附属国持有更好，所以这不应对游戏平衡产生影响。
+ [*][b]处于战争状态不再完全阻碍管理附属国的土地[/b] - 为什么与半个世界外的一个单省份小国开战，就会阻止我将新殖民的土地交给我的附属国？（你可以在处于同一场战争中的附属国之间转移土地，并且始终可以从殖民领转移土地。）
 [/olist]
 
-[h1]计划/即将推出：[/h1]
+[h1]计划中/即将推出：[/h1]
 [olist]
- [*][b]在任何附庸战争中始终让你成为战争领袖（包括叛乱和继承战争）。[/b]
- [*][b]防止你的朝贡国向你的附庸/封地（vassals/fiefdoms）宣战（但仍可向其他朝贡国宣战）。[/b]
- [*][b]允许召唤盟友协助附庸战争（如叛乱）。[/b]
- [*][b]防止殖民国家关闭定居点（settlements）和种植园（plantations）。[/b]
- [*][b]防止殖民国家在珍贵的资源产地（RGOs）上建立城镇。[/b]
- [*][b]使宗主国始终可以获取附庸的粮食（无需请求）。[/b]
- [*][b]增加禁止附庸宣战的功能。[/b]
- [*][b]防止附庸在强制转变文化后立即转回原有文化[/b] - 可能会有 10 年冷却时间 + 如果忠诚则不允许。
-[*][b]允许为你的附庸禁用“哥伦布交换”[/b] - 让你拥有完全的控制权，防止他们覆盖掉珍贵的 RGO。
-[*][b]使附庸的土地计入成立国家的条件。[/b]
-[*][b]使附庸无法加入针对你的包围网[/b] - 即在被附庸后强制其退出任何针对你的包围网。
-[*][b]提供管理附庸城市化的选项[/b] - 例如：防止在特定的 RGO 上建立城镇，而非完全禁止。
-[*][b]释放附庸时允许作为自定义国家游玩。[/b]
-[*][b]增加按“未整合”筛选土地的选项。[/b]
-[*][b]在附庸处建造种植园时，防止出现“我们需要研究[plantation advance]才能建造[plantation]”的限制。[/b]
-[*][b]增加默认使封地（Fiefdoms）与你的宗教/文化一致的选项[/b] - 这将属于非默认的游戏规则。
+ [*][b]在任何附属国战争中（包括叛乱和继承战争）始终让你成为战争领袖。[/b]
+ [*][b]防止你的进贡国向你的附庸/采邑宣战（但仍可向其他进贡国宣战）。[/b]
+ [*][b]允许召唤盟友协助附庸战争（如镇压叛乱）。[/b]
+ [*][b]防止殖民领关闭定居点和种植园。[/b]
+ [*][b]防止殖民领在珍贵的 RGO（资源产出地）上建立城镇。[/b]
+ [*][b]使宗主国始终拥有附属国的粮食准入权（无需请求）。[/b]
+ [*][b]增加禁止附属国宣战的能力。[/b]
+ [*][b]防止附属国在被强迫文化后立即转回原文化[/b] - 可能会增加 10 年冷却时间 + 忠诚时禁止转换。
+ [*][b]允许为你的附属国禁用“哥伦布大交换”[/b] - 让你拥有完全的控制权，防止他们覆盖珍贵的 RGO。
+ [*][b]使附属国的土地计入成立国家的决策需求。[/b]
+ [*][b]使附属国无法加入针对你的包围网[/b] - 即在被征服后强制国家退出任何针对你的包围网。
+ [*][b]提供管理附属国城市化的选项[/b] - 例如防止在特定 RGO 上建立城镇，而非完全禁止。
+ [*][b]允许在释放时作为自定义国家游玩。[/b]
+ [*][b]增加按“未整合”过滤土地的选项。[/b]
+ [*][b]解决在附属国建造种植园时出现的“我们需要研究过 [种植园进步] 才能建造 [种植园]”的问题。[/b]
+ [*][b]允许设置采邑默认遵循你的宗教/文化[/b] - 这将作为一个非默认的游戏规则。
 [/olist]
 
-如果有任何关于改进附庸管理的建议，请在[url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]建议讨论区[/url]留言。
+如果有人对改进附属国管理有任何功能建议，请在 [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]建议讨论区 (suggestions discussion)[/url] 留言。
 
 [h1]翻译：[/h1]
-本模组包含使用 DeepL 为所有 EU5 原生支持语言自动生成的翻译。
+我的 Mod 包含了使用 DeepL 为所有 EU5 原生支持语言自动生成的翻译。我意识到翻译中[b]肯定[/b]会存在错误。这并不是为了取代人工翻译，而是作为一种在没有人工翻译时的补充（“聊胜于无”的方法）。
 
 [h2]自动翻译本地化：[/h2]
 [list]
@@ -63,30 +63,31 @@
  [*][b]Spanish / Español[/b]
  [*][b]Turkish / Türkçe[/b]
 [/list]
-请注意，我并不精通这些语言。翻译过程是自动化的，因此如果翻译出现问题，我不会进行修复。但是，如果你想亲自修复问题，可以在 GitHub 上提交 PR，我会予以批准。
+请注意，我并不会说这些语言，且翻译过程是自动化的，因此如果上述翻译出现问题，我不会亲自修复。但是，如果你想亲自修复问题，可以在 GitHub 上提交 PR，我会予以批准。
 
-除了自动翻译外，部分语言还提供原生（人工生成）本地化。
+除了自动翻译外，部分语言还提供原生（人工生成）的本地化。
 
 [h2]原生本地化：[/h2]
 [list]
- [*][b]English:[/b] Primary
- [*][b]Chinese / 中文:[/b] 包含在 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) 模组[/url]中。（感谢 [i]牛奶大魔王[/i]）。请确保在我的模组之后加载该汉化模组，以覆盖现有的自动翻译。
+ [*][b]English:[/b] 主要语言
+ [*][b]Chinese / 中文：[/b] 可在 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url] 中获得。（感谢 [i]牛奶大魔王[/i]）。请确保在我的 Mod 之后加载该汉化 Mod，以覆盖现有的自动翻译。
 [/list]
+中文玩家仍应使用“凯撒汉化”，因为它提供了远为出色的翻译，只需确保在加载顺序中将其排在我的 Mod 之后以确保覆盖。我之所以包含中文自动翻译，是为了在新的本地化内容加入时起到过渡作用，直到“凯撒汉化”更新（或者如果他们认为自动翻译已经足够好，也可以减轻他们的工作量）。
 
 [h1]更新日志：[/h1]
-请参阅[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]创意工坊页面上的更新说明[/url]。
+请参阅 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]创意工坊页面的更新笔记[/url]。
 
 [h1]兼容性：[/h1]
 [list]
  [*]不兼容铁人模式。
  [*]完全兼容存档。
- [*]应能与任何模组协同工作。
- [*]如有需要，我可以添加兼容性补丁。
+ [*]应与任何 Mod 兼容。
+ [*]我可以根据要求添加兼容性补丁。
 [/list]
 
-除了置顶的建议讨论区外，你还可以在 [url=https://discord.gg/xWTWMBc7Fn]EU5 社区 Discord 服务器的 #improved-subject-management 频道[/url]提问、报告 Bug 或提出建议。如果你有兴趣参与本模组或我其他模组的开发，可以在 Discord 上私信或添加我：@arealconner。欢迎各种形式的贡献。
+除了置顶的建议讨论区外，你也可以在 [url=https://discord.gg/xWTWMBc7Fn]EU5 Community Discord 服务器的 #improved-subject-management 频道[/url]提问、报告 Bug 或提出建议。如果你有兴趣参与本 Mod 或我其他 Mod 的开发，可以在 Discord 上私信或添加我 @arealconner。欢迎所有贡献。
 
-模组的源代码和开发版本可在 [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub[/url] 上获取。
+Mod 的源码和开发版本托管在 [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub。[/url]
 
 
 [i]Native English Description[/i]
@@ -109,7 +110,7 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]You can now enforce peace on your colonial subjects.[/b]
  [*][b]You can select the size of the land to be transferred: Location, Province, Area, Region[/b]
  [*][b]Remove location limitation on what land can be transferred[/b] - In vanilla, you will commonly be unable to give a location one province away to your subjects.
- [*][b]You can freely transfer land between colonial subjects and yourself.[/b]  - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
+ [*][b]You can freely transfer land between colonial subjects and yourself.[/b] - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
  [*][b]Being at war no longer fully blocks managing the land of subjects[/b] - Why should being at war with a one-province minor halfway across the world prevent me from giving my newly colonized land to my subject? (You can transfer land between subjects that are in the same war, and you can always transfer land from a colonial nation.)
 [/olist]
 
@@ -123,20 +124,20 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]Make overlord always have food access in subjects (without having to request)[/b]
  [*][b]Add ability to disallow a subject from declaring war.[/b]
  [*][b]Prevent subjects from immediately converting their culture back after enforcing your culture[/b] - Likely a 10-year cooldown + disallowed if they are loyal.
-[*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
-[*][b]Make subjects land count for formable requirements[/b]
-[*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
-[*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
-[*][b]Allow playing as custom nation upon release[/b]
-[*][b]Add option to filter land by unintegrated.[/b]
-[*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
-[*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
+ [*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
+ [*][b]Make subjects land count for formable requirements[/b]
+ [*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
+ [*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
+ [*][b]Allow playing as custom nation upon release[/b]
+ [*][b]Add option to filter land by unintegrated.[/b]
+ [*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
+ [*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
 [/olist]
 
 If anyone has any requests for features for improving subject management in any way, leave a comment in the [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]suggestions discussion[/url].
 
 [h1]Translations:[/h1]
-My mod includes auto-generated translation using DeepL for all natively supported EU5 languages.
+My mod includes auto-generated translation using DeepL for all natively supported EU5 languages. I am aware that there [b]will[/b] be mistakes in translation. This is not meant to be a replacement for native translations, rather a supplement for when they are not available (a better-than-nothing approach).
 
 [h2]Auto-Translated Localizations:[/h2]
 [list]
@@ -160,6 +161,7 @@ In addition to the auto-translation, native (human-generated) localizations are 
  [*][b]English:[/b] Primary
  [*][b]Chinese / 中文:[/b] Available in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Thanks to [i]牛奶大魔王[/i]). Make sure you load this mod after mine to overwrite my existing auto-translations.
 [/list]
+Chinese speakers should still use 凯撒汉化, as it provides far superior translations, just make sure to load it after my mod to ensure it overrides the generated ones. I only included the auto-translations for Chinese so that if a new localization is added, this will act as a stopgap until 凯撒汉化 adds it (or if they decide it's good enough, then it will be less work for them).
 
 [h1]Change Log:[/h1]
 See the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Change Notes on the workshop page[/url].

@@ -2,53 +2,53 @@
 Verbesserte Untertanenverwaltung / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]DeepL Generated German Description[/i]
-[h1]Übersicht:[/h1]
+[h1]Überblick:[/h1]
 Fügt neue Interaktionen, Modifikationen und Automatisierungen hinzu, um die Untertanenverwaltung erheblich zu verbessern.
 
-[h1]Features:[/h1]
+[h1]Funktionen:[/h1]
 [olist]
- [*][b]Neue Interaktionen zum Übertragen von Land zwischen Untertanen[/b] - Ermöglicht es euch, schöne Grenzen zu ziehen.
+ [*][b]Neue Interaktionen zur Landübertragung zwischen Untertanen[/b] - Ermöglicht es Ihnen, schöne Grenzen zu ziehen.
 	[list]
-	 [*][b]Übertragen an:[/b] Gebt eurem Untertanen Land, entweder von einem anderen Untertanen oder von euch selbst.
-	[*][b]Übertragen von:[/b] Nehmt eurem Untertanen Land weg und gebt es einem anderen Untertanen oder euch selbst (*wenn es von einer Kolonialnation genommen wird).
+	 [*][b]Übertragen an:[/b] Geben Sie Ihrem Untertanen Land, entweder von einem anderen Untertanen oder von Ihnen selbst.
+	[*][b]Übertragen von:[/b] Nehmen Sie Ihrem Untertanen Land weg und geben Sie es einem anderen Untertanen oder sich selbst (*falls es von einer Kolonialnation genommen wird).
 	[/list]
- [*][b]Neue Interaktion zum Ändern der Hauptstadt von Untertanen[/b] - Manchmal wählen sie schreckliche Standorte, oder ihr erstellt einen Untertanen mit einem anfangs schlechten Hauptstadtstandort und wollt dies später korrigieren.
- [*][b]Neue Interaktion zum Ändern der Liturgiesprache eures Untertanen[/b] - Fügt dem Untertanen einen abklingenden Loyalitätswert von -15 und 1000 % Änderungskosten hinzu, um zu verhindern, dass er sofort wieder zurückwechselt.
+ [*][b]Neue Interaktion zum Ändern der Hauptstadt von Untertanen[/b] - Manchmal wählen sie schreckliche Standorte aus, oder Sie erstellen einen Untertanen mit einer anfangs schlechten Hauptstadtlage und möchten dies später korrigieren.
+ [*][b]Neue Interaktion zum Ändern der Liturgiesprache Ihres Untertanen[/b] - Fügt dem Untertanen einen abklingenden Loyalitätsmalus von -15 und 1000 % Änderungskosten hinzu, um zu verhindern, dass er sofort wieder zurückwechselt.
  [*][b]Neue Interaktion zum Blockieren und Freigeben der Kolonisierung durch einen Untertanen[/b]
  [*][b]Neue Interaktion zum Blockieren und Freigeben der Urbanisierung durch einen Untertanen[/b] - Verhindert, dass sie Städte gründen.
- [*][b]Neues automatisches Feature zur Kartenteilung[/b] - Jedes Jahr verbreitet sich jedes Gebiet, das von einem Untertanen, aber nicht von seinem Lehnsherrn entdeckt wurde und an ein vom Lehnsherrn entdecktes Gebiet grenzt, auf den Lehnsherrn. Dadurch werden stetig alle Karten der Untertanen an ihre Lehnsherren weitergegeben.
- [*][b]Verhindert, dass koloniale Untertanen desselben Lehnsherrn einander den Krieg erklären.[/b]
- [*][b]Ihr könnt euren kolonialen Untertanen nun den Frieden erzwingen.[/b]
- [*][b]Ihr könnt die Größe des zu übertragenden Landes wählen: Standort, Provinz, Gebiet, Region[/b]
- [*][b]Aufhebung der Standortbeschränkung für die Übertragung von Land[/b] - In der Vanilla-Version ist es oft nicht möglich, euren Untertanen einen Standort zu geben, der nur eine Provinz entfernt ist.
- [*][b]Ihr könnt Land frei zwischen kolonialen Untertanen und euch selbst übertragen.[/b] - Ihr habt ihnen das Land ursprünglich gegeben, und in den meisten Fällen ist es nicht besser, koloniales Land selbst zu besitzen, daher sollte dies keine Auswirkungen auf die Spielbalance haben.
- [*][b]Im Krieg zu sein, blockiert die Verwaltung des Landes von Untertanen nicht mehr vollständig[/b] - Warum sollte ein Krieg mit einem Ein-Provinz-Staat am anderen Ende der Welt mich daran hindern, mein neu kolonisiertes Land an meinen Untertanen zu geben? (Ihr könnt Land zwischen Untertanen übertragen, die sich im selben Krieg befinden, und ihr könnt Land immer von einer Kolonialnation übertragen.)
+ [*][b]Neue automatische Kartenteilungs-Funktion[/b] - Jedes Jahr verbreiten sich Informationen über Gebiete, die von einem Untertanen, aber nicht von seinem Lehnsherrn entdeckt wurden und an ein vom Lehnsherrn entdecktes Gebiet grenzen, an den Lehnsherrn. Dies wird nach und nach alle Karten der Untertanen an ihre Lehnsherren weitergeben.
+ [*][b]Verhindert, dass Kolonialuntertanen desselben Lehnsherrn einander den Krieg erklären.[/b]
+ [*][b]Sie können nun Ihren Kolonialuntertanen den Frieden aufzwingen.[/b]
+ [*][b]Sie können die Größe des zu übertragenden Landes wählen: Ort, Provinz, Gebiet, Region[/b]
+ [*][b]Entfernt die Standortbeschränkung für übertragbares Land[/b] - In der Vanilla-Version ist es oft nicht möglich, einen Ort, der nur eine Provinz entfernt ist, an Ihre Untertanen zu geben.
+ [*][b]Sie können Land frei zwischen Kolonialuntertanen und sich selbst übertragen.[/b] - Sie haben ihnen das Land ursprünglich gegeben, und in den meisten Fällen ist es nicht besser, Kolonialland selbst zu besitzen, daher sollte dies keine Auswirkungen auf die Spielbalance haben.
+ [*][b]Im Krieg zu sein blockiert nicht länger vollständig die Verwaltung von Untertanenland[/b] - Warum sollte ein Krieg mit einem Ein-Provinz-Staat am anderen Ende der Welt mich daran hindern, mein neu kolonisiertes Land an meinen Untertanen zu geben? (Sie können Land zwischen Untertanen übertragen, die sich im selben Krieg befinden, und Sie können Land immer von einer Kolonialnation übertragen.)
 [/olist]
 
-[h1]Geplant/Kommend:[/h1]
+[h1]Geplant/In Kürze:[/h1]
 [olist]
- [*][b]Macht euch in jedem Untertanenkrieg (einschließlich Rebellionen und Erbfolgekriegen) immer zum Kriegsführer.[/b]
- [*][b]Verhindert, dass eure Tributstaaten euren Vasallen/Lehen den Krieg erklären (aber weiterhin anderen Tributstaaten).[/b]
- [*][b]Ermöglicht das Rufen von Verbündeten zur Unterstützung in Vasallenkriegen (wie Rebellionen).[/b]
- [*][b]Verhindert, dass Kolonialnationen Siedlungen und Plantagen stilllegen.[/b]
- [*][b]Verhindert, dass Kolonialnationen Städte über wertvollen RGOs gründen.[/b]
- [*][b]Gewährt dem Lehnsherrn immer Nahrungsmittelzugang bei Untertanen (ohne diesen anfordern zu müssen).[/b]
- [*][b]Möglichkeit hinzufügen, einem Untertanen das Erklären von Kriegen zu untersagen.[/b]
- [*][b]Verhindert, dass Untertanen ihre Kultur sofort wieder zurückkonvertieren, nachdem ihr eure Kultur erzwungen habt[/b] - Wahrscheinlich ein 10-Jahres-Cooldown + Verbot, wenn sie loyal sind.
-[*][b]Ermöglicht das Deaktivieren des Kolumbianischen Austauschs für eure Untertanen[/b] - um euch die vollständige Kontrolle zu geben und zu verhindern, dass sie wertvolle RGOs überschreiben.
-[*][b]Land von Untertanen für die Anforderungen formbarer Nationen zählen lassen[/b]
-[*][b]Untertanen daran hindern, Teil von Koalitionen gegen euch zu sein[/b] - d.h. Nationen nach der Unterwerfung aus jeglichen Koalitionen gegen euch zwingen.
-[*][b]Optionen zur Verwaltung der Urbanisierung von Untertanen ermöglichen[/b] - z.B. das Gründen über spezifischen RGOs verhindern, anstatt einer totalen Blockade.
-[*][b]Ermöglicht das Spielen als benutzerdefinierte Nation bei der Freilassung[/b]
-[*][b]Option zum Filtern von Land nach "nicht integriert" hinzufügen.[/b]
-[*][b]Verhindert die Meldung "Wir müssen den [Plantagen-Fortschritt] erforscht haben, um [Plantage] bauen zu können", wenn versucht wird, Plantagen in Untertanengebieten zu errichten[/b]
-[*][b]Option hinzufügen, um Lehen standardmäßig eure Religion/Kultur anzunehmen[/b] - dies wird unter einer Nicht-Standard-Spielregel verfügbar sein.
+ [*][b]Sie werden immer zum Kriegführer in jedem Untertanenkrieg (einschließlich Rebellionen & Erbfolgekriegen).[/b]
+ [*][b]Verhindern, dass Ihre Tributstaaten Ihren Vasallen/Lehen den Krieg erklären (andere Tributstaaten sind weiterhin möglich).[/b]
+ [*][b]Ermöglichen, Verbündete zur Hilfe in Vasallenkriegen (wie Rebellionen) zu rufen.[/b]
+ [*][b]Verhindern, dass Kolonialnationen Siedlungen und Plantagen stilllegen.[/b]
+ [*][b]Verhindern, dass Kolonialnationen Städte über wertvollen RGOs gründen.[/b]
+ [*][b]Sicherstellen, dass der Lehnsherr immer Zugang zu Nahrung bei Untertanen hat (ohne Anfrage).[/b]
+ [*][b]Möglichkeit hinzufügen, einem Untertanen Kriegserklärungen zu untersagen.[/b]
+ [*][b]Verhindern, dass Untertanen ihre Kultur sofort wieder zurückkonvertieren, nachdem Sie Ihre Kultur erzwungen haben[/b] - Wahrscheinlich eine 10-jährige Abklingzeit + untersagt, wenn sie loyal sind.
+ [*][b]Möglichkeit, den Columbian Exchange für Ihre Untertanen zu deaktivieren[/b] - um Ihnen die vollständige Kontrolle zu geben und zu verhindern, dass sie wertvolle RGOs überschreiben.
+ [*][b]Land von Untertanen für Gründungsentscheidungen (Formables) zählen lassen[/b]
+ [*][b]Untertanen unfähig machen, Teil von Koalitionen gegen Sie zu sein[/b] - d.h. Nationen nach der Unterwerfung aus Koalitionen gegen Sie zwingen.
+ [*][b]Optionen zur Verwaltung der Urbanisierung von Untertanen erlauben[/b] - d.h. Gründung über spezifischen RGOs verhindern, statt einer totalen Blockade.
+ [*][b]Spielen als benutzerdefinierte Nation nach der Freilassung ermöglichen[/b]
+ [*][b]Option zum Filtern von Land nach "nicht integriert" hinzufügen.[/b]
+ [*][b]Fehlermeldung "Wir müssen die [Plantagen-Technologie] erforscht haben, um [Plantage] bauen zu können" beim Bau von Plantagen in Untertanengebieten verhindern[/b]
+ [*][b]Option hinzufügen, um Lehen standardmäßig Ihre Religion/Kultur zu geben[/b] - wird unter einer Nicht-Standard-Spielregel verfügbar sein.
 [/olist]
 
-Wenn jemand Wünsche für Features zur Verbesserung der Untertanenverwaltung hat, hinterlasst bitte einen Kommentar in der [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]Vorschlagsdiskussion[/url].
+Wenn jemand Wünsche für Funktionen zur Verbesserung der Untertanenverwaltung hat, hinterlassen Sie bitte einen Kommentar in der [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]Vorschlagsdiskussion[/url].
 
 [h1]Übersetzungen:[/h1]
-Mein Mod enthält automatisch generierte Übersetzungen mit DeepL für alle nativ unterstützten EU5-Sprachen.
+Meine Mod enthält automatisch generierte Übersetzungen mittels DeepL für alle nativ unterstützten EU5-Sprachen. Mir ist bewusst, dass es Übersetzungsfehler geben [b]wird[/b]. Dies soll keine muttersprachlichen Übersetzungen ersetzen, sondern eine Ergänzung sein, wenn diese nicht verfügbar sind (ein "Besser-als-nichts"-Ansatz).
 
 [h2]Automatisch übersetzte Lokalisierungen:[/h2]
 [list]
@@ -63,15 +63,16 @@ Mein Mod enthält automatisch generierte Übersetzungen mit DeepL für alle nati
  [*][b]Spanisch / Español[/b]
  [*][b]Türkisch / Türkçe[/b]
 [/list]
-Beachtet, dass ich keine dieser Sprachen nativ spreche und den Übersetzungsprozess automatisiere. Ich werde daher keine Korrekturen für die oben genannten Übersetzungen erstellen, falls Probleme auftreten. Wenn ihr jedoch ein Problem selbst beheben möchtet, könnt ihr einen PR auf GitHub einreichen, den ich dann genehmigen werde.
+Beachten Sie, dass ich keine dieser Sprachen nativ spreche und den Übersetzungsprozess automatisiere. Daher werde ich keine Korrekturen für die oben genannten Übersetzungen vornehmen, falls Probleme auftreten. Wenn Sie jedoch selbst einen Fehler beheben möchten, können Sie einen PR auf GitHub einreichen, und ich werde ihn genehmigen.
 
-Zusätzlich zur automatischen Übersetzung sind für einige Sprachen native (von Menschen erstellte) Lokalisierungen verfügbar.
+Zusätzlich zu den automatischen Übersetzungen sind für einige Sprachen muttersprachliche (von Menschen erstellte) Lokalisierungen verfügbar.
 
-[h2]Native Lokalisierungen:[/h2]
+[h2]Muttersprachliche Lokalisierungen:[/h2]
 [list]
  [*][b]Englisch:[/b] Primär
- [*][b]Chinesisch / 中文:[/b] Verfügbar im [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) Mod[/url]. (Danke an [i]牛奶大魔王[/i]). Stellt sicher, dass ihr diesen Mod nach meinem ladet, um meine vorhandenen automatischen Übersetzungen zu überschreiben.
+ [*][b]Chinesisch / 中文:[/b] Verfügbar in der [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) Mod[/url]. (Danke an [i]牛奶大魔王[/i]). Stellen Sie sicher, dass Sie diese Mod nach meiner laden, um meine vorhandenen automatischen Übersetzungen zu überschreiben.
 [/list]
+Chinesischsprachige Nutzer sollten weiterhin 凯撒汉化 verwenden, da sie weit überlegene Übersetzungen bietet. Stellen Sie nur sicher, dass sie nach meiner Mod geladen wird, damit sie die generierten Texte überschreibt. Ich habe die automatischen Übersetzungen für Chinesisch nur beigefügt, damit diese als Übergangslösung fungieren, bis 凯撒汉化 neue Lokalisierungen hinzufügt (oder falls sie entscheiden, dass sie gut genug sind, was ihnen Arbeit erspart).
 
 [h1]Änderungsprotokoll:[/h1]
 Siehe die [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Änderungshinweise auf der Workshop-Seite[/url].
@@ -79,14 +80,14 @@ Siehe die [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619
 [h1]Kompatibilität:[/h1]
 [list]
  [*]Nicht Ironman-kompatibel.
- [*]Vollständig mit Spielständen kompatibel.
- [*]Sollte mit jedem Mod funktionieren.
- [*]Auf Anfrage füge ich eventuell Kompatibilitätspatches hinzu.
+ [*]Vollständig spielstandkompatibel.
+ [*]Sollte mit jeder Mod funktionieren.
+ [*]Ich werde auf Anfrage eventuell Kompatibilitäts-Patches hinzufügen.
 [/list]
 
-Zusätzlich zur angepinnten Vorschlagsdiskussion könnt ihr auch Fragen stellen, Bugs melden oder Vorschläge im [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management-Kanal des EU5 Community Discord-Servers[/url] machen. Und wenn ihr daran interessiert seid, an der Entwicklung dieses oder eines meiner anderen Mods mitzuwirken, könnt ihr mich auf Discord unter @arealconner anpingen oder hinzufügen. Alle Beiträge sind willkommen.
+Zusätzlich zur angepinnten Vorschlagsdiskussion können Sie auch Fragen stellen, Bugs melden oder Vorschläge im [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management-Kanal des EU5 Community Discord-Servers[/url] machen. Und wenn Sie daran interessiert sind, an der Entwicklung dieser oder einer meiner anderen Mods mitzuwirken, können Sie mich auf Discord unter @arealconner anpingen oder hinzufügen. Alle Beiträge sind willkommen.
 
-Die Quell- und Entwicklerversionen des Mods sind auf [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub[/url] verfügbar.
+Die Quell- und Entwicklerversionen der Mod sind auf [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub[/url] verfügbar.
 
 
 [i]Native English Description[/i]
@@ -109,7 +110,7 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]You can now enforce peace on your colonial subjects.[/b]
  [*][b]You can select the size of the land to be transferred: Location, Province, Area, Region[/b]
  [*][b]Remove location limitation on what land can be transferred[/b] - In vanilla, you will commonly be unable to give a location one province away to your subjects.
- [*][b]You can freely transfer land between colonial subjects and yourself.[/b]  - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
+ [*][b]You can freely transfer land between colonial subjects and yourself.[/b] - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
  [*][b]Being at war no longer fully blocks managing the land of subjects[/b] - Why should being at war with a one-province minor halfway across the world prevent me from giving my newly colonized land to my subject? (You can transfer land between subjects that are in the same war, and you can always transfer land from a colonial nation.)
 [/olist]
 
@@ -123,20 +124,20 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]Make overlord always have food access in subjects (without having to request)[/b]
  [*][b]Add ability to disallow a subject from declaring war.[/b]
  [*][b]Prevent subjects from immediately converting their culture back after enforcing your culture[/b] - Likely a 10-year cooldown + disallowed if they are loyal.
-[*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
-[*][b]Make subjects land count for formable requirements[/b]
-[*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
-[*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
-[*][b]Allow playing as custom nation upon release[/b]
-[*][b]Add option to filter land by unintegrated.[/b]
-[*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
-[*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
+ [*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
+ [*][b]Make subjects land count for formable requirements[/b]
+ [*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
+ [*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
+ [*][b]Allow playing as custom nation upon release[/b]
+ [*][b]Add option to filter land by unintegrated.[/b]
+ [*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
+ [*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
 [/olist]
 
 If anyone has any requests for features for improving subject management in any way, leave a comment in the [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]suggestions discussion[/url].
 
 [h1]Translations:[/h1]
-My mod includes auto-generated translation using DeepL for all natively supported EU5 languages.
+My mod includes auto-generated translation using DeepL for all natively supported EU5 languages. I am aware that there [b]will[/b] be mistakes in translation. This is not meant to be a replacement for native translations, rather a supplement for when they are not available (a better-than-nothing approach).
 
 [h2]Auto-Translated Localizations:[/h2]
 [list]
@@ -160,6 +161,7 @@ In addition to the auto-translation, native (human-generated) localizations are 
  [*][b]English:[/b] Primary
  [*][b]Chinese / 中文:[/b] Available in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Thanks to [i]牛奶大魔王[/i]). Make sure you load this mod after mine to overwrite my existing auto-translations.
 [/list]
+Chinese speakers should still use 凯撒汉化, as it provides far superior translations, just make sure to load it after my mod to ensure it overrides the generated ones. I only included the auto-translations for Chinese so that if a new localization is added, this will act as a stopgap until 凯撒汉化 adds it (or if they decide it's good enough, then it will be less work for them).
 
 [h1]Change Log:[/h1]
 See the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Change Notes on the workshop page[/url].

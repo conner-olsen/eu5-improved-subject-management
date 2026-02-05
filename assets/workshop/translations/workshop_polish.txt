@@ -1,92 +1,93 @@
 ﻿===WORKSHOP_TITLE===
-Ulepszone zarządzanie poddanymi / Improved Subject Management
+Ulepszone Zarządzanie Zależnościami / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]DeepL Generated Polish Description[/i]
 [h1]Przegląd:[/h1]
-Dodaje nowe interakcje, modyfikacje i automatyzacje, aby znacząco usprawnić zarządzanie podległymi krajami.
+Dodaje nowe interakcje, modyfikacje i automatyzacje, aby znacząco usprawnić zarządzanie poddanymi.
 
 [h1]Funkcje:[/h1]
 [olist]
- [*][b]Nowe interakcje do przekazywania ziemi między podległymi krajami[/b] – Pozwala na tworzenie estetycznych granic.
+ [*][b]Nowe interakcje do przekazywania ziemi między poddanymi[/b] - Pozwala na tworzenie estetycznych granic.
 	[list]
-	 [*][b]Przekaż do:[/b] Oddaj swojemu poddanemu ziemię pochodzącą od innego poddanego lub od ciebie.
-	[*][b]Przekaż od:[/b] Zabierz ziemię swojemu poddanemu i przekaż ją innemu poddanemu lub sobie (*jeśli zabierasz od narodu kolonialnego).
+	 [*][b]Przekaż do:[/b] Przekaż swojemu poddanemu ziemię od innego poddanego lub od siebie.
+	[*][b]Odbierz od:[/b] Odbierz ziemię swojemu poddanemu i przekaż ją innemu poddanemu lub sobie (*w przypadku odbierania od narodu kolonialnego).
 	[/list]
- [*][b]Nowa interakcja do zmiany stolicy podległych krajów[/b] – Czasami wybierają one fatalne lokalizacje lub tworzysz podległy kraj z niefortunną stolicą i chcesz to później naprawić.
- [*][b]Nowa interakcja do zmiany języka liturgicznego podległego kraju[/b] – Dodaje zanikającą karę -15 do lojalności oraz 1000% kosztu zmiany języka, co zapobiega natychmiastowemu powrotowi do poprzedniego stanu.
- [*][b]Nowa interakcja do blokowania i odblokowywania kolonizacji przez poddanych[/b]
- [*][b]Nowa interakcja do blokowania i odblokowywania urbanizacji przez poddanych[/b] – Zapobiega zakładaniu przez nich miast.
- [*][b]Nowa funkcja automatycznego udostępniania mapy[/b] – Każdego roku każdy obszar odkryty przez podległy kraj, a nieznany suwerenowi, który sąsiaduje z obszarem odkrytym przez suwerena, zostaje mu ujawniony. Pozwala to na stopniowe odkrywanie map poddanych przez ich suwerenów.
- [*][b]Blokowanie narodom kolonialnym tego samego suwerena możliwości wypowiadania sobie nawzajem wojen.[/b]
- [*][b]Możesz teraz wymuszać pokój na swoich narodach kolonialnych.[/b]
+ [*][b]Nowa interakcja do zmiany stolicy poddanych[/b] - Czasami wybierają fatalne lokalizacje lub tworzysz poddanego ze złą lokalizacją stolicy i chcesz to naprawić później.
+ [*][b]Nowa interakcja do zmiany języka liturgicznego poddanego[/b] - Dodaje zanikającą karę -15 do lojalności oraz 1000% kosztu zmiany dla poddanego, zapobiegając natychmiastowej zmianie powrotnej.
+ [*][b]Nowa interakcja do blokowania i odblokowywania kolonizacji przez poddanego[/b]
+ [*][b]Nowa interakcja do blokowania i odblokowywania urbanizacji przez poddanego[/b] - Zapobiega zakładaniu przez nich miast.
+ [*][b]Nowa funkcja automatycznego udostępniania map[/b] - Każdego roku każdy obszar odkryty przez poddanego, a nieodkryty przez suzerena, który graniczy z obszarem odkrytym przez suzerena, zostaje mu ujawniony. To stopniowo przekaże wszystkie mapy poddanych ich suzerenom.
+ [*][b]Blokada wypowiadania wojen między poddanymi kolonialnymi tego samego suzerena.[/b]
+ [*][b]Możesz teraz wymusić pokój na swoich poddanych kolonialnych.[/b]
  [*][b]Możesz wybrać rozmiar przekazywanej ziemi: Lokacja, Prowincja, Obszar, Region[/b]
- [*][b]Usunięcie ograniczeń lokalizacyjnych dotyczących przekazywania ziemi[/b] – W wersji podstawowej (vanilla) często nie można przekazać poddanemu lokacji oddalonej o zaledwie jedną prowincję.
- [*][b]Możesz swobodnie przekazywać ziemię między narodami kolonialnymi a sobą.[/b] – To ty pierwotnie dałeś im tę ziemię, a w większości przypadków posiadanie kolonii bezpośrednio nie jest lepsze, więc nie powinno to wpływać na balans gry.
- [*][b]Bycie na wojnie nie blokuje już całkowicie zarządzania ziemią poddanych[/b] – Dlaczego wojna z jednoprowincjonalnym państewkiem na drugim końcu świata miałaby mi uniemożliwiać przekazanie nowo skolonizowanej ziemi mojemu poddanemu? (Możesz przekazywać ziemię między poddanymi biorącymi udział w tej samej wojnie, a ziemię od narodu kolonialnego możesz przekazywać zawsze).
+ [*][b]Usunięcie ograniczeń lokalizacji dotyczących przekazywania ziemi[/b] - W podstawowej wersji gry często nie można przekazać poddanemu lokacji oddalonej o jedną prowincję.
+ [*][b]Możesz swobodnie przekazywać ziemię między poddanymi kolonialnymi a sobą.[/b] - Skoro to Ty dałeś im tę ziemię, a w większości przypadków posiadanie ziemi kolonialnej bezpośrednio nie jest lepsze, nie powinno to wpływać na balans gry.
+ [*][b]Bycie na wojnie nie blokuje już całkowicie zarządzania ziemią poddanych[/b] - Dlaczego wojna z jedno-prowincyjnym państewkiem na drugim końcu świata miałaby mi uniemożliwić przekazanie nowo skolonizowanej ziemi mojemu poddanemu? (Możesz przekazywać ziemię między poddanymi biorącymi udział w tej samej wojnie i zawsze możesz odbierać ziemię od narodów kolonialnych).
 [/olist]
 
-[h1]Planowane/Nadchodzące:[/h1]
+[h1]Planowane / Wkrótce:[/h1]
 [olist]
- [*][b]Zawsze czyni cię liderem wojny w każdej wojnie poddanego (w tym w rebeliach i wojnach o sukcesję).[/b]
- [*][b]Zapobieganie wypowiadaniu wojen twoim wasalom/lennom przez twoich trybutariuszy (ale nadal mogą atakować innych trybutariuszy).[/b]
- [*][b]Możliwość wzywania sojuszników do pomocy w wojnach wasali (np. podczas rebelii).[/b]
+ [*][b]Zawsze czyni Cię liderem wojny w każdej wojnie poddanego (w tym w buntach i wojnach o sukcesję).[/b]
+ [*][b]Zapobieganie wypowiadaniu wojen przez trybutariuszy Twoim wasalom/lennom (ale wciąż mogą innym trybutariuszom).[/b]
+ [*][b]Możliwość wzywania sojuszników do pomocy w wojnach wasali (takich jak bunty).[/b]
  [*][b]Zapobieganie zamykaniu osad i plantacji przez narody kolonialne.[/b]
  [*][b]Zapobieganie zakładaniu miast przez narody kolonialne na cennych RGO.[/b]
- [*][b]Zapewnienie suwerenowi stałego dostępu do żywności u poddanych (bez konieczności wysyłania prośby).[/b]
- [*][b]Dodanie możliwości zakazania poddanemu wypowiadania wojen.[/b]
- [*][b]Zapobieganie natychmiastowej zmianie kultury z powrotem przez poddanych po wymuszeniu twojej kultury[/b] – Prawdopodobnie 10-letni czas odnowienia + zakaz zmiany, jeśli są lojalni.
-[*][b]Możliwość wyłączenia wymiany kolumbijskiej dla poddanych[/b] – aby dać ci pełną kontrolę i zapobiec nadpisywaniu przez nich cennych RGO.
-[*][b]Wliczanie ziem poddanych do wymagań formowania państw.[/b]
-[*][b]Uniemożliwienie poddanym dołączania do koalicji przeciwko tobie[/b] – tj. wymuszanie opuszczenia koalicji przez narody po ich podporządkowaniu.
-[*][b]Opcje zarządzania urbanizacją poddanych[/b] – np. zapobieganie budowie na konkretnych RGO zamiast całkowitej blokady.
-[*][b]Możliwość gry jako nowo utworzone państwo po jego uwolnieniu.[/b]
-[*][b]Dodanie opcji filtrowania ziemi według statusu braku integracji.[/b]
-[*][b]Naprawienie komunikatu „Musimy opracować [postęp plantacji], aby móc zbudować [plantację]” podczas próby budowy plantacji u poddanych.[/b]
-[*][b]Opcja domyślnego nadawania lennom twojej religii/kultury[/b] – będzie dostępna w ramach niedomyślnej zasady gry.
+ [*][b]Zapewnienie suzerenowi stałego dostępu do żywności u poddanych (bez konieczności proszenia).[/b]
+ [*][b]Dodanie możliwości zabronienia poddanemu wypowiadania wojen.[/b]
+ [*][b]Zapobieganie natychmiastowej zmianie kultury z powrotem przez poddanych po wymuszeniu Twojej kultury[/b] - prawdopodobnie 10-letni czas odnowienia + blokada, jeśli są lojalni.
+ [*][b]Możliwość wyłączenia wymiany kolumbijskiej dla poddanych[/b] - aby dać Ci pełną kontrolę i zapobiec nadpisywaniu cennych RGO.
+ [*][b]Wliczanie ziem poddanych do wymagań przy tworzeniu państw (formables).[/b]
+ [*][b]Uniemożliwienie poddanym dołączania do koalicji przeciwko Tobie[/b] - tj. wymuszanie opuszczenia koalicji przez narody po ich podbiciu.
+ [*][b]Możliwość zarządzania urbanizacją poddanych[/b] - tj. blokowanie zakładania miast na konkretnych RGO zamiast całkowitej blokady.
+ [*][b]Możliwość gry jako nowo utworzone państwo po jego wydzieleniu.[/b]
+ [*][b]Dodanie opcji filtrowania ziemi według niezdintegrowanej.[/b]
+ [*][b]Naprawienie błędu "Musimy opracować [plantation advance], aby móc zbudować [plantation]" podczas próby budowy plantacji u poddanych.[/b]
+ [*][b]Możliwość ustawienia domyślnej religii/kultury dla Lenn[/b] - będzie to dostępne pod niestandardową regułą gry.
 [/olist]
 
-Jeśli masz jakiekolwiek prośby o funkcje usprawniające zarządzanie poddanymi w jakikolwiek sposób, zostaw komentarz w [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]dyskusji o sugestiach[/url].
+Jeśli masz jakiekolwiek prośby o nowe funkcje poprawiające zarządzanie poddanymi, zostaw komentarz w [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]dyskusji o sugestiach[/url].
 
 [h1]Tłumaczenia:[/h1]
-Mój mod zawiera automatycznie wygenerowane tłumaczenia przy użyciu DeepL dla wszystkich natywnie obsługiwanych języków EU5.
+Mój mod zawiera automatycznie generowane tłumaczenia przy użyciu DeepL dla wszystkich natywnie wspieranych języków EU5. Jestem świadomy, że [b]pojawią się[/b] błędy w tłumaczeniu. Nie ma to na celu zastąpienia natywnych tłumaczeń, lecz stanowi uzupełnienie, gdy nie są one dostępne (podejście "lepsze to niż nic").
 
 [h2]Lokalizacje przetłumaczone automatycznie:[/h2]
 [list]
- [*][b]Chiński / 中文[/b]
- [*][b]Francuski / Français[/b]
- [*][b]Niemiecki / Deutsch[/b]
- [*][b]Japoński / 日本語[/b]
- [*][b]Koreański / 한국어[/b]
- [*][b]Polski / Polski[/b]
- [*][b]Portugalski (Brazylia) / Português (Brasil)[/b]
- [*][b]Rosyjski / Русский[/b]
- [*][b]Hiszpański / Español[/b]
- [*][b]Turecki / Türkçe[/b]
+ [*][b]Chinese / 中文[/b]
+ [*][b]French / Français[/b]
+ [*][b]German / Deutsch[/b]
+ [*][b]Japanese / 日本語[/b]
+ [*][b]Korean / 한국어[/b]
+ [*][b]Polish / Polski[/b]
+ [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
+ [*][b]Russian / Русский[/b]
+ [*][b]Spanish / Español[/b]
+ [*][b]Turkish / Türkçe[/b]
 [/list]
-Pamiętaj, że nie władam natywnie żadnym z tych języków, a proces tłumaczenia jest zautomatyzowany, więc nie będę wprowadzał poprawek do powyższych tłumaczeń w przypadku błędów. Jeśli jednak chcesz samodzielnie naprawić problem, możesz przesłać PR na GitHubie, a ja go zaakceptuję.
+Uwaga: nie mówię natywnie w żadnym z tych języków i automatyzuję proces tłumaczenia, więc nie będę naprawiał błędów w powyższych tłumaczeniach. Jeśli jednak chcesz samodzielnie naprawić jakiś błąd, możesz wysłać PR na GitHubie, a ja go zatwierdzę.
 
-Oprócz tłumaczeń automatycznych, dla niektórych języków dostępne są lokalizacje natywne (stworzone przez ludzi).
+Oprócz auto-tłumaczeń dostępne są natywne (tworzone przez ludzi) lokalizacje dla niektórych języków.
 
-[h2]Lokalizacje natywne:[/h2]
+[h2]Natywne lokalizacje:[/h2]
 [list]
  [*][b]Angielski:[/b] Główny
- [*][b]Chiński / 中文:[/b] Dostępne w modzie [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation)[/url]. (Podziękowania dla [i]牛奶大魔王[/i]). Upewnij się, że ładujesz ten mod po moim, aby nadpisać istniejące tłumaczenia automatyczne.
+ [*][b]Chiński / 中文:[/b] Dostępny w modzie [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation)[/url]. (Podziękowania dla [i]牛奶大魔王[/i]). Upewnij się, że ładujesz tego moda po moim, aby nadpisać istniejące automatyczne tłumaczenia.
 [/list]
+Osoby mówiące po chińsku powinny nadal korzystać z 凯撒汉化, ponieważ oferuje znacznie lepsze tłumaczenia. Upewnij się tylko, że ładujesz go po moim modzie, aby nadpisał on te wygenerowane. Dodałem automatyczne tłumaczenie na chiński tylko jako rozwiązanie tymczasowe, dopóki 凯撒汉化 nie doda nowych lokalizacji (lub jeśli uznają, że są wystarczająco dobre, co ułatwi im pracę).
 
 [h1]Dziennik zmian:[/h1]
-Zobacz [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notatki o zmianach na stronie warsztatu[/url].
+Zobacz [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]listę zmian na stronie warsztatu[/url].
 
 [h1]Kompatybilność:[/h1]
 [list]
  [*]Niekompatybilny z trybem Ironman.
  [*]W pełni kompatybilny z zapisanymi grami.
- [*]Powinien działać z każdym modem.
- [*]Na życzenie mogę dodać patche kompatybilności.
+ [*]Powinien działać z dowolnym modem.
+ [*]Mogę dodać patche kompatybilności na prośbę użytkowników.
 [/list]
 
-Oprócz przypiętej dyskusji o sugestiach, możesz również zadawać pytania, zgłaszać błędy lub składać sugestie na kanale [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management na serwerze Discord społeczności EU5[/url]. A jeśli jesteś zainteresowany dołączeniem do prac nad tym lub innym z moich modów, możesz oznaczyć mnie lub dodać na Discordzie: @arealconner. Wszelka pomoc jest mile widziana.
+Oprócz przypiętej dyskusji o sugestiach, możesz również zadawać pytania, zgłaszać błędy lub przedstawiać sugestie na kanale [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management na serwerze Discord społeczności EU5[/url]. Jeśli jesteś zainteresowany udziałem w tworzeniu tego lub innych moich modów, możesz mnie oznaczyć lub dodać na Discordzie @arealconner. Wszelka pomoc jest mile widziana.
 
-Wersje źródłowe i deweloperskie moda są dostępne na [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHubie.[/url]
+Kod źródłowy i wersje deweloperskie moda są dostępne na [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHubie.[/url]
 
 
 [i]Native English Description[/i]
@@ -109,7 +110,7 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]You can now enforce peace on your colonial subjects.[/b]
  [*][b]You can select the size of the land to be transferred: Location, Province, Area, Region[/b]
  [*][b]Remove location limitation on what land can be transferred[/b] - In vanilla, you will commonly be unable to give a location one province away to your subjects.
- [*][b]You can freely transfer land between colonial subjects and yourself.[/b]  - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
+ [*][b]You can freely transfer land between colonial subjects and yourself.[/b] - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
  [*][b]Being at war no longer fully blocks managing the land of subjects[/b] - Why should being at war with a one-province minor halfway across the world prevent me from giving my newly colonized land to my subject? (You can transfer land between subjects that are in the same war, and you can always transfer land from a colonial nation.)
 [/olist]
 
@@ -123,20 +124,20 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]Make overlord always have food access in subjects (without having to request)[/b]
  [*][b]Add ability to disallow a subject from declaring war.[/b]
  [*][b]Prevent subjects from immediately converting their culture back after enforcing your culture[/b] - Likely a 10-year cooldown + disallowed if they are loyal.
-[*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
-[*][b]Make subjects land count for formable requirements[/b]
-[*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
-[*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
-[*][b]Allow playing as custom nation upon release[/b]
-[*][b]Add option to filter land by unintegrated.[/b]
-[*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
-[*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
+ [*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
+ [*][b]Make subjects land count for formable requirements[/b]
+ [*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
+ [*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
+ [*][b]Allow playing as custom nation upon release[/b]
+ [*][b]Add option to filter land by unintegrated.[/b]
+ [*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
+ [*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
 [/olist]
 
 If anyone has any requests for features for improving subject management in any way, leave a comment in the [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]suggestions discussion[/url].
 
 [h1]Translations:[/h1]
-My mod includes auto-generated translation using DeepL for all natively supported EU5 languages.
+My mod includes auto-generated translation using DeepL for all natively supported EU5 languages. I am aware that there [b]will[/b] be mistakes in translation. This is not meant to be a replacement for native translations, rather a supplement for when they are not available (a better-than-nothing approach).
 
 [h2]Auto-Translated Localizations:[/h2]
 [list]
@@ -160,6 +161,7 @@ In addition to the auto-translation, native (human-generated) localizations are 
  [*][b]English:[/b] Primary
  [*][b]Chinese / 中文:[/b] Available in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Thanks to [i]牛奶大魔王[/i]). Make sure you load this mod after mine to overwrite my existing auto-translations.
 [/list]
+Chinese speakers should still use 凯撒汉化, as it provides far superior translations, just make sure to load it after my mod to ensure it overrides the generated ones. I only included the auto-translations for Chinese so that if a new localization is added, this will act as a stopgap until 凯撒汉化 adds it (or if they decide it's good enough, then it will be less work for them).
 
 [h1]Change Log:[/h1]
 See the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Change Notes on the workshop page[/url].

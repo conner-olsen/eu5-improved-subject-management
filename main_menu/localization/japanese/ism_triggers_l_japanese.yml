@@ -1,5 +1,5 @@
 ﻿l_japanese:
- no_valid_regions: "@trigger_no! 有効な [regions|e] がない"
- cannot_transfer_capital: "資本を手放すことはできない。"
- is_in_same_war: "同じ戦争に参加していない国の間で土地を譲渡することはできない。"
+ no_valid_regions: "@trigger_no! 有効な[regions|e]が見つかりません"
+ cannot_transfer_capital: "資本を譲渡することはできません。"
+ is_in_same_war: "同じ戦争に参加していない国家間では土地を譲渡できない"
 

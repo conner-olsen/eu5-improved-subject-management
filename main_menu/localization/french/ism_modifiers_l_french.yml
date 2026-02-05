@@ -1,16 +1,16 @@
 ﻿l_french:
  # Block colonization
- MODIFIER_TYPE_NAME_blocked_from_colonization: "Empêchés de coloniser"
+ MODIFIER_TYPE_NAME_blocked_from_colonization: "Bloqué par la colonisation"
  MODIFIER_TYPE_DESC_blocked_from_colonization: "Cela interdit au pays de créer de nouvelles [colonial_charters|e]."
 
- STATIC_MODIFIER_NAME_overlord_blocking_colonization: "La colonisation bloquée par le seigneur suprême"
- STATIC_MODIFIER_DESC_overlord_blocking_colonization: "Cette nation coloniale a été empêchée par sa [overlord|e] de créer de nouvelles [colonial_charters|e]."
+ STATIC_MODIFIER_NAME_overlord_blocking_colonization: "Colonisation bloquée par Overlord"
+ STATIC_MODIFIER_DESC_overlord_blocking_colonization: "Cette nation coloniale a été empêchée par son [overlord|e] de créer de nouvelles [colonial_charters|e]."
 
- STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "Blocage du changement de la langue liturgique"
- STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "Ce pays a été contraint par sa [overlord|e] de modifier sa [liturgical_language|e]."
+ STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "Interdiction de modifier la langue liturgique"
+ STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "Ce pays a été contraint par son [overlord|e] à changer sa [liturgical_language|e]."
 
- STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "L'urbanisation bloquée par le seigneur suprême"
+ STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "Urbanisation bloquée par Overlord"
  STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "Cette nation a été empêchée par son [overlord|e] de fonder de nouvelles villes."
 
- STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "Déclarations de guerre bloquées par l'Overlord"
+ STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "Déclarations de guerre bloquées par Overlord"
  STATIC_MODIFIER_DESC_overlord_blocking_declaring_war: "Cette nation a été empêchée par son [overlord|e] de déclarer la guerre."

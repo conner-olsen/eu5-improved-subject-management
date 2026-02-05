@@ -3,88 +3,89 @@
 ===WORKSHOP_DESCRIPTION===
 [i]DeepL Generated Russian Description[/i]
 [h1]Обзор:[/h1]
-Добавляет новые взаимодействия, модификации и элементы автоматизации для значительного улучшения управления субъектами.
+Добавляет новые взаимодействия, изменения и функции автоматизации для значительного улучшения управления субъектами.
 
 [h1]Особенности:[/h1]
 [olist]
  [*][b]Новые взаимодействия для передачи земель между субъектами[/b] — позволяет создавать красивые границы.
 	[list]
-	 [*][b]Передать:[/b] Отдайте своему субъекту землю, принадлежащую вам или другому вашему субъекту.
-	[*][b]Забрать:[/b] Заберите землю у своего субъекта и передайте её себе (*если забираете у колониальной автономии) или другому субъекту.
+	 [*][b]Передать кому:[/b] Отдайте землю вашему субъекту, забрав её у другого субъекта или у себя.
+	[*][b]Забрать у:[/b] Заберите землю у вашего субъекта и передайте её другому субъекту или себе (*если забираете у колониальной автономии).
 	[/list]
- [*][b]Новое взаимодействие для смены столицы субъектов[/b] — иногда они выбирают неудачные места, или вы создаете субъекта с плохим расположением столицы и хотите это исправить позже.
- [*][b]Новое взаимодействие для смены богослужебного языка вашего субъекта[/b] — добавляет затухающий штраф -15 к лояльности и +1000% к стоимости смены языка для субъекта, предотвращая немедленный обратный переход.
- [*][b]Новое взаимодействие для запрета и разрешения колонизации субъекту[/b]
- [*][b]Новое взаимодействие для запрета и разрешения урбанизации субъекту[/b] — предотвращает основание новых городов.
- [*][b]Новая функция автоматического обмена картами[/b] — каждый год любая область, открытая субъектом, но не его сюзереном, которая граничит с областью, известной сюзерену, становится открытой для сюзерена. Это постепенно откроет все карты субъектов их сюзеренам.
- [*][b]Запрет колониальным субъектам одного сюзерена объявлять войну друг другу.[/b]
- [*][b]Теперь вы можете принуждать к миру свои колониальные автономии.[/b]
- [*][b]Вы можете выбрать масштаб передаваемой территории: Локация, Провинция, Область, Регион[/b]
- [*][b]Снятие ограничений по местоположению при передаче земель[/b] — в ванильной версии вы часто не можете передать субъекту локацию, находящуюся всего в одной провинции от него.
- [*][b]Вы можете свободно обмениваться землями между собой и колониальными субъектами.[/b] — вы и так изначально дали им эту землю, и в большинстве случаев владение колониальными землями напрямую не дает преимуществ, так что это не должно влиять на игровой баланс.
- [*][b]Состояние войны больше не блокирует полностью управление землями субъектов[/b] — почему война с минором в одну провинцию на другом конце света должна мешать мне передать только что колонизированную землю моему субъекту? (Вы можете передавать земли между субъектами, участвующими в одной войне, и всегда можете забирать земли у колониальных автономий.)
+ [*][b]Новое взаимодействие для смены столицы субъектов[/b] — иногда они выбирают ужасные места, или вы изначально создали субъекта с неудачным расположением столицы и хотите это исправить позже.
+ [*][b]Новое взаимодействие для смены богослужебного языка вашего субъекта[/b] — добавляет затухающий штраф -15 к лояльности и +1000% к стоимости смены языка, чтобы субъект не переключил его обратно сразу.
+ [*][b]Новое взаимодействие для запрета и разрешения колонизации субъектам[/b]
+ [*][b]Новое взаимодействие для запрета и разрешения урбанизации субъектам[/b] — запрещает им основывать города.
+ [*][b]Новая функция автоматического обмена картами[/b] — каждый год любая область, открытая субъектом, но не открытая сюзереном, которая граничит с открытой сюзереном областью, передается сюзерену. Это постепенно раскроет все карты субъектов их сюзеренам.
+ [*][b]Запрет колониальным субъектам одного сюзерена объявлять войны друг другу.[/b]
+ [*][b]Теперь вы можете принуждать к миру своих колониальных субъектов.[/b]
+ [*][b]Вы можете выбрать размер передаваемой земли: локация, провинция, область, регион[/b]
+ [*][b]Снятие ограничений на местоположение передаваемых земель[/b] — в ванильной версии вы часто не можете передать субъекту локацию, находящуюся всего в одной провинции от него.
+ [*][b]Вы можете свободно передавать земли между колониальными субъектами и собой.[/b] — Вы изначально дали им эту землю, и в большинстве случаев владение колониальными землями напрямую не дает преимуществ, так что это не должно влиять на игровой баланс.
+ [*][b]Состояние войны больше не блокирует управление землями субъектов полностью[/b] — Почему война с минором в одну провинцию на другом конце света должна мешать мне передать только что колонизированную землю моему субъекту? (Вы можете передавать земли между субъектами, участвующими в одной войне, и всегда можете забирать земли у колониальных автономий).
 [/olist]
 
-[h1]В планах / Скоро:[/h1]
+[h1]Запланировано / В разработке:[/h1]
 [olist]
- [*][b]Всегда делать вас лидером в любой войне субъекта (включая восстания и войны за наследство).[/b]
- [*][b]Запретить вашим данникам объявлять войну вашим вассалам/феодам (но разрешить воевать с другими данниками).[/b]
+ [*][b]Сделать вас лидером в любой войне субъекта (включая восстания и войны за наследство).[/b]
+ [*][b]Запретить вашим данникам объявлять войны вашим вассалам/феодам (но оставить возможность воевать с другими данниками).[/b]
  [*][b]Разрешить призывать союзников на помощь в войнах вассалов (например, при восстаниях).[/b]
  [*][b]Запретить колониальным автономиям закрывать поселения и плантации.[/b]
- [*][b]Запретить колониальным автономиям основывать города поверх ценных РП (RGO).[/b]
- [*][b]Сделать так, чтобы сюзерен всегда имел доступ к продовольствию в землях субъектов (без необходимости запрашивать его).[/b]
- [*][b]Добавить возможность запретить субъекту объявлять войны.[/b]
- [*][b]Предотвратить немедленную смену культуры субъектом обратно после принудительной смены[/b] — вероятно, через 10-летний кулдаун + запрет, если они лояльны.
-[*][b]Добавить возможность отключения Колумбова обмена для ваших субъектов[/b] — чтобы дать вам полный контроль и не дать им перезаписывать ценные РП.
-[*][b]Учитывать земли субъектов в требованиях для формирования стран[/b]
-[*][b]Сделать субъектов неподходящими для участия в коалициях против вас[/b] — т.е. принудительно выводить страны из любых коалиций против вас после их подчинения.
-[*][b]Добавить опции для управления урбанизацией субъектов[/b] — например, запрет на строительство поверх конкретных РП вместо полного блока.
-[*][b]Разрешить игру за созданную страну при её выделении.[/b]
-[*][b]Добавить опцию фильтрации земель по статусу неинтегрированных.[/b]
-[*][b]Исправить ошибку «Нам нужно изучить [технологию плантаций], чтобы строить [плантацию]» при попытке строить плантации в землях субъектов.[/b]
-[*][b]Добавить опцию, делающую феоды вашей религии/культуры по умолчанию[/b] — будет доступно через специальное игровое правило.
+ [*][b]Запретить колониальным автономиям основывать города поверх ценных RGO.[/b]
+ [*][b]Обеспечить сюзерену постоянный доступ к еде в землях субъектов (без необходимости запрашивать доступ).[/b]
+ [*][b]Добавить возможность запрещать субъекту объявлять войны.[/b]
+ [*][b]Запретить субъектам немедленно менять культуру обратно после навязывания вашей культуры[/b] — вероятно, 10-летний кулдаун + запрет при высокой лояльности.
+ [*][b]Разрешить отключение Колумбова обмена для ваших субъектов[/b] — чтобы дать вам полный контроль и предотвратить перезапись ценных RGO.
+ [*][b]Учитывать земли субъектов для требований формирования стран[/b]
+ [*][b]Сделать субъектов неспособными участвовать в коалициях против вас[/b] — т.е. принудительно выводить страны из любых коалиций против вас после их подчинения.
+ [*][b]Добавить настройки управления урбанизацией субъектов[/b] — например, запрет на строительство поверх определенных RGO вместо полной блокировки.
+ [*][b]Добавить возможность играть за созданную страну при её выделении[/b]
+ [*][b]Добавить опцию фильтрации земель по статусу «неинтегрированные».[/b]
+ [*][b]Исправить ошибку «Нам нужно исследовать [plantation advance], чтобы строить [plantation]» при попытке строительства плантаций в субъектах[/b]
+ [*][b]Добавить опцию для автоматического принятия Феодами вашей религии/культуры[/b] — будет доступно в специальных правилах игры.
 [/olist]
 
 Если у вас есть пожелания по функциям для улучшения управления субъектами, оставьте комментарий в [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]обсуждении предложений[/url].
 
 [h1]Переводы:[/h1]
-Мой мод включает автоматически сгенерированный перевод с помощью DeepL для всех языков, официально поддерживаемых в EU5.
+Мой мод включает автоматически сгенерированный перевод с помощью DeepL для всех официально поддерживаемых языков EU5. Я понимаю, что в переводе [b]будут[/b] ошибки. Это не замена полноценным переводам, а дополнение на случай их отсутствия (принцип «лучше, чем ничего»).
 
-[h2]Автоматические локализации:[/h2]
+[h2]Автоматически переведенные локализации:[/h2]
 [list]
- [*][b]Китайский / 中文[/b]
- [*][b]Французский / Français[/b]
- [*][b]Немецкий / Deutsch[/b]
- [*][b]Японский / 日本語[/b]
- [*][b]Корейский / 한국어[/b]
- [*][b]Польский / Polski[/b]
- [*][b]Португальский (Бразилия) / Português (Brasil)[/b]
- [*][b]Русский / Русский[/b]
- [*][b]Испанский / Español[/b]
- [*][b]Турецкий / Türkçe[/b]
+ [*][b]Chinese / 中文[/b]
+ [*][b]French / Français[/b]
+ [*][b]German / Deutsch[/b]
+ [*][b]Japanese / 日本語[/b]
+ [*][b]Korean / 한국어[/b]
+ [*][b]Polish / Polski[/b]
+ [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
+ [*][b]Russian / Русский[/b]
+ [*][b]Spanish / Español[/b]
+ [*][b]Turkish / Türkçe[/b]
 [/list]
-Обратите внимание, что я не владею этими языками и автоматизирую процесс перевода, поэтому я не буду самостоятельно исправлять ошибки в вышеуказанных локализациях. Однако, если вы хотите исправить ошибку самостоятельно, вы можете отправить PR на GitHub, и я его одобрю.
+Обратите внимание, что я не владею этими языками и автоматизирую процесс перевода, поэтому я не буду вносить исправления в вышеуказанные локализации при возникновении проблем. Однако, если вы хотите исправить ошибку самостоятельно, вы можете отправить PR на GitHub, и я его приму.
 
-В дополнение к автопереводу для некоторых языков доступны нативные (созданные людьми) локализации.
+В дополнение к автопереводу, для некоторых языков доступны авторские (созданные людьми) локализации.
 
-[h2]Нативные локализации:[/h2]
+[h2]Авторские локализации:[/h2]
 [list]
- [*][b]Английский:[/b] Основной
- [*][b]Китайский / 中文:[/b] Доступен в моде [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation)[/url]. (Спасибо [i]牛奶大魔王[/i]). Убедитесь, что загружаете этот мод после моего, чтобы перезаписать существующие автопереводы.
+ [*][b]English:[/b] Основной
+ [*][b]Chinese / 中文:[/b] Доступно в моде [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation)[/url]. (Спасибо [i]牛奶大魔王[/i]). Убедитесь, что вы загружаете этот мод после моего, чтобы он перезаписал существующие автопереводы.
 [/list]
+Китайским игрокам все равно следует использовать 凯撒汉化, так как он предоставляет гораздо более качественный перевод. Я включил автоперевод для китайского только в качестве временной меры, пока 凯撒汉化 не добавит новые строки (или если они решат, что этого достаточно, чтобы облегчить им работу).
 
 [h1]Список изменений:[/h1]
-См. [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Список изменений на странице мастерской[/url].
+См. [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]заметки об обновлениях на странице мастерской[/url].
 
 [h1]Совместимость:[/h1]
 [list]
- [*]Несовместимо с достижениями (Ironman).
- [*]Полная совместимость с сохранениями.
+ [*]Несовместимо с режимом Ironman.
+ [*]Полностью совместимо с сохранениями.
  [*]Должно работать с любыми модами.
- [*]Я могу добавить патчи совместимости по запросу.
+ [*]Могу добавить патчи совместимости по запросу.
 [/list]
 
-Помимо закрепленного обсуждения предложений, вы также можете задать вопросы, сообщить о багах или внести предложения в канале [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management в Discord-сервере сообщества EU5[/url]. Если вы заинтересованы в участии в разработке этого или других моих модов, вы можете упомянуть или добавить меня в Discord: @arealconner. Любая помощь приветствуется.
+Помимо закрепленного обсуждения предложений, вы также можете задать вопросы, сообщить о багах или внести предложения в канале [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management в Discord-сообществе EU5[/url]. Если вы заинтересованы в участии в разработке этого или других моих модов, вы можете написать мне в Discord @arealconner. Любая помощь приветствуется.
 
 Исходный код и версии для разработчиков доступны на [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
 
@@ -109,7 +110,7 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]You can now enforce peace on your colonial subjects.[/b]
  [*][b]You can select the size of the land to be transferred: Location, Province, Area, Region[/b]
  [*][b]Remove location limitation on what land can be transferred[/b] - In vanilla, you will commonly be unable to give a location one province away to your subjects.
- [*][b]You can freely transfer land between colonial subjects and yourself.[/b]  - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
+ [*][b]You can freely transfer land between colonial subjects and yourself.[/b] - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
  [*][b]Being at war no longer fully blocks managing the land of subjects[/b] - Why should being at war with a one-province minor halfway across the world prevent me from giving my newly colonized land to my subject? (You can transfer land between subjects that are in the same war, and you can always transfer land from a colonial nation.)
 [/olist]
 
@@ -123,20 +124,20 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]Make overlord always have food access in subjects (without having to request)[/b]
  [*][b]Add ability to disallow a subject from declaring war.[/b]
  [*][b]Prevent subjects from immediately converting their culture back after enforcing your culture[/b] - Likely a 10-year cooldown + disallowed if they are loyal.
-[*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
-[*][b]Make subjects land count for formable requirements[/b]
-[*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
-[*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
-[*][b]Allow playing as custom nation upon release[/b]
-[*][b]Add option to filter land by unintegrated.[/b]
-[*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
-[*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
+ [*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
+ [*][b]Make subjects land count for formable requirements[/b]
+ [*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
+ [*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
+ [*][b]Allow playing as custom nation upon release[/b]
+ [*][b]Add option to filter land by unintegrated.[/b]
+ [*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
+ [*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
 [/olist]
 
 If anyone has any requests for features for improving subject management in any way, leave a comment in the [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]suggestions discussion[/url].
 
 [h1]Translations:[/h1]
-My mod includes auto-generated translation using DeepL for all natively supported EU5 languages.
+My mod includes auto-generated translation using DeepL for all natively supported EU5 languages. I am aware that there [b]will[/b] be mistakes in translation. This is not meant to be a replacement for native translations, rather a supplement for when they are not available (a better-than-nothing approach).
 
 [h2]Auto-Translated Localizations:[/h2]
 [list]
@@ -160,6 +161,7 @@ In addition to the auto-translation, native (human-generated) localizations are 
  [*][b]English:[/b] Primary
  [*][b]Chinese / 中文:[/b] Available in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Thanks to [i]牛奶大魔王[/i]). Make sure you load this mod after mine to overwrite my existing auto-translations.
 [/list]
+Chinese speakers should still use 凯撒汉化, as it provides far superior translations, just make sure to load it after my mod to ensure it overrides the generated ones. I only included the auto-translations for Chinese so that if a new localization is added, this will act as a stopgap until 凯撒汉化 adds it (or if they decide it's good enough, then it will be less work for them).
 
 [h1]Change Log:[/h1]
 See the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Change Notes on the workshop page[/url].

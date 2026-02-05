@@ -3,54 +3,54 @@
 ===WORKSHOP_DESCRIPTION===
 [i]DeepL Generated Japanese Description[/i]
 [h1]概要:[/h1]
-従属国の管理を大幅に改善するための、新しいインタラクション、補正、自動化を追加します。
+従属国の管理を大幅に改善するため、新しいインタラクション、修正、および自動化を追加します。
 
 [h1]機能:[/h1]
 [olist]
- [*][b]従属国間での領土譲渡に関する新しいインタラクション[/b] - 美しい国境線を作ることができます。
+ [*][b]従属国間で領土を移譲する新しいインタラクション[/b] - 美しい国境線を作ることができます。
 	[list]
-	 [*][b]譲渡（宛）:[/b] 他の従属国または自分から、対象の従属国へ領土を与えます。
-	[*][b]譲渡（元）:[/b] 従属国から領土を没収し、他の従属国または自分（※植民地国家から没収する場合）に与えます。
+	 [*][b]移譲先 (Transfer to):[/b] 他の従属国または自分自身から、対象の従属国に領土を与えます。
+	[*][b]移譲元 (Transfer from):[/b] 従属国から領土を取り上げ、別の従属国または自分自身（*植民地国家から取り上げる場合）に与えます。
 	[/list]
- [*][b]従属国の首都変更に関する新しいインタラクション[/b] - 従属国が不適切な場所を首都に選んだ場合や、初期の首都が好ましくない場所に設定された従属国を作成した際に、後から修正することができます。
- [*][b]従属国の典礼言語を変更する新しいインタラクション[/b] - 変更後すぐに元に戻されるのを防ぐため、時間経過で減少する忠誠度-15のペナルティと1000%の変更コスト増加を付加します。
- [*][b]従属国の入植を許可・禁止する新しいインタラクション[/b]
- [*][b]従属国の都市化を許可・禁止する新しいインタラクション[/b] - 町の建設を阻止します。
- [*][b]マップ共有の自動化機能[/b] - 毎年、宗主国が未発見で従属国が発見済みの地域（宗主国の発見済み地域に隣接しているもの）の情報が宗主国に伝播します。これにより、徐々にすべての従属国の地図が宗主国へ共有されます。
- [*][b]同一の宗主国を持つ植民地従属国同士の宣戦布告を禁止します。[/b]
- [*][b]植民地従属国に対して平和を強制できるようになります。[/b]
- [*][b]譲渡する領土の規模を選択可能：ロケーション、州（Province）、エリア、リージョン[/b]
- [*][b]領土譲渡時の場所の制限を撤廃[/b] - バニラでは、1プロヴィンス離れているだけで従属国にロケーションを譲渡できないことがよくありますが、これを解消します。
- [*][b]植民地従属国と自分の間で自由に領土を譲渡可能[/b] - もともと与えた領土であり、ほとんどの場合、植民地の土地を自分で所有するメリットはないため、ゲームバランスへの影響はありません。
- [*][b]戦争中であっても領土管理が完全にブロックされなくなります[/b] - 世界の裏側の1プロヴィンスしかない小国と戦っているからといって、なぜ入植したばかりの土地を従属国に渡せないのでしょうか？（同じ戦争に参加している従属国間での譲渡、および植民地国家からの譲渡は常に可能です。）
+ [*][b]従属国の首都を変更する新しいインタラクション[/b] - AIが不適切な場所を選んだ場合や、初期の首都の場所が良くない従属国を作成した際に、後から修正したい場合に便利です。
+ [*][b]従属国の典礼言語 (Liturgical Language) を変更する新しいインタラクション[/b] - 変更後、従属国には時間経過で減少する「忠誠度 -15」と「変更コスト 1000%」の補正が付与され、すぐに元の言語に戻されるのを防ぎます。
+ [*][b]従属国の入植の禁止/許可を切り替える新しいインタラクション[/b]
+ [*][b]従属国の都市化の禁止/許可を切り替える新しいインタラクション[/b] - 町 (Town) の建設を防止します。
+ [*][b]新しい地図の自動共有機能[/b] - 毎年、従属国が発見済みで宗主国が未発見のエリアのうち、宗主国の発見済みエリアに隣接する場所が宗主国に伝わります。これにより、従属国の地図が着実に宗主国へと広がります。
+ [*][b]同じ宗主国を持つ植民地従属国同士の宣戦布告を禁止します。[/b]
+ [*][b]植民地従属国に対して「和平の強制 (Enforce Peace)」ができるようになりました。[/b]
+ [*][b]移譲する土地の規模を選択可能: ロケーション、州 (Province)、エリア、リージョン[/b]
+ [*][b]領土移譲における場所の制限を撤廃[/b] - バニラでは、従属国からわずか1プロビンス離れた場所にあるロケーションさえ与えられないことがよくあります。
+ [*][b]植民地従属国と自分自身の間で、自由に領土を移譲できます。[/b] - もともと与えた土地であり、多くの場合、植民地の土地を自分で所有するメリットは少ないため、ゲームバランスへの影響はないはずです。
+ [*][b]戦争中でも従属国の領土管理が完全には制限されなくなります[/b] - 地球の裏側にある1プロビンスの小国と戦争しているという理由で、新たに入植した土地を従属国に与えられないのは不自然です（同じ戦争に参加している従属国間での移譲が可能になり、植民地国家からの移譲は常に可能です）。
 [/olist]
 
-[h1]予定/今後追加予定:[/h1]
+[h1]計画中/今後の予定:[/h1]
 [olist]
- [*][b]従属国の戦争（反乱や継承戦争を含む）において、常に宗主国を戦勝リーダーにする。[/b]
- [*][b]朝貢国が自分の従属国（Vassal/Fiefdom）に宣戦布告するのを防ぐ（他の朝貢国への宣戦は可能）。[/b]
- [*][b]従属国の戦争（反乱など）に同盟国を呼び出せるようにする。[/b]
- [*][b]植民地国家が定住地やプランテーションを閉鎖するのを防ぐ。[/b]
- [*][b]植民地国家が価値の高いRGO（原材料産出）の上に町を建設するのを防ぐ。[/b]
- [*][b]宗主国が常に（要求することなく）従属国の食料にアクセスできるようにする。[/b]
- [*][b]従属国の宣戦布告を禁止する機能の追加。[/b]
- [*][b]文化を強制した後、従属国がすぐに元の文化に転向させるのを防ぐ[/b] - 10年のクールダウン、または忠誠度が高い場合は禁止するなどの対応を検討中。
-[*][b]従属国に対して「コロンブス交換」を無効化できるようにする[/b] - 価値の高いRGOが上書きされるのを防ぎ、完全な制御を可能にします。
-[*][b]従属国の領土を変態（国形成）条件にカウントされるようにする。[/b]
-[*][b]従属国が宗主国に対する包囲網に参加できないようにする[/b] - 従属させた時点で強制的に包囲網から脱退させます。
-[*][b]従属国の都市化管理オプションの追加[/b] - 全面的な禁止ではなく、特定のRGO上での建設のみを禁止するなどの設定。
-[*][b]解放時にカスタム国家としてプレイ可能にする。[/b]
-[*][b]非統合地域で領土をフィルタリングするオプションの追加。[/b]
-[*][b]従属国にプランテーションを建設する際、「建設には[プランテーションの前進]の研究が必要」という制限を回避する。[/b]
-[*][b]デフォルトで「封土（Fiefdoms）」を自分の宗教・文化にするオプション[/b] - デフォルト以外のゲームルール設定として追加予定。
+ [*][b]あらゆる従属国の戦争（反乱や継承戦争を含む）において、常にプレイヤーを戦争指導者にします。[/b]
+ [*][b]朝貢国がプレイヤーの封臣/采邑 (Vassals/Fiefdoms) に宣戦布告するのを防ぎます（他の朝貢国への宣戦は可能です）。[/b]
+ [*][b]従属国の戦争（反乱など）に同盟国を呼び出せるようにします。[/b]
+ [*][b]植民地国家が入植地やプランテーションを閉鎖するのを防ぎます。[/b]
+ [*][b]植民地国家が価値の高いRGOの上に町を建設するのを防ぎます。[/b]
+ [*][b]宗主国が常に従属国の食料にアクセスできるようにします（要請不要）。[/b]
+ [*][b]従属国の宣戦布告を禁止する機能を追加します。[/b]
+ [*][b]文化を強制した後、従属国がすぐに元の文化に戻すのを防ぎます[/b] - おそらく10年のクールダウン、および忠実な場合は変更不可とする措置を導入します。
+ [*][b]従属国の「コロンブス交換」を無効化するオプションを追加[/b] - プレイヤーが完全に制御し、貴重なRGOが上書きされるのを防ぎます。
+ [*][b]従属国の土地を国家形成条件のカウント対象にします。[/b]
+ [*][b]従属国を対抗同盟 (Coalition) の対象外にします[/b] - つまり、従属化された時点で対抗同盟から強制脱退させます。
+ [*][b]従属国の都市化管理のオプションを追加[/b] - 全面禁止ではなく、特定のRGO上への建設のみを禁止するなど。
+ [*][b]解放時にカスタム国家としてプレイできるようにします。[/b]
+ [*][b]未統合の土地でフィルタリングするオプションを追加。[/b]
+ [*][b]従属国にプランテーションを建設する際、「[プランテーションの進歩]を研究している必要がある」という制限を防止します。[/b]
+ [*][b]デフォルトで采邑 (Fiefdoms) を自分の宗教/文化にするオプションを追加[/b] - これは非デフォルトのゲームルール設定になります。
 [/olist]
 
-従属国の管理を改善するための機能のリクエストがあれば、[url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]suggestions discussion[/url]にコメントを残してください。
+従属国管理を改善するための機能のリクエストがあれば、[url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]suggestions discussion[/url]にコメントを残してください。
 
 [h1]翻訳:[/h1]
-このモッドには、EU5でネイティブサポートされているすべての言語に対して、DeepLを使用した自動生成翻訳が含まれています。
+このモッドには、EU5がネイティブでサポートしているすべての言語向けに、DeepLを使用した自動生成翻訳が含まれています。翻訳に間違いがあることは[b]承知しています[/b]。これはネイティブの翻訳に代わるものではなく、翻訳が利用できない場合の補足（「ないよりはマシ」というアプローチ）です。
 
-[h2]自動翻訳された言語:[/h2]
+[h2]自動翻訳されたローカライズ:[/h2]
 [list]
  [*][b]Chinese / 中文[/b]
  [*][b]French / Français[/b]
@@ -63,30 +63,31 @@
  [*][b]Spanish / Español[/b]
  [*][b]Turkish / Türkçe[/b]
 [/list]
-私はこれらの言語を話せず、翻訳プロセスを自動化しているため、翻訳に問題があっても修正は行いません。ただし、ご自身で修正したい場合はGitHubでPR（プルリクエスト）を送信していただければ、承認いたします。
+私はこれらの言語を話せず、翻訳プロセスを自動化しているため、翻訳の問題に対する修正は行いません。ただし、ご自身で修正したい場合はGitHubでPR（プルリクエスト）を送っていただければ承認します。
 
-自動翻訳に加えて、一部の言語ではネイティブ（人間による）翻訳が利用可能です。
+自動翻訳に加えて、一部の言語ではネイティブ（人間による）ローカライズが利用可能です。
 
-[h2]ネイティブ翻訳:[/h2]
+[h2]ネイティブ・ローカライズ:[/h2]
 [list]
- [*][b]English:[/b] メイン
- [*][b]Chinese / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]にて利用可能（[i]牛奶大魔王[/i]氏に感謝）。既存の自動翻訳を上書きするため、このモッドを私のモッドより後に読み込んでください。
+ [*][b]English:[/b] Primary (基本言語)
+ [*][b]Chinese / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url] で利用可能です（[i]牛奶大魔王[/i] 氏に感謝）。既存の自動翻訳を上書きするために、このモッドの後にロードしてください。
 [/list]
+中国語ユーザーは、より優れた翻訳を提供する「凯撒汉化」を引き続き使用してください。自動翻訳を上書きするために、必ず私のモッドの後にロードしてください。中国語の自動翻訳を含めたのは、新しいローカライズが追加された際に、「凯撒汉化」が対応するまでの一時的な対応（または彼らが十分だと判断した場合の負担軽減）として機能させるためです。
 
-[h1]更新履歴:[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]ワークショップページの「更新履歴」[/url]を参照してください。
+[h1]変更履歴:[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]ワークショップページの「更新履歴」[/url]をご覧ください。
 
 [h1]互換性:[/h1]
 [list]
  [*]アイアンマン非対応。
  [*]セーブデータとの完全な互換性あり。
- [*]あらゆるモッドと併用できるはずです。
+ [*]すべてのモッドと動作するはずです。
  [*]リクエストに応じて互換パッチを追加する場合があります。
 [/list]
 
-固定されている提案用ディスカッションのほかに、[url=https://discord.gg/xWTWMBc7Fn]EU5 Community Discordサーバーの #improved-subject-management チャンネル[/url]でも質問、バグ報告、提案を受け付けています。また、このモッドや私の他のモッドの開発に参加することに興味がある方は、Discordで @arealconner 宛にメッセージを送るかフレンド追加をしてください。あらゆる貢献を歓迎します。
+固定された「suggestions discussion」に加えて、[url=https://discord.gg/xWTWMBc7Fn]EU5 Community Discordサーバーの #improved-subject-management チャンネル[/url]でも質問、バグ報告、提案を受け付けています。また、このモッドや他のモッドの開発に参加することに興味がある方は、Discordで @arealconner をピン留めまたは追加してください。あらゆる貢献を歓迎します。
 
-モッドのソースおよび開発バージョンは[url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub[/url]で公開されています。
+モッドのソースおよび開発バージョンは [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub[/url] で公開されています。
 
 
 [i]Native English Description[/i]
@@ -109,7 +110,7 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]You can now enforce peace on your colonial subjects.[/b]
  [*][b]You can select the size of the land to be transferred: Location, Province, Area, Region[/b]
  [*][b]Remove location limitation on what land can be transferred[/b] - In vanilla, you will commonly be unable to give a location one province away to your subjects.
- [*][b]You can freely transfer land between colonial subjects and yourself.[/b]  - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
+ [*][b]You can freely transfer land between colonial subjects and yourself.[/b] - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
  [*][b]Being at war no longer fully blocks managing the land of subjects[/b] - Why should being at war with a one-province minor halfway across the world prevent me from giving my newly colonized land to my subject? (You can transfer land between subjects that are in the same war, and you can always transfer land from a colonial nation.)
 [/olist]
 
@@ -123,20 +124,20 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]Make overlord always have food access in subjects (without having to request)[/b]
  [*][b]Add ability to disallow a subject from declaring war.[/b]
  [*][b]Prevent subjects from immediately converting their culture back after enforcing your culture[/b] - Likely a 10-year cooldown + disallowed if they are loyal.
-[*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
-[*][b]Make subjects land count for formable requirements[/b]
-[*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
-[*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
-[*][b]Allow playing as custom nation upon release[/b]
-[*][b]Add option to filter land by unintegrated.[/b]
-[*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
-[*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
+ [*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
+ [*][b]Make subjects land count for formable requirements[/b]
+ [*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
+ [*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
+ [*][b]Allow playing as custom nation upon release[/b]
+ [*][b]Add option to filter land by unintegrated.[/b]
+ [*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
+ [*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
 [/olist]
 
 If anyone has any requests for features for improving subject management in any way, leave a comment in the [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]suggestions discussion[/url].
 
 [h1]Translations:[/h1]
-My mod includes auto-generated translation using DeepL for all natively supported EU5 languages.
+My mod includes auto-generated translation using DeepL for all natively supported EU5 languages. I am aware that there [b]will[/b] be mistakes in translation. This is not meant to be a replacement for native translations, rather a supplement for when they are not available (a better-than-nothing approach).
 
 [h2]Auto-Translated Localizations:[/h2]
 [list]
@@ -160,6 +161,7 @@ In addition to the auto-translation, native (human-generated) localizations are 
  [*][b]English:[/b] Primary
  [*][b]Chinese / 中文:[/b] Available in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Thanks to [i]牛奶大魔王[/i]). Make sure you load this mod after mine to overwrite my existing auto-translations.
 [/list]
+Chinese speakers should still use 凯撒汉化, as it provides far superior translations, just make sure to load it after my mod to ensure it overrides the generated ones. I only included the auto-translations for Chinese so that if a new localization is added, this will act as a stopgap until 凯撒汉化 adds it (or if they decide it's good enough, then it will be less work for them).
 
 [h1]Change Log:[/h1]
 See the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Change Notes on the workshop page[/url].

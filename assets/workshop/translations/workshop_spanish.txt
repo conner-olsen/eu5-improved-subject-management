@@ -1,54 +1,54 @@
 ﻿===WORKSHOP_TITLE===
-Gestión de súbditos mejorada / Improved Subject Management
+Gestión de sujetos mejorada / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]DeepL Generated Spanish Description[/i]
 [h1]Resumen:[/h1]
-Añade nuevas interacciones, modificaciones y automatizaciones para mejorar significativamente la gestión de sujetos.
+Añade nuevas interacciones, modificaciones y automatizaciones para mejorar significativamente la gestión de los sujetos.
 
 [h1]Características:[/h1]
 [olist]
- [*][b]Nuevas interacciones para transferir tierras entre sujetos[/b] - Te permite crear fronteras estéticas.
+ [*][b]Nuevas interacciones para transferir tierras entre sujetos[/b] - Permite crear fronteras estéticas.
 	[list]
-	 [*][b]Transferir a:[/b] Dale tierras a tu sujeto, ya sea de otro sujeto o de ti mismo.
-	[*][b]Transferir de:[/b] Quita tierras a tu sujeto y dáselas a otro sujeto o a ti mismo (*si se trata de una nación colonial).
+	 [*][b]Transferir a:[/b] Entrega tierras a tu sujeto, ya sea desde otro sujeto o desde ti mismo.
+	[*][b]Transferir desde:[/b] Quita tierras a tu sujeto y dáselas a otro sujeto o a ti mismo (*si se toma de una nación colonial).
 	[/list]
- [*][b]Nueva interacción para cambiar la capital de los sujetos[/b] - A veces eligen ubicaciones terribles, o creas un sujeto con una mala ubicación de capital inicial y quieres arreglarlo más tarde.
- [*][b]Nueva interacción para cambiar la Lengua Litúrgica de tu sujeto[/b] - Y añade una penalización decreciente de -15 de lealtad y un coste de cambio del 1000% al sujeto, evitando que vuelvan a cambiarla inmediatamente.
+ [*][b]Nueva interacción para cambiar la capital de los sujetos[/b] - A veces eligen ubicaciones terribles, o creas un sujeto con una capital mal ubicada inicialmente y quieres arreglarlo más tarde.
+ [*][b]Nueva interacción para cambiar la Lengua Litúrgica de tu sujeto[/b] - Añade una penalización decreciente de -15 de lealtad y un 1000% de coste de cambio al sujeto, evitando que vuelvan a cambiarla inmediatamente.
  [*][b]Nueva interacción para bloquear y desbloquear la colonización de un sujeto[/b]
- [*][b]Nueva interacción para bloquear y desbloquear la urbanización de un sujeto[/b] - Evita que funden pueblos.
- [*][b]Nueva función de intercambio de mapas automático[/b] - Cada año, cualquier área descubierta por un sujeto y no por su señor que limite con un área descubierta por su señor se propaga al señor. Esto propagará gradualmente todos los mapas de los sujetos a sus señores.
- [*][b]Evita que los sujetos coloniales con el mismo señor se declaren la guerra entre sí.[/b]
+ [*][b]Nueva interacción para bloquear y desbloquear la urbanización de un sujeto[/b] - Evita que funden ciudades.
+ [*][b]Nueva función automática de compartir mapas[/b] - Cada año, cualquier área descubierta por un sujeto que no haya sido descubierta por su señor y que limite con un área ya conocida por el señor, se revelará a este último. Esto extenderá progresivamente todos los mapas de los sujetos a sus señores.
+ [*][b]Bloquea que los sujetos coloniales con el mismo señor se declaren la guerra entre sí.[/b]
  [*][b]Ahora puedes imponer la paz a tus sujetos coloniales.[/b]
- [*][b]Puedes seleccionar el tamaño de la tierra a transferir: Localización, Provincia, Área, Región[/b]
- [*][b]Elimina la limitación de ubicación sobre qué tierras se pueden transferir[/b] - En el juego base, suele ser imposible dar una localización a una provincia de distancia a tus sujetos.
- [*][b]Puedes transferir tierras libremente entre sujetos coloniales y tú mismo.[/b] - Tú les diste la tierra para empezar y, en la mayoría de los casos, no es mejor poseer tierras coloniales tú mismo, por lo que esto no debería afectar al equilibrio del juego.
- [*][b]Estar en guerra ya no bloquea totalmente la gestión de las tierras de los sujetos[/b] - ¿Por qué estar en guerra con un país de una sola provincia al otro lado del mundo debería impedirme dar mis tierras recién colonizadas a mi sujeto? (Puedes transferir tierras entre sujetos que estén en la misma guerra, y siempre puedes transferir tierras de una nación colonial).
+ [*][b]Puedes seleccionar el tamaño de la tierra a transferir: Localidad, Provincia, Área, Región[/b]
+ [*][b]Elimina la limitación de ubicación sobre qué tierras se pueden transferir[/b] - En el juego base, es común no poder entregar a tus sujetos una localidad que esté a solo una provincia de distancia.
+ [*][b]Puedes transferir tierras libremente entre sujetos coloniales y tú mismo.[/b] - Tú les diste las tierras en primer lugar y, en la mayoría de los casos, no es mejor poseer tierras coloniales tú mismo, por lo que esto no debería afectar el equilibrio del juego.
+ [*][b]Estar en guerra ya no bloquea totalmente la gestión de las tierras de los sujetos[/b] - ¿Por qué estar en guerra con un país menor de una sola provincia al otro lado del mundo debería impedirme dar mis tierras recién colonizadas a mi sujeto? (Puedes transferir tierras entre sujetos que estén en la misma guerra, y siempre puedes transferir tierras desde una nación colonial).
 [/olist]
 
 [h1]Planeado / Próximamente:[/h1]
 [olist]
- [*][b]Convertirte siempre en el líder de guerra en cualquier guerra de sujetos (incluyendo rebeliones y guerras de sucesión).[/b]
+ [*][b]Hacer que siempre seas el líder de guerra en cualquier guerra de sujetos (incluyendo rebeliones y guerras de sucesión).[/b]
  [*][b]Evitar que tus tributarios declaren la guerra a tus vasallos/feudos (pero sí a otros tributarios).[/b]
  [*][b]Permitir llamar a aliados para ayudar en guerras de vasallos (como rebeliones).[/b]
  [*][b]Evitar que las naciones coloniales cierren asentamientos y plantaciones.[/b]
  [*][b]Evitar que las naciones coloniales funden ciudades sobre RGOs valiosos.[/b]
- [*][b]Hacer que el señor siempre tenga acceso a comida en los sujetos (sin tener que pedirlo).[/b]
+ [*][b]Hacer que el señor siempre tenga acceso a la comida en sus sujetos (sin tener que solicitarlo).[/b]
  [*][b]Añadir la capacidad de prohibir a un sujeto declarar la guerra.[/b]
  [*][b]Evitar que los sujetos reconviertan su cultura inmediatamente después de imponer la tuya[/b] - Probablemente un tiempo de espera de 10 años + prohibido si son leales.
-[*][b]Permitir desactivar el Intercambio Colombino para tus sujetos[/b] - para darte un control total y evitar que sobrescriban RGOs valiosos.
-[*][b]Hacer que las tierras de los sujetos cuenten para los requisitos de naciones formables.[/b]
-[*][b]Hacer que los sujetos no puedan participar en coaliciones contra ti[/b] - es decir, forzar a las naciones a salir de cualquier coalición contra ti una vez subyugadas.
-[*][b]Permitir opciones para gestionar la urbanización de los sujetos[/b] - es decir, evitar la fundación sobre RGOs específicos en lugar de un bloqueo total.
-[*][b]Permitir jugar como una nación personalizada al liberarla.[/b]
-[*][b]Añadir opción para filtrar tierras por no integradas.[/b]
-[*][b]Evitar el mensaje "Necesitamos haber investigado el [plantation advance] para poder construir [plantation]" al intentar construir plantaciones en sujetos.[/b]
-[*][b]Permitir la opción de que los Feudos tengan tu religión/cultura por defecto[/b] - estará bajo una regla de juego no predeterminada.
+ [*][b]Permitir desactivar el Intercambio Colombino para tus sujetos[/b] - para darte un control total y evitar que sobrescriban RGOs valiosos.
+ [*][b]Hacer que las tierras de los sujetos cuenten para los requisitos de naciones formables.[/b]
+ [*][b]Hacer que los sujetos no puedan formar parte de coaliciones contra ti[/b] - es decir, forzar a las naciones a salir de cualquier coalición contra ti una vez subyugadas.
+ [*][b]Permitir opciones para gestionar la urbanización de los sujetos[/b] - por ejemplo, evitar la fundación sobre RGOs específicos, en lugar de un bloqueo total.
+ [*][b]Permitir jugar como nación personalizada tras la liberación.[/b]
+ [*][b]Añadir opción para filtrar tierras por no integradas.[/b]
+ [*][b]Evitar el mensaje "Necesitamos haber investigado [avance de plantación] para poder construir [plantación]" al intentar construir plantaciones en sujetos.[/b]
+ [*][b]Permitir la opción de que los feudos adopten tu religión/cultura por defecto[/b] - estará bajo una regla de juego opcional.
 [/olist]
 
 Si alguien tiene alguna petición de funciones para mejorar la gestión de sujetos de cualquier manera, deja un comentario en la [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]discusión de sugerencias[/url].
 
 [h1]Traducciones:[/h1]
-Mi mod incluye traducciones generadas automáticamente con DeepL para todos los idiomas soportados nativamente por EU5.
+Mi mod incluye traducción generada automáticamente mediante DeepL para todos los idiomas admitidos nativamente por EU5. Soy consciente de que [b]habrá[/b] errores en la traducción. Esto no pretende ser un sustituto de las traducciones nativas, sino un suplemento para cuando no estén disponibles (un enfoque de "mejor que nada").
 
 [h2]Localizaciones traducidas automáticamente:[/h2]
 [list]
@@ -63,30 +63,31 @@ Mi mod incluye traducciones generadas automáticamente con DeepL para todos los 
  [*][b]Spanish / Español[/b]
  [*][b]Turkish / Türkçe[/b]
 [/list]
-Ten en cuenta que no hablo ninguno de estos idiomas de forma nativa y automatizo el proceso de traducción, por lo que no corregiré las traducciones anteriores si hay algún problema. Sin embargo, si deseas corregir un problema tú mismo, puedes enviar un PR en GitHub y lo aprobaré.
+Ten en cuenta que no hablo nativamente ninguno de estos idiomas y automatizo el proceso de traducción, por lo que no crearé correcciones para las traducciones anteriores si hay problemas. Sin embargo, si deseas corregir un problema tú mismo, puedes enviar un PR en GitHub y lo aprobaré.
 
 Además de la traducción automática, hay localizaciones nativas (generadas por humanos) disponibles para algunos idiomas.
 
 [h2]Localizaciones nativas:[/h2]
 [list]
  [*][b]English:[/b] Principal
- [*][b]Chinese / 中文:[/b] Disponible en el [url=https://steamcommunity.sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Gracias a [i]牛奶大魔王[/i]). Asegúrate de cargar este mod después del mío para sobrescribir mis traducciones automáticas existentes.
+ [*][b]Chinese / 中文:[/b] Disponible en el [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Gracias a [i]牛奶大魔王[/i]). Asegúrate de cargar este mod después del mío para sobrescribir mis traducciones automáticas existentes.
 [/list]
+Los hablantes de chino deberían seguir usando 凯撒汉化, ya que ofrece traducciones muy superiores; solo asegúrate de cargarlo después de mi mod para garantizar que prevalezca sobre las generadas. Solo incluí las traducciones automáticas al chino para que, si se añade una nueva localización, esto actúe como una solución temporal hasta que 凯撒汉化 la añada (o si deciden que es suficiente, les suponga menos trabajo).
 
-[h1]Registro de cambios:[/h1]
-Consulta las [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notas de cambios en la página del workshop[/url].
+[h1]Historial de cambios:[/h1]
+Consulta las [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notas de cambios en la página de la Workshop[/url].
 
 [h1]Compatibilidad:[/h1]
 [list]
- [*]No compatible con Ironman.
+ [*]No es compatible con Ironman.
  [*]Totalmente compatible con partidas guardadas.
  [*]Debería funcionar con cualquier mod.
- [*]Podría añadir parches de compatibilidad bajo petición.
+ [*]Puedo añadir parches de compatibilidad bajo petición.
 [/list]
 
-Además de la discusión de sugerencias fijada, también puedes hacer preguntas, reportar errores o hacer sugerencias en el [url=https://discord.gg/xWTWMBc7Fn]canal #improved-subject-management del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en participar en el desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord @arealconner. Todas las contribuciones son bienvenidas.
+Además de la discusión de sugerencias fijada, también puedes hacer preguntas, informar de errores o hacer sugerencias en el canal [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en participar en el desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord @arealconner. Todas las contribuciones son bienvenidas.
 
-El código fuente y las versiones de desarrollo del mod están disponibles en [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
+Las versiones de fuente y desarrollo del mod están disponibles en [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
 
 
 [i]Native English Description[/i]
@@ -109,7 +110,7 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]You can now enforce peace on your colonial subjects.[/b]
  [*][b]You can select the size of the land to be transferred: Location, Province, Area, Region[/b]
  [*][b]Remove location limitation on what land can be transferred[/b] - In vanilla, you will commonly be unable to give a location one province away to your subjects.
- [*][b]You can freely transfer land between colonial subjects and yourself.[/b]  - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
+ [*][b]You can freely transfer land between colonial subjects and yourself.[/b] - You gave them the land to begin with, and in most cases, it's not better to own colonial land yourself, so this shouldn't have any effect on game balance.
  [*][b]Being at war no longer fully blocks managing the land of subjects[/b] - Why should being at war with a one-province minor halfway across the world prevent me from giving my newly colonized land to my subject? (You can transfer land between subjects that are in the same war, and you can always transfer land from a colonial nation.)
 [/olist]
 
@@ -123,20 +124,20 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]Make overlord always have food access in subjects (without having to request)[/b]
  [*][b]Add ability to disallow a subject from declaring war.[/b]
  [*][b]Prevent subjects from immediately converting their culture back after enforcing your culture[/b] - Likely a 10-year cooldown + disallowed if they are loyal.
-[*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
-[*][b]Make subjects land count for formable requirements[/b]
-[*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
-[*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
-[*][b]Allow playing as custom nation upon release[/b]
-[*][b]Add option to filter land by unintegrated.[/b]
-[*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
-[*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
+ [*][b]Allow disabling the Columbian Exchange for your subjects[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
+ [*][b]Make subjects land count for formable requirements[/b]
+ [*][b]Make subjects ineligible to be in coalitions against you [/b] - i.e., force nations out of any coalitions against you once subjugated.
+ [*][b]Allow options for managing subject urbanization[/b] - i.e., prevent founding over specific RGOs, instead of a total block.
+ [*][b]Allow playing as custom nation upon release[/b]
+ [*][b]Add option to filter land by unintegrated.[/b]
+ [*][b]Prevent "We need to have researched the [plantation advance] to be able to build [plantation]" when trying to build plantations in subjects[/b]
+ [*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will will be under a non-default game rule.
 [/olist]
 
 If anyone has any requests for features for improving subject management in any way, leave a comment in the [url=https://steamcommunity.com/workshop/filedetails/discussion/3619130338/685239622575385631/]suggestions discussion[/url].
 
 [h1]Translations:[/h1]
-My mod includes auto-generated translation using DeepL for all natively supported EU5 languages.
+My mod includes auto-generated translation using DeepL for all natively supported EU5 languages. I am aware that there [b]will[/b] be mistakes in translation. This is not meant to be a replacement for native translations, rather a supplement for when they are not available (a better-than-nothing approach).
 
 [h2]Auto-Translated Localizations:[/h2]
 [list]
@@ -160,6 +161,7 @@ In addition to the auto-translation, native (human-generated) localizations are 
  [*][b]English:[/b] Primary
  [*][b]Chinese / 中文:[/b] Available in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Thanks to [i]牛奶大魔王[/i]). Make sure you load this mod after mine to overwrite my existing auto-translations.
 [/list]
+Chinese speakers should still use 凯撒汉化, as it provides far superior translations, just make sure to load it after my mod to ensure it overrides the generated ones. I only included the auto-translations for Chinese so that if a new localization is added, this will act as a stopgap until 凯撒汉化 adds it (or if they decide it's good enough, then it will be less work for them).
 
 [h1]Change Log:[/h1]
 See the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Change Notes on the workshop page[/url].

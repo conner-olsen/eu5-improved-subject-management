@@ -1,11 +1,11 @@
 ﻿l_braz_por:
  ism_select_land_size_action: "Selecione o tamanho do terreno"
- ism_select_land_size_action_desc: "Essa terra será transferida."
+ ism_select_land_size_action_desc: "Esta terra será transferida."
 
  ism_transfer_location_action: "Local de transferência"
  ism_transfer_location_action_desc: "Transferir a propriedade de um local para outro país."
 
- ism_transfer_province_action: "Província de transferência"
+ ism_transfer_province_action: "Província de Transferência"
  ism_transfer_province_action_desc: "Transferir a propriedade de uma província para outro país."
 
  ism_transfer_area_action: "Área de transferência"

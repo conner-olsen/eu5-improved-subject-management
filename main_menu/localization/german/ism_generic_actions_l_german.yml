@@ -1,15 +1,15 @@
 ﻿l_german:
- ism_select_land_size_action: "Landgröße auswählen"
- ism_select_land_size_action_desc: "Dieses Land wird übertragen."
+ ism_select_land_size_action: "Grundstücksgröße auswählen"
+ ism_select_land_size_action_desc: "Dieses Grundstück wird übertragen."
 
- ism_transfer_location_action: "Standort übertragen"
+ ism_transfer_location_action: "Transferort"
  ism_transfer_location_action_desc: "Übertragung des Eigentums an einem Standort auf ein anderes Land."
 
- ism_transfer_province_action: "Provinz übertragen"
- ism_transfer_province_action_desc: "Übertragung des Eigentums an einer Provinz auf ein anderes Land."
+ ism_transfer_province_action: "Transferprovinz"
+ ism_transfer_province_action_desc: "Übertragung der Souveränität über eine Provinz an ein anderes Land."
 
  ism_transfer_area_action: "Transferbereich"
  ism_transfer_area_action_desc: "Übertragung des Eigentums an einem Gebiet auf ein anderes Land."
 
- ism_transfer_region_action: "Region übertragen"
- ism_transfer_region_action_desc: "Übertragung des Eigentums an einer Region auf ein anderes Land."
+ ism_transfer_region_action: "Transferregion"
+ ism_transfer_region_action_desc: "Übertragung der Hoheitsgewalt über eine Region an ein anderes Land."
