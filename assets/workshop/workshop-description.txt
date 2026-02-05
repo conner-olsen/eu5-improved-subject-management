@@ -6,7 +6,7 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]New Interactions to Transfer land betwen subjects[/b] - Allows you to make nice borders.
 	[list]
 	 [*][b]Transfer to:[/b] Give your subject land, either from another subject or yourself.
-	[*][b]Transfer from:[/b] Take land from your subject, and give it to another subject or yourself (*if taking from a colonial nation).
+	 [*][b]Transfer from:[/b] Take land from your subject, and give it to another subject or yourself (*if taking from a colonial nation).
 	[/list]
  [*][b]New interaction to change the capital of subjects[/b] - Sometimes they pick terrible locations, or you create a subject with a poor capital location initially and want to fix it later.
  [*][b]New interaction to change the Liturgical Language of your subject[/b] - And adds a decaying -15 loyalty and 1000% change cost to the subject, preventing them from immediately switching away.
@@ -84,3 +84,18 @@ See the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/361913
 In addition to the pinned suggestions discussion, you can also ask any questions, report bugs, or make suggestions in the [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management channel of the EU5 Community discord server[/url]. And if you are interested in joining in the development of this or one of my other mods, you can ping or add me on Discord @arealconner. All contributions are welcome.
 
 The source and dev versions of the mod are available on [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
+
+[h1]DeepL Translated Mod Pages[/h1]
+[list]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Chinese / 中文[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=french]French / Français[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=german]German / Deutsch[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=japanese]Japanese / 日本語[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=koreana]Korean / 한국어[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=polish]Polish / Polski[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=brazilian]Portuguese (Brazil) / Português (Brasil)[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=russian]Russian / Русский[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Spanish / Español[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turkish / Türkçe[/url]
+[/list]
+(Note that I am at the max character limit for the mod description, so I cannot put both the auto-translated and native localizations on the same page.)
