@@ -52,6 +52,17 @@
 					}
 					if = {
 						limit = {
+							is_civil_war_for = scope:recipient
+						}
+						scope:actor = {
+							reverse_add_opinion = {
+								target = scope:recipient
+								modifier = opinion_helped_in_civil_war
+							}
+						}
+					}
+					if = {
+						limit = {
 							attacker_leader = scope:recipient
 						}
 						scope:actor = {
