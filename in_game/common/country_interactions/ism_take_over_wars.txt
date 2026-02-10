@@ -1,0 +1,79 @@
+﻿ism_take_over_wars = {
+	type = subject
+	category = CATEGORY_SUBJECT_ACTIONS
+
+	potential = {
+	}
+
+	allow = {
+	}
+
+	ai_tick = never
+
+	use_enroute = no
+
+	select_trigger = {
+		looking_for_a = country
+		interaction_source_list = {
+			scope:actor = {
+				every_subject = {
+					add_to_list = source
+				}
+			}
+		}
+		target_flag = recipient
+		name = "choose_country"
+		column = {
+			data = name
+		}
+		visible = {
+			NOR = {
+				country_type = building
+				country_type = pop
+			}
+			at_war = yes
+			any_current_war = {
+				prev = {
+					is_war_leader_of = prev
+				}
+			}
+		}
+		enabled = {
+		}
+	}
+
+	effect = {
+		scope:recipient = {
+			every_current_war = {
+				if = {
+					limit = {
+						scope:recipient = { is_war_leader_of = prev }
+						NOT = { is_in_war = scope:actor }
+					}
+					if = {
+						limit = {
+							attacker_leader = scope:recipient
+						}
+						scope:actor = {
+							join_war_as_attacker = {
+								war = prev
+								reason = intervene
+							}
+						}
+					}
+					else = {
+						scope:actor = {
+							join_war_as_defender = {
+								war = prev
+								reason = intervene
+							}
+						}
+					}
+				}
+			}
+		}
+		scope:actor = {
+			take_over_all_wars = scope:recipient
+		}
+	}
+}
