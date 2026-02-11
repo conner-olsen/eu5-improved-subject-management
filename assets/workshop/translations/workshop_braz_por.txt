@@ -1,89 +1,99 @@
-﻿===WORKSHOP_TITLE===
+===WORKSHOP_TITLE===
 Gerenciamento de Súditos Aprimorado / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
-[i]You are on the DeepL-Generated Portuguese (Brazil) Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=english]Click here for the Native English Page[/url][/i]
+[i]You are on the DeepL-Generated Portuguese (Brazil) Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]Visão Geral:[/h1]
-Adiciona novas interações, modificações e automações para melhorar significativamente a gestão de súditos.
+Adiciona novas interações, modificações e automações para melhorar significativamente o gerenciamento de súditos.
 
-[h1]Funcionalidades:[/h1]
+[h1]Recursos:[/h1]
 [olist]
- [*][b]Novas Interações para Transferir terras entre súditos[/b]
+ [*][b]Novas interações para transferir terras entre súditos[/b]
 	[list]
-	 [*][b]Transferir para:[/b] Dê terras ao seu súdito, vindas de outro súdito ou de você mesmo.
-	 [*][b]Transferir de:[/b] Tire terras do seu súdito e as dê para outro súdito, ou para você mesmo (se estiver tirando de uma nação colonial).
+	 [*][b]Transferir para:[/b] Dê terras ao seu súdito, seja de outro súdito ou de você mesmo.
+	 [*][b]Transferir de:[/b] Tire terras do seu súdito e dê para outro súdito, ou para você mesmo (se estiver tirando de uma nação colonial).
 	[/list]
- [*][b]Nova interação para mudar a capital dos súditos[/b] - Às vezes eles escolhem locais terríveis, ou você cria um súdito com uma localização de capital ruim inicialmente e deseja consertar isso mais tarde.
- [*][b]Nova interação para mudar a Língua Litúrgica do seu súdito[/b] - Adiciona uma penalidade decrescente de -15 de lealdade e 1000% de custo de mudança ao súdito, impedindo que eles revertam a mudança imediatamente.
- [*][b]Nova interação para bloquear e desbloquear a colonização de um súdito[/b]
- [*][b]Nova interação para bloquear e desbloquear a declaração de guerras de um súdito[/b]
- [*][b]Nova interação para bloquear e desbloquear a urbanização de um súdito[/b] - Impede que eles fundem cidades.
- [*][b]Novo recurso de compartilhamento automático de mapa[/b] - Todos os anos, qualquer área descoberta por um súdito (e não pelo seu soberano) que faça fronteira com uma área descoberta pelo seu soberano será revelada a este. Isso espalhará gradualmente todos os mapas dos súditos para seus soberanos.
- [*][b]Bloqueia súditos coloniais com o mesmo soberano de declararem guerra entre si.[/b]
- [*][b]Agora você pode impor a paz em seus súditos coloniais.[/b]
- [*][b]Você pode selecionar o tamanho da terra a ser transferida: Localidade, Província, Área, Região[/b]
- [*][b]Remove a limitação de localização para transferência de terras[/b] - No jogo base, é comum você não conseguir dar uma localidade a apenas uma província de distância para seus súditos.
- [*][b]Você pode transferir terras livremente entre súditos coloniais e você mesmo.[/b] - Você deu as terras a eles para começar e, na maioria dos casos, não é melhor possuir terras coloniais diretamente, então isso não deve afetar o equilíbrio do jogo.
- [*][b]Estar em guerra não bloqueia mais totalmente a gestão de terras de súditos[/b] - Por que estar em guerra com um país de uma única província do outro lado do mundo deveria me impedir de dar minha terra recém-colonizada ao meu súdito? (Você pode transferir terras entre súditos que estão na mesma guerra, e sempre pode transferir terras de uma nação colonial.)
+ [*][b]Nova interação para mudar a capital dos súditos[/b] - Às vezes eles escolhem locais terríveis, ou você cria um súdito com uma localização de capital ruim inicialmente e quer consertar isso mais tarde.
+ [*][b]Nova interação para mudar a Língua Litúrgica do seu súdito[/b] - E adiciona uma penalidade de lealdade de -15 em decaimento e 1000% de custo de mudança ao súdito, impedindo que eles mudem de volta imediatamente.
+ [*][b]Nova interação para bloquear e desbloquear um súdito de colonizar[/b]
+ [*][b]Nova interação para bloquear e desbloquear um súdito de declarar guerras[/b]
+ [*][b]Nova interação para bloquear e desbloquear um súdito de se urbanizar[/b] - Impede-os de fundar cidades.
+ [*][b]Nova interação para bloquear e desbloquear um súdito de usar o Intercâmbio Colombino[/b] - Para lhe dar controle total e evitar que eles sobrescrevam RGOs valiosos.
+ [*][b]Nova interação para entrar e assumir a liderança de guerra de um súdito[/b] - Incluindo rebeliões e guerras de sucessão.
+ [*][b]Novo recurso de compartilhamento automático de mapas[/b] - Todos os anos, qualquer área descoberta por um súdito e não pelo seu suserano que faça fronteira com uma área descoberta pelo seu suserano é espalhada para o suserano. Isso espalhará constantemente todos os mapas dos súditos para seus suseranos.
+ [*][b]Bloqueia súditos coloniais com o mesmo suserano de declarar guerra uns aos outros.[/b]
+ [*][b]Agora você pode impor a paz aos seus súditos coloniais.[/b]
+ [*][b]Você pode selecionar o tamanho da terra a ser transferida: Localização, Província, Área, Região[/b]
+ [*][b]Remover limitação de localização sobre quais terras podem ser transferidas[/b] - No vanilla, você comumente não consegue dar uma localização a uma província de distância para seus súditos.
+ [*][b]Você pode transferir terras livremente entre súditos coloniais e você mesmo.[/b] - Você deu a eles a terra para começar e, na maioria dos casos, não é melhor possuir terras coloniais você mesmo, então isso não deve ter efeito no equilíbrio do jogo.
+ [*][b]Estar em guerra não bloqueia mais totalmente o gerenciamento das terras dos súditos[/b] - Por que estar em guerra com um país menor de uma província do outro lado do mundo me impediria de dar minha terra recém-colonizada ao meu súdito? (Você pode transferir terras entre súditos que estão na mesma guerra, e você sempre pode transferir terras de uma nação colonial.)
+ [*][b]Permite chamar aliados para ajudar em guerras de vassalos (como rebeliões).[/b] - Assim que você assumir uma guerra, poderá chamar os aliados.
+ [*][b]Impede que seus tributários declarem guerra aos seus vassalos/feudos (mas ainda permite contra outros tributários).[/b]
+ [*][b]Faz com que o suserano sempre tenha acesso a comida em todos os tipos de súditos (sem ter que solicitar)[/b]
 [/olist]
 
-[h1]Planejado/Em breve:[/h1]
+[h1]Planejado/Próximas Novidades:[/h1]
 [olist]
- [*][b]Tornar você sempre o líder de guerra em qualquer guerra de súdito (incluindo rebeliões e guerras de sucessão).[/b]
- [*][b]Impedir que seus tributários declarem guerra em seus vassalos/feudos (mas permitir contra outros tributários).[/b]
- [*][b]Permitir chamar aliados para ajudar em guerras de vassalos (como rebeliões).[/b]
- [*][b]Impedir que nações coloniais desativem assentamentos e plantações.[/b]
- [*][b]Impedir que nações coloniais fundem cidades sobre RGOs valiosos. [/b]
- [*][b]Fazer com que o soberano sempre tenha acesso a comida nos súditos (sem precisar solicitar).[/b]
- [*][b]Impedir que súditos convertam sua cultura de volta imediatamente após você impor sua cultura[/b] - Provavelmente um tempo de recarga de 10 anos + proibição se eles estiverem leais.
- [*][b]Permitir desativar o Intercâmbio Colombiano para seus súditos[/b] - para lhe dar controle total e evitar que eles substituam RGOs valiosos.
- [*][b]Fazer com que as terras dos súditos contem para requisitos de nações formáveis.[/b]
- [*][b]Tornar súditos inelegíveis para participar de coalizões contra você[/b] - ou seja, forçar nações a sair de qualquer coalizão contra você uma vez subjugadas.
- [*][b]Permitir opções para gerenciar a urbanização dos súditos[/b] - por exemplo, impedir fundações sobre RGOs específicos, em vez de um bloqueio total.
- [*][b]Permitir jogar como uma nação personalizada ao libertar.[/b]
- [*][b]Adicionar uma opção para filtrar terras por não integradas.[/b]
- [*][b]Impedir a mensagem "Precisamos ter pesquisado o [avanço de plantação] para poder construir [plantação]" ao tentar construir plantações em súditos.[/b]
- [*][b]Permitir opção para tornar Feudos da sua religião/cultura por padrão[/b] - estará sob uma regra de jogo não padrão.
+ [*][b]Opções adicionais de personalização[/b] - Estou trabalhando em um menu de mod para personalização de bloqueio de RGO, assunção automática de guerras de súditos e outras opções.
+ [*][b]Fazer com que as terras dos súditos contem para os requisitos de nações formáveis[/b]
+ [*][b]Permitir jogar como uma nação personalizada ao libertar[/b]
+ [*][b]Adicionar uma opção para filtrar terras por não integradas[/b]
+ [*][b]Permitir a opção de tornar os Feudos da sua religião/cultura por padrão[/b] - Estará sob uma regra de jogo não padrão.
 [/olist]
 
 [h1]Traduções:[/h1]
-Meu mod inclui tradução gerada automaticamente usando DeepL para todos os idiomas suportados nativamente pelo EU5. Estou ciente de que [b]haverá[/b] erros na tradução. Isso não pretende substituir traduções nativas, mas sim servir como um suplemento para quando elas não estiverem disponíveis.
+Meu mod inclui tradução gerada automaticamente usando DeepL para todos os idiomas nativamente suportados pelo EU5. Estou ciente de que [b]haverá[/b] erros na tradução. Isso não pretende ser um substituto para traduções nativas, mas sim um suplemento para quando elas não estiverem disponíveis.
 
 [h2]Localizações Traduzidas Automaticamente:[/h2]
 [list]
- [*][b]Chinês / 中文[/b]
- [*][b]Francês / Français[/b]
- [*][b]Alemão / Deutsch[/b]
- [*][b]Japonês / 日本語[/b]
- [*][b]Coreano / 한국어[/b]
- [*][b]Polonês / Polski[/b]
- [*][b]Português (Brasil) / Português (Brasil)[/b]
- [*][b]Russo / Русский[/b]
- [*][b]Espanhol / Español[/b]
- [*][b]Turco / Türkçe[/b]
+ [*][b]Chinese / 中文[/b]
+ [*][b]French / Français[/b]
+ [*][b]German / Deutsch[/b]
+ [*][b]Japanese / 日本語[/b]
+ [*][b]Korean / 한국어[/b]
+ [*][b]Polish / Polski[/b]
+ [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
+ [*][b]Russian / Русский[/b]
+ [*][b]Spanish / Español[/b]
+ [*][b]Turkish / Türkçe[/b]
 [/list]
 
 Além da tradução automática, localizações nativas (geradas por humanos) estão disponíveis para alguns idiomas.
 
 [h2]Localizações Nativas:[/h2]
 [list]
- [*][b]Inglês:[/b] Principal
- [*][b]Chinês / 中文:[/b] Disponível no [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Obrigado a [i]牛奶大魔王[/i]).
+ [*][b]English:[/b] Primário
+ [*][b]Chinese / 中文:[/b] Disponível no [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Obrigado a [i]牛奶大魔王[/i]).
 [/list]
-Falantes de chinês ainda devem usar o 凯撒汉化, pois ele fornece traduções muito superiores; certifique-se de carregá-lo após o meu mod para garantir que ele substitua as traduções geradas.
+Falantes de chinês ainda devem usar o 凯撒汉化, pois ele fornece traduções muito superiores; certifique-se de carregá-lo após o meu mod para garantir que ele substitua os gerados.
 
-[h1]Registro de Alterações:[/h1]
-Veja as [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notas de Alteração na página do workshop[/url].
+[h1]Log de Alterações:[/h1]
+Veja as [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notas de Alteração na página da oficina[/url].
 
 [h1]Compatibilidade:[/h1]
 [list]
- [*]Não compatível com Ironman.
- [*]Totalmente compatível com jogos salvos (save games).
+ [*]Não é compatível com Conquistas.
+ [*]Totalmente compatível com jogos salvos.
  [*]Deve funcionar com qualquer mod.
  [*]Posso adicionar patches de compatibilidade mediante solicitação.
 [/list]
 
-Além da discussão fixada para sugestões, você também pode fazer perguntas, relatar bugs ou dar sugestões no [url=https://discord.gg/xWTWMBc7Fn]canal #improved-subject-management do servidor de Discord da Comunidade EU5[/url]. E se você estiver interessado em participar do desenvolvimento deste ou de um dos meus outros mods, você pode me marcar ou me adicionar no Discord @arealconner. Todas as contribuições são bem-vindas.
+Além da discussão de sugestões fixada, você também pode fazer perguntas, relatar bugs ou dar sugestões no [url=https://discord.gg/xWTWMBc7Fn]canal #improved-subject-management do servidor de discord da Comunidade de EU5[/url]. E se você estiver interessado em participar do desenvolvimento deste ou de um dos meus outros mods, você pode me marcar ou me adicionar no Discord @arealconner. Todas as contribuições são bem-vindas.
 
 As versões de código-fonte e de desenvolvimento do mod estão disponíveis no [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
+
+[h1]Páginas do Mod Traduzidas pelo DeepL:[/h1]
+[list]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Chinese / 中文[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=french]French / Français[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=german]German / Deutsch[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=japanese]Japanese / 日本語[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=koreana]Korean / 한국어[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=polish]Polish / Polski[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=brazilian]Portuguese (Brazil) / Português (Brasil)[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=russian]Russian / Русский[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Spanish / Español[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turkish / Türkçe[/url]
+[/list]
+(Observe que estou no limite máximo de caracteres para a descrição do mod, então não posso colocar as localizações automáticas e nativas na mesma página.)
 
