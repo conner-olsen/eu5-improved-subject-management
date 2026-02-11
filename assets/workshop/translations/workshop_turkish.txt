@@ -4,96 +4,91 @@ Geliştirilmiş Tebaa Yönetimi / Improved Subject Management
 [i]You are on the DeepL-Generated Turkish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]Genel Bakış:[/h1]
-Tabi devlet yönetimini önemli ölçüde iyileştirmek için yeni etkileşimler, düzenlemeler ve otomasyonlar ekler.
+Tabi devlet yönetimini önemli ölçüde iyileştirmek için yeni etkileşimler, modifikasyonlar ve otomasyonlar ekler.
 
 [h1]Özellikler:[/h1]
 [olist]
- [*][b]Tabi devletler arasında toprak transferi için yeni etkileşimler[/b]
+ [*][b]Tabiler arasında toprak devretmek için yeni etkileşimler[/b]
 	[list]
-	 [*][b]Şuraya transfer et:[/b] Başka bir tabi devletten veya kendinizden tabi devletinize toprak verin.
-	 [*][b]Şuradan transfer et:[/b] Tabi devletinizden toprak alın ve başka bir tabi devlete veya kendinize verin (eğer bir koloni ulusundan alınıyorsa).
+	 [*][b]Şuraya devret:[/b] Başka bir tabiden veya kendinizden tabiye toprak verin.
+	 [*][b]Şuradan devret:[/b] Tabinizden toprak alıp başka bir tabiye veya kendinize (bir koloni ulusundan alıyorsanız) verin.
 	[/list]
- [*][b]Tabi devletlerin başkentini değiştirmek için yeni etkileşim[/b] - Bazen korkunç yerler seçiyorlar veya başlangıçta kötü bir başkent konumuna sahip bir tabi devlet oluşturuyorsunuz ve bunu daha sonra düzeltmek istiyorsunuz.
- [*][b]Tabi devletinizin Litürjik Dilini değiştirmek için yeni etkileşim[/b] - Ve tabi devletin hemen geri dönmesini önlemek için azalan bir -15 sadakat ve %1000 değişim maliyeti ekler.
- [*][b]Bir tabi devletin kolonileşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
- [*][b]Bir tabi devletin savaş ilan etmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
- [*][b]Bir tabi devletin şehirleşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Kasaba kurmalarını engeller.
- [*][b]Bir tabi devletin Kolomb Takasını (Columbian Exchange) kullanmasını engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Size tam kontrol sağlamak ve değerli RGO'ların üzerine yazmalarını önlemek için.
- [*][b]Bir tabi devletin savaşına katılmak ve savaş liderliğini devralmak için yeni etkileşim[/b] - isyanlar ve veraset savaşları dahil.
- [*][b]Yeni otomatik harita paylaşımı özelliği[/b] - Her yıl, bir tabi devlet tarafından keşfedilen ve derebeyi tarafından keşfedilmemiş olan, derebeyinin keşfettiği bir bölgeye komşu olan tüm alanlar derebeyine yayılır. Bu, tüm tabi devlet haritalarının istikrarlı bir şekilde derebeylerine yayılmasını sağlayacaktır.
- [*][b]Aynı derebeyine sahip koloni tabi devletlerinin birbirlerine savaş ilan etmesini engelleyin.[/b]
- [*][b]Artık koloni tabi devletlerinize barışa zorlama (enforce peace) uygulayabilirsiniz.[/b]
- [*][b]Transfer edilecek toprağın boyutunu seçebilirsiniz: Lokasyon, Eyalet, Alan, Bölge[/b]
- [*][b]Hangi toprakların transfer edilebileceğine dair lokasyon sınırlamasını kaldırın[/b] - Vanilla oyunda, genellikle bir eyalet uzaklıktaki bir lokasyonu tabi devletlerinize veremezsiniz.
- [*][b]Koloni tabi devletleri ile kendiniz arasında serbestçe toprak transfer edebilirsiniz.[/b] - En başta onlara toprağı siz verdiniz ve çoğu durumda koloni topraklarına bizzat sahip olmak daha iyi değildir, bu yüzden bunun oyun dengesi üzerinde herhangi bir etkisi olmamalıdır.
- [*][b]Savaşta olmak artık tabi devletlerin topraklarını yönetmeyi tamamen engellemez[/b] - Dünyanın öbür ucundaki tek eyaletli bir küçük devletle savaşta olmak, yeni kolonize edilmiş toprağımı tabi devletime vermemi neden engellesin? (Aynı savaşta olan tabi devletler arasında toprak transferi yapabilirsiniz ve bir koloni ulusundan her zaman toprak transferi yapabilirsiniz.)
- [*][b]Vasal savaşlarında (isyanlar gibi) müttefiklerin yardıma çağrılmasına izin verin.[/b] - Bir savaşı devraldığınızda müttefiklerinizi çağırabilirsiniz.
- [*][b]Haraçgüzarlarınızın vasallarınıza/tımar topraklarınıza savaş ilan etmesini engelleyin (ancak diğer haraçgüzarlara hâlâ ilan edebilirler).[/b]
- [*][b]Derebeyinin tüm tabi devlet türlerinde her zaman gıdaya erişimi olmasını sağlayın (talep etmek zorunda kalmadan)[/b]
+ [*][b]Tabilerin başkentini değiştirmek için yeni etkileşim[/b] - Bazen korkunç yerler seçiyorlar veya başlangıçta kötü bir başkent konumuna sahip bir tabi oluşturuyorsunuz ve bunu daha sonra düzeltmek istiyorsunuz.
+ [*][b]Tabinizin Ayin Dilini (Liturgical Language) değiştirmek için yeni etkileşim[/b] - Tabinin hemen eski haline dönmesini önlemek için azalan bir -15 sadakat ve %1000 değişim maliyeti ekler.
+ [*][b]Bir tabinin kolonileşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
+ [*][b]Bir tabinin savaş ilan etmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
+ [*][b]Bir tabinin şehirleşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Kasaba kurmalarını engeller.
+ [*][b]Bir tabinin Kolomb Takasını (Columbian Exchange) kullanmasını engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Size tam kontrol sağlamak ve değerli RGO'larınızın üzerine yazmalarını önlemek için.
+ [*][b]Bir tabinin savaşına katılmak ve savaş liderliğini devralmak için yeni etkileşim[/b] - İsyanlar ve taht kavgaları dahil.
+ [*][b]Yeni otomatik harita paylaşımı özelliği[/b] - Her yıl, bir tabi tarafından keşfedilen ancak süzereni tarafından keşfedilmemiş olan ve süzerenin keşfettiği bir alana sınırı olan tüm alanlar süzerene yayılır. Bu, tüm tabi haritalarını istikrarlı bir şekilde süzerenlerine yayacaktır.
+ [*][b]Aynı süzerene sahip koloni tabilerinin birbirlerine savaş ilan etmesini engeller.[/b]
+ [*][b]Artık koloni tabilerinize barışı zorlayabilirsiniz (enforce peace).[/b]
+ [*][b]Devredilecek toprağın boyutunu seçebilirsiniz: Konum (Location), Vilayet (Province), Alan (Area), Bölge (Region)[/b]
+ [*][b]Hangi toprakların devredilebileceğine dair konum sınırlamasını kaldırır[/b] - Vanilla oyunda, genellikle bir vilayet ötedeki bir konumu tabilerinize veremezsiniz.
+ [*][b]Koloni tabileri ile kendiniz arasında serbestçe toprak devredebilirsiniz.[/b] - Toprağı onlara zaten siz verdiniz ve çoğu durumda koloni topraklarına bizzat sahip olmak daha iyi değildir, bu yüzden bunun oyun dengesi üzerinde herhangi bir etkisi olmamalıdır.
+ [*][b]Savaşta olmak artık tabilerin topraklarını yönetmeyi tamamen engellemez[/b] - Dünyanın öbür ucundaki tek vilayetlik bir devletle savaşta olmak, yeni kolonize ettiğim toprağımı tabime vermemi neden engellesin? (Aynı savaşta olan tabiler arasında toprak devredebilirsiniz ve koloni uluslarından her zaman toprak devralabilirsiniz.)
+ [*][b]Vasal savaşlarına (isyanlar gibi) müttefiklerin çağrılmasına izin verir.[/b] - Bir savaşı devraldığınızda, müttefiklerinizi çağırabilirsiniz.
+ [*][b]Haraçgüzarlarınızın (tributaries) vasallarınıza/malikânelerinize (fiefdoms) savaş ilan etmesini engeller (ancak diğer haraçgüzarlara hala ilan edebilirler).[/b]
+ [*][b]Süzerenin tüm tabi türlerinde (talep etmeye gerek kalmadan) her zaman gıdaya erişimi olmasını sağlar.[/b]
 [/olist]
 
-[h1]Planlanan/Gelecek Özellikler:[/h1]
+[h1]Planlananlar/Gelecek Özellikler:[/h1]
 [olist]
- [*][b]Ek özelleştirme seçenekleri[/b] - RGO engelleme, tabi devlet savaşlarının otomatik devralınması ve diğer seçeneklerin özelleştirilmesi için bir mod menüsü üzerinde çalışıyorum.
- [*][b]Tabi devlet topraklarının kurulabilir ülke gereksinimleri için sayılmasını sağlayın[/b]
- [*][b]Serbest bırakıldığında özel bir ulus olarak oynamaya izin verin[/b]
- [*][b]Toprakları entegre edilmemişe göre filtrelemek için bir seçenek ekleyin[/b]
- [*][b]Tımar topraklarını varsayılan olarak dininizden/kültürünüzden yapma seçeneği ekleyin[/b] - varsayılan olmayan bir oyun kuralı altında olacaktır.
+ [*][b]Ek özelleştirme seçenekleri[/b] - RGO engelleme, tabi savaşlarını otomatik devralma ve diğer seçeneklerin özelleştirilmesi için bir mod menüsü üzerinde çalışıyorum.
+ [*][b]Tabi topraklarının kurulabilir devlet (formable) gereksinimleri için sayılmasını sağlamak[/b]
+ [*][b]Serbest bırakıldığında özel bir ulus (custom nation) olarak oynamaya izin vermek[/b]
+ [*][b]Toprakları entegre edilmemiş olanlara göre filtreleme seçeneği eklemek[/b]
+ [*][b]Malikâneleri (Fiefdoms) varsayılan olarak dininizden/kültürünüzden yapma seçeneği sunmak[/b] - varsayılan olmayan bir oyun kuralı altında olacaktır.
 [/olist]
 
-[h1]Çeviriler:[/h1]
-Modum, yerel olarak desteklenen tüm EU5 dilleri için DeepL kullanılarak otomatik olarak oluşturulmuş çeviriler içerir. Çeviride hatalar [b]olacağının[/b] farkındayım. Bu, yerel çevirilerin yerini alması için değil, mevcut olmadıkları zamanlar için bir takviye olarak tasarlanmıştır.
-
-[h2]Otomatik Çevrilen Yerelleştirmeler:[/h2]
-[list]
- [*][b]Chinese / 中文[/b]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b]
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
-[/list]
-
-Otomatik çeviriye ek olarak, bazı diller için yerel (insan yapımı) yerelleştirmeler mevcuttur.
-
-[h2]Yerel Yerelleştirmeler:[/h2]
+[h1]Yerel Çeviriler:[/h1]
 [list]
  [*][b]İngilizce:[/b] Birincil
  [*][b]Çince / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) modunda[/url] mevcuttur. ([i]牛奶大魔王[/i]'a teşekkürler).
 [/list]
-Çince konuşanlar yine de 凯撒汉化 kullanmalıdır, çünkü çok daha üstün çeviriler sağlar; oluşturulanların üzerine yazıldığından emin olmak için modumdan sonra yüklediğinizden emin olun.
+
+[h1]DeepL ile Çevrilen Diller:[/h1]
+[list]
+ [*][b]Çince / 中文[/b]
+ [*][b]Fransızca / Français[/b]
+ [*][b]Almanca / Deutsch[/b]
+ [*][b]Japonca / 日本語[/b]
+ [*][b]Korece / 한국어[/b]
+ [*][b]Lehçe / Polski[/b]
+ [*][b]Portekizce (Brezilya) / Português (Brasil)[/b]
+ [*][b]Rusça / Русский[/b]
+ [*][b]İspanyolca / Español[/b]
+ [*][b]Türkçe / Türkçe[/b]
+[/list]
+Çince konuşanlar hala 凯撒汉化 modunu kullanmalıdır, çünkü çok daha üstün çeviriler sunar; oluşturulanların üzerine yazıldığından emin olmak için bu modu benim modumdan sonra yüklediğinizden emin olun.
 
 [h1]Değişiklik Günlüğü:[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Workshop sayfasındaki Değişiklik Notlarına[/url] bakın.
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Workshop sayfasındaki Değişiklik Notlarına[/url] göz atın.
 
 [h1]Uyumluluk:[/h1]
 [list]
- [*]Başarım (Achievement) Uyumlu Değildir.
- [*]Kayıtlı oyunlarla tam uyumludur.
+ [*]Başarımlar (Achievement) ile uyumlu değildir.
+ [*]Kayıtlı oyunlarla (save game) tam uyumludur.
  [*]Herhangi bir modla çalışmalıdır.
- [*]Talep üzerine uyumluluk yamaları ekleyebilirim.
+ [*]İstek üzerine uyumluluk yamaları ekleyebilirim.
 [/list]
 
-Sabitlenmiş öneriler tartışmasına ek olarak, [url=https://discord.gg/xWTWMBc7Fn]EU5 Community Discord sunucusunun #improved-subject-management kanalında[/url] soru sorabilir, hata bildirebilir veya önerilerde bulunabilirsiniz. Ve eğer bu veya diğer modlarımdan birinin geliştirilmesine katılmakla ilgileniyorsanız, Discord'da @arealconner üzerinden bana ping atabilir veya ekleyebilirsiniz. Tüm katkılar memnuniyetle karşılanır.
+Sabitlenmiş öneriler tartışmasına ek olarak, [url=https://discord.gg/xWTWMBc7Fn]EU5 Topluluğu discord sunucusunun #improved-subject-management kanalında[/url] soru sorabilir, hata bildirebilir veya öneride bulunabilirsiniz. Ve eğer bu modun veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord üzerinden @arealconner adresinden bana ulaşabilirsiniz. Tüm katkılara açığım.
 
-Modun kaynak ve geliştirme sürümleri [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub'da mevcuttur.[/url]
+Modun kaynak ve geliştirme sürümleri [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub'da[/url] mevcuttur.
 
 [h1]DeepL ile Çevrilmiş Mod Sayfaları:[/h1]
 [list]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Chinese / 中文[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=french]French / Français[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=german]German / Deutsch[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=japanese]Japanese / 日本語[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=koreana]Korean / 한국어[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=polish]Polish / Polski[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=brazilian]Portuguese (Brazil) / Português (Brasil)[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=russian]Russian / Русский[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Spanish / Español[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turkish / Türkçe[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Çince / 中文[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=french]Fransızca / Français[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=german]Almanca / Deutsch[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=japanese]Japonca / 日本語[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=koreana]Korece / 한국어[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=polish]Lehçe / Polski[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=brazilian]Portekizce (Brezilya) / Português (Brasil)[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=russian]Rusça / Русский[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]İspanyolca / Español[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Türkçe / Türkçe[/url]
 [/list]
-(Mod açıklaması için maksimum karakter sınırında olduğumu, bu nedenle hem otomatik çevrilmiş hem de yerel yerelleştirmeleri aynı sayfaya koyamadığımı unutmayın.)
+(Mod açıklaması için maksimum karakter sınırında olduğumu, bu nedenle hem otomatik çevrilmiş hem de ana dil çevirilerini aynı sayfaya koyamadığımı unutmayın.)
 

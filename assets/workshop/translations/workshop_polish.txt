@@ -3,97 +3,92 @@ Ulepszone Zarządzanie Zależnościami / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Polish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Przegląd:[/h1]
+[h1]Overview:[/h1]
 Dodaje nowe interakcje, modyfikacje i automatyzacje, aby znacząco usprawnić zarządzanie poddanymi.
 
-[h1]Funkcje:[/h1]
+[h1]Features:[/h1]
 [olist]
- [*][b]Nowe interakcje do przekazywania ziemi między poddanymi[/b]
+ [*][b]Nowe interakcje umożliwiające transfer ziemi między poddanymi[/b]
 	[list]
-	 [*][b]Przekaż do (Transfer to):[/b] Oddaj ziemię swojemu poddanemu, od innego poddanego lub od siebie.
-	 [*][b]Przekaż od (Transfer from):[/b] Zabierz ziemię swojemu poddanemu i oddaj ją innemu poddanemu lub sobie (w przypadku narodów kolonialnych).
+	 [*][b]Przekaż do:[/b] Oddaj ziemię swojemu poddanemu, pochodzącą od innego poddanego lub od ciebie.
+	 [*][b]Przekaż od:[/b] Zabierz ziemię swojemu poddanemu i oddaj ją innemu poddanemu lub sobie (jeśli zabierasz od narodu kolonialnego).
 	[/list]
- [*][b]Nowa interakcja do zmiany stolicy poddanych[/b] - Czasami wybierają oni fatalne lokalizacje lub tworzysz poddanego ze słabą lokalizacją stolicy na początku i chcesz to naprawić później.
- [*][b]Nowa interakcja do zmiany języka liturgicznego poddanego[/b] - Dodaje zanikający modyfikator -15 do lojalności i 1000% kosztu zmiany dla poddanego, zapobiegając natychmiastowej zmianie z powrotem.
- [*][b]Nowa interakcja do blokowania i odblokowywania kolonizacji przez poddanego[/b]
- [*][b]Nowa interakcja do blokowania i odblokowywania wypowiadania wojen przez poddanego[/b]
- [*][b]Nowa interakcja do blokowania i odblokowywania urbanizacji przez poddanego[/b] - Zapobiega zakładaniu miast.
- [*][b]Nowa interakcja do blokowania i odblokowywania korzystania z wymiany kolumbijskiej przez poddanego[/b] - Aby dać ci pełną kontrolę i zapobiec nadpisywaniu cennych surowców (RGO).
- [*][b]Nowa interakcja pozwalająca dołączyć i przejąć przywództwo w wojnie od poddanego[/b] - w tym rebelie i wojny o sukcesję.
- [*][b]Nowa funkcja automatycznego udostępniania map[/b] - Każdego roku każdy obszar odkryty przez poddanego, a nieodkryty przez seniora, który graniczy z obszarem odkrytym przez seniora, zostaje mu ujawniony. Pozwoli to na stopniowe udostępnianie map wszystkich poddanych ich seniorom.
- [*][b]Blokada wypowiadania wojen między poddanymi kolonialnymi tego samego seniora.[/b]
- [*][b]Możesz teraz wymusić pokój (enforce peace) na swoich poddanych kolonialnych.[/b]
- [*][b]Możesz wybrać rozmiar przekazywanej ziemi: Lokacja, Prowincja, Obszar, Region[/b]
- [*][b]Usunięcie ograniczeń lokalizacji dotyczących przekazywania ziemi[/b] - W czystej wersji gry (vanilla) często nie można oddać poddanym lokacji oddalonej o jedną prowincję.
- [*][b]Możesz swobodnie przekazywać ziemię między poddanymi kolonialnymi a sobą.[/b] - I tak to ty dałeś im tę ziemię na początku, a w większości przypadków posiadanie ziemi kolonialnej bezpośrednio nie jest lepsze, więc nie powinno to wpłynąć na balans gry.
- [*][b]Bycie w stanie wojny nie blokuje już całkowicie zarządzania ziemią poddanych[/b] - Dlaczego wojna z jednoprowincjonalnym państwem na drugim końcu świata miałaby mi uniemożliwiać oddanie nowo skolonizowanej ziemi poddanemu? (Możesz przekazywać ziemię między poddanymi uczestniczącymi w tej samej wojnie i zawsze możesz zabierać ziemię od narodów kolonialnych).
- [*][b]Zezwalaj na wzywanie sojuszników do pomocy w wojnach wasali (np. rebelie).[/b] - Po przejęciu wojny możesz wezwać sojuszników.
- [*][b]Zapobiegaj wypowiadaniu wojen przez twoich trybutariuszy twoim wasalom/lennom (ale nadal mogą atakować innych trybutariuszy).[/b]
- [*][b]Spraw, aby senior zawsze miał dostęp do żywności we wszystkich typach poddanych (bez konieczności proszenia).[/b]
+ [*][b]Nowa interakcja umożliwiająca zmianę stolicy poddanych[/b] – Czasami wybierają oni fatalne lokalizacje lub tworzysz poddanego ze złą lokalizacją stolicy na początku i chcesz to naprawić później.
+ [*][b]Nowa interakcja umożliwiająca zmianę języka liturgicznego twojego poddanego[/b] – Dodaje zanikające -15 lojalności i 1000% kosztu zmiany dla poddanego, zapobiegając natychmiastowemu powrotowi do poprzedniego języka.
+ [*][b]Nowa interakcja umożliwiająca blokowanie i odblokowywanie kolonizacji przez poddanego[/b]
+ [*][b]Nowa interakcja umożliwiająca blokowanie i odblokowywanie wypowiadania wojen przez poddanego[/b]
+ [*][b]Nowa interakcja umożliwiająca blokowanie i odblokowywanie urbanizacji przez poddanego[/b] – Zapobiega zakładaniu przez nich miast.
+ [*][b]Nowa interakcja umożliwiająca blokowanie i odblokowywanie korzystania z Wymiany Kolumbijskiej przez poddanego[/b] – aby dać ci pełną kontrolę i zapobiec nadpisywaniu przez nich cennych RGO (zasobów surowców).
+ [*][b]Nowa interakcja umożliwiająca dołączenie i przejęcie przywództwa w wojnie od poddanego[/b] – w tym w rebeliach i wojnach o sukcesję.
+ [*][b]Nowa funkcja automatycznego udostępniania map[/b] – Każdego roku każdy obszar odkryty przez poddanego, a nieodkryty przez jego seniora, który graniczy z obszarem odkrytym przez seniora, zostaje mu udostępniony. To stopniowo przekaże wszystkie mapy poddanych ich seniorom.
+ [*][b]Blokowanie poddanych kolonialnych posiadających tego samego seniora przed wypowiadaniem sobie nawzajem wojen.[/b]
+ [*][b]Możesz teraz wymusić pokój na swoich poddanych kolonialnych.[/b]
+ [*][b]Możesz wybrać wielkość przekazywanej ziemi: Lokacja, Prowincja, Obszar, Region[/b]
+ [*][b]Usunięcie ograniczeń lokalizacyjnych dotyczących przekazywanej ziemi[/b] – W podstawowej wersji gry często nie można oddać poddanym lokacji oddalonej o jedną prowincję.
+ [*][b]Możesz swobodnie przekazywać ziemię między poddanymi kolonialnymi a sobą.[/b] – To ty dałeś im tę ziemię na początku, a w większości przypadków samodzielne posiadanie ziemi kolonialnej nie jest lepsze, więc nie powinno to mieć wpływu na balans gry.
+ [*][b]Bycie w stanie wojny nie blokuje już całkowicie zarządzania ziemią poddanych[/b] – Dlaczego wojna z jednoprowincjonalnym państewkiem na drugim końcu świata miałaby mi uniemożliwiać oddanie nowo skolonizowanej ziemi mojemu poddanemu? (Możesz przekazywać ziemię między poddanymi, którzy biorą udział w tej samej wojnie, i zawsze możesz przekazać ziemię od narodu kolonialnego).
+ [*][b]Umożliwienie wzywania sojuszników do pomocy w wojnach wasali (takich jak rebelie).[/b] – Po przejęciu wojny możesz wezwać sojuszników.
+ [*][b]Zapobieganie wypowiadaniu wojen przez twoich trybutariuszy twoim wasalom/lennom (ale nadal mogą innym trybutariuszom).[/b]
+ [*][b]Zapewnienie seniorowi stałego dostępu do żywności u wszystkich typów poddanych (bez konieczności wysyłania prośby)[/b]
 [/olist]
 
 [h1]Planowane/Nadchodzące:[/h1]
 [olist]
- [*]Dodatkowe opcje dostosowywania[/b] - Pracuję nad menu moda do konfiguracji blokowania RGO, automatycznego przejmowania wojen poddanych i innych opcji.
- [*][b]Uwzględnianie ziemi poddanych w wymaganiach formowania państw[/b]
- [*][b]Możliwość gry jako własne państwo (custom nation) po wyzwoleniu[/b]
- [*][b]Dodanie opcji filtrowania ziemi według niezintegronawych[/b]
- [*][b]Opcja ustawienia twojej religii/kultury w lennach domyślnie[/b] - będzie dostępna pod niedomyślną zasadą gry.
+ [*][b]Dodatkowe opcje personalizacji[/b] – Pracuję nad menu moda do konfiguracji blokowania RGO, automatycznego przejmowania wojen poddanych i innych opcji.
+ [*][b]Zaliczanie ziemi poddanych do wymagań formowania państw[/b]
+ [*][b]Możliwość gry jako własny naród po wydzieleniu[/b]
+ [*][b]Dodanie opcji filtrowania ziemi według niezinatgrowanej[/b]
+ [*][b]Opcja sprawiająca, że lenna domyślnie przyjmują twoją religię/kulturę[/b] – będzie dostępna w ramach niedomyślnej zasady gry.
 [/olist]
 
-[h1]Tłumaczenia:[/h1]
-Mój mod zawiera automatycznie generowane tłumaczenia przy użyciu DeepL dla wszystkich natywnie obsługiwanych języków EU5. Jestem świadomy, że [b]pojawią się[/b] błędy w tłumaczeniu. Nie mają one zastąpić natywnych tłumaczeń, lecz stanowią uzupełnienie, gdy te nie są dostępne.
-
-[h2]Automatycznie przetłumaczone lokalizacje:[/h2]
+[h1]Natywne lokalizacje:[/h1]
 [list]
- [*][b]Chinese / 中文[/b]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b]
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
+ [*][b]Angielski:[/b] Podstawowy
+ [*][b]Chiński / 中文:[/b] Dostępny w [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]modzie 凯撒汉化 (Caesar Chinese Translation)[/url]. (Podziękowania dla [i]牛奶大魔王[/i]).
 [/list]
 
-Oprócz auto-tłumaczenia dostępne są natywne (stworzone przez ludzi) lokalizacje dla niektórych języków.
-
-[h2]Natywne lokalizacje:[/h2]
+[h1]Lokalizacje przetłumaczone przez DeepL:[/h1]
 [list]
- [*][b]Angielski:[/b] Główny
- [*][b]Chinese / 中文:[/b] Dostępny w modzie [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation)[/url]. (Podziękowania dla [i]牛奶大魔王[/i]).
+ [*][b]Chiński / 中文[/b]
+ [*][b]Francuski / Français[/b]
+ [*][b]Niemiecki / Deutsch[/b]
+ [*][b]Japoński / 日本語[/b]
+ [*][b]Koreański / 한국어[/b]
+ [*][b]Polski / Polski[/b]
+ [*][b]Portugalski (Brazylia) / Português (Brasil)[/b]
+ [*][b]Rosyjski / Русский[/b]
+ [*][b]Hiszpański / Español[/b]
+ [*][b]Turecki / Türkçe[/b]
 [/list]
-Osoby posługujące się językiem chińskim powinny nadal używać 凯撒汉化, ponieważ oferuje ono znacznie lepsze tłumaczenia; upewnij się, że ładujesz go po moim modzie, aby nadpisał on te generowane automatycznie.
+Osoby posługujące się językiem chińskim powinny nadal korzystać z 凯撒汉化, ponieważ oferuje ono znacznie lepsze tłumaczenia. Upewnij się, że ładujesz ten mod po moim, aby nadpisać wygenerowane teksty.
 
-[h1]Dziennik zmian:[/h1]
-Zobacz [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]notatki o zmianach na stronie warsztatu[/url].
+[h1]Change Log:[/h1]
+Zobacz [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Uwagi do zmian na stronie warsztatu[/url].
 
 [h1]Kompatybilność:[/h1]
 [list]
  [*]Niekompatybilny z osiągnięciami (Achievements).
- [*]W pełni kompatybilny z zapisami gier (Save games).
+ [*]W pełni kompatybilny z zapisanymi grami.
  [*]Powinien działać z każdym modem.
  [*]Mogę dodać patche kompatybilności na prośbę.
 [/list]
 
-Poza przypiętą dyskusją o sugestiach, możesz również zadawać pytania, zgłaszać błędy lub sugerować pomysły na kanale [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management na serwerze Discord społeczności EU5[/url]. A jeśli jesteś zainteresowany udziałem w rozwoju tego lub innego z moich modów, możesz mnie oznaczyć lub dodać na Discordzie: @arealconner. Wszelka pomoc jest mile widziana.
+Oprócz przypiętej dyskusji o sugestiach, możesz również zadawać pytania, zgłaszać błędy lub składać sugestie na kanale [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management na serwerze Discord społeczności EU5[/url]. A jeśli jesteś zainteresowany dołączeniem do prac nad tym lub innym z moich modów, możesz wspomnieć o mnie lub dodać mnie na Discordzie @arealconner. Wszystkie formy wkładu są mile widziane.
 
-Wersja źródłowa i deweloperska moda jest dostępna na [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHubie.[/url]
+Kod źródłowy i wersje deweloperskie moda są dostępne na [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHubie.[/url]
 
 [h1]Strony moda przetłumaczone przez DeepL:[/h1]
 [list]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Chinese / 中文[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=french]French / Français[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=german]German / Deutsch[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=japanese]Japanese / 日本語[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=koreana]Korean / 한국어[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=polish]Polish / Polski[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=brazilian]Portuguese (Brazil) / Português (Brasil)[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=russian]Russian / Русский[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Spanish / Español[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turkish / Türkçe[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Chiński / 中文[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=french]Francuski / Français[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=german]Niemiecki / Deutsch[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=japanese]Japoński / 日本語[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=koreana]Koreański / 한국어[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=polish]Polski / Polski[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=brazilian]Portugalski (Brazylia) / Português (Brasil)[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=russian]Rosyjski / Русский[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Hiszpański / Español[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turecki / Türkçe[/url]
 [/list]
-(Uwaga: Osiągnąłem maksymalny limit znaków w opisie moda, więc nie mogę umieścić zarówno automatycznych, jak i natywnych tłumaczeń na tej samej stronie).
+(Pamiętaj, że osiągnąłem maksymalny limit znaków w opisie moda, więc nie mogę umieścić zarówno automatycznych, jak i natywnych lokalizacji na tej samej stronie.)
 

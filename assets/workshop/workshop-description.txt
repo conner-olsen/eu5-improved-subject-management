@@ -36,10 +36,13 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will be under a non-default game rule.
 [/olist]
 
-[h1]Translations:[/h1]
-My mod includes auto-generated translation using DeepL for all natively supported EU5 languages. I am aware that there [b]will[/b] be mistakes in translation. This is not meant to be a replacement for native translations, rather a supplement for when they are not available.
+[h1]Native Localizations:[/h1]
+[list]
+ [*][b]English:[/b] Primary
+ [*][b]Chinese / 中文:[/b] Available in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Thanks to [i]牛奶大魔王[/i]).
+[/list]
 
-[h2]Auto-Translated Localizations:[/h2]
+[h1]DeepL-Translated Localizations:[/h1]
 [list]
  [*][b]Chinese / 中文[/b]
  [*][b]French / Français[/b]
@@ -51,14 +54,6 @@ My mod includes auto-generated translation using DeepL for all natively supporte
  [*][b]Russian / Русский[/b]
  [*][b]Spanish / Español[/b]
  [*][b]Turkish / Türkçe[/b]
-[/list]
-
-In addition to the auto-translation, native (human-generated) localizations are available for some languages.
-
-[h2]Native Localizations:[/h2]
-[list]
- [*][b]English:[/b] Primary
- [*][b]Chinese / 中文:[/b] Available in the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Thanks to [i]牛奶大魔王[/i]).
 [/list]
 Chinese speakers should still use 凯撒汉化, as it provides far superior translations, make sure to load it after my mod to ensure it overrides the generated ones.
 
@@ -73,7 +68,7 @@ See the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/361913
  [*]I may add compatibility patches upon request.
 [/list]
 
-In addition to the pinned suggestions discussion, you can also ask any questions, report bugs, or make suggestions in the [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management channel of the EU5 Community discord server[/url]. And if you are interested in joining in the development of this or one of my other mods, you can ping or add me on Discord @arealconner. All contributions are welcome.
+In addition to the comment section and pinned suggestions discussion, you can also ask any questions, report bugs, or make suggestions in the [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management channel of the EU5 Community discord server[/url]. And if you are interested in joining in the development of this or one of my other mods, you can ping or add me on Discord @arealconner. All contributions are welcome.
 
 The source and dev versions of the mod are available on [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
 
@@ -90,4 +85,3 @@ The source and dev versions of the mod are available on [url=https://github.com/
  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Spanish / Español[/url]
  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turkish / Türkçe[/url]
 [/list]
-(Note that I am at the max character limit for the mod description, so I cannot put both the auto-translated and native localizations on the same page.)

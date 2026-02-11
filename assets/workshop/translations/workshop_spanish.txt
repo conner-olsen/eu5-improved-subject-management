@@ -3,69 +3,64 @@ Gestión de sujetos mejorada / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Spanish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Visión general:[/h1]
-Añade nuevas interacciones, modificaciones y automatizaciones para mejorar significativamente la gestión de súbditos.
+[h1]Descripción general:[/h1]
+Añade nuevas interacciones, modificaciones y automatizaciones para mejorar significativamente la gestión de sujetos.
 
 [h1]Características:[/h1]
 [olist]
- [*][b]Nuevas interacciones para transferir territorio entre súbditos[/b]
+ [*][b]Nuevas interacciones para transferir tierras entre sujetos[/b]
 	[list]
-	 [*][b]Transferir a:[/b] Da territorio a tu súbdito, ya sea desde otro súbdito o desde ti mismo.
-	 [*][b]Transferir de:[/b] Toma territorio de tu súbdito y dáselo a otro súbdito, o a ti mismo (si se toma de una nación colonial).
+	 [*][b]Transferir a:[/b] Dale tierras a tu sujeto, ya sea de otro sujeto o de ti mismo.
+	 [*][b]Transferir desde:[/b] Quita tierras a tu sujeto y dáselas a otro sujeto, o a ti mismo (si se las quitas a una nación colonial).
 	[/list]
- [*][b]Nueva interacción para cambiar la capital de los súbditos[/b] - A veces eligen ubicaciones terribles, o creas un súbdito con una capital mal ubicada inicialmente y quieres arreglarlo más tarde.
- [*][b]Nueva interacción para cambiar la lengua litúrgica de tu súbdito[/b] - Añade un modificador de -15 de lealtad (en decaimiento) y un coste de cambio del 1000% al súbdito, evitando que vuelvan a cambiarla inmediatamente.
- [*][b]Nueva interacción para permitir o bloquear la colonización de un súbdito[/b]
- [*][b]Nueva interacción para permitir o bloquear la declaración de guerras de un súbdito[/b]
- [*][b]Nueva interacción para permitir o bloquear la urbanización de un súbdito[/b] - Evita que funden ciudades.
- [*][b]Nueva interacción para permitir o bloquear el uso del Intercambio Colombino por parte de un súbdito[/b] - Para darte un control total y evitar que sobrescriban RGOs valiosos.
- [*][b]Nueva interacción para unirse y asumir el liderazgo de guerra de un súbdito[/b] - Incluye rebeliones y guerras de sucesión.
- [*][b]Nueva función automática para compartir mapas[/b] - Cada año, cualquier área descubierta por un súbdito que no haya sido descubierta por su señor y que limite con un área ya conocida por el señor, se revelará a este último. Esto extenderá progresivamente todos los mapas de los súbditos a sus señores.
- [*][b]Evita que los súbditos coloniales del mismo señor se declaren la guerra entre sí.[/b]
- [*][b]Ahora puedes imponer la paz a tus súbditos coloniales.[/b]
- [*][b]Puedes seleccionar el tamaño del territorio a transferir: Localización, Provincia, Área, Región[/b]
- [*][b]Elimina la limitación de ubicación sobre qué tierras se pueden transferir[/b] - En el juego base (vanilla), es común no poder dar una localización a un súbdito aunque esté a solo una provincia de distancia.
- [*][b]Puedes transferir territorio libremente entre súbditos coloniales y tú mismo.[/b] - Al fin y al cabo, tú les diste las tierras originalmente y, en la mayoría de los casos, no es mejor poseer tierras coloniales directamente, por lo que esto no debería afectar al equilibrio del juego.
- [*][b]Estar en guerra ya no bloquea totalmente la gestión del territorio de los súbditos[/b] - ¿Por qué estar en guerra con un país de una sola provincia al otro lado del mundo debería impedirme dar mis tierras recién colonizadas a mi súbdito? (Puedes transferir territorio entre súbditos que participen en la misma guerra, y siempre puedes transferir territorio de una nación colonial).
+ [*][b]Nueva interacción para cambiar la capital de los sujetos[/b] - A veces eligen ubicaciones terribles, o creas un sujeto con una ubicación de capital deficiente al principio y quieres arreglarlo más tarde.
+ [*][b]Nueva interacción para cambiar la Lengua Litúrgica de tu sujeto[/b] - Y añade una penalización de lealtad de -15 (que decae) y un coste de cambio del 1000% al sujeto, evitando que vuelvan a cambiarla inmediatamente.
+ [*][b]Nueva interacción para bloquear y desbloquear la colonización de un sujeto[/b]
+ [*][b]Nueva interacción para bloquear y desbloquear que un sujeto declare guerras[/b]
+ [*][b]Nueva interacción para bloquear y desbloquear la urbanización de un sujeto[/b] - Evita que funden ciudades.
+ [*][b]Nueva interacción para bloquear y desbloquear el uso del Intercambio Colombino por parte de un sujeto[/b] - Para darte un control total y evitar que sobrescriban RGO valiosos.
+ [*][b]Nueva interacción para unirse y asumir el liderazgo de guerra de un sujeto[/b] - Incluyendo rebeliones y guerras de sucesión.
+ [*][b]Nueva función de compartición automática de mapas[/b] - Cada año, cualquier área descubierta por un sujeto y no por su señor supremo que limite con un área descubierta por su señor supremo se extenderá al señor supremo. Esto difundirá de forma constante todos los mapas de los sujetos a sus señores.
+ [*][b]Bloquea que los sujetos coloniales con el mismo señor supremo se declaren la guerra entre sí.[/b]
+ [*][b]Ahora puedes imponer la paz a tus sujetos coloniales.[/b]
+ [*][b]Puedes seleccionar el tamaño de la tierra a transferir: Localización, Provincia, Área, Región[/b]
+ [*][b]Elimina la limitación de ubicación sobre qué tierras pueden transferirse[/b] - En el juego base, es común no poder dar una localización a un sujeto si está a una provincia de distancia.
+ [*][b]Puedes transferir tierras libremente entre sujetos coloniales y tú mismo.[/b] - Tú les diste las tierras para empezar y, en la mayoría de los casos, no es mejor poseer tierras coloniales tú mismo, por lo que esto no debería afectar al equilibrio del juego.
+ [*][b]Estar en guerra ya no bloquea totalmente la gestión de las tierras de los sujetos[/b] - ¿Por qué estar en guerra con un país de una sola provincia al otro lado del mundo debería impedirme dar mis tierras recién colonizadas a mi sujeto? (Puedes transferir tierras entre sujetos que estén en la misma guerra, y siempre puedes transferir tierras de una nación colonial).
  [*][b]Permite llamar a aliados para ayudar en guerras de vasallos (como rebeliones).[/b] - Una vez que asumas el liderazgo de la guerra, podrás llamar a tus aliados.
  [*][b]Evita que tus tributarios declaren la guerra a tus vasallos/feudos (pero sí a otros tributarios).[/b]
- [*][b]Hace que el señor siempre tenga acceso a comida en todos los tipos de súbditos (sin tener que solicitarlo)[/b]
+ [*][b]Hace que el señor supremo siempre tenga acceso a alimentos en todos los tipos de sujetos (sin tener que solicitarlo).[/b]
 [/olist]
 
-[h1]Planeado/Próximamente:[/h1]
+[h1]Planificado/Próximamente:[/h1]
 [olist]
- [*]Opciones de personalización adicionales[/b] - Estoy trabajando en un menú de mod para personalizar el bloqueo de RGO, la asunción automática de guerras de súbditos y otras opciones.
- [*][b]Hacer que las tierras de los súbditos cuenten para los requisitos de países formables[/b]
- [*][b]Permitir jugar como una nación personalizada tras ser liberada[/b]
+ [*][b]Opciones de personalización adicionales[/b] - Estoy trabajando en un menú del mod para personalizar el bloqueo de RGO, la toma de control automática de guerras de sujetos y otras opciones.
+ [*][b]Hacer que las tierras de los sujetos cuenten para los requisitos de naciones formables[/b]
+ [*][b]Permitir jugar como una nación personalizada tras su liberación[/b]
  [*][b]Añadir una opción para filtrar tierras por no integradas[/b]
  [*][b]Permitir la opción de que los feudos adopten tu religión/cultura por defecto[/b] - Estará bajo una regla de juego no predeterminada.
 [/olist]
 
-[h1]Traducciones:[/h1]
-Mi mod incluye traducciones generadas automáticamente mediante DeepL para todos los idiomas admitidos de forma nativa por EU5. Soy consciente de que [b]habrá[/b] errores en la traducción. Esto no pretende ser un sustituto de las traducciones nativas, sino un complemento para cuando estas no estén disponibles.
-
-[h2]Localizaciones traducidas automáticamente:[/h2]
+[h1]Localizaciones nativas:[/h1]
 [list]
- [*][b]Chinese / 中文[/b]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b]
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
+ [*][b]Inglés:[/b] Primaria
+ [*][b]Chino / 中文:[/b] Disponible en el [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Gracias a [i]牛奶大魔王[/i]).
 [/list]
 
-Además de la traducción automática, hay localizaciones nativas (generadas por humanos) disponibles para algunos idiomas.
-
-[h2]Localizaciones nativas:[/h2]
+[h1]Localizaciones traducidas por DeepL:[/h1]
 [list]
- [*][b]Inglés:[/b] Principal
- [*][b]Chinese / 中文:[/b] Disponible en el [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Gracias a [i]牛奶大魔王[/i]).
+ [*][b]Chino / 中文[/b]
+ [*][b]Francés / Français[/b]
+ [*][b]Alemán / Deutsch[/b]
+ [*][b]Japonés / 日本語[/b]
+ [*][b]Coreano / 한국어[/b]
+ [*][b]Polaco / Polski[/b]
+ [*][b]Portugués (Brasil) / Português (Brasil)[/b]
+ [*][b]Ruso / Русский[/b]
+ [*][b]Español / Español[/b]
+ [*][b]Turco / Türkçe[/b]
 [/list]
-Los hablantes de chino deberían seguir utilizando 凯撒汉化, ya que ofrece traducciones muy superiores; asegúrate de cargarlo después de mi mod para garantizar que sobrescriba las automáticas.
+Los hablantes de chino deberían seguir usando 凯撒汉化, ya que ofrece traducciones muy superiores; asegúrate de cargarlo después de mi mod para garantizar que sobrescriba las generadas.
 
 [h1]Registro de cambios:[/h1]
 Consulta las [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notas de cambios en la página de la workshop[/url].
@@ -78,22 +73,22 @@ Consulta las [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3
  [*]Puedo añadir parches de compatibilidad bajo petición.
 [/list]
 
-Además del hilo de sugerencias fijado, también puedes hacer preguntas, reportar errores o hacer sugerencias en el [url=https://discord.gg/xWTWMBc7Fn]canal #improved-subject-management del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en participar en el desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord @arealconner. Todas las contribuciones son bienvenidas.
+Además de la discusión de sugerencias fijada, también puedes hacer cualquier pregunta, informar de errores o hacer sugerencias en el canal [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en participar en el desarrollo de este o alguno de mis otros mods, puedes mencionarme o añadirme en Discord @arealconner. Todas las contribuciones son bienvenidas.
 
 El código fuente y las versiones de desarrollo del mod están disponibles en [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
 
 [h1]Páginas del mod traducidas por DeepL:[/h1]
 [list]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Chinese / 中文[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=french]French / Français[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=german]German / Deutsch[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=japanese]Japanese / 日本語[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=koreana]Korean / 한국어[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=polish]Polish / Polski[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=brazilian]Portuguese (Brazil) / Português (Brasil)[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=russian]Russian / Русский[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Spanish / Español[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turkish / Türkçe[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Chino / 中文[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=french]Francés / Français[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=german]Alemán / Deutsch[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=japanese]Japonés / 日本語[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=koreana]Coreano / 한국어[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=polish]Polaco / Polski[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=brazilian]Portugués (Brasil) / Português (Brasil)[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=russian]Ruso / Русский[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Español / Español[/url]
+ [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turco / Türkçe[/url]
 [/list]
-(Ten en cuenta que he alcanzado el límite máximo de caracteres para la descripción del mod, por lo que no puedo incluir las localizaciones automáticas y nativas en la misma página).
+(Ten en cuenta que estoy al límite máximo de caracteres para la descripción del mod, por lo que no puedo poner tanto las localizaciones autotraducidas como las nativas en la misma página).
 

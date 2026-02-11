@@ -6,81 +6,76 @@ Verbesserte Untertanenverwaltung / Improved Subject Management
 [h1]Übersicht:[/h1]
 Fügt neue Interaktionen, Modifikationen und Automatisierungen hinzu, um die Verwaltung von Untertanen erheblich zu verbessern.
 
-[h1]Funktionen:[/h1]
+[h1]Features:[/h1]
 [olist]
- [*][b]Neue Interaktionen zum Übertragen von Land zwischen Untertanen[/b]
+ [*][b]Neue Interaktionen zur Übertragung von Land zwischen Untertanen[/b]
 	[list]
-	 [*][b]Übertragen an:[/b] Gib deinem Untertan Land, entweder von einem anderen Untertan oder von dir selbst.
-	 [*][b]Übertragen von:[/b] Nimm deinem Untertan Land weg und gib es einem anderen Untertan oder dir selbst (falls es von einer Kolonialnation genommen wird).
+	 [*][b]Übertragen an:[/b] Gebt eurem Untertanen Land, entweder von einem anderen Untertanen oder von euch selbst.
+	 [*][b]Übertragen von:[/b] Nehmt eurem Untertanen Land weg und gebt es einem anderen Untertanen oder euch selbst (falls es von einer Kolonialnation genommen wird).
 	[/list]
- [*][b]Neue Interaktion zum Ändern der Hauptstadt von Untertanen[/b] – Manchmal wählen sie schreckliche Standorte, oder du erstellst einen Untertan mit einer ungünstigen Hauptstadtposition und möchtest dies später korrigieren.
- [*][b]Neue Interaktion zum Ändern der Liturgiesprache deines Untertans[/b] – Fügt einen abklingenden Loyalitätswert von -15 und 1000% Änderungskosten für den Untertan hinzu, um zu verhindern, dass dieser sofort wieder zurückwechselt.
- [*][b]Neue Interaktion zum Sperren und Freigeben der Kolonialisierung für Untertanen[/b]
- [*][b]Neue Interaktion zum Sperren und Freigeben von Kriegserklärungen für Untertanen[/b]
- [*][b]Neue Interaktion zum Sperren und Freigeben der Urbanisierung für Untertanen[/b] – Verhindert, dass sie Städte gründen.
- [*][b]Neue Interaktion zum Sperren und Freigeben der Nutzung des Kolumbianischen Austauschs[/b] – Um dir die vollständige Kontrolle zu geben und zu verhindern, dass sie wertvolle RGOs überschreiben.
- [*][b]Neue Interaktion zum Beitreten und Übernehmen der Kriegsführung von einem Untertan[/b] – einschließlich Rebellionen und Erbfolgekriegen.
- [*][b]Neue automatische Kartenfreigabe[/b] – Jedes Jahr verbreitet sich jedes Gebiet, das von einem Untertan, aber nicht von seinem Lehnsherrn entdeckt wurde und an ein vom Lehnsherrn entdecktes Gebiet grenzt, an den Lehnsherrn. Dadurch werden nach und nach alle Karten der Untertanen an ihre Lehnsherren weitergegeben.
- [*][b]Verhindere, dass Kolonialsubjekte desselben Lehnsherrn sich gegenseitig den Krieg erklären.[/b]
- [*][b]Du kannst nun Frieden bei deinen Kolonialsubjekten erzwingen.[/b]
- [*][b]Du kannst die Größe des zu übertragenden Landes wählen: Ort, Provinz, Gebiet, Region[/b]
- [*][b]Entferne die Standortbeschränkung für übertragbares Land[/b] – Im Hauptspiel ist es oft nicht möglich, einen Ort, der nur eine Provinz entfernt ist, an seine Untertanen zu geben.
- [*][b]Du kannst Land frei zwischen Kolonialsubjekten und dir selbst übertragen.[/b] – Du hast ihnen das Land ursprünglich gegeben, und in den meisten Fällen ist es nicht besser, Kolonialland selbst zu besitzen, daher sollte dies keine Auswirkungen auf die Spielbalance haben.
- [*][b]Im Krieg zu sein, blockiert nicht mehr vollständig die Verwaltung des Landes von Untertanen[/b] – Warum sollte ein Krieg gegen einen Ein-Provinz-Staat am anderen Ende der Welt mich daran hindern, mein neu kolonisiertes Land an meinen Untertan zu geben? (Du kannst Land zwischen Untertanen übertragen, die im selben Krieg sind, und du kannst Land immer von einer Kolonialnation übertragen.)
- [*][b]Ermögliche das Herbeirufen von Verbündeten zur Unterstützung in Vasallenkriegen (wie Rebellionen).[/b] – Sobald du einen Krieg übernimmst, kannst du Verbündete rufen.
- [*][b]Verhindere, dass deine Tributstaaten deinen Vasallen/Lehen den Krieg erklären (aber weiterhin anderen Tributstaaten).[/b]
- [*][b]Gewähre dem Lehnsherrn immer Zugang zu Nahrung in allen Untertanentypen (ohne anfragen zu müssen).[/b]
+ [*][b]Neue Interaktion zur Änderung der Hauptstadt von Untertanen[/b] – Manchmal wählen sie schreckliche Orte aus, oder ihr erstellt einen Untertanen mit einem schlechten Hauptstadtstandort und wollt dies später korrigieren.
+ [*][b]Neue Interaktion zur Änderung der liturgischen Sprache eures Untertanen[/b] – Fügt dem Untertanen einen abklingenden Loyalitätsmalus von -15 und 1000 % Änderungskosten hinzu, um zu verhindern, dass er sofort wieder zurückwechselt.
+ [*][b]Neue Interaktion, um einem Untertanen das Kolonisieren zu verbieten oder zu erlauben[/b]
+ [*][b]Neue Interaktion, um einem Untertanen das Erklären von Kriegen zu verbieten oder zu erlauben[/b]
+ [*][b]Neue Interaktion, um einem Untertanen das Urbanisieren zu verbieten oder zu erlauben[/b] – Verhindert die Gründung von Städten.
+ [*][b]Neue Interaktion, um einem Untertanen die Nutzung des Kolumbianischen Austauschs zu verbieten oder zu erlauben[/b] – Um euch die vollständige Kontrolle zu geben und zu verhindern, dass sie wertvolle RGOs überschreiben.
+ [*][b]Neue Interaktion, um einem Krieg eines Untertanen beizutreten und die Kriegsführung zu übernehmen[/b] – Einschließlich Rebellionen und Erbfolgekriegen.
+ [*][b]Neues Feature zur automatischen Kartenweitergabe[/b] – Jedes Jahr verbreiten sich Gebiete, die von einem Untertanen, aber nicht vom Lehnsherrn entdeckt wurden und an ein vom Lehnsherrn entdecktes Gebiet grenzen, an den Lehnsherrn. Dadurch werden alle Karten der Untertanen stetig an ihre Lehnsherren weitergegeben.
+ [*][b]Verhindert, dass Kolonialsubjekte desselben Lehnsherrn sich gegenseitig den Krieg erklären.[/b]
+ [*][b]Ihr könnt nun Frieden bei euren Kolonialsubjekten erzwingen.[/b]
+ [*][b]Ihr könnt die Größe des zu übertragenden Landes wählen: Standort, Provinz, Gebiet, Region[/b]
+ [*][b]Entfernt die Standortbeschränkung für die Landübertragung[/b] – Im Hauptspiel (Vanilla) könnt ihr euren Untertanen häufig keine Standorte geben, die nur eine Provinz entfernt sind.
+ [*][b]Ihr könnt Land frei zwischen Kolonialsubjekten und euch selbst übertragen.[/b] – Ihr habt ihnen das Land ursprünglich gegeben, und in den meisten Fällen ist es nicht besser, Kolonialland selbst zu besitzen, daher sollte dies keine Auswirkungen auf die Spielbalance haben.
+ [*][b]Im Krieg zu sein blockiert nicht mehr vollständig die Verwaltung des Landes von Untertanen[/b] – Warum sollte ein Krieg mit einem Ein-Provinz-Staat am anderen Ende der Welt mich daran hindern, mein neu kolonisiertes Land meinem Untertanen zu geben? (Ihr könnt Land zwischen Untertanen übertragen, die sich im selben Krieg befinden, und ihr könnt Land immer von einer Kolonialnation übertragen.)
+ [*][b]Erlaubt das Rufen von Verbündeten zur Unterstützung in Vasallenkriegen (wie z. B. Rebellionen).[/b] – Sobald ihr einen Krieg übernommen habt, könnt ihr Verbündete rufen.
+ [*][b]Verhindert, dass eure Tributstaaten euren Vasallen/Lehen den Krieg erklären (aber weiterhin anderen Tributstaaten).[/b]
+ [*][b]Der Lehnsherr hat immer Zugang zu Nahrung in allen Untertanentypen (ohne anfragen zu müssen)[/b]
 [/olist]
 
-[h1]Geplant/Kommend:[/h1]
+[h1]Geplant/Bevorstehend:[/h1]
 [olist]
- [*]Zusätzliche Anpassungsoptionen[/b] – Ich arbeite an einem Mod-Menü zur Anpassung der RGO-Sperrung, der automatischen Übernahme von Untertanenkriegen und anderen Optionen.
- [*][b]Lass das Land von Untertanen für Formationsanforderungen zählen[/b]
- [*][b]Ermögliche das Spielen als benutzerdefinierte Nation nach der Freilassung[/b]
- [*][b]Option zum Filtern von Land nach nicht integriertem Status hinzufügen[/b]
- [*][b]Option hinzufügen, um Lehen standardmäßig die eigene Religion/Kultur zu geben[/b] – wird unter einer Nicht-Standard-Spielregel verfügbar sein.
+ [*][b]Zusätzliche Anpassungsoptionen[/b] – Ich arbeite an einem Mod-Menü zur Anpassung der RGO-Sperrung, der automatischen Übernahme von Untertanenkriegen und anderen Optionen.
+ [*][b]Land von Untertanen für die Anforderungen zur Formierung von Nationen zählen lassen[/b]
+ [*][b]Ermöglicht das Spielen als benutzerdefinierte Nation nach der Entlassung[/b]
+ [*][b]Option zum Filtern von Land nach nicht integrierten Gebieten hinzufügen[/b]
+ [*][b]Option hinzufügen, um Lehen standardmäßig eure Religion/Kultur zu geben[/b] – wird unter einer nicht standardmäßigen Spielregel verfügbar sein.
 [/olist]
 
-[h1]Übersetzungen:[/h1]
-Mein Mod enthält automatisch generierte Übersetzungen mittels DeepL für alle nativ unterstützten EU5-Sprachen. Mir ist bewusst, dass es Übersetzungsfehler geben [b]wird[/b]. Dies soll kein Ersatz für muttersprachliche Übersetzungen sein, sondern eine Ergänzung, wenn diese nicht verfügbar sind.
-
-[h2]Automatisch übersetzte Lokalisierungen:[/h2]
+[h1]Native Lokalisierungen:[/h1]
 [list]
- [*][b]Chinese / 中文[/b]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b]
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
+ [*][b]Englisch:[/b] Primär
+ [*][b]Chinesisch / 中文:[/b] Verfügbar in der [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) Mod[/url]. (Danke an [i]牛奶大魔王[/i]).
 [/list]
 
-Zusätzlich zur automatischen Übersetzung sind für einige Sprachen native (von Menschen erstellte) Lokalisierungen verfügbar.
-
-[h2]Native Lokalisierungen:[/h2]
+[h1]DeepL-übersetzte Lokalisierungen:[/h1]
 [list]
- [*][b]English:[/b] Primary
- [*][b]Chinese / 中文:[/b] Verfügbar im [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Danke an [i]牛奶大魔王[/i]).
+ [*][b]Chinesisch / 中文[/b]
+ [*][b]Französisch / Français[/b]
+ [*][b]Deutsch / Deutsch[/b]
+ [*][b]Japanisch / 日本語[/b]
+ [*][b]Koreanisch / 한국어[/b]
+ [*][b]Polnisch / Polski[/b]
+ [*][b]Portugiesisch (Brasilien) / Português (Brasil)[/b]
+ [*][b]Russisch / Русский[/b]
+ [*][b]Spanisch / Español[/b]
+ [*][b]Türkisch / Türkçe[/b]
 [/list]
-Chinesischsprachige Nutzer sollten weiterhin „凯撒汉化“ verwenden, da es weitaus bessere Übersetzungen bietet. Stelle sicher, dass du es nach meinem Mod lädst, damit es die generierten Übersetzungen überschreibt.
+Chinesischsprachige Nutzer sollten weiterhin 凯撒汉化 verwenden, da diese Mod weit überlegene Übersetzungen bietet. Achtet darauf, sie nach meiner Mod zu laden, um sicherzustellen, dass sie die generierten Übersetzungen überschreibt.
 
 [h1]Änderungsprotokoll:[/h1]
 Siehe die [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Änderungshinweise auf der Workshop-Seite[/url].
 
 [h1]Kompatibilität:[/h1]
 [list]
- [*]Nicht Achievement-kompatibel.
- [*]Vollständig mit Spielständen kompatibel.
- [*]Sollte mit jedem Mod funktionieren.
+ [*]Nicht kompatibel mit Errungenschaften (Achievements).
+ [*]Vollständig kompatibel mit Spielständen.
+ [*]Sollte mit jeder Mod funktionieren.
  [*]Ich kann auf Anfrage Kompatibilitätspatches hinzufügen.
 [/list]
 
-Zusätzlich zur angepinnten Vorschlags-Diskussion kannst du auch Fragen stellen, Fehler melden oder Vorschläge im [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management-Kanal des EU5 Community Discord-Servers[/url] machen. Und wenn du daran interessiert bist, an der Entwicklung dieses oder eines meiner anderen Mods mitzuwirken, kannst du mich auf Discord unter @arealconner anpingen oder hinzufügen. Alle Beiträge sind willkommen.
+Zusätzlich zur angepinnten Diskussionsrunde für Vorschläge könnt ihr auch Fragen stellen, Bugs melden oder Vorschläge im [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management-Kanal des EU5 Community Discord-Servers[/url] machen. Und wenn ihr daran interessiert seid, an der Entwicklung dieser oder einer meiner anderen Mods mitzuwirken, könnt ihr mich auf Discord unter @arealconner anpingen oder hinzufügen. Alle Beiträge sind willkommen.
 
-Der Quellcode und die Entwicklerversionen des Mods sind auf [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub verfügbar.[/url]
+Der Quellcode und die Entwicklerversionen der Mod sind auf [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub verfügbar.[/url]
 
 [h1]DeepL-übersetzte Mod-Seiten:[/h1]
 [list]
@@ -95,5 +90,5 @@ Der Quellcode und die Entwicklerversionen des Mods sind auf [url=https://github.
  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Spanish / Español[/url]
  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turkish / Türkçe[/url]
 [/list]
-(Hinweis: Ich habe das maximale Zeichenlimit für die Mod-Beschreibung erreicht, daher kann ich nicht sowohl die automatisch übersetzten als auch die nativen Lokalisierungen auf derselben Seite anzeigen.)
+(Beachtet, dass ich das maximale Zeichenlimit für die Mod-Beschreibung erreicht habe, daher kann ich nicht sowohl die automatisch übersetzten als auch die nativen Lokalisierungen auf derselben Seite unterbringen.)
 
