@@ -11,3 +11,6 @@
 # INJECT:colonial_nation = {
 #     allow_declaring_wars = { ism_can_declare_war = yes }
 # }
+TRY_INJECT:tributary = {
+	allow_declaring_wars = { ism_can_declare_war = yes }
+}
