@@ -16,27 +16,11 @@ INJECT:intervene_in_subject_regular_war = {
 }
 
 # Superseded by take over subject wars interaction
-INJECT:intervene_in_subject_regular_war = {
-	select_trigger = {
-		looking_for_a = country
-		interaction_source_list = { }
-		target_flag = recipient
-		name = "choose_country"
-		show_if = {
-			scope:actor = { is_human = yes }
-		}
-		visible = {
-			always = no
-		}
-	}
-}
-
-# Superseded by take over subject wars interaction
 INJECT:intervene_in_subject_civil_war = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
-		target_flag = target_1
+		target_flag = recipient
 		name = "choose_country"
 		show_if = {
 			scope:actor = { is_human = yes }
@@ -67,7 +51,7 @@ INJECT:seize_location_from_subject = {
 
 
 # Superseded by transfer to/from interactions
-INJECT:give_subject_location_to_other_subject = {
+TRY_INJECT:give_subject_location_to_other_subject = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
