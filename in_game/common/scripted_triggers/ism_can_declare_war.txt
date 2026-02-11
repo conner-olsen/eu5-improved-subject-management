@@ -16,12 +16,12 @@ REPLACE:colonial_nation_can_declare_wars_trigger = {
 # ARGS:
 # scope:attacker = subject trying to declare war
 # scope:defender = country they are trying to declare war on
-# ism_can_declare_war = {
-#     OR = {
-#         NOT = { scope:attacker.top_overlord ?= scope:defender.top_overlord }
-#         AND = {
-#             scope:attacker.subject_type = subject_type:tributary
-#             scope:defender.subject_type = subject_type:tributary
-#         }
-#     }
-# }
+ism_can_declare_war = {
+    OR = {
+        NOT = { scope:attacker.top_overlord ?= scope:defender.top_overlord }
+        AND = {
+            scope:attacker.subject_type = subject_type:tributary
+            scope:defender.subject_type = subject_type:tributary
+        }
+    }
+}

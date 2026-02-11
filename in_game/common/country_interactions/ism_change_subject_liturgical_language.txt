@@ -45,7 +45,7 @@
 		scope:recipient = {
 			set_liturgical_language = scope:actor.liturgical_dialect
 			add_country_modifier = {
-				modifier = forced_us_to_use_their_liturgical_language
+				modifier = ism_forced_us_to_use_their_liturgical_language
 				years = 50
 				mode = add_and_extend
 			}
