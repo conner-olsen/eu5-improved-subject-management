@@ -17,7 +17,12 @@
 		interaction_source_list = {
 			scope:actor = {
 				every_subject = {
-					add_to_list = source
+					if = {
+						limit = {
+							ism_is_proper_subject = yes
+						}
+						add_to_list = source
+					}
 				}
 			}
 		}
