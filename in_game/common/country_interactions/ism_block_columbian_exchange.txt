@@ -1,4 +1,4 @@
-﻿ism_block_subject_urbanization = {
+﻿ism_block_columbian_exchange = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
 
@@ -27,13 +27,16 @@
 			data = name
 		}
 		visible = {
+			situation:columbian_exchange = {
+				situation_is_active = yes
+			}
 			NOR = {
 				country_type = building
 				country_type = pop
 			}
-			NOT = { has_country_modifier = ism_overlord_blocking_urbanization }
+			NOT = { has_country_modifier = ism_overlord_blocking_columbian_exchange }
 		}
-        enabled = {
+		enabled = {
 		}
 	}
 
@@ -44,7 +47,7 @@
 			}
 			scope:recipient = {
 				add_country_modifier = {
-					modifier = ism_overlord_blocking_urbanization
+					modifier = ism_overlord_blocking_columbian_exchange
 					days = -1
 					mode = replace
 				}
@@ -53,7 +56,7 @@
 	}
 }
 
-ism_allow_subject_urbanization = {
+ism_allow_columbian_exchange = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
 
@@ -86,9 +89,9 @@ ism_allow_subject_urbanization = {
 				country_type = building
 				country_type = pop
 			}
-			has_country_modifier = ism_overlord_blocking_urbanization
+			has_country_modifier = ism_overlord_blocking_columbian_exchange
 		}
-        enabled = {
+		enabled = {
 		}
 	}
 
@@ -98,7 +101,7 @@ ism_allow_subject_urbanization = {
 				exists = scope:recipient
 			}
 			scope:recipient = {
-				remove_country_modifier = ism_overlord_blocking_urbanization
+				remove_country_modifier = ism_overlord_blocking_columbian_exchange
 			}
 		}
 	}

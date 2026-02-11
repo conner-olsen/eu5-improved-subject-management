@@ -1,4 +1,4 @@
-﻿forced_us_to_use_their_liturgical_language = {
+﻿ism_forced_us_to_use_their_liturgical_language = {
 	game_data = {
 		category = country
 		decaying = yes
@@ -8,23 +8,30 @@
 
 }
 
-overlord_blocking_colonization = {
+ism_overlord_blocking_colonization = {
     game_data = {
         category = country
     }
-    blocked_from_colonization = yes
+	can_colonize = no
 }
 
-overlord_blocking_urbanization = {
+ism_overlord_blocking_urbanization = {
     game_data = {
         category = country
     }
     town_upgrade_cost_modifier = 1000
 }
 
-overlord_blocking_declaring_war = {
+ism_overlord_blocking_war_declarations = {
     game_data = {
         category = country
     }
     blocked_from_declaring_war = yes
+}
+
+ism_overlord_blocking_columbian_exchange = {
+	game_data = {
+		category = country
+	}
+	ism_blocked_from_columbian_exchange = yes
 }

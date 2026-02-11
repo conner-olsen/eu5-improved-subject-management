@@ -1,0 +1,30 @@
+﻿# Disable columbian exchange when blocked
+INJECT:move_nw_good_to_new_location = {
+	select_trigger = {
+		looking_for_a = country
+		interaction_source_list = { }
+		target_flag = recipient
+		name = "choose_country"
+		show_if = {
+			scope:actor = { has_country_modifier = ism_overlord_blocking_columbian_exchange }
+		}
+		visible = {
+			always = no
+		}
+	}
+}
+
+INJECT:move_ow_good_to_new_location = {
+	select_trigger = {
+		looking_for_a = country
+		interaction_source_list = { }
+		target_flag = recipient
+		name = "choose_country"
+		show_if = {
+			scope:actor = { has_country_modifier = ism_overlord_blocking_columbian_exchange }
+		}
+		visible = {
+			always = no
+		}
+	}
+}
