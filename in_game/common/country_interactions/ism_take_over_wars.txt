@@ -27,10 +27,6 @@
 			data = name
 		}
 		visible = {
-			NOR = {
-				country_type = building
-				country_type = pop
-			}
 			at_war = yes
 			any_current_war = {
 				prev = {
