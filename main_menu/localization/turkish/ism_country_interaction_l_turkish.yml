@@ -59,12 +59,6 @@
  PROPOSE_ism_block_subject_colonization: "$TARGET$'ın kolonileştirilmesini engellemek mi?"
 
  # Allow subject colonization
- allow_subject_colonization: "Kolonizasyona izin ver"
- allow_subject_colonization_desc: "Konumuzun yeni [colonial_charters|e] oluşturmasına izin vereceğiz."
- allow_subject_colonization_act: "Kolonizasyona izin verir"
- allow_subject_colonization_effect_text: "[SCOPE.sCountry('actor').GetName] [SCOPE.sCountry('recipient').GetName]'nin kolonileştirilmesine izin verir."
- allow_subject_colonization_effect_text_past: "[SCOPE.sCountry('actor').GetName] artık [SCOPE.sCountry('recipient').GetName]'nin kolonileştirilmesini engellemiyor."
- PROPOSE_allow_subject_colonization: "$TARGET$'ın kolonileştirilmesine izin verilsin mi?"
 
  # Block subject urbanization
  ism_block_subject_urbanization: "Kentselleşmeyi Engellemek"
@@ -75,12 +69,6 @@
  PROPOSE_ism_block_subject_urbanization: "$TARGET$'ın kentleşmesini engellemek mi?"
 
  # Allow subject urbanization
- allow_subject_urbanization: "Kentleşmeye izin ver"
- allow_subject_urbanization_desc: "Konumuzun yeni şehirler yaratmasına izin vereceğiz."
- allow_subject_urbanization_act: "Kentleşmeye izin verir"
- allow_subject_urbanization_effect_text: "[SCOPE.sCountry('actor').GetName] [SCOPE.sCountry('recipient').GetName]'nin kentleşmesini sağlar."
- allow_subject_urbanization_effect_text_past: "[SCOPE.sCountry('actor').GetName] artık [SCOPE.sCountry('recipient').GetName]'nin kentleşmesini engellemiyor."
- PROPOSE_allow_subject_urbanization: "$TARGET$'ın kentleşmesine izin verilsin mi?"
 
  # Block subject declaring war
  ism_block_subject_declaring_war: "Savaş İlanı Bloğu"
@@ -91,12 +79,6 @@
  PROPOSE_ism_block_subject_declaring_war: "$TARGET$ savaş ilan etmesini engellemek mi?"
 
  # Allow subject declaring war
- allow_subject_declaring_war: "Savaş İlanına İzin Ver"
- allow_subject_declaring_war_desc: "Konumuzun savaş ilan etmesine izin vereceğiz."
- allow_subject_declaring_war_act: "Savaş ilanına izin verir"
- allow_subject_declaring_war_effect_text: "[SCOPE.sCountry('actor').GetName] [SCOPE.sCountry('recipient').GetName]'in savaş ilan etmesine izin verir."
- allow_subject_declaring_war_effect_text_past: "[SCOPE.sCountry('actor').GetName] artık [SCOPE.sCountry('recipient').GetName]'in savaş ilan etmesini engellemiyor."
- PROPOSE_allow_subject_declaring_war: "$TARGET$ savaş ilan etmesine izin verilsin mi?"
  ism_allow_subject_colonization: "Kolonizasyona izin ver"
  ism_allow_subject_colonization_desc: "Konumuzun yeni [colonial_charters|e] oluşturmasına izin vereceğiz."
  ism_allow_subject_colonization_act: "Kolonizasyona izin verir"

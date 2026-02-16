@@ -1,19 +1,9 @@
 ﻿l_german:
  # Block colonization
- MODIFIER_TYPE_NAME_blocked_from_colonization: "Von der Kolonisierung ausgeschlossen"
- MODIFIER_TYPE_DESC_blocked_from_colonization: "Dies verbietet dem Land, neue [colonial_charters|e] zu schaffen."
 
- STATIC_MODIFIER_NAME_overlord_blocking_colonization: "Kolonisierung durch Overlord blockiert"
- STATIC_MODIFIER_DESC_overlord_blocking_colonization: "Diese Kolonialnation wurde von ihrem [overlord|e] daran gehindert, neue [colonial_charters|e] zu schaffen."
 
- STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "Änderung der liturgischen Sprache blockiert"
- STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "Dieses Land wurde von seinem [overlord|e] gezwungen, seine [liturgical_language|e] zu ändern."
 
- STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "Urbanisierung durch Overlord blockiert"
- STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "Diese Nation wurde von ihrem [overlord|e] daran gehindert, neue Städte zu gründen."
 
- STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "Kriegserklärungen durch Overlord blockiert"
- STATIC_MODIFIER_DESC_overlord_blocking_declaring_war: "Diese Nation wurde von ihrem [overlord|e] daran gehindert, den Krieg zu erklären."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_colonization: "Kolonisierung durch Overlord blockiert"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_colonization: "Diese Kolonialnation wurde von ihrem [overlord|e] daran gehindert, neue [colonial_charters|e] zu schaffen."
  STATIC_MODIFIER_NAME_ism_forced_us_to_use_their_liturgical_language: "Änderung der liturgischen Sprache blockiert"
@@ -26,3 +16,5 @@
  MODIFIER_TYPE_DESC_ism_blocked_from_columbian_exchange: "Diese Nation wurde von der Teilnahme am [columbian_exchange|e] ausgeschlossen."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_columbian_exchange: "Kolumbianischer Austausch durch Overlord blockiert"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_columbian_exchange: "Diese Nation wurde von ihrem [overlord|e] daran gehindert, am [columbian_exchange|e] teilzunehmen."
+ MODIFIER_TYPE_NAME_ism_blocked_from_colonization: "Overlord blockiert Kolonisierung"
+ MODIFIER_TYPE_DESC_ism_blocked_from_colonization: "Der Oberherr verbietet dem Land, neue [colonial_charters|e] zu schaffen."

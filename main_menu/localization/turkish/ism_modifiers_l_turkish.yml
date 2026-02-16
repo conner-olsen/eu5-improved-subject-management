@@ -1,19 +1,9 @@
 ﻿l_turkish:
  # Block colonization
- MODIFIER_TYPE_NAME_blocked_from_colonization: "Kolonizasyondan engellenmiş"
- MODIFIER_TYPE_DESC_blocked_from_colonization: "Bu, ülkenin yeni [colonial_charters|e] oluşturmasını yasaklar."
 
- STATIC_MODIFIER_NAME_overlord_blocking_colonization: "Overlord tarafından engellenen kolonileştirme"
- STATIC_MODIFIER_DESC_overlord_blocking_colonization: "Bu sömürge ulusu[overlord|e] tarafından yeni [colonial_charters|e] oluşturması engellenmiştir."
 
- STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "Liturjik dilin değiştirilmesi engellendi"
- STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "Bu ülke[overlord|e] tarafından [liturgical_language|e] dilini değiştirmeye zorlanmıştır."
 
- STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "Overlord tarafından engellenen kentleşme"
- STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "Bu ulus, [overlord|e] tarafından yeni şehirler kurması engellenmiştir."
 
- STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "Overlord tarafından engellenen savaş ilanları"
- STATIC_MODIFIER_DESC_overlord_blocking_declaring_war: "Bu ülke[overlord|e] tarafından savaş ilan etmesinden alıkonulmuştur."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_colonization: "Overlord tarafından engellenen kolonileştirme"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_colonization: "Bu sömürge ulusu[overlord|e] tarafından yeni [colonial_charters|e] oluşturması engellenmiştir."
  STATIC_MODIFIER_NAME_ism_forced_us_to_use_their_liturgical_language: "Liturjik dilin değiştirilmesi engellendi"
@@ -26,3 +16,5 @@
  MODIFIER_TYPE_DESC_ism_blocked_from_columbian_exchange: "Bu ülke [columbian_exchange|e]'ye katılmaktan men edilmiştir."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_columbian_exchange: "Kolombiyalı Değişim, Overlord Tarafından Engellendi"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_columbian_exchange: "Bu ülke, [columbian_exchange|e]'ye katılmaktan [overlord|e] tarafından engellenmiştir."
+ MODIFIER_TYPE_NAME_ism_blocked_from_colonization: "Overlord Kolonizasyonu Engelliyor"
+ MODIFIER_TYPE_DESC_ism_blocked_from_colonization: "Yüce hükümdar, ülkenin yeni [colonial_charters|e] oluşturmasını yasaklamıştır."

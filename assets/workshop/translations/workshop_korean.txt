@@ -4,91 +4,76 @@
 [i]You are on the DeepL-Generated Korean Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]개요:[/h1]
-종속국 관리를 대폭 개선하기 위해 새로운 상호작용, 수정 사항 및 자동화 기능을 추가합니다.
+종속국 관리를 획기적으로 개선하기 위해 새로운 상호작용, 수정 사항 및 자동화 기능을 추가합니다.
 
-[h1]기능:[/h1]
+[h1]주요 기능:[/h1]
 [olist]
- [*][b]종속국 간 영토 양도를 위한 새로운 상호작용[/b]
+ [*][b]종속국 간 영토 이전을 위한 새로운 상호작용[/b]
 	[list]
-	 [*][b]~에게 양도:[/b] 다른 종속국이나 자신으로부터 종속국에게 영토를 줍니다.
-	 [*][b]~로부터 양도:[/b] 종속국으로부터 영토를 가져와 다른 종속국에게 주거나, 자신이 가집니다(식민지 국가로부터 가져오는 경우).
+	 [*][b]대상에게 이전:[/b] 다른 종속국이나 플레이어 자신으로부터 종속국에게 영토를 넘겨줍니다.
+	 [*][b]대상으로부터 이전:[/b] 종속국의 영토를 가져와 다른 종속국에게 주거나, 플레이어 자신이 가져옵니다(식민지 국가로부터 가져오는 경우).
 	[/list]
- [*][b]종속국의 수도를 변경하는 새로운 상호작용[/b] - 종속국이 형편없는 위치를 수도로 선택하거나, 초기에 수도 위치가 좋지 않은 종속국을 생성했을 때 나중에 이를 수정하고 싶은 경우를 위함입니다.
- [*][b]종속국의 전례 언어(Liturgical Language)를 변경하는 새로운 상호작용[/b] - 종속국에게 서서히 감소하는 -15 충성도와 1000%의 변경 비용 페널티를 부여하여, 종속국이 즉시 언어를 다시 바꾸는 것을 방지합니다.
- [*][b]종속국의 식민지 개척 차단 및 허용 기능[/b]
- [*][b]종속국의 전쟁 선포 차단 및 허용 기능[/b]
- [*][b]종속국의 도시화 차단 및 허용 기능[/b] - 종속국이 마을(town)을 건설하는 것을 방지합니다.
- [*][b]종속국의 콜럼버스 교환 사용 차단 및 허용 기능[/b] - 플레이어에게 완전한 통제권을 부여하여 종속국이 가치 있는 RGO를 덮어씌우는 것을 방지합니다.
- [*][b]종속국의 전쟁에 참여하고 전쟁 지도권을 인수하는 기능[/b] - 반란 및 계승 전쟁을 포함합니다.
- [*][b]새로운 자동 지도 공유 기능[/b] - 매년 종속국이 발견하고 종주국이 발견하지 못한 지역 중, 종주국이 이미 발견한 지역과 인접한 곳의 지도가 종주국에게 전파됩니다. 이를 통해 모든 종속국의 지도가 점진적으로 종주국에게 공유됩니다.
- [*][b]동일한 종주국을 둔 식민지 종속국끼리 서로 전쟁을 선포하는 것을 차단합니다.[/b]
- [*][b]이제 식민지 종속국에게 평화 강요(Enforce Peace)를 할 수 있습니다.[/b]
- [*][b]양도할 영토의 규모를 선택할 수 있습니다: 거점(Location), 주(Province), 지역(Area), 지방(Region)[/b]
- [*][b]영토 양도 시의 위치 제한을 제거합니다[/b] - 바닐라에서는 바로 한 주 거리에 있는 거점임에도 종속국에게 줄 수 없는 경우가 흔히 발생합니다.
- [*][b]식민지 종속국과 자신 사이에 영토를 자유롭게 양도할 수 있습니다.[/b] - 애초에 플레이어가 준 땅이며, 대부분의 경우 식민지 영토를 직접 소유하는 것이 더 이득이지 않으므로 게임 밸런스에 영향을 미치지 않습니다.
- [*][b]전쟁 중에도 종속국의 영토 관리가 완전히 차단되지 않습니다[/b] - 지구 반대편에 있는 거점 하나짜리 소국과 전쟁 중이라고 해서 새로 개척한 땅을 종속국에게 주지 못할 이유가 없습니다. (같은 전쟁에 참여 중인 종속국 간에는 영토를 양도할 수 있으며, 식민지 국가로부터는 언제든지 영토를 가져올 수 있습니다.)
- [*][b]종속국 전쟁(반란 등)에 동맹을 호출할 수 있도록 허용합니다.[/b] - 전쟁 지도권을 인수하고 나면 동맹을 부를 수 있습니다.
- [*][b]조공국이 플레이어의 속국/봉토(vassals/fiefdoms)에게 전쟁을 선포하는 것을 방지합니다 (다른 조공국에 대한 선포는 여전히 가능).[/b]
- [*][b]모든 종속국 유형에서 종주국이 항상 식량 접근권을 가짐 (요청할 필요 없음)[/b]
+ [*][b]종속국의 수도를 변경하는 새로운 상호작용[/b] - 때때로 종속국이 끔찍한 위치를 선택하거나, 처음 생성할 때 수도 위치가 좋지 않아 나중에 수정하고 싶을 때 유용합니다.
+ [*][b]종속국의 전례 언어를 변경하는 새로운 상호작용[/b] - 서서히 사라지는 -15의 충성도 수치와 1000%의 변경 비용을 종속국에 추가하여, 즉시 다른 언어로 바꾸는 것을 방지합니다.
+ [*][b]종속국의 식민지 개척 허용 및 차단 상호작용[/b]
+ [*][b]종속국의 전쟁 선포 허용 및 차단 상호작용[/b]
+ [*][b]종속국의 도시화 허용 및 차단 상호작용[/b] - 종속국이 마을(towns)을 건설하는 것을 방지합니다.
+ [*][b]종속국의 콜럼버스 교환 사용 허용 및 차단 상호작용[/b] - 완전한 통제권을 행사하여 종속국이 귀중한 RGO를 덮어쓰는 것을 방지합니다.
+ [*][b]종속국의 전쟁에 참여하고 주도권을 탈취하는 새로운 상호작용[/b] - 반란 및 계승 전쟁을 포함합니다.
+ [*][b]새로운 자동 지도 공유 기능[/b] - 매년 종속국이 발견하고 종주국이 발견하지 못한 지역 중 종주국이 발견한 지역과 인접한 곳의 지도가 종주국에게 전파됩니다. 이를 통해 모든 종속국의 지도가 종주국에게 꾸준히 공유됩니다.
+ [*][b]같은 종주국을 둔 식민지 종속국끼리 전쟁을 선포하는 것을 방지합니다.[/b]
+ [*][b]식민지 종속국에게 평화를 강요할 수 있습니다.[/b]
+ [*][b]이전할 영토의 규모를 선택할 수 있습니다: 로케이션, 프로빈스, 에어리어, 리전[/b]
+ [*][b]영토 이전 시의 위치 제한을 제거합니다[/b] - 바닐라에서는 종속국에게 한 프로빈스 떨어진 로케이션조차 넘겨주지 못하는 경우가 많습니다.
+ [*][b]식민지 종속국과 종주국 간에 영토를 자유롭게 이전할 수 있습니다.[/b] - 애초에 종주국이 준 땅이며, 대부분의 경우 식민지 땅을 직접 소유하는 것이 이득이 아니므로 게임 밸런스에 영향을 주지 않을 것입니다.
+ [*][b]전쟁 중에도 종속국의 영토 관리가 완전히 차단되지 않습니다[/b] - 지구 반대편에 있는 원 프로빈스 마이너 국가와 전쟁 중이라고 해서 새로 개척한 땅을 종속국에게 주지 못할 이유가 있을까요? (같은 전쟁에 참여 중인 종속국 간에는 영토를 이전할 수 있으며, 식민지 국가로부터는 언제든지 영토를 가져올 수 있습니다.)
+ [*][b]종속국 전쟁(반란 등)에 동맹군을 부를 수 있습니다.[/b] - 전쟁 주도권을 가져온 후 동맹을 호출할 수 있습니다.
+ [*][b]조공국이 플레이어의 봉신/봉토(fiefdoms)에 전쟁을 선포하는 것을 방지합니다(다른 조공국에 대한 공격은 허용).[/b]
+ [*][b]모든 유형의 종속국에서 종주국이 항상 식량 접근권을 갖도록 합니다(요청 불필요).[/b]
 [/olist]
 
-[h1]계획/예정 사항:[/h1]
+[h1]계획 중/예정 사항:[/h1]
 [olist]
  [*][b]추가 커스터마이징 옵션[/b] - RGO 차단, 종속국 전쟁 자동 인수 및 기타 옵션을 설정할 수 있는 모드 메뉴를 작업 중입니다.
- [*][b]종속국의 영토가 국가 형성 조건에 포함되도록 개선[/b]
- [*][b]해방 시 커스텀 국가로 플레이 가능하게 허용[/b]
- [*][b]미통합(unintegrated) 지역별로 영토를 필터링하는 옵션 추가[/b]
- [*][b]봉토(Fiefdoms) 생성 시 기본적으로 플레이어의 종교/문화로 설정하는 옵션[/b] - 기본값이 아닌 게임 규칙(game rule)으로 제공될 예정입니다.
+ [*][b]종속국 영토가 국가 형성 요구 조건에 포함되도록 수정[/b]
+ [*][b]해방 시 커스텀 국가로 플레이 허용[/b]
+ [*][b]미통합 영토로 필터링하는 옵션 추가[/b]
+ [*][b]봉토(Fiefdoms)를 기본적으로 종주국의 종교/문화로 생성하는 옵션 허용[/b] - 기본값이 아닌 게임 규칙 설정으로 추가될 예정입니다.
 [/olist]
 
-[h1]자체 현지화(Native Localizations):[/h1]
+[h1]자체 로컬라이징:[/h1]
 [list]
- [*][b]English:[/b] 기본
- [*][b]Chinese / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) 모드[/url]에서 사용 가능. ([i]牛奶大魔王[/i]님께 감사드립니다).
+ [*][b]영어:[/b] 기본
+ [*][b]중국어 / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) 모드[/url]에서 사용 가능. ([i]牛奶大魔王[/i]님께 감사드립니다).
 [/list]
 
-[h1]DeepL 번역 현지화:[/h1]
+[h1]DeepL 번역 로컬라이징:[/h1]
 [list]
- [*][b]Chinese / 中文[/b]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b]
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
+ [*][b]중국어 / 中文[/b]
+ [*][b]프랑스어 / Français[/b]
+ [*][b]독일어 / Deutsch[/b]
+ [*][b]일본어 / 日本語[/b]
+ [*][b]한국어 / 한국어[/b]
+ [*][b]폴란드어 / Polski[/b]
+ [*][b]포르투갈어(브라질) / Português (Brasil)[/b]
+ [*][b]러시아어 / Русский[/b]
+ [*][b]스페인어 / Español[/b]
+ [*][b]터키어 / Türkçe[/b]
 [/list]
-중국어 사용자는 훨씬 뛰어난 번역을 제공하는 凯撒汉化 모드를 사용하시기 바랍니다. 해당 모드가 자동 생성된 번역을 덮어쓸 수 있도록 이 모드보다 나중에 로드되도록 설정하십시오.
+중국어 사용자는 훨씬 뛰어난 번역을 제공하는 凯撒汉化를 계속 사용하시기 바랍니다. 이 모드가 생성된 번역을 덮어쓸 수 있도록 제 모드보다 뒤에 로드되도록 설정해 주세요.
 
-[h1]변경 로그(Change Log):[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]워크숍 페이지의 변경 참고 사항(Change Notes)[/url]을 확인하세요.
+[h1]변경 로그:[/h1]
+창작마당 페이지의 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]변경 사항(Change Notes)[/url]을 확인하세요.
 
 [h1]호환성:[/h1]
 [list]
- [*]업적 달성(Achievement)과 호환되지 않습니다.
- [*]기존 세이브 파일과 완전히 호환됩니다.
- [*]다른 모든 모드와 호환되어야 합니다.
- [*]요청이 있을 경우 호환성 패치를 추가할 수 있습니다.
+ [*]업적(Achievement) 달성 불가.
+ [*]세이브 파일과 완벽하게 호환됩니다.
+ [*]모든 모드와 함께 작동할 것입니다.
+ [*]요청 시 호환성 패치를 추가할 수 있습니다.
 [/list]
 
-고정된 제안 토론 스레드 외에도, [url=https://discord.gg/xWTWMBc7Fn]EU5 Community 디스코드 서버의 #improved-subject-management 채널[/url]에서 질문, 버그 제보 또는 제안을 하실 수 있습니다. 이 모드나 제 다른 모드들의 개발에 참여하고 싶으시다면 디스코드 @arealconner로 메시지를 보내거나 친구 추가를 해주세요. 모든 기여를 환영합니다.
+댓글 섹션과 고정된 제안 토론 외에도, [url=https://discord.gg/xWTWMBc7Fn]EU5 커뮤니티 디스코드 서버의 #improved-subject-management 채널[/url]에서 질문, 버그 제보 또는 제안을 하실 수 있습니다. 이 모드나 제 다른 모드 개발에 참여하고 싶으시다면 디스코드 @arealconner로 메시지를 보내거나 친구 추가를 해주세요. 모든 기여를 환영합니다.
 
-모드의 소스 및 개발 버전은 [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub[/url]에서 확인하실 수 있습니다.
-
-[h1]DeepL 번역된 모드 페이지:[/h1]
-[list]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Chinese / 中文[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=french]French / Français[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=german]German / Deutsch[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=japanese]Japanese / 日本語[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=koreana]Korean / 한국어[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=polish]Polish / Polski[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=brazilian]Portuguese (Brazil) / Português (Brasil)[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=russian]Russian / Русский[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=spanish]Spanish / Español[/url]
- [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=turkish]Turkish / Türkçe[/url]
-[/list]
-(모드 설명의 글자 수 제한이 가득 찼기 때문에, 자동 번역본과 원본 현지화를 동일한 페이지에 모두 게시할 수 없음을 양해 바랍니다.)
+모드의 소스 및 개발 버전은 [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub[/url]에서 확인할 수 있습니다.
 

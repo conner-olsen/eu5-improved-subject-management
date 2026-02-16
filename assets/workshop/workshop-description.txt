@@ -72,6 +72,7 @@ In addition to the comment section and pinned suggestions discussion, you can al
 
 The source and dev versions of the mod are available on [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
 
+--NO-TRANSLATE-BELOW--
 [h1]DeepL Translated Mod Pages:[/h1]
 [list]
  [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619130338&l=schinese]Chinese / 中文[/url]

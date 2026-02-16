@@ -1,19 +1,9 @@
 ﻿l_spanish:
  # Block colonization
- MODIFIER_TYPE_NAME_blocked_from_colonization: "Bloqueado para la colonización"
- MODIFIER_TYPE_DESC_blocked_from_colonization: "Esto prohíbe al país crear nuevas [colonial_charters|e]."
 
- STATIC_MODIFIER_NAME_overlord_blocking_colonization: "Colonización bloqueada por Overlord"
- STATIC_MODIFIER_DESC_overlord_blocking_colonization: "Esta nación colonial ha sido bloqueada por su [overlord|e] para crear nuevas [colonial_charters|e]."
 
- STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "Bloqueado para cambiar el idioma litúrgico"
- STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "Este país se ha visto obligado por su [overlord|e] a cambiar su [liturgical_language|e]."
 
- STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "Urbanización bloqueada por Overlord"
- STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "Esta nación ha sido bloqueada por su [overlord|e] para que no funde nuevas ciudades."
 
- STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "Declaraciones de guerra bloqueadas por Overlord"
- STATIC_MODIFIER_DESC_overlord_blocking_declaring_war: "Esta nación ha sido bloqueada por su [overlord|e] para declarar la guerra."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_colonization: "Colonización bloqueada por Overlord"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_colonization: "Esta nación colonial ha sido bloqueada por su [overlord|e] para crear nuevas [colonial_charters|e]."
  STATIC_MODIFIER_NAME_ism_forced_us_to_use_their_liturgical_language: "Bloqueado para cambiar el idioma litúrgico"
@@ -26,3 +16,5 @@
  MODIFIER_TYPE_DESC_ism_blocked_from_columbian_exchange: "A esta nación se le ha impedido participar en el [columbian_exchange|e]."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_columbian_exchange: "Intercambio colombiano bloqueado por Overlord"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_columbian_exchange: "Esta nación ha sido bloqueada por su [overlord|e] para participar en el [columbian_exchange|e]."
+ MODIFIER_TYPE_NAME_ism_blocked_from_colonization: "Overlord bloqueando la colonización"
+ MODIFIER_TYPE_DESC_ism_blocked_from_colonization: "El señor supremo prohíbe al país crear nuevas [colonial_charters|e]."

@@ -59,12 +59,6 @@
  PROPOSE_ism_block_subject_colonization: "$TARGET$のブロック植民地化を阻止する？"
 
  # Allow subject colonization
- allow_subject_colonization: "植民地化を許可する"
- allow_subject_colonization_desc: "我々は対象が新たな[colonial_charters|e]を作成することを許可する。"
- allow_subject_colonization_act: "植民地化を許可する"
- allow_subject_colonization_effect_text: "[SCOPE.sCountry('actor').GetName] は [SCOPE.sCountry('recipient').GetName] の植民地化を可能にする"
- allow_subject_colonization_effect_text_past: "[SCOPE.sCountry('actor').GetName] は、[SCOPE.sCountry('recipient').GetName] の植民地化を妨げることはなくなりました"
- PROPOSE_allow_subject_colonization: "$TARGET$ARGET$の植民地化を許可しますか？"
 
  # Block subject urbanization
  ism_block_subject_urbanization: "都市化の阻止"
@@ -75,12 +69,6 @@
  PROPOSE_ism_block_subject_urbanization: "$TARGET$TARGET$の都市化を阻止する？"
 
  # Allow subject urbanization
- allow_subject_urbanization: "都市化を許可する"
- allow_subject_urbanization_desc: "我々は対象に新たな町を建設させることを許可する。"
- allow_subject_urbanization_act: "都市化を可能にする"
- allow_subject_urbanization_effect_text: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]の都市化を可能にする"
- allow_subject_urbanization_effect_text_past: "[SCOPE.sCountry('actor').GetName]は、[SCOPE.sCountry('recipient').GetName]の都市化を妨げることはなくなりました"
- PROPOSE_allow_subject_urbanization: "$TARGET$$の都市化を許可しますか？"
 
  # Block subject declaring war
  ism_block_subject_declaring_war: "ブロックによる宣戦布告"
@@ -91,12 +79,6 @@
  PROPOSE_ism_block_subject_declaring_war: "$TARGET$宣戦布告するのを阻止する？"
 
  # Allow subject declaring war
- allow_subject_declaring_war: "宣戦を許す"
- allow_subject_declaring_war_desc: "我々は対象に宣戦を許す。"
- allow_subject_declaring_war_act: "宣戦を許す"
- allow_subject_declaring_war_effect_text: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sCountry('recipient').GetName]に宣戦布告を許可する"
- allow_subject_declaring_war_effect_text_past: "[SCOPE.sCountry('actor').GetName] は、[SCOPE.sCountry('recipient').GetName] が宣戦布告することを妨げることはなくなりました"
- PROPOSE_allow_subject_declaring_war: "$TARGET$宣戦を許可しますか？"
  ism_allow_subject_colonization: "植民地化を許可する"
  ism_allow_subject_colonization_desc: "我々は対象が新たな[colonial_charters|e]を作成することを許可する。"
  ism_allow_subject_colonization_act: "植民地化を許可する"

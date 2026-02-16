@@ -59,12 +59,6 @@
  PROPOSE_ism_block_subject_colonization: "Блокировать колонизацию $TARGET$TARGET$?"
 
  # Allow subject colonization
- allow_subject_colonization: "Разрешить колонизацию"
- allow_subject_colonization_desc: "Мы позволим нашему субъекту создавать новые [colonial_charters|e]."
- allow_subject_colonization_act: "Позволяет колонизацию"
- allow_subject_colonization_effect_text: "[SCOPE.sCountry('actor').GetName] позволяет колонизировать [SCOPE.sCountry('recipient').GetName]"
- allow_subject_colonization_effect_text_past: "[SCOPE.sCountry('actor').GetName] больше не блокирует колонизацию [SCOPE.sCountry('recipient').GetName]"
- PROPOSE_allow_subject_colonization: "Разрешить колонизацию $TARGET$TARGET$?"
 
  # Block subject urbanization
  ism_block_subject_urbanization: "Блочная урбанизация"
@@ -75,12 +69,6 @@
  PROPOSE_ism_block_subject_urbanization: "Блокировать урбанизацию $TARGET$TARGET$?"
 
  # Allow subject urbanization
- allow_subject_urbanization: "Разрешить урбанизацию"
- allow_subject_urbanization_desc: "Мы разрешим нашему субъекту создавать новые города."
- allow_subject_urbanization_act: "Позволяет урбанизацию"
- allow_subject_urbanization_effect_text: "[SCOPE.sCountry('actor').GetName] позволяет урбанизировать [SCOPE.sCountry('recipient').GetName]"
- allow_subject_urbanization_effect_text_past: "[SCOPE.sCountry('actor').GetName] больше не препятствует урбанизации [SCOPE.sCountry('recipient').GetName]"
- PROPOSE_allow_subject_urbanization: "Разрешить урбанизацию $TARGET$TARGET$?"
 
  # Block subject declaring war
  ism_block_subject_declaring_war: "Блок объявляет войну"
@@ -91,12 +79,6 @@
  PROPOSE_ism_block_subject_declaring_war: "Заблокировать $TARGET$ от объявления войны?"
 
  # Allow subject declaring war
- allow_subject_declaring_war: "Разрешить объявление войны"
- allow_subject_declaring_war_desc: "Мы позволим нашему субъекту объявить войну."
- allow_subject_declaring_war_act: "Разрешает объявлять войну"
- allow_subject_declaring_war_effect_text: "[SCOPE.sCountry('actor').GetName] позволяет [SCOPE.sCountry('recipient').GetName] объявить войну"
- allow_subject_declaring_war_effect_text_past: "[SCOPE.sCountry('actor').GetName] больше не блокирует [SCOPE.sCountry('recipient').GetName] от объявления войны"
- PROPOSE_allow_subject_declaring_war: "Разрешить $TARGET$ объявить войну?"
  ism_allow_subject_colonization: "Разрешить колонизацию"
  ism_allow_subject_colonization_desc: "Мы позволим нашему субъекту создавать новые [colonial_charters|e]."
  ism_allow_subject_colonization_act: "Позволяет колонизацию"

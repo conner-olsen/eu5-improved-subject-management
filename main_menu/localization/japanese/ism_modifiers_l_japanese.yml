@@ -1,19 +1,9 @@
 ﻿l_japanese:
  # Block colonization
- MODIFIER_TYPE_NAME_blocked_from_colonization: "植民地化を阻止された"
- MODIFIER_TYPE_DESC_blocked_from_colonization: "これにより、国は新たな[colonial_charters|e]を制定することが禁止される。"
 
- STATIC_MODIFIER_NAME_overlord_blocking_colonization: "オーバーロードによって植民地化が阻止された"
- STATIC_MODIFIER_DESC_overlord_blocking_colonization: "この植民地国家は、その[overlord|e]によって新たな[colonial_charters|e]の作成を阻止されている。"
 
- STATIC_MODIFIER_NAME_forced_us_to_use_their_liturgical_language: "典礼言語の変更が阻止された"
- STATIC_MODIFIER_DESC_forced_us_to_use_their_liturgical_language: "この国は[overlord|e]によって、その[liturgical_language|e]の変更を強いられた。"
 
- STATIC_MODIFIER_NAME_overlord_blocking_urbanization: "オーバーロードによって阻まれた都市化"
- STATIC_MODIFIER_DESC_overlord_blocking_urbanization: "この国は[overlord|e]その支配者によって新たな町の建設を阻まれている。"
 
- STATIC_MODIFIER_NAME_overlord_blocking_declaring_war: "オーバーロードによる宣戦布告阻止"
- STATIC_MODIFIER_DESC_overlord_blocking_declaring_war: "この国は、その[overlord|e]によって宣戦布告を阻まれている。"
  STATIC_MODIFIER_NAME_ism_overlord_blocking_colonization: "オーバーロードによる植民地化の阻止"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_colonization: "この植民地国家は、その[overlord|e]によって新たな[colonial_charters|e]の作成を阻止されている。"
  STATIC_MODIFIER_NAME_ism_forced_us_to_use_their_liturgical_language: "典礼言語の変更が阻止された"
@@ -26,3 +16,5 @@
  MODIFIER_TYPE_DESC_ism_blocked_from_columbian_exchange: "この国は[columbian_exchange|e]への参加を阻まれてきた。"
  STATIC_MODIFIER_NAME_ism_overlord_blocking_columbian_exchange: "支配者によって遮られたコロンブス交換"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_columbian_exchange: "この国は、その[overlord|e]によって[columbian_exchange|e]交換への参加を阻まれてきた。"
+ MODIFIER_TYPE_NAME_ism_blocked_from_colonization: "オーバーロードによる植民地化の阻止"
+ MODIFIER_TYPE_DESC_ism_blocked_from_colonization: "支配者は、新たな[colonial_charters|e]の制定を国に禁じている。"
