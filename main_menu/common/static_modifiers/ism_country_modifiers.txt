@@ -13,6 +13,7 @@ ism_overlord_blocking_colonization = {
         category = country
     }
 	can_colonize = no
+	ism_blocked_from_colonization = yes
 }
 
 ism_overlord_blocking_urbanization = {

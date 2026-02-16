@@ -1,4 +1,6 @@
 ﻿l_english:
+ MODIFIER_TYPE_NAME_ism_blocked_from_colonization: "Overlord Blocking Colonization"
+ MODIFIER_TYPE_DESC_ism_blocked_from_colonization: "The overlord forbids the country to create new [colonial_charters|e]."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_colonization: "Colonization Blocked by Overlord"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_colonization: "This colonial nation has been blocked by its [overlord|e] from creating new [colonial_charters|e]."
 

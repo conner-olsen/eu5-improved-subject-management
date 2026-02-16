@@ -17,9 +17,7 @@
 		interaction_source_list = {
 			scope:actor = {
 				every_subject = {
-					if = {
-						add_to_list = source
-					}
+					add_to_list = source
 				}
 			}
 		}
