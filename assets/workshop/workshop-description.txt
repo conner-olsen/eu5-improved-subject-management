@@ -51,7 +51,7 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]Korean / 한국어[/b]
  [*][b]Polish / Polski[/b]
  [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b]
+ [*][b]Russian / Русский[/b] - With corrections thanks to @Koufor
  [*][b]Spanish / Español[/b]
  [*][b]Turkish / Türkçe[/b]
 [/list]
