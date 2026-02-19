@@ -12,9 +12,11 @@
     select_trigger = {
         looking_for_a = area
         interaction_source_list = {
-            every_area_with_owned_province = {
-                add_to_list = source
-            }
+			scope:actor.var:ism_giver_nation = {
+				every_area_with_owned_province = {
+					add_to_list = source
+				}
+			}
         }
         target_flag = recipient
         name = "transfer_area_to_subject_select_title"

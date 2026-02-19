@@ -1,3 +1,7 @@
-﻿ism_blocked_from_columbian_exchange = {
+﻿ism_blocked_from_colonization = {
+	positive = "gfx/interface/icons/modifier_types/can_colonize_negative.dds"
+}
+
+ism_blocked_from_columbian_exchange = {
 	positive = "gfx/interface/icons/modifier_types/can_colonize_negative.dds"
 }
