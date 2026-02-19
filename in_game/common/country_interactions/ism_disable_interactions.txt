@@ -4,7 +4,7 @@ TRY_INJECT:intervene_in_subject_regular_war = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
-		target_flag = verification
+		target_flag = recipient
 		name = "choose_country"
 		show_if = {
 			scope:actor = { is_human = yes }
@@ -20,7 +20,7 @@ TRY_INJECT:intervene_in_subject_civil_war = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
-		target_flag = verification
+		target_flag = recipient
 		name = "choose_country"
 		show_if = {
 			scope:actor = { is_human = yes }
@@ -36,7 +36,7 @@ TRY_INJECT:seize_location_from_subject = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
-		target_flag = verification
+		target_flag = recipient
 		name = "choose_country"
 		show_if = {
 			exists = scope:recipient
@@ -55,7 +55,7 @@ TRY_INJECT:give_subject_location_to_other_subject = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
-		target_flag = verification
+		target_flag = recipient
 		name = "choose_country"
 		show_if = {
 			scope:actor = { is_human = yes }
@@ -74,7 +74,7 @@ TRY_INJECT:give_location_to_subject = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
-		target_flag = verification
+		target_flag = recipient
 		name = "choose_country"
 		show_if = {
 			scope:actor = { is_human = yes }
@@ -90,7 +90,7 @@ TRY_INJECT:give_province_to_subject = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
-		target_flag = verification
+		target_flag = recipient
 		name = "choose_country"
 		show_if = {
 			scope:actor = { is_human = yes }
