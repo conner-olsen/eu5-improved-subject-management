@@ -36,7 +36,8 @@ Adds new interactions, modifications, and automations to significantly improve s
  [*][b]Allow option for making Fiefdoms your religion/culture by default[/b] - will be under a non-default game rule.
  [*][b]Allow overlord to destroy subject buildings[/b]
  [*][b]Prevent subjects from cancelling overlord constructions[/b]
- [*][b]Allow granting your subjects greater diplomatic freedom (i.e., the ability to declare war freely)[/b]
+ [*][b]Allow customizing your subjects rights (i.e., such as allowing them to declare war freely)[/b]
+ [*][b]Allow renaming your subjects locations[/b]
 [/olist]
 
 [h1]Native Localizations:[/h1]
