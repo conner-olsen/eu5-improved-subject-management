@@ -33,6 +33,17 @@
 					is_war_leader_of = prev
 				}
 			}
+			# Can't take over war when in civil war, but can still join.
+			# If subject is in a civil war, but and you are not in the war, then can still join the war.
+			# Otherwise interaction is hidden when already in the war.
+			OR = {
+				any_current_war = {
+					scope:actor = {
+						NOT = { is_in_war = prev }
+					}
+				}
+				NOT = { in_civil_war = yes }
+			}
 		}
 		enabled = {
 		}
