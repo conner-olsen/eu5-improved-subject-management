@@ -16,7 +16,7 @@ Note: The workshop images are outdated, there are far more and reworked features
  [*][b]New interaction to block and unblock a subject from declaring wars[/b]
  [*][b]New interaction to block and unblock a subject from urbanizing[/b] - Prevents them from founding towns.
  [*][b]New interaction to block and unblock a subject from using the Columbian Exchange[/b] - to give you complete control and prevent them from overwriting valuable RGO's.
- [*][b]New interaction to join and take over war leadership from a subject[/b] - including rebellions and succession wars
+ [*][b]New interaction to join and take over war leadership from a subject[/b] - Unfortunately, while this will make you join the war, you will not be able to take over war leadership for civil wars due to game limitations.
  [*][b]New automatic map sharing feature[/b] - Every year, any area discovered by a subject and not by its overlord that borders an area discovered by its overlord spreads to the overlord. This will steadily spread all subject maps to their overlords.
  [*][b]Block colonial subjects with the same overlord from declaring war on each other.[/b]
  [*][b]You can now enforce peace on your colonial subjects.[/b]
