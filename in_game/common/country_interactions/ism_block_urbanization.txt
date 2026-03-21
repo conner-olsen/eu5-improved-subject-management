@@ -4,7 +4,7 @@
 
 	potential = {
 		scope:actor = {
-			NOT = { has_variable = ism__allow_urbanization }
+			NOT = { has_variable = ism__block_urbanization }
 		}
 	}
 
