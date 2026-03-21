@@ -5,11 +5,3 @@
 		category=country
 	}
 }
-
-ism_blocked_from_colonization={
-	color=bad
-	boolean=yes
-	game_data={
-		category=country
-	}
-}

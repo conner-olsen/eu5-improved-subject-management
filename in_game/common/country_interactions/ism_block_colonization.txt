@@ -3,6 +3,9 @@
 	category = CATEGORY_SUBJECT_ACTIONS
 
 	potential = {
+		scope:actor = {
+			has_variable = ism__allow_colonization
+		}
 	}
 
 	allow = {

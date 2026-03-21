@@ -43,3 +43,31 @@
 		take_over_all_wars = $selected_subject$
 	}
 }
+
+ism_block_subject_war_declarations = {
+	if = {
+		limit = { is_overlord = yes }
+		save_scope_as = overlord_scope
+		every_subject = {
+			if = {
+				limit = {
+					scope:overlord_scope = { has_variable = ism__allow_declaring_war }
+					NOT = { has_country_modifier = ism_overlord_blocking_all_subject_war_declarations }
+				}
+				add_country_modifier = {
+					modifier = ism_overlord_blocking_all_subject_war_declarations
+					days = -1
+					mode = replace
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						has_country_modifier = ism_overlord_blocking_all_subject_war_declarations
+					}
+					remove_country_modifier = ism_overlord_blocking_all_subject_war_declarations
+				}
+			}
+		}
+	}
+}

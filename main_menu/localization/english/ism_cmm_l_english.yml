@@ -3,18 +3,34 @@
  ism_name: "Improved Subject Management"
  ism_desc: "Adds new interactions, modifications, and automations to significantly improve subject management."
 
- # Automations (automations) Tab
- ism__automations_name: "Automations"
- ## General (general) Group
- ism__automations__general_name: "General"
+ # QoL (qol) Tab
+ ism__qol_name: "QoL"
+ ## Automations (automations) Group
+ ism__qol__automations_name: "Automations"
  ism__auto_take_over_subject_wars_name: "Automatically Join Subject Wars"
  ism__auto_take_over_subject_wars_desc: "When enabled every year you will automatically join, and if possible, take over, all subject wars."
  ism__auto_subject_map_sharing_name: "Automatically Share Subject Maps"
  ism__auto_subject_map_sharing_desc: "Your subject maps will slowly spread to you each year."
+ ## Subject Rights (subject_rights) Group
+ ism__qol__subject_rights_name: "Subject Rights"
+ ism__qol__subject_rights_desc: "These are the rights you grant your subjects."
+ ism__allow_colonization_name: "Allow Colonization"
+ ism__allow_colonization_desc: "Do you wish to allow your subjects to colonize?"
+ ism__allow_urbanization_name: "Allow Urbanization"
+ ism__allow_urbanization_desc: "Do you wish to allow your subjects to upgrade rural locations to towns?"
+ ism__allow_columbian_exchange_name: "Allow Columbian Exchange"
+ ism__allow_columbian_exchange_desc: "Do you wish to allow your subjects to use the columbian exchange when available? "
+ ism__allow_declaring_war_name: "Allow Declaring Wars"
+ ism__allow_declaring_war_desc: "Do you wish to allow your subjects to declare war? (Currently will not allow subjects who are already unable to declare war the ability to do so, but this is planned for a future update)"
 
  # Optional: self-referencing flag keys to suppress IDE warnings (safe to remove if you want)
  ism: "ism"
- ism__automations: "ism__automations"
- ism__automations__general: "ism__automations__general"
+ ism__qol: "ism__qol"
+ ism__qol__automations: "ism__qol__automations"
+ ism__qol__subject_rights: "ism__qol__subject_rights"
  ism__auto_take_over_subject_wars: "ism__auto_take_over_subject_wars"
  ism__auto_subject_map_sharing: "ism__auto_subject_map_sharing"
+ ism__allow_colonization: "ism__allow_colonization"
+ ism__allow_urbanization: "ism__allow_urbanization"
+ ism__allow_columbian_exchange: "ism__allow_columbian_exchange"
+ ism__allow_declaring_war: "ism__allow_declaring_war"

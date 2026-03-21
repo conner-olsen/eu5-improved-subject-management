@@ -1,6 +1,8 @@
 ﻿cmf_yearly_human_country_pulse = {
     on_actions = {
         ism_share_maps
+		ism_take_over_country_wars
+		ism_block_subject_wars
     }
 }
 
@@ -48,5 +50,11 @@ ism_take_over_country_wars = {
 		every_subject = {
 			limit = { ism_can_take_over_subject_war = { selected_overlord = scope:selected_overlord } }
 		}
+	}
+}
+
+ism_block_subject_wars = {
+	effect = {
+		ism_block_subject_war_declarations = yes
 	}
 }
