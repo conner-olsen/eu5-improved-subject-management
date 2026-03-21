@@ -1,18 +1,26 @@
-﻿{
-  "name": "Improved Subject Management Dev",
-  "id": "improved.subject.management.dev",
-  "version": "1.8.2",
-  "game_id": "eu5",
-  "supported_game_version": "1.1.*",
-  "short_description": "Adds and modifies various subject interactions to significantly improve subject management.",
-  "tags": [
-    "Utilities",
-    "Diplomacy",
-    "Gameplay",
-    "User Interface",
-    "Fixes",
-    "Overhaul"
-  ],
-  "relationships": [],
-  "game_custom_data": {}
+{
+    "name": "Improved Subject Management Dev",
+    "id": "improved.subject.management.dev",
+    "version": "1.8.2",
+    "game_id": "eu5",
+    "supported_game_version": "1.1.*",
+    "short_description": "Adds new interactions, modifications, and automations to significantly improve subject management.",
+    "tags": [
+        "Utilities",
+        "Diplomacy",
+        "Gameplay",
+        "User Interface",
+        "Fixes",
+        "Overhaul"
+    ],
+    "relationships": [
+        {
+            "rel_type": "dependency",
+            "id": "community.mod.framework",
+            "display_name": "Community Mod Framework",
+            "resource_type": "mod",
+            "version": "*"
+        }
+    ],
+    "game_custom_data": {}
 }

@@ -1,0 +1,32 @@
+﻿# Root scope: country.
+ism_register_cmf_mod = {
+	# Automations (automations) Tab
+	## General (general) Group
+	cmm_register_bool_setting = {
+		mod_id = ism
+		setting_id = auto_take_over_subject_wars
+		tab_id = automations
+		group_id = general
+		default_value = 1
+	}
+
+	cmm_register_bool_setting = {
+		mod_id = ism
+		setting_id = auto_subject_map_sharing
+		tab_id = automations
+		group_id = general
+		default_value = 1
+	}
+}
+
+# Callback handler for cmf_on_callback.
+# var:cmf_callback is the flag of the setting, alert, or action bar element that was interacted with.
+# Scope: country
+ism_handle_cmf_callback = {
+	switch = {
+		trigger = var:cmf_callback
+		# flag:ism__my_setting = {
+		# 	# Custom side effects when this setting changes
+		# }
+	}
+}

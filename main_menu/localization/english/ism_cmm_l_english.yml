@@ -1,0 +1,20 @@
+﻿l_english:
+ # Mod
+ ism_name: "Improved Subject Management"
+ ism_desc: "Adds new interactions, modifications, and automations to significantly improve subject management."
+
+ # Automations (automations) Tab
+ ism__automations_name: "Automations"
+ ## General (general) Group
+ ism__automations__general_name: "General"
+ ism__auto_take_over_subject_wars_name: "Automatically Join Subject Wars"
+ ism__auto_take_over_subject_wars_desc: "When enabled every year you will automatically join, and if possible, take over, all subject wars."
+ ism__auto_subject_map_sharing_name: "Automatically Share Subject Maps"
+ ism__auto_subject_map_sharing_desc: "Your subject maps will slowly spread to you each year."
+
+ # Optional: self-referencing flag keys to suppress IDE warnings (safe to remove if you want)
+ ism: "ism"
+ ism__automations: "ism__automations"
+ ism__automations__general: "ism__automations__general"
+ ism__auto_take_over_subject_wars: "ism__auto_take_over_subject_wars"
+ ism__auto_subject_map_sharing: "ism__auto_subject_map_sharing"

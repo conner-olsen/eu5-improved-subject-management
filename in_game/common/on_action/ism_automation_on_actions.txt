@@ -1,4 +1,4 @@
-﻿yearly_country_pulse = {
+﻿cmf_yearly_human_country_pulse = {
     on_actions = {
         ism_share_maps
     }
@@ -7,10 +7,7 @@
 ism_share_maps = {
     trigger = {
         is_overlord = yes
-        OR = {
-            is_subject = no
-            is_human = yes
-        }
+		has_variable = ism__auto_subject_map_sharing
     }
     effect = {
         save_temporary_scope_as = highest_overlord
@@ -39,4 +36,17 @@ ism_share_maps = {
             clear_variable_list = areas_to_discover
         }
     }
+}
+
+ism_take_over_country_wars = {
+	trigger = {
+		has_variable = ism__auto_take_over_subject_wars
+		is_overlord = yes
+	}
+	effect = {
+		save_temporary_scope_as = selected_overlord
+		every_subject = {
+			limit = { ism_can_take_over_subject_war = { selected_overlord = scope:selected_overlord } }
+		}
+	}
 }

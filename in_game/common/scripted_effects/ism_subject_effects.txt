@@ -1,0 +1,45 @@
+﻿ism_take_over_subject_wars = {
+	$selected_subject$ = {
+		every_current_war = {
+			if = {
+				limit = {
+					$selected_subject$ = { is_war_leader_of = prev }
+					NOT = { is_in_war = $selected_overlord$ }
+				}
+				if = {
+					limit = {
+						is_civil_war_for = $selected_subject$
+					}
+					$selected_overlord$ = {
+						reverse_add_opinion = {
+							target = $selected_subject$
+							modifier = opinion_helped_in_civil_war
+						}
+					}
+				}
+				if = {
+					limit = {
+						attacker_leader = $selected_subject$
+					}
+					$selected_overlord$ = {
+						join_war_as_attacker = {
+							war = prev
+							reason = intervene
+						}
+					}
+				}
+				else = {
+					$selected_overlord$ = {
+						join_war_as_defender = {
+							war = prev
+							reason = intervene
+						}
+					}
+				}
+			}
+		}
+	}
+	$selected_overlord$ = {
+		take_over_all_wars = $selected_subject$
+	}
+}
