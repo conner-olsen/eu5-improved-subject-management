@@ -51,7 +51,7 @@ ism_block_subject_war_declarations = {
 		every_subject = {
 			if = {
 				limit = {
-					scope:overlord_scope = { has_variable = ism__allow_declaring_war }
+					scope:overlord_scope = { has_variable = ism__block_declaring_war }
 					NOT = { has_country_modifier = ism_overlord_blocking_all_subject_war_declarations }
 				}
 				add_country_modifier = {

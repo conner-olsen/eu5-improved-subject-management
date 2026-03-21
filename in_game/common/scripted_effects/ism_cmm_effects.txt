@@ -29,50 +29,50 @@ ism_register_cmf_mod = {
 	## Subject Rights (subject_rights) Group
 	cmm_register_bool_setting = {
 		mod_id = ism
-		setting_id = allow_colonization
-		tab_id = qol
-		group_id = subject_rights
-		default_value = 1
-	}
-	cmm_sync_bool_alias = {
-		setting = ism__allow_colonization
-		alias = ism__allow_colonization
-	}
-
-	cmm_register_bool_setting = {
-		mod_id = ism
-		setting_id = allow_urbanization
-		tab_id = qol
-		group_id = subject_rights
-		default_value = 1
-	}
-	cmm_sync_bool_alias = {
-		setting = ism__allow_urbanization
-		alias = ism__allow_urbanization
-	}
-
-	cmm_register_bool_setting = {
-		mod_id = ism
-		setting_id = allow_columbian_exchange
-		tab_id = qol
-		group_id = subject_rights
-		default_value = 1
-	}
-	cmm_sync_bool_alias = {
-		setting = ism__allow_columbian_exchange
-		alias = ism__allow_columbian_exchange
-	}
-
-	cmm_register_bool_setting = {
-		mod_id = ism
-		setting_id = allow_declaring_war
+		setting_id = block_colonization
 		tab_id = qol
 		group_id = subject_rights
 		default_value = 0
 	}
 	cmm_sync_bool_alias = {
-		setting = ism__allow_declaring_war
-		alias = ism__allow_declaring_war
+		setting = ism__block_colonization
+		alias = ism__block_colonization
+	}
+
+	cmm_register_bool_setting = {
+		mod_id = ism
+		setting_id = block_urbanization
+		tab_id = qol
+		group_id = subject_rights
+		default_value = 0
+	}
+	cmm_sync_bool_alias = {
+		setting = ism__block_urbanization
+		alias = ism__block_urbanization
+	}
+
+	cmm_register_bool_setting = {
+		mod_id = ism
+		setting_id = block_columbian_exchange
+		tab_id = qol
+		group_id = subject_rights
+		default_value = 0
+	}
+	cmm_sync_bool_alias = {
+		setting = ism__block_columbian_exchange
+		alias = ism__block_columbian_exchange
+	}
+
+	cmm_register_bool_setting = {
+		mod_id = ism
+		setting_id = block_declaring_war
+		tab_id = qol
+		group_id = subject_rights
+		default_value = 0
+	}
+	cmm_sync_bool_alias = {
+		setting = ism__block_declaring_war
+		alias = ism__block_declaring_war
 	}
 }
 
@@ -97,28 +97,28 @@ ism_handle_cmf_callback = {
 			}
 		}
 		## Subject Rights (subject_rights) Group
-		flag:ism__allow_colonization = {
+		flag:ism__block_colonization = {
 			cmm_sync_bool_alias = {
-				setting = ism__allow_colonization
-				alias = ism__allow_colonization
+				setting = ism__block_colonization
+				alias = ism__block_colonization
 			}
 		}
-		flag:ism__allow_urbanization = {
+		flag:ism__block_urbanization = {
 			cmm_sync_bool_alias = {
-				setting = ism__allow_urbanization
-				alias = ism__allow_urbanization
+				setting = ism__block_urbanization
+				alias = ism__block_urbanization
 			}
 		}
-		flag:ism__allow_columbian_exchange = {
+		flag:ism__block_columbian_exchange = {
 			cmm_sync_bool_alias = {
-				setting = ism__allow_columbian_exchange
-				alias = ism__allow_columbian_exchange
+				setting = ism__block_columbian_exchange
+				alias = ism__block_columbian_exchange
 			}
 		}
-		flag:ism__allow_declaring_war = {
+		flag:ism__block_declaring_war = {
 			cmm_sync_bool_alias = {
-				setting = ism__allow_declaring_war
-				alias = ism__allow_declaring_war
+				setting = ism__block_declaring_war
+				alias = ism__block_declaring_war
 			}
 			ism_block_subject_war_declarations = yes
 		}
