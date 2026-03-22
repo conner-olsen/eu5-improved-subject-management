@@ -3,81 +3,83 @@ Verbesserte Untertanenverwaltung / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated German Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Übersicht:[/h1]
-Fügt neue Interaktionen, Modifikationen und Automatisierungen hinzu, um die Untertanenverwaltung deutlich zu verbessern.
+[h1]Überblick:[/h1]
+Fügt neue Interaktionen, Modifikationen und Automatisierungen hinzu, um die Verwaltung von Untertanen erheblich zu verbessern.
 
-Hinweis: Die Workshop-Bilder sind veraltet. Es gibt wesentlich mehr und überarbeitete Funktionen als dort gezeigt. Siehe stattdessen die vollständige Liste unten.
+Hinweis: Die Workshop-Bilder sind veraltet; es gibt weit mehr und überarbeitete Funktionen als dort gezeigt. Siehe stattdessen die vollständige Liste unten.
 
 [h1]Funktionen:[/h1]
 [olist]
- [*][b]Neue Interaktionen zum Übertragen von Land zwischen Untertanen[/b]
+ [*][b]Modus-Menü[/b] - mit verschiedenen Automatisierungen und der Möglichkeit, Untertanenrechte anzupassen.
+ [*][b]Neue Interaktionen zur Landübertragung zwischen Untertanen[/b]
 	[list]
 	 [*][b]Übertragen an:[/b] Gib deinem Untertan Land, entweder von einem anderen Untertan oder von dir selbst.
-	 [*][b]Übertragen von:[/b] Nimm deinem Untertan Land weg und gib es einem anderen Untertan oder dir selbst (falls von einer Kolonialnation genommen).
+	 [*][b]Übertragen von:[/b] Nimm deinem Untertan Land weg und gib es einem anderen Untertan oder dir selbst (falls von einer Kolonialnation).
 	[/list]
- [*][b]Neue Interaktion zum Ändern der Hauptstadt von Untertanen[/b] – Manchmal wählen sie schreckliche Standorte aus, oder man erstellt einen Untertan mit einem anfangs schlechten Hauptstadtstandort und möchte dies später korrigieren.
- [*][b]Neue Interaktion zum Ändern der Liturgiesprache deines Untertans[/b] – Fügt dem Untertan einen abklingenden Loyalitätsmalus von -15 und 1000 % Änderungskosten hinzu, um zu verhindern, dass er sofort wieder zurückwechselt.
- [*][b]Neue Interaktion zum Blockieren und Freigeben der Kolonisierung durch einen Untertan[/b]
- [*][b]Neue Interaktion zum Blockieren und Freigeben von Kriegserklärungen durch einen Untertan[/b]
- [*][b]Neue Interaktion zum Blockieren und Freigeben der Urbanisierung durch einen Untertan[/b] – Verhindert, dass sie Städte gründen.
- [*][b]Neue Interaktion zum Blockieren und Freigeben der Nutzung des Columbian Exchange durch einen Untertan[/b] – Um dir die vollständige Kontrolle zu geben und zu verhindern, dass sie wertvolle RGOs überschreiben.
- [*][b]Neue Interaktion zum Beitreten und Übernehmen der Kriegsführung von einem Untertan[/b] – Leider kannst du aufgrund von Spielbeschränkungen zwar dem Krieg beitreten, aber nicht die Kriegsführung in Bürgerkriegen übernehmen.
- [*][b]Neue automatische Kartenfreigabe-Funktion[/b] – Jedes Jahr verbreiten sich Gebiete, die von einem Untertan, aber nicht von seinem Lehnsherrn entdeckt wurden und an ein vom Lehnsherrn entdecktes Gebiet grenzen, an den Lehnsherrn. Dies wird nach und nach alle Karten der Untertanen an ihre Lehnsherren weitergeben.
- [*][b]Verhindere, dass Kolonialuntertanen desselben Lehnsherrn sich gegenseitig den Krieg erklären.[/b]
- [*][b]Du kannst jetzt Frieden bei deinen Kolonialuntertanen erzwingen.[/b]
+ [*][b]Neue Interaktion zum Ändern der Hauptstadt von Untertanen[/b] - Manchmal wählen sie schreckliche Standorte, oder du erschaffst einen Untertan mit einer anfangs schlechten Hauptstadtlage und möchtest dies später korrigieren.
+ [*][b]Neue Interaktion zum Ändern der liturgischen Sprache deines Untertans[/b] - Fügt dem Untertan eine abklingende Loyalitätsstrafe von -15 und 1000 % Änderungskosten hinzu, um zu verhindern, dass er sofort wieder zurückwechselt.
+ [*][b]Neue Interaktion zum Blockieren und Entsperren der Kolonialisierung eines Untertans[/b]
+ [*][b]Neue Interaktion zum Blockieren und Entsperren von Kriegserklärungen eines Untertans[/b]
+ [*][b]Neue Interaktion zum Blockieren und Entsperren der Urbanisierung eines Untertans[/b] - Verhindert, dass sie Städte gründen.
+ [*][b]Neue Interaktion zum Blockieren und Entsperren der Nutzung des Columbian Exchange durch einen Untertan[/b] - Um dir die vollständige Kontrolle zu geben und zu verhindern, dass sie wertvolle RGOs überschreiben.
+ [*][b]Neue Interaktion zum Beitreten und Übernehmen der Kriegsführung eines Untertans[/b] - Leider wirst du zwar dem Krieg beitreten, kannst aber aufgrund von Spielbeschränkungen die Kriegsführung bei Bürgerkriegen nicht übernehmen.
+ [*][b]Neue automatische Kartenfreigabe-Funktion[/b] - Jedes Jahr verbreiten sich Gebiete, die von einem Untertan entdeckt wurden und nicht vom Lehnsherrn, sofern sie an ein vom Lehnsherrn entdecktes Gebiet grenzen, auf den Lehnsherrn. Dies wird nach und nach alle Karten der Untertanen an ihre Lehnsherren weitergeben.
+ [*][b]Neue Funktion zum automatischen Beitreten an Kriegen von Untertanen[/b] - Jedes Jahr wirst du allen Kriegen beitreten, in denen sich deine Untertanen befinden, und die Kriegsführung übernehmen (Hinweis: Bürgerkriege können nicht übernommen werden).
+ [*][b]Verhindere, dass Kolonial-Untertanen desselben Lehnsherrn sich gegenseitig den Krieg erklären.[/b]
+ [*][b]Du kannst nun deinen Kolonial-Untertanen Frieden erzwingen.[/b]
  [*][b]Du kannst die Größe des zu übertragenden Landes wählen: Ort, Provinz, Gebiet, Region[/b]
- [*][b]Entfernung der Standortbeschränkung für übertragbares Land[/b] – Im Hauptspiel ist es oft nicht möglich, einen Ort, der nur eine Provinz entfernt ist, an deine Untertanen zu geben.
- [*][b]Du kannst Land frei zwischen Kolonialuntertanen und dir selbst übertragen[/b] – Du hast ihnen das Land ursprünglich gegeben, und in den meisten Fällen ist es nicht besser, Kolonialland selbst zu besitzen. Daher sollte dies keine Auswirkungen auf die Spielbalance haben.
- [*][b]Im Krieg zu sein blockiert die Verwaltung von Untertanenland nicht mehr vollständig[/b] – Warum sollte ein Krieg mit einem Ein-Provinz-Staat am anderen Ende der Welt verhindern, dass ich mein neu kolonisiertes Land an meinen Untertan gebe? (Du kannst Land zwischen Untertanen übertragen, die im selben Krieg sind, und du kannst Land immer von einer Kolonialnation übertragen.)
- [*][b]Verbündete zur Unterstützung in Vasallenkriegen rufen (z. B. bei Rebellionen)[/b] – Sobald du einen Krieg übernommen hast, kannst du Verbündete rufen.
- [*][b]Verhindere, dass deine Tributstaaten deinen Vasallen/Lehen den Krieg erklären (aber weiterhin anderen Tributstaaten)[/b]
- [*][b]Sorge dafür, dass der Lehnsherr bei allen Untertanentypen immer Zugang zu Nahrungsmitteln hat (ohne Anfragen stellen zu müssen)[/b]
+ [*][b]Entfernung der Standortbeschränkung für übertragbares Land[/b] - In der Standardversion (Vanilla) ist es oft unmöglich, einen Ort, der nur eine Provinz entfernt ist, an deine Untertanen zu geben.
+ [*][b]Du kannst Land frei zwischen Kolonial-Untertanen und dir selbst übertragen[/b] - Da du ihnen das Land ursprünglich gegeben hast und es in den meisten Fällen nicht besser ist, Kolonialland selbst zu besitzen, sollte dies keine Auswirkungen auf die Spielbalance haben.
+ [*][b]Im Krieg zu sein, blockiert die Verwaltung des Landes von Untertanen nicht mehr vollständig[/b] - Warum sollte ein Krieg mit einem Einprovinzler am anderen Ende der Welt mich daran hindern, mein neu kolonisiertes Land an meinen Untertanen zu geben? (Du kannst Land zwischen Untertanen übertragen, die im selben Krieg sind, und du kannst Land immer von einer Kolonialnation übertragen.)
+ [*][b]Verbündete zur Unterstützung in Kriegen von Untertanen rufen[/b] - Sobald du die Kriegsführung übernommen hast, kannst du Verbündete rufen.
+ [*][b]Verhindere, dass deine Tributstaaten deinen Vasallen/Lehen den Krieg erklären (aber weiterhin anderen Tributstaaten).[/b]
+ [*][b]Lehnsherren haben immer Zugang zu Nahrung in allen Untertanentypen (ohne anfragen zu müssen).[/b]
 [/olist]
 
 [h1]Geplant/Demnächst:[/h1]
 [olist]
- [*][b]Untertanenland für Formierungsanforderungen anrechnen lassen[/b]
- [*][b]Ermöglichen, beim Entlassen als benutzerdefinierte Nation zu spielen[/b]
- [*][b]Option zum Filtern von Land nach "nicht integriert" hinzufügen[/b]
- [*][b]Option hinzufügen, um Lehen standardmäßig deiner Religion/Kultur anzupassen[/b] – wird unter einer Nicht-Standard-Spielregel verfügbar sein.
- [*][b]Dem Lehnsherrn erlauben, Gebäude von Untertanen abzureißen[/b]
+ [*][b]Land von Untertanen für Formungsbedingungen zählen lassen[/b]
+ [*][b]Spielen als benutzerdefinierte Nation bei Freilassung ermöglichen[/b]
+ [*][b]Option zum Filtern von Land nach nicht integriertem Land hinzufügen[/b]
+ [*][b]Option hinzufügen, um Lehen standardmäßig die eigene Religion/Kultur zu geben[/b] - wird unter einer Nicht-Standard-Spielregel verfügbar sein.
+ [*][b]Lehnsherren das Zerstören von Gebäuden der Untertanen ermöglichen[/b]
  [*][b]Verhindern, dass Untertanen Bauvorhaben des Lehnsherrn abbrechen[/b]
- [*][b]Anpassung der Rechte deiner Untertanen ermöglichen (z. B. freie Kriegserklärungen erlauben)[/b]
- [*][b]Umbenennen der Orte deiner Untertanen ermöglichen[/b]
- [*][b]Auswahl des Regierungstyps des Untertans beim Entlassen ermöglichen (z. B. Königreich, Bistum oder Republik)[/b]
+ [*][b]Anpassung der Untertanenrechte ermöglichen (z. B. freie Kriegserklärungen erlauben)[/b]
+ [*][b]Umbenennen von Orten der Untertanen ermöglichen[/b]
+ [*][b]Wahl des Regierungstyps bei Freilassung des Untertans ermöglichen (z. B. Königreich, Bistum oder Republik)[/b]
 [/olist]
 
 [h1]Native Lokalisierungen:[/h1]
 [list]
- [*][b]Englisch:[/b] Primär
- [*][b]Chinesisch / 中文:[/b] Verfügbar im [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Danke an [i]牛奶大魔王[/i]).
+ [*][b]English:[/b] Primary
+ [*][b]Chinese / 中文:[/b] Verfügbar im [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Danke an [i]牛奶大魔王[/i]).
 [/list]
 
 [h1]DeepL-übersetzte Lokalisierungen:[/h1]
 [list]
- [*][b]Französisch / Français[/b]
- [*][b]Deutsch / Deutsch[/b]
- [*][b]Japanisch / 日本語[/b]
- [*][b]Koreanisch / 한국어[/b]
- [*][b]Polnisch / Polski[/b]
- [*][b]Portugiesisch (Brasilien) / Português (Brasil)[/b]
- [*][b]Russisch / Русский[/b] – Mit Korrekturen dank @Koufor
- [*][b]Spanisch / Español[/b]
- [*][b]Türkisch / Türkçe[/b]
+ [*][b]French / Français[/b]
+ [*][b]German / Deutsch[/b]
+ [*][b]Japanese / 日本語[/b]
+ [*][b]Korean / 한국어[/b]
+ [*][b]Polish / Polski[/b]
+ [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
+ [*][b]Russian / Русский[/b] - Mit Korrekturen dank @Koufor
+ [*][b]Spanish / Español[/b]
+ [*][b]Turkish / Türkçe[/b]
 [/list]
 
 [h1]Änderungsprotokoll:[/h1]
-Siehe die [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Änderungshinweise auf der Workshop-Seite[/url].
+Siehe die [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Change Notes auf der Workshop-Seite[/url].
 
 [h1]Kompatibilität:[/h1]
 [list]
- [*]Nicht Ironman-/Achievement-kompatibel.
- [*]Vollständig mit Spielständen kompatibel.
+ [*]Nicht mit Ironman/Achievements kompatibel.
+ [*]Vollständig spielstandkompatibel.
  [*]Sollte mit jedem Mod funktionieren.
- [*]Ich füge auf Anfrage gegebenenfalls Kompatitäts-Patches hinzu.
+ [*]Kompatibilitätspatches können auf Anfrage hinzugefügt werden.
 [/list]
 
-Neben dem Kommentarbereich und der angepinnten Vorschlags-Diskussion kannst du auch Fragen stellen, Fehler melden oder Vorschläge im [url=https://discord.gg/xWTWMBc7Fn]Kanal #improved-subject-management auf dem EU5 Community Discord-Server[/url] machen. Und wenn du daran interessiert bist, an der Entwicklung dieses oder eines meiner anderen Mods mitzuwirken, kannst du mich auf Discord unter @arealconner anpingen oder hinzufügen. Alle Beiträge sind willkommen.
+Zusätzlich zum Kommentarbereich und der angepinnten Vorschlagsdiskussion kannst du auch Fragen stellen, Bugs melden oder Vorschläge im [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management Kanal des EU5 Community Discord-Servers[/url] machen. Und wenn du daran interessiert bist, dich an der Entwicklung dieses oder eines meiner anderen Mods zu beteiligen, kannst du mich auf Discord unter @arealconner anpingen oder hinzufügen. Alle Beiträge sind willkommen.
 
-Der Quellcode und die Entwicklerversionen des Mods sind auf [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub verfügbar.[/url]
+Die Quell- und Entwicklerversionen des Mods sind auf [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub verfügbar.[/url]
 
