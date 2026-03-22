@@ -1,0 +1,4 @@
+- Nuevo menú de mod integrado con el Community Mod Framework
+- Nueva automatización para unirse o asumir automáticamente las guerras de los súbditos
+- Nuevos ajustes para controlar el intercambio automático de mapas
+- Nuevos ajustes globales para bloquear la colonización, la urbanización, el intercambio colombino y la declaración de guerra de todos los súbditos.

@@ -1,0 +1,4 @@
+- Community Mod Framework ile entegre edilmiş yeni mod menüsü
+- Tabi devlet savaşlarına otomatik olarak katılmak / savaşları devralmak için yeni otomasyon
+- Otomatik harita paylaşımını kontrol etmek için yeni ayarlar
+- Tüm tabi devletler için kolonizasyonu, şehirleşmeyi, Kolomb Takası'nı ve savaş ilan etmeyi engellemeye yönelik yeni küresel ayarlar.

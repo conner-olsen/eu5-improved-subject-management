@@ -1,0 +1,4 @@
+- Nowe menu modyfikacji zintegrowane z Community Mod Framework
+- Nowa automatyzacja do automatycznego dołączania do / przejmowania wojen poddanych
+- Nowe ustawienia do kontrolowania automatycznego udostępniania map
+- Nowe ustawienia globalne do blokowania kolonizacji, urbanizacji, wymiany kolumbijskiej oraz wypowiadania wojen przez wszystkich poddanych.

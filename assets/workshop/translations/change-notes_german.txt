@@ -1,0 +1,4 @@
+- Neues Mod-Menü, integriert in das Community Mod Framework
+- Neue Automatisierung zum automatischen Beitreten / Übernehmen von Untertanenkriegen
+- Neue Einstellungen zur Steuerung des automatischen Kartenaustauschs
+- Neue globale Einstellungen zum Blockieren von Kolonialisierung, Urbanisierung, dem Kolumbianischen Austausch und Kriegserklärungen für alle Untertanen.

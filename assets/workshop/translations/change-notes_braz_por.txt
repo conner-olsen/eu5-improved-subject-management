@@ -1,0 +1,4 @@
+- Novo menu de mod integrado ao Community Mod Framework
+- Nova automação para entrar / assumir guerras de súditos automaticamente
+- Novas configurações para controlar o compartilhamento automático de mapas
+- Novas configurações globais para bloquear colonização, urbanização, intercâmbio colombiano e declaração de guerra para todos os súditos.

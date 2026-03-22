@@ -1,0 +1,4 @@
+- Nouveau menu de mod intégré au Community Mod Framework
+- Nouvelle automatisation pour rejoindre ou reprendre automatiquement les guerres des sujets
+- Nouveaux paramètres pour contrôler le partage automatique de cartes
+- Nouveaux paramètres globaux pour bloquer la colonisation, l'urbanisation, l'échange colombien et la déclaration de guerre pour tous les sujets.
