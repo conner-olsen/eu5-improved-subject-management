@@ -1,7 +1,7 @@
-{
+﻿{
     "name": "Improved Subject Management Dev",
     "id": "improved.subject.management.dev",
-    "version": "1.8.2",
+    "version": "1.9.0",
     "game_id": "eu5",
     "supported_game_version": "1.1.*",
     "short_description": "Adds new interactions, modifications, and automations to significantly improve subject management.",
