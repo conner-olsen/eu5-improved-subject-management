@@ -1,0 +1,36 @@
+﻿l_japanese:
+ # Mod
+ ism_name: "従属国管理の改善"
+ ism_desc: "新たな相互作用、修正、自動化機能を追加し、従属国の管理を大幅に改善します。"
+
+ # QoL (qol) Tab
+ ism__qol_name: "QoL"
+ ## Automations (automations) Group
+ ism__qol__automations_name: "自動化"
+ ism__auto_take_over_subject_wars_name: "従属国の戦争に自動参戦"
+ ism__auto_take_over_subject_wars_desc: "有効化されている場合、毎年自動的に全ての従属国の戦争に参戦し、可能であればその主導権を握ります。"
+ ism__auto_subject_map_sharing_name: "従属国の地図を自動的に共有"
+ ism__auto_subject_map_sharing_desc: "従属国の地図は毎年、徐々にあなたへと伝播していきます。"
+ ## Subject Rights (subject_rights) Group
+ ism__qol__subject_rights_name: "従属国の権利"
+ ism__qol__subject_rights_desc: "これらはあなたが従属国に与える権利です。"
+ ism__block_colonization_name: "入植を禁止"
+ ism__block_colonization_desc: "全ての従属国の植民を禁止します。"
+ ism__block_urbanization_name: "都市化の禁止"
+ ism__block_urbanization_desc: "すべての属国が地方のロケーションを町へアップグレードすることを禁止します。"
+ ism__block_columbian_exchange_name: "コロンブス交換の阻止"
+ ism__block_columbian_exchange_desc: "利用可能な際、全ての従属国がコロンブス交換を使用することを禁止します。"
+ ism__block_declaring_war_name: "宣戦布告の禁止"
+ ism__block_declaring_war_desc: "全ての従属国による宣戦布告を禁止します。"
+
+ # Optional: self-referencing flag keys to suppress IDE warnings (safe to remove if you want)
+ ism: "ism"
+ ism__qol: "ism__qol"
+ ism__qol__automations: "ism__qol__automations"
+ ism__qol__subject_rights: "ism__qol__subject_rights"
+ ism__auto_take_over_subject_wars: "ism__auto_take_over_subject_wars"
+ ism__auto_subject_map_sharing: "ism__auto_subject_map_sharing"
+ ism__block_colonization: "ism__block_colonization"
+ ism__block_urbanization: "ism__block_urbanization"
+ ism__block_columbian_exchange: "ism__block_columbian_exchange"
+ ism__block_declaring_war: "ism__block_declaring_war"

@@ -1,81 +1,83 @@
 ===WORKSHOP_TITLE===
-Geliştirilmiş Tebaa Yönetimi / Improved Subject Management
+Geliştirilmiş Bağımlı Devlet Yönetimi / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Turkish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]Genel Bakış:[/h1]
-Tabiyet yönetimini önemli ölçüde iyileştirmek için yeni etkileşimler, modifikasyonlar ve otomasyonlar ekler.
+Tabi devlet yönetimini önemli ölçüde geliştirmek için yeni etkileşimler, modifikasyonlar ve otomasyonlar ekler.
+
+Not: Workshop görselleri güncel değildir; orada gösterilenden çok daha fazla ve yenilenmiş özellik mevcuttur. Bunun yerine aşağıdaki tam listeye göz atın.
 
 [h1]Özellikler:[/h1]
 [olist]
- [*][b]Tabiyetler arasında toprak devretmek için yeni etkileşimler[/b]
+ [*][b]Tabi devletler arasında toprak devretmek için yeni etkileşimler[/b]
 	[list]
-	 [*][b]Şuraya devret:[/b] Başka bir tabiyetinizden veya kendinizden seçtiğiniz tabiyete toprak verin.
-	 [*][b]Şuradan devret:[/b] Tabiyetinizden toprak alıp başka bir tabiyete veya kendinize verin (eğer bir koloni devletinden alıyorsanız).
+	 [*][b]Şuraya devret:[/b] Tabi devletinize, kendinizden veya başka bir tabi devletten toprak verin.
+	 [*][b]Şuradan devret:[/b] Tabi devletinizden toprak alıp başka bir tabi devlete veya kendinize (eğer bir koloni ulusundan alıyorsanız) verin.
 	[/list]
- [*][b]Tabiyetlerin başkentini değiştirmek için yeni etkileşim[/b] - Bazen korkunç konumlar seçerler veya başlangıçta kötü bir başkent konumuna sahip bir tabiyet oluşturursunuz ve bunu daha sonra düzeltmek istersiniz.
- [*][b]Tabiyetinizin Ayin Dilini (Liturgical Language) değiştirmek için yeni etkileşim[/b] - Tabiyete zamanla azalan -15 sadakat ve %1000 değişim maliyeti ekleyerek hemen geri değiştirmelerini engeller.
- [*][b]Bir tabiyetin kolonileşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
- [*][b]Bir tabiyetin savaş ilan etmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
- [*][b]Bir tabiyetin kentleşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Kasaba kurmalarını engeller.
- [*][b]Bir tabiyetin Kolomb Takası'nı (Columbian Exchange) kullanmasını engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Size tam kontrol sağlar ve değerli RGO'ların üzerine yazmalarını önler.
- [*][b]Bir tabiyetin savaşına katılmak ve savaş liderliğini devralmak için yeni etkileşim[/b] - İsyanlar ve veraset savaşları dahil.
- [*][b]Yeni otomatik harita paylaşımı özelliği[/b] - Her yıl, bir tabiyet tarafından keşfedilen ancak efendisi tarafından keşfedilmeyen ve efendisinin keşfettiği bir alanla sınırı olan tüm alanlar efendiye yayılır. Bu, tüm tabiyet haritalarının istikrarlı bir şekilde efendilerine yayılmasını sağlayacaktır.
- [*][b]Aynı efendiye sahip koloni tabiyetlerinin birbirlerine savaş ilan etmesini engelleme.[/b]
- [*][b]Artık koloni tabiyetlerinize barışı zorlayabilirsiniz (Enforce Peace).[/b]
- [*][b]Devredilecek toprağın boyutunu seçebilirsiniz: Konum, Vilayet, Alan, Bölge[/b]
- [*][b]Hangi toprakların devredilebileceğine dair konum sınırlamasını kaldırır[/b] - Vanilla oyunda, tabiyetlerinize bir vilayet ötedeki bir konumu bile veremediğiniz durumlar yaygındır.
- [*][b]Koloni tabiyetleri ile kendiniz arasında özgürce toprak devredebilirsiniz[/b] - Toprağı onlara zaten siz verdiniz ve çoğu durumda koloni topraklarına bizzat sahip olmak daha iyi değildir, bu nedenle bunun oyun dengesi üzerinde bir etkisi olmamalıdır.
- [*][b]Savaşta olmak artık tabiyetlerin topraklarını yönetmeyi tamamen engellemez[/b] - Dünyanın öbür ucundaki tek vilayetlik bir devletle savaşta olmam, yeni kolonize ettiğim toprağı tabiyetime vermemi neden engellesin? (Aynı savaşta olan tabiyetler arasında toprak devredebilirsiniz ve bir koloni devletinden her zaman toprak alabilirsiniz.)
+ [*][b]Tabi devletlerin başkentini değiştirmek için yeni etkileşim[/b] - Bazen korkunç yerler seçerler veya başlangıçta kötü bir başkent konumuyla bir tabi devlet oluşturursunuz ve bunu daha sonra düzeltmek istersiniz.
+ [*][b]Tabi devletinizin Ayin Dilini değiştirmek için yeni etkileşim[/b] - Tabi devlete zamanla azalan -15 sadakat ve %1000 değiştirme maliyeti ekleyerek dilden hemen vazgeçmelerini engeller.
+ [*][b]Bir tabi devletin kolonileşmesini engelleme ve engeli kaldırma etkileşimi[/b]
+ [*][b]Bir tabi devletin savaş ilan etmesini engelleme ve engeli kaldırma etkileşimi[/b]
+ [*][b]Bir tabi devletin şehirleşmesini engelleme ve engeli kaldırma etkileşimi[/b] - Kasaba kurmalarını engeller.
+ [*][b]Bir tabi devletin Kolomb Takası'nı kullanmasını engelleme ve engeli kaldırma etkileşimi[/b] - Size tam kontrol sağlar ve değerli RGO'ların (Hammadde Üretimi) üzerine yazmalarını önler.
+ [*][b]Bir savaşa katılma ve savaş liderliğini tabi devletten devralma etkileşimi[/b] - Maalesef, bu savaşa katılmanızı sağlasa da oyun kısıtlamaları nedeniyle iç savaşlarda savaş liderliğini devralamazsınız.
+ [*][b]Yeni otomatik harita paylaşımı özelliği[/b] - Her yıl, bir tabi devlet tarafından keşfedilen ve metbu (efendi) tarafından keşfedilmemiş olan, metbu devletin keşfettiği bir alana sınırı olan tüm bölgeler metbu devlete yayılır. Bu, tüm tabi haritalarının istikrarlı bir şekilde metbu devletlere yayılmasını sağlar.
+ [*][b]Aynı metbu devlete sahip koloni tabi devletlerinin birbirlerine savaş ilan etmesini engelleyin.[/b]
+ [*][b]Artık koloni tabi devletlerinize barışı zorla (enforce peace) uygulayabilirsiniz.[/b]
+ [*][b]Devredilecek toprağın boyutunu seçebilirsiniz: Mevki, Vilayet, Alan, Bölge[/b]
+ [*][b]Toprak devrindeki konum sınırlamasını kaldırın[/b] - Vanilla oyunda, genellikle tabi devletlerinize bir vilayet uzaktaki bir mevkiyi veremezsiniz.
+ [*][b]Koloni tabi devletleri ile kendiniz arasında serbestçe toprak devredebilirsiniz[/b] - Toprağı onlara en başta siz verdiniz ve çoğu durumda koloni topraklarına bizzat sahip olmak daha iyi değildir, bu yüzden bunun oyun dengesi üzerinde bir etkisi olmamalıdır.
+ [*][b]Savaşta olmak artık tabi devletlerin topraklarını yönetmeyi tamamen engellemez[/b] - Dünyanın öbür ucundaki tek vilayetli küçük bir devletle savaşta olmam, yeni kolonileştirdiğim toprağı tabi devletime vermemi neden engellesin? (Aynı savaşta olan tabi devletler arasında toprak devredebilirsiniz ve koloni uluslarından her zaman toprak devralabilirsiniz.)
  [*][b]Vasal savaşlarında (isyanlar gibi) müttefikleri yardıma çağırmaya izin verir[/b] - Bir savaşı devraldığınızda müttefiklerinizi çağırabilirsiniz.
- [*][b]Haraçgüzarlarınızın vasallarınıza/tımar devletlerinize (fiefdoms) savaş ilan etmesini engeller (ancak diğer haraçgüzarlara hala savaş açabilirler)[/b]
- [*][b]Efendinin tüm tabiyet türlerinde (talep etmeye gerek kalmadan) her zaman gıdaya erişimini sağlar[/b]
+ [*][b]Haraçgüzarlarınızın vasallarınıza/fiefdomlarınıza savaş ilan etmesini önleyin (ancak diğer haraçgüzarlara hala edebilirler)[/b]
+ [*][b]Metbu devletin tüm tabi türlerinde her zaman gıda erişimine sahip olmasını sağlayın (talep etmek zorunda kalmadan)[/b]
 [/olist]
 
 [h1]Planlanan/Gelecek Özellikler:[/h1]
 [olist]
- [*][b]Ek özelleştirme seçenekleri[/b] - RGO engelleme, tabiyet savaşlarını otomatik devralma ve diğer seçeneklerin özelleştirilmesi için bir mod menüsü üzerinde çalışıyorum.
- [*][b]Tabiyet topraklarının kurulabilir devlet gereksinimlerinde sayılmasını sağlama[/b]
- [*][b]Serbest bırakıldığında özel bir ulus (custom nation) olarak oynama seçeneği[/b]
- [*][b]Toprakları entegre edilmemişe göre filtreleme seçeneği ekleme[/b]
- [*][b]Tımar devletlerini (Fiefdoms) varsayılan olarak dininizden/kültürünüzden yapma seçeneği[/b] - varsayılan olmayan bir oyun kuralı altında olacaktır.
- [*][b]Efendinin tabiyet binalarını yıkmasına izin verme[/b]
- [*][b]Tabiyetlerin efendinin inşaatlarını iptal etmesini engelleme[/b]
- [*][b]Tabiyetlerinizin haklarını özelleştirmeye izin verme (örneğin özgürce savaş ilan etmelerine izin vermek gibi)[/b]
- [*][b]Tabiyetlerinizin konumlarını yeniden adlandırmaya izin verme[/b]
+ [*][b]Tabi devletlerin topraklarının kurulabilir ulus gereksinimleri için sayılmasını sağlama[/b]
+ [*][b]Serbest bırakıldığında özel ulus (custom nation) olarak oynama imkanı sağlama[/b]
+ [*][b]Toprakları entegre edilmemiş olarak filtreleme seçeneği ekleme[/b]
+ [*][b]Fiefdom'ların varsayılan olarak sizin dininizde/kültürünüzde olmasını sağlayan seçenek ekleme[/b] - varsayılan olmayan bir oyun kuralı altında olacaktır.
+ [*][b]Metbu devletin tabi devlet binalarını yıkmasına izin verme[/b]
+ [*][b]Tabi devletlerin metbu devlet inşaatlarını iptal etmesini önleme[/b]
+ [*][b]Tabi devletlerinizin haklarını özelleştirmeye izin verme (örneğin serbestçe savaş ilan etmelerine izin vermek gibi)[/b]
+ [*][b]Tabi devletlerinizin mevkilerini yeniden adlandırmaya izin verme[/b]
+ [*][b]Serbest bırakırken tabi devlet hükümet türünü seçmeye izin verme (örn. krallık, piskoposluk veya cumhuriyet)[/b]
 [/olist]
 
-[h1]Yerel Çeviriler:[/h1]
+[h1]Yerel Diller:[/h1]
 [list]
- [*][b]English:[/b] Birincil
- [*][b]Chinese / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) modunda[/url] mevcut. ([i]牛奶大魔王[/i]'a teşekkürler).
+ [*][b]İngilizce:[/b] Birincil
+ [*][b]Çince / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) modunda[/url] mevcuttur. ([i]牛奶大魔王[/i]'a teşekkürler).
 [/list]
 
-[h1]DeepL ile Çevrilen Diller:[/h1]
+[h1]DeepL Çevirisi Diller:[/h1]
 [list]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b] - @Koufor sayesinde düzeltmelerle
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
+ [*][b]Fransızca / Français[/b]
+ [*][b]Almanca / Deutsch[/b]
+ [*][b]Japonca / 日本語[/b]
+ [*][b]Korece / 한국어[/b]
+ [*][b]Lehçe / Polski[/b]
+ [*][b]Portekizce (Brezilya) / Português (Brasil)[/b]
+ [*][b]Rusça / Русский[/b] - @Koufor sayesinde düzeltmelerle
+ [*][b]İspanyolca / Español[/b]
+ [*][b]Türkçe / Türkçe[/b]
 [/list]
 
-[h1]Değişiklik Kaydı:[/h1]
-Atölye sayfasındaki [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Değişiklik Notlarına[/url] bakın.
+[h1]Değişiklik Günlüğü:[/h1]
+Workshop sayfasındaki [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Değişiklik Notlarına[/url] göz atın.
 
 [h1]Uyumluluk:[/h1]
 [list]
- [*]Başarımlar (Achievement) ile uyumlu değildir.
+ [*]Ironman/Başarım uyumlu değildir.
  [*]Kayıtlı oyunlarla tamamen uyumludur.
  [*]Herhangi bir modla çalışmalıdır.
- [*]Talep üzerine uyumluluk yamaları ekleyebilirim.
+ [*]İstek üzerine uyumluluk yamaları ekleyebilirim.
 [/list]
 
-Yorum bölümü ve sabitlenmiş öneriler tartışmasına ek olarak, [url=https://discord.gg/xWTWMBc7Fn]EU5 Topluluğu discord sunucusunun #improved-subject-management kanalında[/url] sorular sorabilir, hata bildirebilir veya önerilerde bulunabilirsiniz. Ve eğer bu modun veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord üzerinden bana @arealconner kullanıcı adıyla ulaşabilir veya ekleyebilirsiniz. Tüm katkılara açığım.
+Yorum bölümüne ve sabitlenmiş öneriler tartışmasına ek olarak, [url=https://discord.gg/xWTWMBc7Fn]EU5 Community Discord sunucusunun #improved-subject-management kanalında[/url] soru sorabilir, hata bildirebilir veya öneride bulunabilirsiniz. Bu modun veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord'da @arealconner üzerinden bana ulaşabilirsiniz. Tüm katkılar memnuniyetle karşılanır.
 
-Modun kaynak ve geliştirme sürümleri [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub'da[/url] mevcuttur.
+Modun kaynak ve geliştirici sürümleri [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub'da[/url] mevcuttur.
 

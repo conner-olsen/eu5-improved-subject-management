@@ -1,5 +1,5 @@
 ﻿l_german:
- no_valid_regions: "@trigger_no! Keine gültigen [regions|e] verfügbar"
- cannot_transfer_capital: "Sie können Ihr Kapital nicht verschenken."
- is_in_same_war: "Es ist nicht möglich, Land zwischen Nationen zu übertragen, die sich nicht im selben Krieg befinden."
+ no_valid_regions: "@trigger_no! Kein gültiger [regions|e] verfügbar"
+ cannot_transfer_capital: "Ihr könnt Eure Hauptstadt nicht abgeben."
+ is_in_same_war: "Land kann nicht zwischen Nationen übertragen werden, die nicht am selben Krieg teilnehmen."
 

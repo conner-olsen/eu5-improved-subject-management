@@ -4,54 +4,56 @@ Gerenciamento de Súditos Aprimorado / Improved Subject Management
 [i]You are on the DeepL-Generated Portuguese (Brazil) Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]Visão Geral:[/h1]
-Adiciona novas interações, modificações e automações para melhorar significativamente a gestão de súditos.
+Adiciona novas interações, modificações e automações para melhorar significativamente o gerenciamento de sujeitos.
 
-[h1]Recursos:[/h1]
+Nota: As imagens da oficina estão desatualizadas; existem muito mais recursos e funcionalidades reformuladas do que o mostrado ali. Em vez disso, veja a lista completa abaixo.
+
+[h1]Funcionalidades:[/h1]
 [olist]
- [*][b]Novas interações para transferir terras entre súditos[/b]
+ [*][b]Novas Interações para Transferir terras entre sujeitos[/b]
 	[list]
-	 [*][b]Transferir para:[/b] Dê terras ao seu súdito, seja de outro súdito ou de você mesmo.
-	 [*][b]Transferir de:[/b] Tire terras de seu súdito e dê a outro súdito, ou a você mesmo (se estiver tirando de uma nação colonial).
+	 [*][b]Transferir para:[/b] Dê terras ao seu sujeito, seja de outro sujeito ou de você mesmo.
+	 [*][b]Transferir de:[/b] Tire terras do seu sujeito e dê para outro sujeito, ou para você mesmo (se estiver tirando de uma nação colonial).
 	[/list]
- [*][b]Nova interação para mudar a capital de súditos[/b] - Às vezes eles escolhem locais terríveis, ou você cria um súdito com uma localização de capital ruim inicialmente e quer consertar isso depois.
- [*][b]Nova interação para mudar a Língua Litúrgica do seu súdito[/b] - E adiciona uma lealdade de -15 em decaimento e um custo de mudança de 1000% ao súdito, impedindo-os de mudar imediatamente para outra.
- [*][b]Nova interação para bloquear e desbloquear um súdito de colonizar[/b]
- [*][b]Nova interação para bloquear e desbloquear um súdito de declarar guerras[/b]
- [*][b]Nova interação para bloquear e desbloquear um súdito de se urbanizar[/b] - Impede que eles fundem cidades.
- [*][b]Nova interação para bloquear e desbloquear um súdito de usar o Intercâmbio Colombiano[/b] - para lhe dar controle total e evitar que eles substituam RGOs valiosos.
- [*][b]Nova interação para se juntar e assumir a liderança de guerra de um súdito[/b] - incluindo rebeliões e guerras de sucessão.
- [*][b]Novo recurso de compartilhamento automático de mapa[/b] - Todos os anos, qualquer área descoberta por um súdito e não pelo seu suserano que faça fronteira com uma área descoberta pelo seu suserano se espalha para o suserano. Isso espalhará constantemente todos os mapas dos súditos para seus suseranos.
- [*][b]Impeça que súditos coloniais com o mesmo suserano declarem guerra uns aos outros.[/b]
- [*][b]Agora você pode impor a paz em seus súditos coloniais.[/b]
+ [*][b]Nova interação para mudar a capital dos sujeitos[/b] - Às vezes eles escolhem locais terríveis, ou você cria um sujeito com uma localização de capital ruim inicialmente e quer consertar isso mais tarde.
+ [*][b]Nova interação para mudar a Língua Litúrgica do seu sujeito[/b] - E adiciona uma penalidade de lealdade de -15 (que decai) e um custo de mudança de 1000% ao sujeito, impedindo que ele mude imediatamente.
+ [*][b]Nova interação para bloquear e desbloquear a colonização de um sujeito[/b]
+ [*][b]Nova interação para bloquear e desbloquear a declaração de guerras de um sujeito[/b]
+ [*][b]Nova interação para bloquear e desbloquear a urbanização de um sujeito[/b] - Impede que eles fundem cidades.
+ [*][b]Nova interação para bloquear e desbloquear o uso do Intercâmbio Colombiano por um sujeito[/b] - para lhe dar controle total e evitar que eles substituam RGOs valiosos.
+ [*][b]Nova interação para se juntar e assumir a liderança de guerra de um sujeito[/b] - Infelizmente, embora isso faça você entrar na guerra, você não poderá assumir a liderança de guerra em guerras civis devido a limitações do jogo.
+ [*][b]Novo recurso de compartilhamento automático de mapa[/b] - Todos os anos, qualquer área descoberta por um sujeito e não por seu suserano que faça fronteira com uma área descoberta por seu suserano é revelada ao suserano. Isso espalhará gradualmente todos os mapas dos sujeitos para seus suseranos.
+ [*][b]Bloqueio para que sujeitos coloniais com o mesmo suserano não declarem guerra entre si.[/b]
+ [*][b]Agora você pode impor a paz aos seus sujeitos coloniais.[/b]
  [*][b]Você pode selecionar o tamanho da terra a ser transferida: Localidade, Província, Área, Região[/b]
- [*][b]Remova a limitação de localização sobre quais terras podem ser transferidas[/b] - No vanilla, você normalmente não consegue dar uma localidade a uma província de distância aos seus súditos.
- [*][b]Você pode transferir livremente terras entre súditos coloniais e você mesmo[/b] - Você deu as terras a eles para começar e, na maioria dos casos, não é melhor possuir terras coloniais você mesmo, então isso não deve ter nenhum efeito no equilíbrio do jogo.
- [*][b]Estar em guerra não bloqueia mais totalmente a gestão das terras dos súditos[/b] - Por que estar em guerra com um estado de uma única província do outro lado do mundo deveria me impedir de dar minha terra recém-colonizada ao meu súdito? (Você pode transferir terras entre súditos que estão na mesma guerra, e sempre pode transferir terras de uma nação colonial.)
+ [*][b]Remoção da limitação de localização sobre quais terras podem ser transferidas[/b] - No jogo base, é comum você não conseguir dar uma localidade a uma província de distância para seus sujeitos.
+ [*][b]Você pode transferir terras livremente entre sujeitos coloniais e você mesmo[/b] - Você deu a terra a eles para começar e, na maioria dos casos, não é melhor possuir terras coloniais você mesmo, então isso não deve ter efeito no equilíbrio do jogo.
+ [*][b]Estar em guerra não bloqueia mais totalmente o gerenciamento das terras dos sujeitos[/b] - Por que estar em guerra com um país de uma única província do outro lado do mundo deveria me impedir de dar minha terra recém-colonizada ao meu sujeito? (Você pode transferir terras entre sujeitos que estão na mesma guerra, e você sempre pode transferir terras de uma nação colonial.)
  [*][b]Permite chamar aliados para ajudar em guerras de vassalos (como rebeliões)[/b] - Depois de assumir uma guerra, você pode chamar aliados.
  [*][b]Impede que seus tributários declarem guerra aos seus vassalos/feudos (mas ainda permite contra outros tributários)[/b]
- [*][b]Faz com que o suserano sempre tenha acesso a comida em todos os tipos de súditos (sem ter que solicitar)[/b]
+ [*][b]Faz com que o suserano sempre tenha acesso a comida em todos os tipos de sujeitos (sem precisar solicitar)[/b]
 [/olist]
 
-[h1]Planejado/Próximas atualizações:[/h1]
+[h1]Planejado/Em Breve:[/h1]
 [olist]
- [*][b]Opções de personalização adicionais[/b] - Estou trabalhando em um menu de mod para personalização de bloqueio de RGO, assunção automática de guerras de súditos e outras opções.
- [*][b]Fazer com que as terras dos súditos contem para requisitos de nações formáveis[/b]
+ [*][b]Fazer com que as terras dos sujeitos contem para requisitos de nações formáveis[/b]
  [*][b]Permitir jogar como uma nação personalizada ao libertar[/b]
  [*][b]Adicionar uma opção para filtrar terras por não integradas[/b]
- [*][b]Permitir a opção de tornar Feudos da sua religião/cultura por padrão[/b] - estará sob uma regra de jogo não padrão.
- [*][b]Permitir que o suserano destrua edifícios de súditos[/b]
- [*][b]Impedir que súditos cancelem construções do suserano[/b]
- [*][b]Permitir a personalização dos direitos de seus súditos (ou seja, permitir que declarem guerra livremente)[/b]
- [*][b]Permitir renomear as localidades de seus súditos[/b]
+ [*][b]Permitir opção para tornar os Feudos da sua religião/cultura por padrão[/b] - estará sob uma regra de jogo não padrão.
+ [*][b]Permitir que o suserano destrua edifícios do sujeito[/b]
+ [*][b]Impedir que sujeitos cancelem construções do suserano[/b]
+ [*][b]Permitir a personalização dos direitos dos seus sujeitos (ex: permitir que declarem guerra livremente)[/b]
+ [*][b]Permitir renomear as localidades dos seus sujeitos[/b]
+ [*][b]Permitir selecionar o tipo de governo do sujeito ao libertar (ex: reino, bispado ou república)[/b]
 [/olist]
 
-[h1]Traduções Nativas:[/h1]
+[h1]Localizações Nativas:[/h1]
 [list]
- [*][b]Inglês:[/b] Primária
- [*][b]Chinês / 中文:[/b] Disponível no [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Obrigado a [i]牛奶大魔王[/i]).
+ [*][b]Inglês:[/b] Primário
+ [*][b]Chinês / 中文:[/b] Disponível no [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Obrigado a [i]牛奶大魔王[/i]).
 [/list]
 
-[h1]Traduções via DeepL:[/h1]
+[h1]Localizações traduzidas pelo DeepL:[/h1]
 [list]
  [*][b]Francês / Français[/b]
  [*][b]Alemão / Deutsch[/b]
@@ -65,17 +67,17 @@ Adiciona novas interações, modificações e automações para melhorar signifi
 [/list]
 
 [h1]Registro de Alterações:[/h1]
-Veja as [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notas de Atualização na página do workshop[/url].
+Veja as [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notas de Alteração na página da oficina[/url].
 
 [h1]Compatibilidade:[/h1]
 [list]
- [*]Não compatível com Conquistas (Achievements).
+ [*]Não compatível com Ironman/Conquistas.
  [*]Totalmente compatível com jogos salvos.
  [*]Deve funcionar com qualquer mod.
  [*]Posso adicionar patches de compatibilidade mediante solicitação.
 [/list]
 
-Além da seção de comentários e da discussão de sugestões fixada, você também pode fazer perguntas, relatar bugs ou dar sugestões no [url=https://discord.gg/xWTWMBc7Fn]canal #improved-subject-management do servidor de Discord da Comunidade EU5[/url]. E se você estiver interessado em participar do desenvolvimento deste ou de um dos meus outros mods, você pode me marcar ou me adicionar no Discord @arealconner. Todas as contribuições são bem-vindas.
+Além da seção de comentários e da discussão fixada de sugestões, você também pode fazer perguntas, relatar bugs ou dar sugestões no [url=https://discord.gg/xWTWMBc7Fn]canal #improved-subject-management do servidor do Discord da Comunidade EU5[/url]. E se você estiver interessado em participar do desenvolvimento deste ou de um dos meus outros mods, você pode me marcar ou adicionar no Discord @arealconner. Todas as contribuições são bem-vindas.
 
-As versões de origem e de desenvolvimento do mod estão disponíveis no [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
+As versões de código-fonte e de desenvolvimento do mod estão disponíveis no [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
 

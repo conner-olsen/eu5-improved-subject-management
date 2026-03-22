@@ -1,0 +1,36 @@
+﻿l_korean:
+ # Mod
+ ism_name: "종속국 관리 개선"
+ ism_desc: "새로운 상호작용, 수정 사항, 자동화 기능을 추가하여 종속국 관리를 대폭 개선합니다."
+
+ # QoL (qol) Tab
+ ism__qol_name: "편의성"
+ ## Automations (automations) Group
+ ism__qol__automations_name: "자동화"
+ ism__auto_take_over_subject_wars_name: "종속국 전쟁 자동 참전"
+ ism__auto_take_over_subject_wars_desc: "활성화 시 매년 모든 종속국의 전쟁에 자동으로 참전하며, 가능할 경우 전쟁 주도권을 인계받습니다."
+ ism__auto_subject_map_sharing_name: "종속국 지도 자동 공유"
+ ism__auto_subject_map_sharing_desc: "종속국의 지도가 매년 서서히 전파됩니다."
+ ## Subject Rights (subject_rights) Group
+ ism__qol__subject_rights_name: "종속국 권리"
+ ism__qol__subject_rights_desc: "당신이 종속국에게 부여하는 권리입니다."
+ ism__block_colonization_name: "식민화 금지"
+ ism__block_colonization_desc: "모든 종속국의 식민지 개척을 금지합니다."
+ ism__block_urbanization_name: "도시화 저지"
+ ism__block_urbanization_desc: "모든 종속국이 농촌 지역을 마을로 승격하는 것을 차단합니다."
+ ism__block_columbian_exchange_name: "콜럼버스 대교환 차단"
+ ism__block_columbian_exchange_desc: "사용 가능할 때 모든 종속국이 콜럼버스 대교환을 사용하는 것을 차단합니다."
+ ism__block_declaring_war_name: "전쟁 선포 금지"
+ ism__block_declaring_war_desc: "모든 종속국이 전쟁을 선포하는 것을 금지합니다."
+
+ # Optional: self-referencing flag keys to suppress IDE warnings (safe to remove if you want)
+ ism: "ism"
+ ism__qol: "ism__qol"
+ ism__qol__automations: "ism__qol__automations"
+ ism__qol__subject_rights: "ism__qol__subject_rights"
+ ism__auto_take_over_subject_wars: "ism__auto_take_over_subject_wars"
+ ism__auto_subject_map_sharing: "ism__auto_subject_map_sharing"
+ ism__block_colonization: "ism__block_colonization"
+ ism__block_urbanization: "ism__block_urbanization"
+ ism__block_columbian_exchange: "ism__block_columbian_exchange"
+ ism__block_declaring_war: "ism__block_declaring_war"

@@ -1,0 +1,36 @@
+﻿l_french:
+ # Mod
+ ism_name: "Gestion des sujets améliorée"
+ ism_desc: "Ajoute de nouvelles interactions, modifications et automatisations pour améliorer considérablement la gestion des sujets."
+
+ # QoL (qol) Tab
+ ism__qol_name: "Confort de jeu"
+ ## Automations (automations) Group
+ ism__qol__automations_name: "Automatisations"
+ ism__auto_take_over_subject_wars_name: "Rejoindre automatiquement les guerres des sujets"
+ ism__auto_take_over_subject_wars_desc: "Lorsqu'activé, vous rejoindrez chaque année automatiquement toutes les guerres de vos sujets et, si possible, en prendrez la direction."
+ ism__auto_subject_map_sharing_name: "Partager automatiquement les cartes des sujets"
+ ism__auto_subject_map_sharing_desc: "Les cartes de vos sujets se propageront lentement vers vous chaque année."
+ ## Subject Rights (subject_rights) Group
+ ism__qol__subject_rights_name: "Droits des sujets"
+ ism__qol__subject_rights_desc: "Ce sont les droits que vous accordez à vos sujets."
+ ism__block_colonization_name: "Bloquer la colonisation"
+ ism__block_colonization_desc: "Empêcher tous vos sujets de coloniser."
+ ism__block_urbanization_name: "Bloquer l'urbanisation"
+ ism__block_urbanization_desc: "Empêche tous vos sujets d'améliorer des localités rurales en villes."
+ ism__block_columbian_exchange_name: "Bloquer l'échange colombien"
+ ism__block_columbian_exchange_desc: "Empêche tous vos sujets d'utiliser l'Échange colombien lorsqu'il est disponible."
+ ism__block_declaring_war_name: "Bloquer les déclarations de guerre"
+ ism__block_declaring_war_desc: "Empêche tous vos sujets de déclarer la guerre."
+
+ # Optional: self-referencing flag keys to suppress IDE warnings (safe to remove if you want)
+ ism: "ism"
+ ism__qol: "ism__qol"
+ ism__qol__automations: "ism__qol__automations"
+ ism__qol__subject_rights: "ism__qol__subject_rights"
+ ism__auto_take_over_subject_wars: "ism__auto_take_over_subject_wars"
+ ism__auto_subject_map_sharing: "ism__auto_subject_map_sharing"
+ ism__block_colonization: "ism__block_colonization"
+ ism__block_urbanization: "ism__block_urbanization"
+ ism__block_columbian_exchange: "ism__block_columbian_exchange"
+ ism__block_declaring_war: "ism__block_declaring_war"

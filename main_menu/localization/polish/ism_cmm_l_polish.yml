@@ -1,0 +1,36 @@
+﻿l_polish:
+ # Mod
+ ism_name: "Ulepszone zarządzanie poddanymi"
+ ism_desc: "Dodaje nowe interakcje, modyfikacje i automatyzacje, które znacząco usprawniają zarządzanie poddanymi."
+
+ # QoL (qol) Tab
+ ism__qol_name: "Komfort gry"
+ ## Automations (automations) Group
+ ism__qol__automations_name: "Automatyzacje"
+ ism__auto_take_over_subject_wars_name: "Automatycznie dołączaj do wojen poddanych"
+ ism__auto_take_over_subject_wars_desc: "Gdy ta opcja jest włączona, co roku automatycznie dołączysz do wszystkich wojen poddanych i, jeśli to możliwe, przejmiesz w nich dowodzenie."
+ ism__auto_subject_map_sharing_name: "Automatyczne udostępnianie map poddanych"
+ ism__auto_subject_map_sharing_desc: "Mapy twoich poddanych będą każdego roku powoli do ciebie docierać."
+ ## Subject Rights (subject_rights) Group
+ ism__qol__subject_rights_name: "Prawa krajów podległych"
+ ism__qol__subject_rights_desc: "To są prawa, które przyznajesz swoim poddanym."
+ ism__block_colonization_name: "Zablokuj kolonizację"
+ ism__block_colonization_desc: "Zabroń wszystkim swoim poddanym kolonizacji."
+ ism__block_urbanization_name: "Zablokuj urbanizację"
+ ism__block_urbanization_desc: "Blokuje wszystkim twoim poddanym możliwość ulepszania lokacji wiejskich w miasta."
+ ism__block_columbian_exchange_name: "Zablokuj wymianę kolumbijską"
+ ism__block_columbian_exchange_desc: "Blokuje wszystkim twoim poddanym korzystanie z wymiany kolumbijskiej, gdy jest dostępna."
+ ism__block_declaring_war_name: "Zablokuj wypowiadanie wojen"
+ ism__block_declaring_war_desc: "Uniemożliwia wszystkim twoim poddanym wypowiadanie wojen."
+
+ # Optional: self-referencing flag keys to suppress IDE warnings (safe to remove if you want)
+ ism: "ism"
+ ism__qol: "ism__qol"
+ ism__qol__automations: "ism__qol__automations"
+ ism__qol__subject_rights: "ism__qol__subject_rights"
+ ism__auto_take_over_subject_wars: "ism__auto_take_over_subject_wars"
+ ism__auto_subject_map_sharing: "ism__auto_subject_map_sharing"
+ ism__block_colonization: "ism__block_colonization"
+ ism__block_urbanization: "ism__block_urbanization"
+ ism__block_columbian_exchange: "ism__block_columbian_exchange"
+ ism__block_declaring_war: "ism__block_declaring_war"

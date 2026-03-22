@@ -1,5 +1,5 @@
 ﻿l_spanish:
- no_valid_regions: "@trigger_no! No hay [regions|e] válidas disponibles."
- cannot_transfer_capital: "No puedes regalar tu capital."
- is_in_same_war: "No se pueden transferir territorios entre naciones que no estén en guerra entre sí."
+ no_valid_regions: "@trigger_no! No hay [regions|e] válido disponible"
+ cannot_transfer_capital: "No puedes ceder tu capital."
+ is_in_same_war: "No se puede transferir territorio entre naciones que no participan en la misma guerra."
 

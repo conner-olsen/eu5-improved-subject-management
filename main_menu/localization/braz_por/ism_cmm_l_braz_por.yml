@@ -1,0 +1,36 @@
+﻿l_braz_por:
+ # Mod
+ ism_name: "Gerenciamento de Súditos Melhorado"
+ ism_desc: "Adiciona novas interações, modificações e automações para melhorar significativamente o gerenciamento de súditos."
+
+ # QoL (qol) Tab
+ ism__qol_name: "Qualidade de Vida"
+ ## Automations (automations) Group
+ ism__qol__automations_name: "Automações"
+ ism__auto_take_over_subject_wars_name: "Entrar Automaticamente em Guerras de Sujeitos"
+ ism__auto_take_over_subject_wars_desc: "Quando habilitado, todos os anos você entrará automaticamente e, se possível, assumirá a liderança de todas as guerras de súditos."
+ ism__auto_subject_map_sharing_name: "Compartilhar Mapas de Sujeitos Automaticamente"
+ ism__auto_subject_map_sharing_desc: "Os mapas dos seus súditos se espalharão lentamente para você a cada ano."
+ ## Subject Rights (subject_rights) Group
+ ism__qol__subject_rights_name: "Direitos dos Sujeitos"
+ ism__qol__subject_rights_desc: "Estes são os direitos que você concede aos seus súditos."
+ ism__block_colonization_name: "Bloquear Colonização"
+ ism__block_colonization_desc: "Impedir que todos os seus súditos colonizem."
+ ism__block_urbanization_name: "Bloquear Urbanização"
+ ism__block_urbanization_desc: "Impede que todos os seus súditos aprimorem localizações rurais para cidades."
+ ism__block_columbian_exchange_name: "Bloquear Intercâmbio Colombiano"
+ ism__block_columbian_exchange_desc: "Bloqueia todos os seus súditos de usarem o Intercâmbio Colombiano quando disponível."
+ ism__block_declaring_war_name: "Bloquear Declaração de Guerras"
+ ism__block_declaring_war_desc: "Impede que todos os seus súditos declarem guerra."
+
+ # Optional: self-referencing flag keys to suppress IDE warnings (safe to remove if you want)
+ ism: "ism"
+ ism__qol: "ism__qol"
+ ism__qol__automations: "ism__qol__automations"
+ ism__qol__subject_rights: "ism__qol__subject_rights"
+ ism__auto_take_over_subject_wars: "ism__auto_take_over_subject_wars"
+ ism__auto_subject_map_sharing: "ism__auto_subject_map_sharing"
+ ism__block_colonization: "ism__block_colonization"
+ ism__block_urbanization: "ism__block_urbanization"
+ ism__block_columbian_exchange: "ism__block_columbian_exchange"
+ ism__block_declaring_war: "ism__block_declaring_war"
