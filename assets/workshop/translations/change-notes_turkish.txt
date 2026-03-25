@@ -1,4 +1,8 @@
-- Community Mod Framework ile entegre edilmiş yeni mod menüsü
-- Tabi devlet savaşlarına otomatik olarak katılmak / savaşları devralmak için yeni otomasyon
-- Otomatik harita paylaşımını kontrol etmek için yeni ayarlar
-- Tüm tabi devletler için kolonizasyonu, şehirleşmeyi, Kolomb Takası'nı ve savaş ilan etmeyi engellemeye yönelik yeni küresel ayarlar.
+[b]Büyük Güncelleme v1.9.0:[/b]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url] ile entegre edilmiş [b]yeni mod menüsü[/b]
+- Tabi devlet savaşlarına otomatik olarak katılmak / savaşları devralmak için [b]yeni otomasyon[/b]
+- Otomatik harita paylaşımını kontrol etmek için [b]yeni ayarlar[/b]
+- Tüm tabi devletler için kolonizasyonu, kentleşmeyi, Kolomb takasını ve savaş ilan etmeyi engellemeye yönelik [b]yeni tabi devlet hakları özelleştirmesi[/b].
+- Küresel tabi devlet hakları kendilerinin yerini aldığında gizlenen [b]yeni dinamik etkileşimler[/b].
+
+[b]Önemli:[/b] Bu yeni güncelleme [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url]'e dayanmaktadır ve artık ilk sırada yüklenmesi gereken zorunlu bir bağımlılıktır.

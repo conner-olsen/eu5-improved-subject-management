@@ -1,4 +1,8 @@
-- Novo menu de mod integrado ao Community Mod Framework
-- Nova automação para entrar / assumir guerras de súditos automaticamente
-- Novas configurações para controlar o compartilhamento automático de mapas
-- Novas configurações globais para bloquear colonização, urbanização, intercâmbio colombiano e declaração de guerra para todos os súditos.
+[b]Lançamento Principal v1.9.0:[/b]
+- [b]Novo menu do mod[/b] integrado ao [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url]
+- [b]Nova automação[/b] para entrar / assumir guerras de súditos automaticamente
+- [b]Novas configurações[/b] para controlar o compartilhamento automático de mapas
+- [b]Nova customização de direitos de súditos[/b] para bloquear colonização, urbanização, intercâmbio colombiano e declaração de guerra para todos os súditos.
+- [b]Novas interações dinâmicas[/b] que se ocultam quando os direitos globais de súditos as substituem.
+
+[b]Importante:[/b] Esta nova atualização depende do [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url] e agora é uma dependência obrigatória que deve ser carregada primeiro.

@@ -1,4 +1,8 @@
-- Nouveau menu de mod intégré au Community Mod Framework
-- Nouvelle automatisation pour rejoindre ou reprendre automatiquement les guerres des sujets
-- Nouveaux paramètres pour contrôler le partage automatique de cartes
-- Nouveaux paramètres globaux pour bloquer la colonisation, l'urbanisation, l'échange colombien et la déclaration de guerre pour tous les sujets.
+[b]Mise à jour majeure v1.9.0 :[/b]
+- [b]Nouveau menu du mod[/b] intégré au [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url]
+- [b]Nouvelle automatisation[/b] pour rejoindre / reprendre automatiquement les guerres des sujets
+- [b]Nouveaux paramètres[/b] pour contrôler le partage automatique de cartes
+- [b]Nouvelle personnalisation des droits des sujets[/b] pour bloquer la colonisation, l'urbanisation, l'échange colombien et la déclaration de guerre pour tous les sujets.
+- [b]Nouvelles interactions dynamiques[/b] qui se masquent lorsque les droits globaux des sujets prévalent.
+
+[b]Important :[/b] Cette nouvelle mise à jour repose sur le [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url], qui est désormais une dépendance requise devant être chargée en premier.

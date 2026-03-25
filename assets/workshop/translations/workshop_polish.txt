@@ -4,82 +4,81 @@ Ulepszone Zarządzanie Poddanymi / Improved Subject Management
 [i]You are on the DeepL-Generated Polish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]Przegląd:[/h1]
-Dodaje nowe interakcje, modyfikacje i automatyzacje, aby znacząco usprawnić zarządzanie poddanymi.
+Dodaje nowe interakcje, modyfikacje i automatyzacje, aby znacznie usprawnić zarządzanie poddanymi.
 
-Uwaga: Zdjęcia w warsztacie są nieaktualne, istnieje znacznie więcej i bardziej rozbudowanych funkcji niż te pokazane. Zamiast tego zapoznaj się z pełną listą poniżej.
+Uwaga: Zdjęcia w warsztacie są nieaktualne; istnieje znacznie więcej i bardziej dopracowanych funkcji niż te tam pokazane. Zamiast tego zapoznaj się z pełną listą poniżej.
 
 [h1]Funkcje:[/h1]
 [olist]
- [*][b]Menu Trybów[/b] - z różnymi automatyzacjami i możliwością dostosowania praw poddanych
- [*][b]Nowe interakcje do przekazywania ziemi między poddanymi[/b]
+ [*][b]Menu trybów[/b] – z różnymi automatyzacjami i możliwością dostosowania praw poddanych.
+ [*][b]Nowe interakcje do transferu ziemi między poddanymi[/b]
 	[list]
 	 [*][b]Przekaż do:[/b] Oddaj ziemię swojemu poddanemu, od innego poddanego lub od siebie.
-	 [*][b]Przekaż od:[/b] Zabierz ziemię swojemu poddanemu i oddaj ją innemu poddanemu lub sobie (jeśli zabierasz od narodu kolonialnego).
+	 [*][b]Przekaż z:[/b] Zabierz ziemię swojemu poddanemu i przekaż ją innemu poddanemu lub sobie (jeśli zabierasz narodowi kolonialnemu).
 	[/list]
- [*][b]Nowa interakcja do zmiany stolicy poddanych[/b] - Czasami wybierają oni fatalne lokalizacje lub tworzysz poddanego ze słabą stolicą i chcesz to naprawić później.
- [*][b]Nowa interakcja do zmiany języka liturgicznego poddanego[/b] - Dodaje zanikające -15 lojalności i 1000% kosztu zmiany dla poddanego, zapobiegając natychmiastowemu powrotowi do poprzedniego stanu.
+ [*][b]Nowa interakcja do zmiany stolicy poddanych[/b] – Czasami wybierają oni okropne lokalizacje lub tworzysz poddanego z kiepską początkową stolicą i chcesz to naprawić później.
+ [*][b]Nowa interakcja do zmiany języka liturgicznego poddanego[/b] – Dodaje zanikające -15 do lojalności i 1000% kosztu zmiany dla poddanego, co zapobiega natychmiastowemu powrotowi do poprzedniego języka.
  [*][b]Nowa interakcja do blokowania i odblokowywania kolonizacji przez poddanego[/b]
  [*][b]Nowa interakcja do blokowania i odblokowywania wypowiadania wojen przez poddanego[/b]
- [*][b]Nowa interakcja do blokowania i odblokowywania urbanizacji przez poddanego[/b] - Zapobiega zakładaniu miast przez poddanych.
- [*][b]Nowa interakcja do blokowania i odblokowywania korzystania z wymiany kolumbijskiej przez poddanego[/b] - Aby dać ci pełną kontrolę i zapobiec nadpisywaniu cennych RGO.
- [*][b]Nowa interakcja pozwalająca dołączyć do wojny i przejąć przywództwo od poddanego[/b] - Niestety, choć pozwoli to dołączyć do wojny, nie będziesz mógł przejąć przywództwa w wojnach domowych ze względu na ograniczenia gry.
- [*][b]Nowa funkcja automatycznego udostępniania map[/b] - Każdego roku każdy obszar odkryty przez poddanego, a nieodkryty przez seniora, który graniczy z obszarem odkrytym przez seniora, zostaje mu ujawniony. Dzięki temu mapy poddanych będą stopniowo przekazywane ich seniorom.
- [*][b]Nowa funkcja automatycznego dołączania do wojen poddanych[/b] - Każdego roku będziesz dołączać i przejmować wszelkie wojny, w których biorą udział twoi poddani (uwaga: nie można przejąć przywództwa w wojnach domowych).
- [*][b]Blokada wypowiadania wojen między poddanymi kolonialnymi tego samego seniora.[/b]
+ [*][b]Nowa interakcja do blokowania i odblokowywania urbanizacji przez poddanego[/b] – Zapobiega zakładaniu miast przez poddanych.
+ [*][b]Nowa interakcja do blokowania i odblokowywania korzystania z wymiany kolumbijskiej przez poddanego[/b] – aby dać ci pełną kontrolę i zapobiec nadpisywaniu cennych surowców (RGO).
+ [*][b]Nowa interakcja pozwalająca dołączyć do wojny i przejąć przywództwo wojenne od poddanego[/b] – Niestety, chociaż pozwoli to dołączyć do wojny, nie będziesz mógł przejąć przywództwa w wojnach domowych ze względu na ograniczenia gry.
+ [*][b]Nowa funkcja automatycznego udostępniania map[/b] – Każdego roku każdy obszar odkryty przez poddanego, a nie przez seniora, który graniczy z obszarem odkrytym przez seniora, zostaje mu ujawniony. Pozwoli to na stopniowe rozprzestrzenianie się wszystkich map poddanych na ich seniorów.
+ [*][b]Nowa funkcja automatycznego dołączania do wojen poddanych[/b] – Co roku dołączysz i przejmiesz wszelkie wojny, w których biorą udział twoi poddani (uwaga: nie dotyczy wojen domowych).
+ [*][b]Blokowanie poddanych kolonialnych mających tego samego seniora przed wypowiadaniem sobie nawzajem wojen.[/b]
  [*][b]Możesz teraz wymusić pokój na swoich poddanych kolonialnych.[/b]
  [*][b]Możesz wybrać rozmiar przekazywanej ziemi: Lokacja, Prowincja, Obszar, Region[/b]
- [*][b]Usunięcie ograniczeń lokalizacji dotyczących przekazywanej ziemi[/b] - W podstawowej wersji gry często nie można oddać poddanemu lokacji oddalonej o jedną prowincję.
- [*][b]Możesz swobodnie przekazywać ziemię między poddanymi kolonialnymi a sobą[/b] - To ty dałeś im tę ziemię na początku, a w większości przypadków posiadanie ziemi kolonialnej bezpośrednio nie jest lepsze, więc nie powinno to wpływać na balans gry.
- [*][b]Bycie na wojnie nie blokuje już całkowicie zarządzania ziemią poddanych[/b] - Dlaczego wojna z jedno-prowincyjnym państewkiem na drugim końcu świata miałaby przeszkadzać w przekazaniu nowo skolonizowanej ziemi poddanemu? (Możesz przekazywać ziemię między poddanymi biorącymi udział w tej samej wojnie i zawsze możesz przekazywać ziemię od narodu kolonialnego).
- [*][b]Umożliwienie wzywania sojuszników do pomocy w wojnach poddanych[/b] - Po przejęciu przywództwa w wojnie możesz wezwać sojuszników.
- [*][b]Zapobieganie wypowiadaniu wojen przez państwa trybutarne twoim wasalom/lennom (ale nadal mogą innym trybutariuszom)[/b]
- [*][b]Zapewnienie seniorowi stałego dostępu do żywności u wszystkich typów poddanych (bez konieczności proszenia)[/b]
+ [*][b]Usunięcie ograniczeń lokalizacji dotyczących przekazywanej ziemi[/b] – W podstawowej wersji gry często nie można przekazać poddanym lokacji oddalonej o zaledwie jedną prowincję.
+ [*][b]Możesz swobodnie przekazywać ziemię między poddanymi kolonialnymi a sobą[/b] – To ty dałeś im tę ziemię na początku, a w większości przypadków posiadanie ziemi kolonialnej bezpośrednio nie jest lepsze, więc nie powinno to wpływać na balans gry.
+ [*][b]Bycie w stanie wojny nie blokuje już całkowicie zarządzania ziemią poddanych[/b] – Dlaczego wojna z państwem o wielkości jednej prowincji na drugim końcu świata miałaby powstrzymywać mnie przed przekazaniem nowo skolonizowanej ziemi mojemu poddanemu? (Możesz przekazywać ziemię między poddanymi, którzy biorą udział w tej samej wojnie, i zawsze możesz przekazać ziemię od narodu kolonialnego).
+ [*][b]Umożliwienie wzywania sojuszników do pomocy w wojnach poddanych[/b] – Po przejęciu wojny możesz wezwać sojuszników.
+ [*][b]Zapobieganie wypowiadaniu wojen przez trybutariuszy twoim wasalom/lennom (ale nadal mogą innym trybutariuszom).[/b]
+ [*][b]Zapewnienie seniorowi stałego dostępu do żywności u wszystkich typów poddanych (bez konieczności proszenia).[/b]
 [/olist]
 
-[h1]Planowane/Wkrótce:[/h1]
+[h1]Planowane/Nadchodzące:[/h1]
 [olist]
- [*][b]Zaliczanie ziem poddanych do wymagań formowania państw[/b]
- [*][b]Możliwość gry jako własne państwo po jego wydzieleniu[/b]
- [*][b]Dodanie opcji filtrowania ziemi według niezintegronawych[/b]
- [*][b]Opcja domyślnego nadawania lennom twojej religii/kultury[/b] - będzie dostępna w nie-domyślnych zasadach gry.
+ [*][b]Sprawienie, by ziemie poddanych liczyły się do wymagań formowania państw[/b]
+ [*][b]Umożliwienie gry jako własne państwo po wyzwoleniu[/b]
+ [*][b]Dodanie opcji filtrowania ziemi według niezintegrowanej[/b]
+ [*][b]Opcja sprawiająca, że lenna domyślnie przyjmują twoją religię/kulturę[/b] – będzie dostępna w nie-domyślnych zasadach gry.
  [*][b]Umożliwienie seniorowi niszczenia budynków poddanych[/b]
- [*][b]Zapobieganie anulowaniu przez poddanych budów rozpoczętych przez seniora[/b]
- [*][b]Możliwość dostosowania praw poddanych (np. pozwalanie im na swobodne wypowiadanie wojen)[/b]
- [*][b]Możliwość zmiany nazw lokacji poddanych[/b]
- [*][b]Możliwość wyboru typu rządu poddanego przy wydzielaniu (np. królestwo, biskupstwo lub republika)[/b]
+ [*][b]Zapobieganie anulowaniu budowy seniora przez poddanych[/b]
+ [*][b]Umożliwienie zmiany nazw lokacji twoich poddanych[/b]
+ [*][b]Umożliwienie wyboru typu rządu poddanego przy wyzwalaniu (np. królestwo, biskupstwo lub republika)[/b]
 [/olist]
 
-[h1]Natywne lokalizacje:[/h1]
+[h1]Rodzime lokalizacje:[/h1]
 [list]
- [*][b]English:[/b] Primary
- [*][b]Chinese / 中文:[/b] Dostępny w [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Podziękowania dla [i]牛奶大魔王[/i]).
+ [*][b]Angielski:[/b] Główny
+ [*][b]Chiński / 中文:[/b] Dostępny w modzie [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation)[/url]. (Podziękowania dla [i]牛奶大魔王[/i]).
 [/list]
 
 [h1]Lokalizacje przetłumaczone przez DeepL:[/h1]
 [list]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b] - Z poprawkami dzięki @Koufor
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
+ [*][b]Francuski / Français[/b]
+ [*][b]Niemiecki / Deutsch[/b]
+ [*][b]Japoński / 日本語[/b]
+ [*][b]Koreański / 한국어[/b]
+ [*][b]Polski / Polski[/b]
+ [*][b]Portugalski (Brazylia) / Português (Brasil)[/b]
+ [*][b]Rosyjski / Русский[/b] – Z poprawkami dzięki @Koufor
+ [*][b]Hiszpański / Español[/b]
+ [*][b]Turecki / Türkçe[/b]
 [/list]
 
 [h1]Dziennik zmian:[/h1]
-Zobacz [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]notatki o zmianach na stronie warsztatu[/url].
+Zobacz [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]informacje o zmianach na stronie warsztatu[/url].
 
 [h1]Kompatybilność:[/h1]
 [list]
  [*]Niekompatybilny z trybem Ironman i osiągnięciami.
  [*]W pełni kompatybilny z zapisami gry.
- [*]Powinien działać z dowolnym modem.
+ [*]Powinien działać z każdym modem.
  [*]Mogę dodać patche kompatybilności na prośbę użytkowników.
 [/list]
 
-Oprócz sekcji komentarzy i przypiętej dyskusji o sugestiach, możesz również zadawać pytania, zgłaszać błędy lub zgłaszać sugestie na kanale [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management na serwerze Discord społeczności EU5[/url]. A jeśli jesteś zainteresowany dołączeniem do prac nad tym lub jednym z moich innych modów, możesz oznaczyć mnie lub dodać na Discordzie @arealconner. Wszelka pomoc jest mile widziana.
+Oprócz sekcji komentarzy i przypiętej dyskusji o sugestiach, możesz również zadawać pytania, zgłaszać błędy lub przedstawiać sugestie na kanale [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management na serwerze Discord społeczności EU5[/url]. A jeśli jesteś zainteresowany udziałem w pracach nad tym lub jednym z moich innych modów, możesz wspomnieć o mnie lub dodać mnie na Discordzie @arealconner. Wszystkie wkłady są mile widziane.
 
 Wersje źródłowe i deweloperskie moda są dostępne na [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHubie.[/url]
 

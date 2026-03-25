@@ -1,4 +1,8 @@
-- 集成了 Community Mod Framework 的全新模组菜单
-- 全新的自动化功能，可自动加入或接管附庸战争
-- 用于控制自动分享地图的新设置
-- 针对所有附庸禁止殖民、城市化、哥伦布大交换以及宣战的全新全局设置
+[b]重大更新 v1.9.0：[/b]
+- [b]新模组菜单[/b] 已整合至 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url]
+- [b]新自动化功能[/b] 可自动加入/接管附属国战争
+- [b]新设置[/b] 用于控制自动地图共享
+- [b]新附属国权利定制[/b] 可针对所有附属国禁用殖民、城市化、哥伦布大交换以及宣战。
+- [b]新动态互动[/b] 当其功能被全局附属国权利覆盖时会自动隐藏。
+
+[b]重要提示：[/b]此次更新依赖于 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url]，现已成为必须优先加载的必要前置。
