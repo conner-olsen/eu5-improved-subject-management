@@ -46,9 +46,14 @@ ism_take_over_country_wars = {
 		is_overlord = yes
 	}
 	effect = {
-		save_temporary_scope_as = selected_overlord
+		save_scope_as = selected_overlord
 		every_subject = {
 			limit = { ism_can_take_over_subject_war = { selected_overlord = scope:selected_overlord } }
+			save_scope_as = selected_subject
+			ism_take_over_subject_wars = {
+				selected_overlord = scope:selected_overlord
+				selected_subject = scope:selected_subject
+			}
 		}
 	}
 }
