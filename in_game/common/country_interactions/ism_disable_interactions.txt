@@ -1,6 +1,6 @@
-### Disabled certain interactions for the player ###
+﻿### Disabled certain interactions for the player ###
 # Superseded by take over subject wars interaction
-INJECT:intervene_in_subject_regular_war = {
+TRY_INJECT:intervene_in_subject_regular_war = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
@@ -16,7 +16,7 @@ INJECT:intervene_in_subject_regular_war = {
 }
 
 # Superseded by take over subject wars interaction
-INJECT:intervene_in_subject_civil_war = {
+TRY_INJECT:intervene_in_subject_civil_war = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
@@ -32,7 +32,7 @@ INJECT:intervene_in_subject_civil_war = {
 }
 
 # No point in this appearing for colonial subjects.
-INJECT:seize_location_from_subject = {
+TRY_INJECT:seize_location_from_subject = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
@@ -70,7 +70,7 @@ TRY_INJECT:give_subject_location_to_other_subject = {
 }
 
 # Superseded by transfer to/from interactions
-INJECT:give_location_to_subject = {
+TRY_INJECT:give_location_to_subject = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }
@@ -86,7 +86,7 @@ INJECT:give_location_to_subject = {
 }
 
 # Superseded by transfer to/from interactions
-INJECT:give_province_to_subject = {
+TRY_INJECT:give_province_to_subject = {
 	select_trigger = {
 		looking_for_a = country
 		interaction_source_list = { }

@@ -1,0 +1,8 @@
+[b]Hauptupdate v1.9.0:[/b]
+- [b]Neues Mod-Menü[/b], integriert in das [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url]
+- [b]Neue Automatisierung[/b], um Kriegen von Untertanen automatisch beizutreten / diese zu übernehmen
+- [b]Neue Einstellungen[/b] zur Steuerung des automatischen Kartenteilens
+- [b]Neue Anpassung von Untertanenrechten[/b] zum Blockieren von Kolonialisierung, Urbanisierung, Kolumbianischem Austausch und Kriegserklärungen für alle Untertanen.
+- [b]Neue dynamische Interaktionen[/b], die ausgeblendet werden, wenn die globalen Untertanenrechte diese überschreiben.
+
+[b]Wichtig:[/b] Dieses neue Update basiert auf dem [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url] und ist nun eine erforderliche Abhängigkeit, die zuerst geladen werden muss.

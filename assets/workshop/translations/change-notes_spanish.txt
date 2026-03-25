@@ -1,0 +1,8 @@
+[b]Lanzamiento importante v1.9.0:[/b]
+- [b]Nuevo menú de mod[/b] integrado con el [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url]
+- [b]Nueva automatización[/b] para unirse o tomar el control automáticamente de las guerras de los sujetos
+- [b]Nuevos ajustes[/b] para controlar el intercambio automático de mapas
+- [b]Nueva personalización de derechos de sujetos[/b] para bloquear la colonización, urbanización, el intercambio colombino y la declaración de guerras para todos los sujetos.
+- [b]Nuevas interacciones dinámicas[/b] que se ocultan cuando los derechos globales de los sujetos las invalidan.
+
+[b]Importante:[/b] Esta nueva actualización depende del [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url] y ahora es una dependencia obligatoria que debe cargarse primero.

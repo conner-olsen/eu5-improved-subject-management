@@ -1,9 +1,9 @@
 ﻿l_spanish:
  ism_transfer_mode_location: "1. Ubicación"
- ism_transfer_mode_location_desc: "Lugar de transferencia"
+ ism_transfer_mode_location_desc: "Transferir localización"
  ism_transfer_mode_province: "2. Provincia"
- ism_transfer_mode_province_desc: "Provincia de transferencia"
+ ism_transfer_mode_province_desc: "Transferir provincia"
  ism_transfer_mode_area: "3. Área"
- ism_transfer_mode_area_desc: "Área de transferencia"
+ ism_transfer_mode_area_desc: "Transferir área"
  ism_transfer_mode_region: "4. Región"
- ism_transfer_mode_region_desc: "Región de transferencia"
+ ism_transfer_mode_region_desc: "Transferir región"

@@ -12,6 +12,8 @@
 
  STATIC_MODIFIER_NAME_ism_overlord_blocking_war_declarations: "War Declarations Blocked by Overlord"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_war_declarations: "This nation has been blocked by its [overlord|e] from declaring war."
+ STATIC_MODIFIER_NAME_ism_overlord_blocking_all_subject_war_declarations: "Overlord Blocking Subject War Declarations"
+ STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_war_declarations: "The overlord does not permit any of their subjects to start wars."
 
  MODIFIER_TYPE_NAME_ism_blocked_from_columbian_exchange: "Blocked from Columbian Exchange"
  MODIFIER_TYPE_DESC_ism_blocked_from_columbian_exchange: "This nation has been blocked from participating in the [columbian_exchange|e]."

@@ -1,0 +1,36 @@
+﻿l_simp_chinese:
+ # Mod
+ ism_name: "改进型从属国管理"
+ ism_desc: "添加了全新的互动、调整与自动化功能，旨在显著改善附属国管理体验。"
+
+ # QoL (qol) Tab
+ ism__qol_name: "体验优化"
+ ## Automations (automations) Group
+ ism__qol__automations_name: "自动化"
+ ism__auto_take_over_subject_wars_name: "自动加入臣属战争"
+ ism__auto_take_over_subject_wars_desc: "启用后，你每年都会自动加入并在可能的情况下接管所有从属国的战争。"
+ ism__auto_subject_map_sharing_name: "自动向附属国分享地图"
+ ism__auto_subject_map_sharing_desc: "你的从属国地图每年都会逐渐向你扩散。"
+ ## Subject Rights (subject_rights) Group
+ ism__qol__subject_rights_name: "附属国权利"
+ ism__qol__subject_rights_desc: "这些是你授予臣属的权利。"
+ ism__block_colonization_name: "禁止殖民"
+ ism__block_colonization_desc: "禁止所有附属国进行殖民。"
+ ism__block_urbanization_name: "禁止城市化"
+ ism__block_urbanization_desc: "禁止你所有的附属国将乡村地块升级为城镇。"
+ ism__block_columbian_exchange_name: "阻止哥伦布大交换"
+ ism__block_columbian_exchange_desc: "禁止所有附属国在可用时使用哥伦布大交换。"
+ ism__block_declaring_war_name: "禁止宣战"
+ ism__block_declaring_war_desc: "禁止你所有的附属国宣战。"
+
+ # Optional: self-referencing flag keys to suppress IDE warnings (safe to remove if you want)
+ ism: "ism"
+ ism__qol: "ism__qol"
+ ism__qol__automations: "ism__qol__automations"
+ ism__qol__subject_rights: "ism__qol__subject_rights"
+ ism__auto_take_over_subject_wars: "ism__auto_take_over_subject_wars"
+ ism__auto_subject_map_sharing: "ism__auto_subject_map_sharing"
+ ism__block_colonization: "ism__block_colonization"
+ ism__block_urbanization: "ism__block_urbanization"
+ ism__block_columbian_exchange: "ism__block_columbian_exchange"
+ ism__block_declaring_war: "ism__block_declaring_war"

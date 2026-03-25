@@ -107,12 +107,12 @@
  PROPOSE_ism_block_columbian_exchange: "Block $TARGET$ from using the Columbian Exchange?"
 
  # Allow subject columbian exchange
- ism_ism_allow_columbian_exchange: "Allow from Columbian Exchange"
- ism_ism_allow_columbian_exchange_desc: "We will allow our subject to use the Columbian Exchange."
- ism_ism_allow_columbian_exchange_act: "Allows Columbian Exchange"
- ism_ism_allow_columbian_exchange_effect_text: "[SCOPE.sCountry('actor').GetName] allows [SCOPE.sCountry('recipient').GetName] to use the Columbian Exchange"
- ism_ism_allow_columbian_exchange_effect_text_past: "[SCOPE.sCountry('actor').GetName] is no longer blocking [SCOPE.sCountry('recipient').GetName] from the Columbian Exchange"
- PROPOSE_ism_ism_allow_columbian_exchange: "Allow $TARGET$ to use the Columbian Exchange?"
+ ism_allow_columbian_exchange: "Allow from Columbian Exchange"
+ ism_allow_columbian_exchange_desc: "We will allow our subject to use the Columbian Exchange."
+ ism_allow_columbian_exchange_act: "Allows Columbian Exchange"
+ ism_allow_columbian_exchange_effect_text: "[SCOPE.sCountry('actor').GetName] allows [SCOPE.sCountry('recipient').GetName] to use the Columbian Exchange"
+ ism_allow_columbian_exchange_effect_text_past: "[SCOPE.sCountry('actor').GetName] is no longer blocking [SCOPE.sCountry('recipient').GetName] from the Columbian Exchange"
+ PROPOSE_ism_allow_columbian_exchange: "Allow $TARGET$ to use the Columbian Exchange?"
 
  # Take over all wars
  ism_take_over_wars: "#B #!Take Over War(s)"

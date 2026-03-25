@@ -1,79 +1,84 @@
 ===WORKSHOP_TITLE===
-Geliştirilmiş Tebaa Yönetimi / Improved Subject Management
+Geliştirilmiş Bağımlı Devlet Yönetimi / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Turkish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]Genel Bakış:[/h1]
-Bağımlı devlet yönetimini önemli ölçüde iyileştirmek için yeni etkileşimler, düzenlemeler ve otomasyonlar ekler.
+Tabiyet yönetimini önemli ölçüde iyileştirmek için yeni etkileşimler, düzenlemeler ve otomasyonlar ekler.
+
+Not: Workshop görselleri güncel değildir; orada gösterilenden çok daha fazla ve yeniden düzenlenmiş özellik mevcuttur. Bunun yerine aşağıdaki tam listeye göz atın.
 
 [h1]Özellikler:[/h1]
 [olist]
- [*][b]Bağımlı devletler arasında toprak transferi için yeni etkileşimler[/b]
+ [*][b]Mod Menüsü[/b] - çeşitli otomasyonlar ve tabiyet haklarını özelleştirme yeteneği ile.
+ [*][b]Tabiyetler arasında toprak transferi için yeni etkileşimler[/b]
 	[list]
-	 [*][b]Şuraya Transfer Et:[/b] Bağımlı devletinize, başka bir bağımlı devletten veya kendinizden toprak verin.
-	 [*][b]Şuradan Transfer Et:[/b] Bağımlı devletinizden toprak alıp başka bir bağımlı devlete veya (eğer bir koloni ulusundan alıyorsanız) kendinize verin.
+	 [*][b]Şuraya Transfer Et:[/b] Başka bir tabiyetten veya kendinizden tabiyetinize toprak verin.
+	 [*][b]Şuradan Transfer Et:[/b] Tabiyetinizden toprak alın ve onu başka bir tabiyete veya (bir koloni devletinden alıyorsanız) kendinize verin.
 	[/list]
- [*][b]Bağımlı devletlerin başkentini değiştirmek için yeni etkileşim[/b] - Bazen korkunç yerler seçerler veya başlangıçta kötü bir başkent konumuna sahip bir bağımlı devlet oluşturursunuz ve bunu daha sonra düzeltmek istersiniz.
- [*][b]Bağımlı devletinizin Litürjik Dilini değiştirmek için yeni etkileşim[/b] - Ve bağımlı devlete zamanla azalan -15 sadakat ve %1000 değiştirme maliyeti ekleyerek dilden hemen vazgeçmelerini engeller.
- [*][b]Bir bağımlı devletin kolonileşmesini engellemek ve engeli kaldırmak için yeni etkileşim[/b]
- [*][b]Bir bağımlı devletin savaş ilan etmesini engellemek ve engeli kaldırmak için yeni etkileşim[/b]
- [*][b]Bir bağımlı devletin şehirleşmesini engellemek ve engeli kaldırmak için yeni etkileşim[/b] - Kasaba kurmalarını engeller.
- [*][b]Bir bağımlı devletin Kolomb Takasını kullanmasını engellemek ve engeli kaldırmak için yeni etkileşim[/b] - Size tam kontrol sağlamak ve değerli RGO'ların üzerine yazmalarını önlemek için.
- [*][b]Bir bağımlı devletin savaşına katılmak ve savaş liderliğini devralmak için yeni etkileşim[/b] - İsyanlar ve veraset savaşları dahil.
- [*][b]Yeni otomatik harita paylaşımı özelliği[/b] - Her yıl, bir bağımlı devlet tarafından keşfedilen ve süzereni tarafından keşfedilmemiş olan, süzeren tarafından keşfedilmiş bir alanla komşu olan her yer süzerene yayılır. Bu, tüm bağımlı devlet haritalarını kademeli olarak süzerenlerine yayacaktır.
- [*][b]Aynı süzerene sahip koloni bağımlılarının birbirlerine savaş ilan etmesini engeller.[/b]
- [*][b]Artık koloni bağımlılarınıza barış dayatabilirsiniz.[/b]
- [*][b]Transfer edilecek toprağın boyutunu seçebilirsiniz: Mevki, Vilayet, Alan, Bölge[/b]
- [*][b]Hangi toprakların transfer edilebileceğine dair mevki sınırlamasını kaldırır[/b] - Vanilla'da, genellikle bağımlı devletlerinize bir mevki ötedeki bir yeri bile veremezsiniz.
- [*][b]Koloni bağımlıları ile kendiniz arasında serbestçe toprak transfer edebilirsiniz.[/b] - Toprağı en başta onlara siz verdiniz ve çoğu durumda koloni topraklarına bizzat sahip olmak daha iyi değildir, bu nedenle bunun oyun dengesi üzerinde herhangi bir etkisi olmamalıdır.
- [*][b]Savaşta olmak artık bağımlı devletlerin topraklarını yönetmeyi tamamen engellemez[/b] - Dünyanın öbür ucundaki tek vilayetlik küçük bir devletle savaşta olmak, yeni kolonize ettiğim toprağımı bağımlı devletime vermemi neden engellesin? (Aynı savaşta olan bağımlı devletler arasında toprak transferi yapabilirsiniz ve bir koloni ulusundan her zaman toprak transferi yapabilirsiniz.)
- [*][b]Vasal savaşlarında (isyanlar gibi) müttefiklerin yardıma çağrılmasına izin verir.[/b] - Bir savaşı devraldığınızda müttefiklerinizi çağırabilirsiniz.
- [*][b]Haraçgüzarlarınızın vasallarınıza/malikânelerinize savaş ilan etmesini engeller (ancak diğer haraçgüzarlara hâlâ ilan edebilirler).[/b]
- [*][b]Süzerenin tüm bağımlı türlerinde her zaman gıdaya erişimini sağlar (talep etmeye gerek kalmadan)[/b]
+ [*][b]Tabiyetlerin başkentini değiştirmek için yeni etkileşim[/b] - Bazen berbat yerler seçerler veya başlangıçta kötü bir başkent konumuna sahip bir tabiyet oluşturursunuz ve bunu daha sonra düzeltmek istersiniz.
+ [*][b]Tabiyetinizin Ayin Dilini (Liturgical Language) değiştirmek için yeni etkileşim[/b] - Tabiyete azalan -15 sadakat ve %1000 değiştirme maliyeti ekleyerek hemen geri değiştirmelerini engeller.
+ [*][b]Bir tabiyetin kolonileşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
+ [*][b]Bir tabiyetin savaş ilan etmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
+ [*][b]Bir tabiyetin şehirleşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Kasaba kurmalarını engeller.
+ [*][b]Bir tabiyetin Kolomb Değişimi'ni (Columbian Exchange) kullanmasını engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Size tam kontrol sağlar ve değerli RGO'ların üzerine yazmalarını engeller.
+ [*][b]Bir tabiyetin savaşına katılmak ve savaş liderliğini devralmak için yeni etkileşim[/b] - Maalesef bu, savaşa katılmanızı sağlasa da oyun kısıtlamaları nedeniyle iç savaşlarda savaş liderliğini devralamazsınız.
+ [*][b]Yeni otomatik harita paylaşımı özelliği[/b] - Her yıl, bir tabiyet tarafından keşfedilen ve efendisi (overlord) tarafından keşfedilmemiş olan, efendisinin keşfettiği bir bölgeye komşu olan herhangi bir alan efendiye yayılır. Bu, tüm tabiyet haritalarını kademeli olarak efendilerine yayacaktır.
+ [*][b]Yeni otomatik tabiyet savaşlarına katılma özelliği[/b] - Her yıl tabiyetlerinizin dahil olduğu tüm savaşlara katılır ve liderliği devralırsınız (not: iç savaşlar devralınamaz).
+ [*][b]Aynı efendiye bağlı koloni tabiyetlerinin birbirlerine savaş ilan etmesini engelleyin.[/b]
+ [*][b]Artık koloni tabiyetlerinize barışı dayatabilirsiniz (enforce peace).[/b]
+ [*][b]Transfer edilecek toprağın boyutunu seçebilirsiniz: Mevki (Location), Vilayet (Province), Alan (Area), Bölge (Region)[/b]
+ [*][b]Hangi toprakların transfer edilebileceğine dair mevki sınırlamasını kaldırın[/b] - Vanilla oyunda, genellikle bir vilayet ötedeki bir mevkiyi tabiyetlerinize veremezsiniz.
+ [*][b]Koloni tabiyetleri ile kendiniz arasında serbestçe toprak transferi yapabilirsiniz[/b] - Toprağı zaten onlara en başta siz verdiniz ve çoğu durumda koloni topraklarına bizzat sahip olmak daha iyi değildir, bu nedenle bunun oyun dengesi üzerinde bir etkisi olmamalıdır.
+ [*][b]Savaşta olmak artık tabiyetlerin topraklarını yönetmeyi tamamen engellemiyor[/b] - Dünyanın öbür ucundaki tek vilayetlik küçük bir devletle savaşta olmam, neden yeni kolonileştirdiğim toprağı tabiyetime vermemi engellesin? (Aynı savaşta olan tabiyetler arasında toprak transferi yapabilirsiniz ve bir koloni devletinden her zaman toprak transfer edebilirsiniz.)
+ [*][b]Tabiyet savaşlarında müttefikleri yardıma çağırmaya izin verin[/b] - Bir savaşı devraldığınızda müttefiklerinizi çağırabilirsiniz.
+ [*][b]Haraçgüzarlarınızın (tributaries) vasallarınıza/tımar sistemlerinize (fiefdoms) savaş ilan etmesini engelleyin (ancak diğer haraçgüzarlara hala ilan edebilirler).[/b]
+ [*][b]Efendinin (overlord) tüm tabiyet türlerinde her zaman gıdaya erişimi olmasını sağlayın (talep etmek zorunda kalmadan).[/b]
 [/olist]
 
-[h1]Planlanan/Gelecek:[/h1]
+[h1]Planlananlar/Yakında Gelecekler:[/h1]
 [olist]
- [*][b]Ek özelleştirme seçenekleri[/b] - RGO engelleme, bağımlı savaşlarını otomatik devralma ve diğer seçeneklerin özelleştirilmesi için bir mod menüsü üzerinde çalışıyorum.
- [*][b]Bağımlı topraklarının kurulabilir ülke gereksinimlerinde sayılmasını sağlama[/b]
- [*][b]Serbest bırakıldığında özel bir ulus olarak oynamaya izin verme[/b]
- [*][b]Toprakları entegre edilmemişe göre filtreleme seçeneği ekleme[/b]
- [*][b]Malikânelerin varsayılan olarak sizin dininizden/kültürünüzden olması seçeneğine izin verme[/b] - Varsayılan olmayan bir oyun kuralı altında olacaktır.
+ [*][b]Tabiyet topraklarının kurulabilir ülke gereksinimleri için sayılmasını sağlayın[/b]
+ [*][b]Serbest bırakıldığında özel bir ulus (custom nation) olarak oynamaya izin verin[/b]
+ [*][b]Toprakları entegre edilmemiş olanlara göre filtreleme seçeneği ekleyin[/b]
+ [*][b]Tımar Sistemlerini (Fiefdoms) varsayılan olarak dininizden/kültürünüzden yapma seçeneği ekleyin[/b] - varsayılan olmayan bir oyun kuralı altında olacaktır.
+ [*][b]Efendinin tabiyet binalarını yıkmasına izin verin[/b]
+ [*][b]Tabiyetlerin efendi tarafından yapılan inşaatları iptal etmesini engelleyin[/b]
+ [*][b]Tabiyetlerinizin mevkilerini yeniden adlandırmaya izin verin[/b]
+ [*][b]Serbest bırakırken tabiyet hükümet türünü seçmeye izin verin (örneğin krallık, piskoposluk veya cumhuriyet)[/b]
 [/olist]
 
-[h1]Doğal Yerelleştirmeler:[/h1]
+[h1]Yerel Çeviriler:[/h1]
 [list]
  [*][b]İngilizce:[/b] Birincil
- [*][b]Çince / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Çince Çeviri) modunda[/url] mevcut. ([i]牛奶大魔王[/i]'a teşekkürler).
+ [*][b]Çince / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Çince Çeviri) modunda[/url] mevcuttur. ([i]牛奶大魔王[/i]'a teşekkürler).
 [/list]
 
 [h1]DeepL ile Çevrilen Yerelleştirmeler:[/h1]
 [list]
- [*][b]Çince / 中文[/b]
  [*][b]Fransızca / Français[/b]
  [*][b]Almanca / Deutsch[/b]
  [*][b]Japonca / 日本語[/b]
  [*][b]Korece / 한국어[/b]
  [*][b]Lehçe / Polski[/b]
  [*][b]Portekizce (Brezilya) / Português (Brasil)[/b]
- [*][b]Rusça / Русский[/b]
+ [*][b]Rusça / Русский[/b] - @Koufor sayesinde düzeltmelerle
  [*][b]İspanyolca / Español[/b]
  [*][b]Türkçe / Türkçe[/b]
 [/list]
-Çince konuşanlar hâlâ 凯撒汉化 kullanmalıdır, çünkü çok daha üstün çeviriler sağlar; oluşturulanların üzerine yazıldığından emin olmak için modumdan sonra yüklediğinizden emin olun.
 
-[h1]Değişiklik Kaydı:[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Atölye sayfasındaki Değişiklik Notlarına[/url] göz atın.
+[h1]Değişiklik Günlüğü:[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Workshop sayfasındaki Değişiklik Notlarına[/url] göz atın.
 
 [h1]Uyumluluk:[/h1]
 [list]
- [*]Başarımlarla uyumlu değildir.
- [*]Kayıtlı oyunlarla tam uyumludur.
+ [*]Ironman/Başarım uyumlu değildir.
+ [*]Kayıtlı oyunlarla (save game) tam uyumludur.
  [*]Herhangi bir modla çalışmalıdır.
  [*]İstek üzerine uyumluluk yamaları ekleyebilirim.
 [/list]
 
-Yorum bölümü ve sabitlenmiş öneriler tartışmasına ek olarak, her türlü soruyu sorabilir, hataları bildirebilir veya [url=https://discord.gg/xWTWMBc7Fn]EU5 Topluluğu discord sunucusunun #improved-subject-management kanalında[/url] önerilerde bulunabilirsiniz. Ve eğer bu veya diğer modlarımdan birinin geliştirilmesine katılmakla ilgileniyorsanız, Discord'da @arealconner adresinden bana ping atabilir veya ekleyebilirsiniz. Tüm katkılara açığız.
+Yorumlar bölümüne ve sabitlenmiş öneriler tartışmasına ek olarak, [url=https://discord.gg/xWTWMBc7Fn]EU5 Topluluk discord sunucusunun #improved-subject-management kanalında[/url] soru sorabilir, hata bildirebilir veya öneride bulunabilirsiniz. Bu modun veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord'da @arealconner üzerinden bana ulaşabilir veya beni ekleyebilirsiniz. Tüm katkılara açığım.
 
 Modun kaynak ve geliştirme sürümleri [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub'da[/url] mevcuttur.
 

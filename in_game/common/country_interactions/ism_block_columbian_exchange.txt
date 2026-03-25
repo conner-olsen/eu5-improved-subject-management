@@ -3,6 +3,9 @@
 	category = CATEGORY_SUBJECT_ACTIONS
 
 	potential = {
+		scope:actor = {
+			NOT = { has_variable = ism__block_columbian_exchange }
+		}
 	}
 
 	allow = {

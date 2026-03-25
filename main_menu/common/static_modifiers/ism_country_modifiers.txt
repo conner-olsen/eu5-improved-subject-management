@@ -5,7 +5,6 @@
 	}
 	loyalty_to_overlord = -15
     change_liturgical_language_cost_modifier = 10
-
 }
 
 ism_overlord_blocking_colonization = {
@@ -13,7 +12,6 @@ ism_overlord_blocking_colonization = {
         category = country
     }
 	can_colonize = no
-	ism_blocked_from_colonization = yes
 }
 
 ism_overlord_blocking_urbanization = {
@@ -28,6 +26,13 @@ ism_overlord_blocking_war_declarations = {
         category = country
     }
     blocked_from_declaring_war = yes
+}
+
+ism_overlord_blocking_all_subject_war_declarations = {
+	game_data = {
+		category = country
+	}
+	blocked_from_declaring_war = yes
 }
 
 ism_overlord_blocking_columbian_exchange = {

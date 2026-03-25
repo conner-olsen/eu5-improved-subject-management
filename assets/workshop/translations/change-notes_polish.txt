@@ -1,0 +1,8 @@
+[b]Główna aktualizacja v1.9.0:[/b]
+- [b]Nowe menu modyfikacji[/b] zintegrowane z [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url]
+- [b]Nowa automatyzacja[/b] do automatycznego dołączania do / przejmowania wojen poddanych
+- [b]Nowe ustawienia[/b] do kontrolowania automatycznego udostępniania map
+- [b]Nowa personalizacja praw poddanych[/b] do blokowania kolonizacji, urbanizacji, wymiany kolumbijskiej oraz wypowiadania wojen dla wszystkich poddanych.
+- [b]Nowe dynamiczne interakcje[/b], które są ukrywane, gdy globalne prawa poddanych je zastępują.
+
+[b]Ważne:[/b] Ta nowa aktualizacja opiera się na [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url], który jest teraz wymaganą zależnością i musi być ładowany jako pierwszy.

@@ -3,6 +3,9 @@
 	category = CATEGORY_SUBJECT_ACTIONS
 
 	potential = {
+		scope:actor = {
+			NOT = { has_variable = ism__auto_take_over_subject_wars }
+		}
 	}
 
 	allow = {
@@ -27,60 +30,14 @@
 			data = name
 		}
 		visible = {
-			at_war = yes
-			any_current_war = {
-				prev = {
-					is_war_leader_of = prev
-				}
-			}
-		}
-		enabled = {
+			ism_can_take_over_subject_war = { selected_overlord = scope:actor }
 		}
 	}
 
 	effect = {
-		scope:recipient = {
-			every_current_war = {
-				if = {
-					limit = {
-						scope:recipient = { is_war_leader_of = prev }
-						NOT = { is_in_war = scope:actor }
-					}
-					if = {
-						limit = {
-							is_civil_war_for = scope:recipient
-						}
-						scope:actor = {
-							reverse_add_opinion = {
-								target = scope:recipient
-								modifier = opinion_helped_in_civil_war
-							}
-						}
-					}
-					if = {
-						limit = {
-							attacker_leader = scope:recipient
-						}
-						scope:actor = {
-							join_war_as_attacker = {
-								war = prev
-								reason = intervene
-							}
-						}
-					}
-					else = {
-						scope:actor = {
-							join_war_as_defender = {
-								war = prev
-								reason = intervene
-							}
-						}
-					}
-				}
-			}
-		}
-		scope:actor = {
-			take_over_all_wars = scope:recipient
+		ism_take_over_subject_wars = {
+			selected_overlord = scope:actor
+			selected_subject = scope:recipient
 		}
 	}
 }
