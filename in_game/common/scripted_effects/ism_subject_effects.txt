@@ -42,6 +42,19 @@
 	$selected_overlord$ = {
 		take_over_all_wars = $selected_subject$
 	}
+	# Attempt to fix strange vanilla bug, #TODO Verify if working
+	$selected_overlord$ = {
+		if = {
+			limit = { is_rival_of = $selected_subject$ }
+			$selected_subject$ = { remove_rival = $selected_overlord$ }
+		}
+	}
+	$selected_subject$ = {
+		if = {
+			limit = { is_rival_of = $selected_overlord$ }
+			$selected_overlord$ = { remove_rival = $selected_subject$ }
+		}
+	}
 }
 
 ism_block_subject_war_declarations = {
