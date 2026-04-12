@@ -10,9 +10,7 @@
 	# Otherwise interaction is hidden when already in the war.
 	OR = {
 		any_current_war = {
-			$selected_overlord$ = {
-				NOT = { is_in_war = prev }
-			}
+			NOT = { is_in_war = $selected_overlord$ }
 		}
 		NOT = { in_civil_war = yes }
 	}
