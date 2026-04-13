@@ -14,6 +14,13 @@ ism_overlord_blocking_colonization = {
 	can_colonize = no
 }
 
+ism_overlord_blocking_all_subject_colonization = {
+	game_data = {
+		category = country
+	}
+	can_colonize = no
+}
+
 ism_overlord_blocking_urbanization = {
     game_data = {
         category = country
@@ -63,6 +70,13 @@ ism_overlord_blocking_all_subject_war_declarations = {
 }
 
 ism_overlord_blocking_columbian_exchange = {
+	game_data = {
+		category = country
+	}
+	ism_blocked_from_columbian_exchange = yes
+}
+
+ism_overlord_blocking_all_subject_columbian_exchange = {
 	game_data = {
 		category = country
 	}

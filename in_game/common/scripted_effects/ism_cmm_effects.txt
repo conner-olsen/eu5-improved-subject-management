@@ -102,6 +102,7 @@ ism_handle_cmf_callback = {
 				setting = ism__block_colonization
 				alias = ism__block_colonization
 			}
+			ism_block_subject_colonization = yes
 		}
 		flag:ism__block_urbanization = {
 			cmm_sync_bool_alias = {
@@ -115,6 +116,7 @@ ism_handle_cmf_callback = {
 				setting = ism__block_columbian_exchange
 				alias = ism__block_columbian_exchange
 			}
+			ism_block_subject_columbian_exchange = yes
 		}
 		flag:ism__block_declaring_war = {
 			cmm_sync_bool_alias = {

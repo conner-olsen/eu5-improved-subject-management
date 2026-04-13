@@ -59,6 +59,34 @@
 	}
 }
 
+ism_block_subject_colonization = {
+	if = {
+		limit = { is_overlord = yes }
+		save_scope_as = overlord_scope
+		every_subject = {
+			if = {
+				limit = {
+					scope:overlord_scope = { has_variable = ism__block_colonization }
+					NOT = { has_country_modifier = ism_overlord_blocking_all_subject_colonization }
+				}
+				add_country_modifier = {
+					modifier = ism_overlord_blocking_all_subject_colonization
+					days = -1
+					mode = replace
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						has_country_modifier = ism_overlord_blocking_all_subject_colonization
+					}
+					remove_country_modifier = ism_overlord_blocking_all_subject_colonization
+				}
+			}
+		}
+	}
+}
+
 ism_block_subject_urbanization = {
 	if = {
 		limit = { is_overlord = yes }
@@ -81,6 +109,34 @@ ism_block_subject_urbanization = {
 						has_country_modifier = ism_overlord_blocking_all_subject_urbanization
 					}
 					remove_country_modifier = ism_overlord_blocking_all_subject_urbanization
+				}
+			}
+		}
+	}
+}
+
+ism_block_subject_columbian_exchange = {
+	if = {
+		limit = { is_overlord = yes }
+		save_scope_as = overlord_scope
+		every_subject = {
+			if = {
+				limit = {
+					scope:overlord_scope = { has_variable = ism__block_columbian_exchange }
+					NOT = { has_country_modifier = ism_overlord_blocking_all_subject_columbian_exchange }
+				}
+				add_country_modifier = {
+					modifier = ism_overlord_blocking_all_subject_columbian_exchange
+					days = -1
+					mode = replace
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						has_country_modifier = ism_overlord_blocking_all_subject_columbian_exchange
+					}
+					remove_country_modifier = ism_overlord_blocking_all_subject_columbian_exchange
 				}
 			}
 		}
