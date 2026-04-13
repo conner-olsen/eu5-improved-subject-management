@@ -3,55 +3,57 @@ Gestión de Sujetos Mejorada / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Spanish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Descripción general:[/h1]
-Añade nuevas interacciones, modificaciones y automatizaciones para mejorar significativamente la gestión de los sujetos.
+[b]Este mod ahora requiere el [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url][/b]
 
-Nota: Las imágenes de la workshop están desactualizadas; hay muchas más características y funciones rediseñadas de las que se muestran allí. Consulta la lista completa a continuación en su lugar.
+[h1]Resumen:[/h1]
+Añade nuevas interacciones, modificaciones y automatizaciones para mejorar significativamente la gestión de sujetos.
+
+Nota: Las imágenes del workshop están desactualizadas; hay muchas más funciones y mejoras que las que se muestran ahí. En su lugar, consulta la lista completa a continuación.
 
 [h1]Características:[/h1]
 [olist]
  [*][b]Menú de Modos[/b] - con varias automatizaciones y la capacidad de personalizar los derechos de los sujetos.
  [*][b]Nuevas interacciones para transferir tierras entre sujetos[/b]
 	[list]
-	 [*][b]Transferir a:[/b] Da tierras a tu sujeto, ya sea de otro sujeto o de ti mismo.
-	 [*][b]Transferir de:[/b] Toma tierras de tu sujeto y dáselas a otro sujeto, o a ti mismo (si se trata de una nación colonial).
+	 [*][b]Transferir a:[/b] Dale tierras a tu sujeto, ya sea de otro sujeto o de tu propio territorio.
+	 [*][b]Transferir de:[/b] Toma tierras de tu sujeto para dárselas a otro sujeto o a ti mismo (si se trata de una nación colonial).
 	[/list]
  [*][b]Nueva interacción para cambiar la capital de los sujetos[/b] - A veces eligen ubicaciones terribles, o creas un sujeto con una ubicación de capital deficiente inicialmente y quieres corregirlo más tarde.
- [*][b]Nueva interacción para cambiar la Lengua Litúrgica de tu sujeto[/b] - Y añade una penalización de lealtad de -15 que decae y un coste de cambio del 1000% al sujeto, evitando que la cambie de inmediato.
+ [*][b]Nueva interacción para cambiar la Lengua Litúrgica de tu sujeto[/b] - Añade una penalización de lealtad de -15 (que decae) y un coste de cambio del 1000% al sujeto, evitando que vuelvan a cambiarla inmediatamente.
  [*][b]Nueva interacción para bloquear y desbloquear la colonización de un sujeto[/b]
  [*][b]Nueva interacción para bloquear y desbloquear la declaración de guerras de un sujeto[/b]
- [*][b]Nueva interacción para bloquear y desbloquear la urbanización de un sujeto[/b] - Evita que funden ciudades.
- [*][b]Nueva interacción para bloquear y desbloquear el uso del Intercambio Colombino por parte de un sujeto[/b] - para darte un control total y evitar que sobrescriban RGO valiosos.
- [*][b]Nueva interacción para unirse y asumir el liderazgo de guerra de un sujeto[/b] - Desafortunadamente, aunque esto hará que te unas a la guerra, no podrás asumir el liderazgo de guerra en guerras civiles debido a las limitaciones del juego.
- [*][b]Nueva función de intercambio automático de mapas[/b] - Cada año, cualquier área descubierta por un sujeto que no haya sido descubierta por su señor y que limite con un área descubierta por su señor, se extenderá al señor. Esto difundirá de forma constante todos los mapas de los sujetos a sus señores.
- [*][b]Nueva función de unión automática a las guerras de los sujetos[/b] - Cada año te unirás y asumirás el mando de cualquier guerra en la que estén tus sujetos (nota: no se puede asumir el mando en guerras civiles).
+ [*][b]Nueva interacción para bloquear y desbloquear la urbanización de un sujeto[/b] - Evita que funden pueblos.
+ [*][b]Nueva interacción para bloquear y desbloquear el uso del Intercambio Colombino por parte de un sujeto[/b] - Para darte un control total y evitar que sobrescriban RGO valiosos.
+ [*][b]Nueva interacción para unirse y asumir el liderazgo de guerra de un sujeto[/b] - Desafortunadamente, aunque esto hará que te unas a la guerra, no podrás asumir el liderazgo de guerra en guerras civiles debido a limitaciones del juego.
+ [*][b]Nueva función de intercambio de mapas automático[/b] - Cada año, cualquier área descubierta por un sujeto y no por su señor que limite con un área descubierta por su señor se extiende a este último. Esto difundirá progresivamente todos los mapas de los sujetos a sus señores.
+ [*][b]Nueva función para unirse automáticamente a las guerras de los sujetos[/b] - Cada año te unirás y asumirás el control de cualquier guerra en la que estén tus sujetos (nota: no se puede asumir el control de guerras civiles).
  [*][b]Evita que los sujetos coloniales con el mismo señor se declaren la guerra entre sí.[/b]
  [*][b]Ahora puedes imponer la paz a tus sujetos coloniales.[/b]
- [*][b]Puedes seleccionar el tamaño de la tierra a transferir: Localidad, Provincia, Área, Región[/b]
- [*][b]Eliminación de la limitación de ubicación sobre qué tierras pueden transferirse[/b] - En el juego base (vanilla), a menudo no puedes dar una localidad a un sujeto aunque esté a solo una provincia de distancia.
- [*][b]Puedes transferir tierras libremente entre sujetos coloniales y tú mismo[/b] - Tú les diste las tierras para empezar y, en la mayoría de los casos, no es mejor poseer tierras coloniales tú mismo, por lo que esto no debería afectar al equilibrio del juego.
- [*][b]Estar en guerra ya no bloquea por completo la gestión de las tierras de los sujetos[/b] - ¿Por qué estar en guerra con un país menor de una sola provincia al otro lado del mundo debería impedirme dar mis tierras recién colonizadas a mi sujeto? (Puedes transferir tierras entre sujetos que estén en la misma guerra, y siempre puedes transferir tierras de una nación colonial).
- [*][b]Permitir llamar a aliados para ayudar en las guerras de los sujetos[/b] - Una vez que asumas el mando de la guerra, podrás llamar a tus aliados.
+ [*][b]Puedes seleccionar el tamaño de la tierra a transferir: Ubicación, Provincia, Área, Región[/b]
+ [*][b]Elimina la limitación de ubicación sobre qué tierras se pueden transferir[/b] - En el juego base (vanilla), es común no poder dar una ubicación a un sujeto si está a una provincia de distancia.
+ [*][b]Puedes transferir tierras libremente entre sujetos coloniales y tú mismo[/b] - Tú les diste las tierras originalmente y, en la mayoría de los casos, no es mejor poseer tierras coloniales directamente, por lo que esto no debería afectar el equilibrio del juego.
+ [*][b]Estar en guerra ya no bloquea totalmente la gestión de las tierras de los sujetos[/b] - ¿Por qué estar en guerra con un país pequeño de una provincia al otro lado del mundo debería impedirme dar mi tierra recién colonizada a mi sujeto? (Puedes transferir tierras entre sujetos que estén en la misma guerra, y siempre puedes transferir tierras de una nación colonial).
+ [*][b]Permite llamar a aliados para ayudar en las guerras de los sujetos[/b] - Una vez que asumas el control de una guerra, podrás llamar a tus aliados.
  [*][b]Evita que tus tributarios declaren la guerra a tus vasallos/feudos (pero sí a otros tributarios)[/b]
  [*][b]Hace que el señor siempre tenga acceso a alimentos en todos los tipos de sujetos (sin tener que solicitarlo)[/b]
 [/olist]
 
 [h1]Planeado/Próximamente:[/h1]
 [olist]
- [*][b]Hacer que las tierras de los sujetos cuenten para los requisitos de naciones formables[/b]
- [*][b]Permitir jugar como una nación personalizada al liberarla[/b]
- [*][b]Añadir una opción para filtrar tierras por no integradas[/b]
- [*][b]Permitir la opción de que los Feudos adopten tu religión/cultura por defecto[/b] - estará bajo una regla de juego no predeterminada.
+ [*][b]Hacer que las tierras de los sujetos cuenten para los requisitos de formación de naciones[/b]
+ [*][b]Permitir jugar como una nación personalizada tras su liberación[/b]
+ [*][b]Añadir una opción para filtrar tierras por "no integradas"[/b]
+ [*][b]Permitir la opción de que los feudos adopten tu religión/cultura por defecto[/b] - Estará bajo una regla de juego opcional.
  [*][b]Permitir al señor destruir edificios de los sujetos[/b]
- [*][b]Evitar que los sujetos cancelen las construcciones del señor[/b]
- [*][b]Permitir cambiar el nombre de las localidades de tus sujetos[/b]
- [*][b]Permitir seleccionar el tipo de gobierno del sujeto al liberarlo (por ejemplo: reino, obispado o república)[/b]
+ [*][b]Evitar que los sujetos cancelen construcciones del señor[/b]
+ [*][b]Permitir renombrar las ubicaciones de tus sujetos[/b]
+ [*][b]Permitir seleccionar el tipo de gobierno del sujeto al liberarlo (ej. reino, obispado o república)[/b]
 [/olist]
 
-[h1]Localizaciones nativas:[/h1]
+[h1]Localizaciones Nativas:[/h1]
 [list]
  [*][b]English:[/b] Primary
- [*][b]Chinese / 中文:[/b] Disponible en el [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凱撒漢化 (Caesar Chinese Translation) mod[/url]. (Gracias a [i]牛奶大魔王[/i]).
+ [*][b]Chinese / 中文:[/b] Disponible en el [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Gracias a [i]牛奶大魔王[/i]).
 [/list]
 
 [h1]Localizaciones traducidas por DeepL:[/h1]
@@ -68,17 +70,17 @@ Nota: Las imágenes de la workshop están desactualizadas; hay muchas más carac
 [/list]
 
 [h1]Registro de cambios:[/h1]
-Consulta las [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notas de cambios en la página de la workshop[/url].
+Consulta las [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notas de cambios en la página del workshop[/url].
 
 [h1]Compatibilidad:[/h1]
 [list]
- [*]No es compatible con Ironman/Logros.
+ [*]No es compatible con Ironman ni Logros.
  [*]Totalmente compatible con partidas guardadas.
  [*]Debería funcionar con cualquier mod.
  [*]Puedo añadir parches de compatibilidad bajo petición.
 [/list]
 
-Además de la sección de comentarios y la discusión de sugerencias fijada, también puedes hacer cualquier pregunta, informar de errores o hacer sugerencias en el [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management channel del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en unirte al desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord @arealconner. Todas las contribuciones son bienvenidas.
+Además de la sección de comentarios y el hilo fijado de sugerencias, también puedes hacer preguntas, informar de errores o proponer ideas en el [url=https://discord.gg/xWTWMBc7Fn]canal #improved-subject-management del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en participar en el desarrollo de este o alguno de mis otros mods, puedes mencionarme o añadirme en Discord como @arealconner. Todas las contribuciones son bienvenidas.
 
 El código fuente y las versiones de desarrollo del mod están disponibles en [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
 

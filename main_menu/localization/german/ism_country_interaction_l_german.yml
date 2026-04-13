@@ -1,8 +1,8 @@
 ﻿l_german:
  # Note to translators: The `#E #!` and `#F #!` prefixes are just used to order the interactions in the list.
  # Options
- select_country_to_transfer_land_from: "Wählt den [country|e] aus, von dem Ihr Land übertragen wollt:"
- select_country_to_transfer_land_to: "Wählt den [country|e] aus, dem Ihr Land übertragen wollt:"
+ select_country_to_transfer_land_from: "Wähle den [country|e] aus, dem du Land entziehen möchtest:"
+ select_country_to_transfer_land_to: "Wählt den [country|e] aus, dem Ihr Land geben wollt:"
  select_transfer_mode: "Transfermodus auswählen"
 
  # Generic Land Transfer
@@ -19,20 +19,20 @@
  select_a_location_to_move_capital: "Klickt, um eine [location|e] auszuwählen, in die wir die Hauptstadt unseres Untertans verlegen sollen."
 
  # Transfer Land to Subject
- ism_transfer_land_to_subject: "#E #!Land übertragen an"
- ism_transfer_land_to_subject_desc: "Wir werden Land an unseren Untertanen übertragen."
- ism_transfer_land_to_subject_act: "Land an [SCOPE.sCountry('recipient').GetName] übertragen"
- ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName] wird Land an [SCOPE.sCountry('recipient').GetName] übertragen"
- ism_transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] übertrug Land an [SCOPE.sCountry('recipient').GetName]"
- PROPOSE_ism_transfer_land_to_subject: "Land an $RECIPIENT$ übertragen?\n$INFO$"
+ ism_transfer_land_to_subject: "#E #!Land geben"
+ ism_transfer_land_to_subject_desc: "Wir werden unserem Untertanen Land geben."
+ ism_transfer_land_to_subject_act: "Land an [SCOPE.sCountry('recipient').GetName] geben"
+ ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName] wird [SCOPE.sCountry('recipient').GetName] Land geben"
+ ism_transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] gab [SCOPE.sCountry('recipient').GetName] Land"
+ PROPOSE_ism_transfer_land_to_subject: "Land an $RECIPIENT$ geben?\n$INFO$."
 
  # Transfer Land from Subject
- ism_transfer_land_from_subject: "#E #!Land übertragen von"
- ism_transfer_land_from_subject_desc: "Wir werden Land von unserem Untertanen übertragen."
- ism_transfer_land_from_subject_act: "Land von [SCOPE.sCountry('recipient').GetName] übertragen"
- ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName] wird Land von [SCOPE.sCountry('recipient').GetName] übertragen"
- ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] hat Land von [SCOPE.sCountry('recipient').GetName] übertragen"
- PROPOSE_ism_transfer_land_from_subject: "Land von $RECIPIENT$ übertragen?\n$INFO$"
+ ism_transfer_land_from_subject: "#E #!Land nehmen"
+ ism_transfer_land_from_subject_desc: "Wir werden Land von unserem Untertanen nehmen."
+ ism_transfer_land_from_subject_act: "Land von [SCOPE.sCountry('recipient').GetName] nehmen"
+ ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName] wird Land von [SCOPE.sCountry('recipient').GetName] nehmen"
+ ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] nahm Land von [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_ism_transfer_land_from_subject: "Land von $RECIPIENT$ nehmen?\n$INFO$"
 
  # Move Subject Capital
  ism_move_subject_capital: "#F #!Hauptstadt verlegen"

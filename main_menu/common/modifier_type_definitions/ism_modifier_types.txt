@@ -1,4 +1,4 @@
-﻿ism_blocked_from_columbian_exchange={
+﻿ism_blocked_from_columbian_exchange = {
 	color=bad
 	boolean=yes
 	game_data={

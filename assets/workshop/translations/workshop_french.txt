@@ -3,55 +3,57 @@ Gestion améliorée des sujets / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated French Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
+[b]Ce mod nécessite désormais le [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url][/b]
+
 [h1]Aperçu :[/h1]
-Ajoute de nouvelles interactions, modifications et automatisations pour améliorer de manière significative la gestion des sujets.
+Ajoute de nouvelles interactions, modifications et automatisations pour améliorer significativement la gestion des sujets.
 
-Note : Les images du workshop sont obsolètes, il y a bien plus de fonctionnalités et elles ont été retravaillées par rapport à ce qui est affiché. Consultez plutôt la liste complète ci-dessous.
+Note : Les images du workshop sont obsolètes, il y a bien plus de fonctionnalités et de remaniements que ce qui est montré. Consultez plutôt la liste complète ci-dessous.
 
-[h1]Caractéristiques :[/h1]
+[h1]Fonctionnalités :[/h1]
 [olist]
- [*][b]Menu de Mode[/b] - avec diverses automatisations et la possibilité de personnaliser les droits des sujets
+ [*][b]Menu de Mode[/b] - avec diverses automatisations et la possibilité de personnaliser les droits des sujets.
  [*][b]Nouvelles interactions pour transférer des terres entre sujets[/b]
 	[list]
-	 [*][b]Transférer vers :[/b] Donnez des terres à votre sujet, soit en provenance d'un autre sujet, soit de vous-même.
-	 [*][b]Transférer depuis :[/b] Prenez des terres à votre sujet pour les donner à un autre sujet, ou à vous-même (si vous les prenez à une nation coloniale).
+	 [*][b]Transférer vers :[/b] Donnez des terres à votre sujet, soit d'un autre sujet, soit de vous-même.
+	 [*][b]Transférer de :[/b] Prenez des terres à votre sujet et donnez-les à un autre sujet, ou à vous-même (si vous les prenez à une nation coloniale).
 	[/list]
- [*][b]Nouvelle interaction pour changer la capitale des sujets[/b] - Parfois, ils choisissent des emplacements terribles, ou vous créez un sujet avec une mauvaise capitale initiale et souhaitez y remédier plus tard.
- [*][b]Nouvelle interaction pour changer la langue liturgique de votre sujet[/b] - Ajoute un malus de loyauté de -15 (dégressif) et un coût de changement de 1000 % au sujet, l'empêchant de rechanger immédiatement.
+ [*][b]Nouvelle interaction pour changer la capitale des sujets[/b] - Parfois, ils choisissent des emplacements terribles, ou vous créez un sujet avec un mauvais emplacement de capitale au départ et souhaitez le corriger plus tard.
+ [*][b]Nouvelle interaction pour changer la langue liturgique de votre sujet[/b] - Ajoute un malus de loyauté de -15 (décroissant) et un coût de changement de 1000 % au sujet, l'empêchant de rechanger immédiatement.
  [*][b]Nouvelle interaction pour bloquer et débloquer la colonisation par un sujet[/b]
  [*][b]Nouvelle interaction pour bloquer et débloquer la déclaration de guerres par un sujet[/b]
  [*][b]Nouvelle interaction pour bloquer et débloquer l'urbanisation par un sujet[/b] - Les empêche de fonder des villes.
- [*][b]Nouvelle interaction pour bloquer et débloquer l'utilisation de l'Échange colombien par un sujet[/b] - Pour vous donner un contrôle total et les empêcher d'écraser des RGO précieux.
- [*][b]Nouvelle interaction pour rejoindre et prendre la direction de la guerre d'un sujet[/b] - Malheureusement, bien que cela vous fasse rejoindre la guerre, vous ne pourrez pas prendre la direction de la guerre pour les guerres civiles en raison des limitations du jeu.
- [*][b]Nouvelle fonctionnalité de partage automatique de carte[/b] - Chaque année, toute zone découverte par un sujet et non par son suzerain, qui borde une zone découverte par son suzerain, est révélée au suzerain. Cela étendra progressivement toutes les cartes des sujets à leurs suzerains.
- [*][b]Nouvelle fonctionnalité de participation automatique aux guerres des sujets[/b] - Chaque année, vous rejoindrez et prendrez la direction de toutes les guerres dans lesquelles vos sujets sont impliqués (note : ne peut pas prendre la direction des guerres civiles).
- [*][b]Empêcher les sujets coloniaux d'un même suzerain de se déclarer la guerre.[/b]
+ [*][b]Nouvelle interaction pour bloquer et débloquer l'utilisation de l'Échange Colombien par un sujet[/b] - pour vous donner un contrôle total et les empêcher d'écraser des RGO précieux.
+ [*][b]Nouvelle interaction pour rejoindre et prendre la direction de la guerre d'un sujet[/b] - Malheureusement, bien que cela vous fasse rejoindre la guerre, vous ne pourrez pas prendre la direction des guerres civiles en raison des limitations du jeu.
+ [*][b]Nouvelle fonctionnalité de partage automatique de carte[/b] - Chaque année, toute zone découverte par un sujet et non par son suzerain qui borde une zone découverte par son suzerain est transmise au suzerain. Cela propagera régulièrement toutes les cartes des sujets à leurs suzerains.
+ [*][b]Nouvelle fonctionnalité de participation automatique aux guerres des sujets[/b] - Chaque année, vous rejoindrez et prendrez le contrôle de toutes les guerres dans lesquelles se trouvent vos sujets (note : ne peut pas prendre le contrôle des guerres civiles).
+ [*][b]Empêcher les sujets coloniaux ayant le même suzerain de se déclarer la guerre entre eux.[/b]
  [*][b]Vous pouvez désormais imposer la paix à vos sujets coloniaux.[/b]
- [*][b]Vous pouvez choisir la taille des terres à transférer : Lieu, Province, Zone, Région[/b]
- [*][b]Suppression de la limitation de distance sur les transferts de terres[/b] - Dans le jeu de base, il arrive souvent que vous ne puissiez pas donner un lieu situé à une province de distance à vos sujets.
- [*][b]Vous pouvez librement transférer des terres entre vos sujets coloniaux et vous-même[/b] - Vous leur avez donné ces terres au départ, et dans la plupart des cas, il n'est pas préférable de posséder des terres coloniales soi-même, cela ne devrait donc pas affecter l'équilibre du jeu.
- [*][b]Être en guerre ne bloque plus totalement la gestion des terres des sujets[/b] - Pourquoi le fait d'être en guerre contre un mineur d'une seule province à l'autre bout du monde m'empêcherait-il de donner mes terres nouvellement colonisées à mon sujet ? (Vous pouvez transférer des terres entre des sujets engagés dans la même guerre, et vous pouvez toujours transférer des terres depuis une nation coloniale.)
- [*][b]Permettre d'appeler des alliés en renfort dans les guerres des sujets[/b] - Une fois que vous avez pris la direction d'une guerre, vous pouvez appeler vos alliés.
+ [*][b]Vous pouvez sélectionner la taille des terres à transférer : Localité, Province, Zone, Région[/b]
+ [*][b]Suppression de la limitation d'emplacement sur les terres transférables[/b] - Dans le jeu de base, il arrive souvent que vous ne puissiez pas donner une localité située à une province de distance à vos sujets.
+ [*][b]Vous pouvez librement transférer des terres entre les sujets coloniaux et vous-même[/b] - Vous leur avez donné les terres au départ, et dans la plupart des cas, il n'est pas préférable de posséder des terres coloniales soi-même, cela ne devrait donc pas avoir d'effet sur l'équilibre du jeu.
+ [*][b]Être en guerre ne bloque plus totalement la gestion des terres des sujets[/b] - Pourquoi le fait d'être en guerre avec un mineur d'une seule province à l'autre bout du monde m'empêcherait-il de donner mes terres nouvellement colonisées à mon sujet ? (Vous pouvez transférer des terres entre sujets qui participent à la même guerre, et vous pouvez toujours transférer des terres d'une nation coloniale.)
+ [*][b]Autoriser l'appel d'alliés pour aider dans les guerres des sujets[/b] - Une fois que vous avez pris le contrôle d'une guerre, vous pouvez alors appeler vos alliés.
  [*][b]Empêcher vos tributaires de déclarer la guerre à vos vassaux/fiefs (mais toujours aux autres tributaires)[/b]
- [*][b]Permettre au suzerain d'avoir toujours accès à la nourriture dans tous les types de sujets (sans avoir à en faire la demande)[/b]
+ [*][b]Faire en sorte que le suzerain ait toujours un accès à la nourriture dans tous les types de sujets (sans avoir à en faire la demande)[/b]
 [/olist]
 
 [h1]Prévu / À venir :[/h1]
 [olist]
  [*][b]Faire en sorte que les terres des sujets comptent pour les conditions de formation de nations[/b]
  [*][b]Permettre de jouer en tant que nation personnalisée lors de la libération[/b]
- [*][b]Ajouter une option pour filtrer les terres par statut non intégré[/b]
+ [*][b]Ajouter une option pour filtrer les terres par statut non-intégré[/b]
  [*][b]Ajouter une option pour que les fiefs adoptent votre religion/culture par défaut[/b] - sera disponible via une règle de jeu non activée par défaut.
  [*][b]Permettre au suzerain de détruire les bâtiments des sujets[/b]
  [*][b]Empêcher les sujets d'annuler les constructions du suzerain[/b]
- [*][b]Permettre de renommer les lieux de vos sujets[/b]
- [*][b]Permettre de choisir le type de gouvernement du sujet lors de la libération (ex: royaume, évêché ou république)[/b]
+ [*][b]Permettre de renommer les localités de vos sujets[/b]
+ [*][b]Permettre de choisir le type de gouvernement du sujet lors de sa libération (ex: royaume, évêché ou république)[/b]
 [/olist]
 
 [h1]Localisations natives :[/h1]
 [list]
- [*][b]Anglais :[/b] Principal
- [*][b]Chinois / 中文 :[/b] Disponible dans le [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Merci à [i]牛奶大魔王[/i]).
+ [*][b]Anglais :[/b] Primaire
+ [*][b]Chinois / 中文 :[/b] Disponible dans le [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) mod[/url]. (Merci à [i]牛奶大魔王[/i]).
 [/list]
 
 [h1]Localisations traduites par DeepL :[/h1]
@@ -62,13 +64,13 @@ Note : Les images du workshop sont obsolètes, il y a bien plus de fonctionnalit
  [*][b]Coréen / 한국어[/b]
  [*][b]Polonais / Polski[/b]
  [*][b]Portugais (Brésil) / Português (Brasil)[/b]
- [*][b]Russe / Русский[/b] - Avec des corrections grâce à @Koufor
+ [*][b]Russe / Русский[/b] - Avec corrections grâce à @Koufor
  [*][b]Espagnol / Español[/b]
  [*][b]Turc / Türkçe[/b]
 [/list]
 
 [h1]Journal des modifications :[/h1]
-Consultez les [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notes de mise à jour sur la page du workshop[/url].
+Consultez les [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Notes de changement sur la page du workshop[/url].
 
 [h1]Compatibilité :[/h1]
 [list]
@@ -80,5 +82,5 @@ Consultez les [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/
 
 En plus de la section des commentaires et de la discussion épinglée sur les suggestions, vous pouvez également poser des questions, signaler des bugs ou faire des suggestions dans le [url=https://discord.gg/xWTWMBc7Fn]salon #improved-subject-management du serveur Discord de la communauté EU5[/url]. Et si vous souhaitez participer au développement de ce mod ou de l'un de mes autres mods, vous pouvez me contacter ou m'ajouter sur Discord @arealconner. Toutes les contributions sont les bienvenues.
 
-Les versions source et de développement du mod sont disponibles sur [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
+Le code source et les versions de développement du mod sont disponibles sur [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
 

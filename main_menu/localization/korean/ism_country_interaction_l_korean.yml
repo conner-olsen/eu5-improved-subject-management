@@ -1,8 +1,8 @@
 ﻿l_korean:
  # Note to translators: The `#E #!` and `#F #!` prefixes are just used to order the interactions in the list.
  # Options
- select_country_to_transfer_land_from: "영토를 가져올 [country|e]을(를) 선택하십시오:"
- select_country_to_transfer_land_to: "영토를 양도할 [country|e]을(를) 선택하십시오:"
+ select_country_to_transfer_land_from: "영토를 몰수할 [country|e]을(를) 선택하십시오:"
+ select_country_to_transfer_land_to: "영토를 하사할 [country|e]을(를) 선택하십시오:"
  select_transfer_mode: "이전 모드 선택"
 
  # Generic Land Transfer
@@ -19,20 +19,20 @@
  select_a_location_to_move_capital: "클릭하여 종속국의 수도를 이전할 [location|e]을(를) 선택하십시오."
 
  # Transfer Land to Subject
- ism_transfer_land_to_subject: "#E #!에게 영토 양도"
+ ism_transfer_land_to_subject: "#E #!영토 하사"
  ism_transfer_land_to_subject_desc: "우리는 종속국에게 영토를 양도할 것입니다."
- ism_transfer_land_to_subject_act: "[SCOPE.sCountry('recipient').GetName]에게 영토 양도"
- ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName]이(가) [SCOPE.sCountry('recipient').GetName]에게 영토를 양도할 것입니다"
- ism_transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName]이(가) [SCOPE.sCountry('recipient').GetName]에게 영토를 양도했습니다"
- PROPOSE_ism_transfer_land_to_subject: "$RECIPIENT$에게 땅을 양도하시겠습니까?\n$INFO$"
+ ism_transfer_land_to_subject_act: "[SCOPE.sCountry('recipient').GetName]에게 영토 하사"
+ ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName]이(가) [SCOPE.sCountry('recipient').GetName]에게 영토를 양도할 것입니다."
+ ism_transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName]이(가) [SCOPE.sCountry('recipient').GetName]에게 영토를 양도했습니다."
+ PROPOSE_ism_transfer_land_to_subject: "$RECIPIENT$에게 영토를 주겠습니까?\n$INFO$"
 
  # Transfer Land from Subject
- ism_transfer_land_from_subject: "#E #!로부터 영토 회수"
- ism_transfer_land_from_subject_desc: "종속국으로부터 영토를 양도받습니다."
- ism_transfer_land_from_subject_act: "[SCOPE.sCountry('recipient').GetName](으)로부터 영토 양도"
- ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName]이(가) [SCOPE.sCountry('recipient').GetName]로부터 영토를 이양받습니다."
- ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName]이(가) [SCOPE.sCountry('recipient').GetName]로부터 영토를 이전받았습니다."
- PROPOSE_ism_transfer_land_from_subject: "$RECIPIENT$에게서 영토를 이전하시겠습니까?\n$INFO$"
+ ism_transfer_land_from_subject: "#E #!영토 몰수"
+ ism_transfer_land_from_subject_desc: "우리는 종속국으로부터 영토를 가져올 것입니다."
+ ism_transfer_land_from_subject_act: "[SCOPE.sCountry('recipient').GetName]에게서 영토 가져오기"
+ ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName]이(가) [SCOPE.sCountry('recipient').GetName]의 영토를 가져옵니다."
+ ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName]이(가) [SCOPE.sCountry('recipient').GetName]에게서 영토를 빼앗았습니다"
+ PROPOSE_ism_transfer_land_from_subject: "$RECIPIENT$에게서 영토를 몰수하시겠습니까?\n$INFO$"
 
  # Move Subject Capital
  ism_move_subject_capital: "#F #!수도 이전"

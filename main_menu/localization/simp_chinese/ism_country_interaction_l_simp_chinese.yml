@@ -1,8 +1,8 @@
 ﻿l_simp_chinese:
  # Note to translators: The `#E #!` and `#F #!` prefixes are just used to order the interactions in the list.
  # Options
- select_country_to_transfer_land_from: "选择你想要从中转移领土的[country|e]："
- select_country_to_transfer_land_to: "选择你要转让土地的[country|e]："
+ select_country_to_transfer_land_from: "选择你想要从中夺取土地的 [country|e]："
+ select_country_to_transfer_land_to: "选择你想要赐予领土的 [country|e]："
  select_transfer_mode: "选择转移模式"
 
  # Generic Land Transfer
@@ -19,20 +19,20 @@
  select_a_location_to_move_capital: "点击以选择一个[location|e]，我们将把附属国的首都搬迁至此。"
 
  # Transfer Land to Subject
- ism_transfer_land_to_subject: "#E #!转让土地给"
- ism_transfer_land_to_subject_desc: "我们将向附属国移交领土。"
- ism_transfer_land_to_subject_act: "将土地移交给 [SCOPE.sCountry('recipient').GetName]"
- ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName]将向[SCOPE.sCountry('recipient').GetName]转让领土"
- ism_transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName]将土地移交给了[SCOPE.sCountry('recipient').GetName]"
- PROPOSE_ism_transfer_land_to_subject: "将土地转移给 $RECIPIENT$？\n$INFO$"
+ ism_transfer_land_to_subject: "#E #!赐予土地"
+ ism_transfer_land_to_subject_desc: "我们将把领土授予我们的从属国。"
+ ism_transfer_land_to_subject_act: "赐予[SCOPE.sCountry('recipient').GetName]土地"
+ ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName]将把土地交给[SCOPE.sCountry('recipient').GetName]"
+ ism_transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] 将土地给予了 [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_ism_transfer_land_to_subject: "将土地交给 $RECIPIENT$？\n$INFO$"
 
  # Transfer Land from Subject
- ism_transfer_land_from_subject: "从 #E #! 转移土地"
- ism_transfer_land_from_subject_desc: "我们将从臣属处转让领土。"
- ism_transfer_land_from_subject_act: "从[SCOPE.sCountry('recipient').GetName]划转土地"
- ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName]将从[SCOPE.sCountry('recipient').GetName]处转让土地"
- ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName]从[SCOPE.sCountry('recipient').GetName]处转移了土地"
- PROPOSE_ism_transfer_land_from_subject: "从$RECIPIENT$转移土地？\n$INFO$"
+ ism_transfer_land_from_subject: "#E #!夺取领土"
+ ism_transfer_land_from_subject_desc: "我们将从附庸手中夺取土地。"
+ ism_transfer_land_from_subject_act: "夺取[SCOPE.sCountry('recipient').GetName]的领土"
+ ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName] 将从 [SCOPE.sCountry('recipient').GetName] 处夺取土地"
+ ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName]夺取了[SCOPE.sCountry('recipient').GetName]的土地"
+ PROPOSE_ism_transfer_land_from_subject: "从$RECIPIENT$夺取领土？\n$INFO$"
 
  # Move Subject Capital
  ism_move_subject_capital: "#F #!迁都"

@@ -3,58 +3,60 @@ Geliştirilmiş Bağımlı Devlet Yönetimi / Improved Subject Management
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Turkish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Genel Bakış:[/h1]
-Tabiyet yönetimini önemli ölçüde iyileştirmek için yeni etkileşimler, düzenlemeler ve otomasyonlar ekler.
+[b]Bu mod artık [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url] modunu gerektirmektedir[/b]
 
-Not: Workshop görselleri güncel değildir; orada gösterilenden çok daha fazla ve yeniden düzenlenmiş özellik mevcuttur. Bunun yerine aşağıdaki tam listeye göz atın.
+[h1]Genel Bakış:[/h1]
+Tâbi (subject) yönetimini önemli ölçüde iyileştirmek için yeni etkileşimler, değişiklikler ve otomasyonlar ekler.
+
+Not: Workshop görselleri güncel değildir, orada gösterilenden çok daha fazla ve yenilenmiş özellik mevcuttur. Bunun yerine aşağıdaki tam listeye göz atın.
 
 [h1]Özellikler:[/h1]
 [olist]
- [*][b]Mod Menüsü[/b] - çeşitli otomasyonlar ve tabiyet haklarını özelleştirme yeteneği ile.
- [*][b]Tabiyetler arasında toprak transferi için yeni etkileşimler[/b]
+ [*][b]Mod Menüsü[/b] - Çeşitli otomasyonlar ve tâbi haklarını özelleştirme yeteneği ile birlikte
+ [*][b]Tâbiler arasında toprak transferi için yeni etkileşimler[/b]
 	[list]
-	 [*][b]Şuraya Transfer Et:[/b] Başka bir tabiyetten veya kendinizden tabiyetinize toprak verin.
-	 [*][b]Şuradan Transfer Et:[/b] Tabiyetinizden toprak alın ve onu başka bir tabiyete veya (bir koloni devletinden alıyorsanız) kendinize verin.
+	 [*][b]Şuraya Transfer Et:[/b] Tâbinize başka bir tâbiden veya kendinizden toprak verin.
+	 [*][b]Şuradan Transfer Et:[/b] Tâbinizden toprak alıp başka bir tâbiye veya kendinize verin (eğer bir koloni ulusundan alınıyorsa).
 	[/list]
- [*][b]Tabiyetlerin başkentini değiştirmek için yeni etkileşim[/b] - Bazen berbat yerler seçerler veya başlangıçta kötü bir başkent konumuna sahip bir tabiyet oluşturursunuz ve bunu daha sonra düzeltmek istersiniz.
- [*][b]Tabiyetinizin Ayin Dilini (Liturgical Language) değiştirmek için yeni etkileşim[/b] - Tabiyete azalan -15 sadakat ve %1000 değiştirme maliyeti ekleyerek hemen geri değiştirmelerini engeller.
- [*][b]Bir tabiyetin kolonileşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
- [*][b]Bir tabiyetin savaş ilan etmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
- [*][b]Bir tabiyetin şehirleşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Kasaba kurmalarını engeller.
- [*][b]Bir tabiyetin Kolomb Değişimi'ni (Columbian Exchange) kullanmasını engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Size tam kontrol sağlar ve değerli RGO'ların üzerine yazmalarını engeller.
- [*][b]Bir tabiyetin savaşına katılmak ve savaş liderliğini devralmak için yeni etkileşim[/b] - Maalesef bu, savaşa katılmanızı sağlasa da oyun kısıtlamaları nedeniyle iç savaşlarda savaş liderliğini devralamazsınız.
- [*][b]Yeni otomatik harita paylaşımı özelliği[/b] - Her yıl, bir tabiyet tarafından keşfedilen ve efendisi (overlord) tarafından keşfedilmemiş olan, efendisinin keşfettiği bir bölgeye komşu olan herhangi bir alan efendiye yayılır. Bu, tüm tabiyet haritalarını kademeli olarak efendilerine yayacaktır.
- [*][b]Yeni otomatik tabiyet savaşlarına katılma özelliği[/b] - Her yıl tabiyetlerinizin dahil olduğu tüm savaşlara katılır ve liderliği devralırsınız (not: iç savaşlar devralınamaz).
- [*][b]Aynı efendiye bağlı koloni tabiyetlerinin birbirlerine savaş ilan etmesini engelleyin.[/b]
- [*][b]Artık koloni tabiyetlerinize barışı dayatabilirsiniz (enforce peace).[/b]
- [*][b]Transfer edilecek toprağın boyutunu seçebilirsiniz: Mevki (Location), Vilayet (Province), Alan (Area), Bölge (Region)[/b]
- [*][b]Hangi toprakların transfer edilebileceğine dair mevki sınırlamasını kaldırın[/b] - Vanilla oyunda, genellikle bir vilayet ötedeki bir mevkiyi tabiyetlerinize veremezsiniz.
- [*][b]Koloni tabiyetleri ile kendiniz arasında serbestçe toprak transferi yapabilirsiniz[/b] - Toprağı zaten onlara en başta siz verdiniz ve çoğu durumda koloni topraklarına bizzat sahip olmak daha iyi değildir, bu nedenle bunun oyun dengesi üzerinde bir etkisi olmamalıdır.
- [*][b]Savaşta olmak artık tabiyetlerin topraklarını yönetmeyi tamamen engellemiyor[/b] - Dünyanın öbür ucundaki tek vilayetlik küçük bir devletle savaşta olmam, neden yeni kolonileştirdiğim toprağı tabiyetime vermemi engellesin? (Aynı savaşta olan tabiyetler arasında toprak transferi yapabilirsiniz ve bir koloni devletinden her zaman toprak transfer edebilirsiniz.)
- [*][b]Tabiyet savaşlarında müttefikleri yardıma çağırmaya izin verin[/b] - Bir savaşı devraldığınızda müttefiklerinizi çağırabilirsiniz.
- [*][b]Haraçgüzarlarınızın (tributaries) vasallarınıza/tımar sistemlerinize (fiefdoms) savaş ilan etmesini engelleyin (ancak diğer haraçgüzarlara hala ilan edebilirler).[/b]
- [*][b]Efendinin (overlord) tüm tabiyet türlerinde her zaman gıdaya erişimi olmasını sağlayın (talep etmek zorunda kalmadan).[/b]
+ [*][b]Tâbilerin başkentini değiştirmek için yeni etkileşim[/b] - Bazen korkunç yerler seçerler veya başlangıçta kötü bir başkent konumuna sahip bir tâbi oluşturursunuz ve bunu daha sonra düzeltmek istersiniz.
+ [*][b]Tâbinizin Litürjik Dilini değiştirmek için yeni etkileşim[/b] - Tâbiye zamanla azalan -15 sadakat ve %1000 değişim maliyeti ekleyerek hemen geri değiştirmelerini engeller.
+ [*][b]Bir tâbinin kolonileşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
+ [*][b]Bir tâbinin savaş ilan etmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b]
+ [*][b]Bir tâbinin şehirleşmesini engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Kasaba kurmalarını engeller.
+ [*][b]Bir tâbinin Kolomb Takası'nı (Columbian Exchange) kullanmasını engellemek ve engelini kaldırmak için yeni etkileşim[/b] - Size tam kontrol sağlamak ve değerli RGO'ların üzerine yazmalarını önlemek için.
+ [*][b]Bir savaşa katılmak ve savaş liderliğini bir tâbiden devralmak için yeni etkileşim[/b] - Maalesef bu savaşa katılmanızı sağlasa da, oyun sınırlamaları nedeniyle iç savaşlarda savaş liderliğini devralamazsınız.
+ [*][b]Yeni otomatik harita paylaşma özelliği[/b] - Her yıl, bir tâbi tarafından keşfedilen ve metbu devlet (overlord) tarafından keşfedilmemiş olan, metbu devletin keşfettiği bir bölgeye sınırı olan herhangi bir alan metbu devlete yayılır. Bu, tüm tâbi haritalarını istikrarlı bir şekilde metbu devletlerine yayacaktır.
+ [*][b]Yeni otomatik tâbi savaşlarına katılma özelliği[/b] - Her yıl tâbilerinizin içinde bulunduğu tüm savaşlara katılacak ve liderliği devralacaksınız (not: iç savaşlar devralınamaz)
+ [*][b]Aynı metbuya sahip koloni tâbilerinin birbirlerine savaş ilan etmesini engelleyin.[/b]
+ [*][b]Artık koloni tâbilerinize barışı zorlayabilirsiniz (enforce peace).[/b]
+ [*][b]Transfer edilecek toprağın boyutunu seçebilirsiniz: Konum (Location), Eyalet (Province), Alan (Area), Bölge (Region)[/b]
+ [*][b]Hangi toprağın transfer edilebileceğine dair konum sınırlamasını kaldırın[/b] - Vanilla oyunda, genellikle bir bölge ötedeki bir konumu tâbilerinize veremezsiniz.
+ [*][b]Koloni tâbileri ve kendiniz arasında serbestçe toprak transferi yapabilirsiniz[/b] - Onlara toprağı en başta siz verdiniz ve çoğu durumda koloni topraklarına bizzat sahip olmak daha iyi değildir, bu nedenle bunun oyun dengesi üzerinde bir etkisi olmamalıdır.
+ [*][b]Savaşta olmak artık tâbi topraklarını yönetmeyi tamamen engellemez[/b] - Dünyanın öbür ucundaki tek eyaletli küçük bir devletle savaşta olmam, neden yeni kolonize ettiğim toprağımı tâbime vermemi engellesin? (Aynı savaşta olan tâbiler arasında toprak transferi yapabilir ve bir koloni ulusundan her zaman toprak transfer edebilirsiniz.)
+ [*][b]Tâbi savaşlarına müttefikleri çağırmaya izin ver[/b] - Bir savaşı devraldığınızda, müttefiklerinizi yardıma çağırabilirsiniz.
+ [*][b]Haraçgüzarlarınızın vasallarınıza/tımarlarınıza (fiefdoms) savaş açmasını engelleyin (ancak diğer haraçgüzarlara hala açabilirler)[/b]
+ [*][b]Metbu devletin her zaman tüm tâbi türlerinde gıda erişimine sahip olmasını sağla (istek göndermek zorunda kalmadan)[/b]
 [/olist]
 
-[h1]Planlananlar/Yakında Gelecekler:[/h1]
+[h1]Planlanan/Gelecek Özellikler:[/h1]
 [olist]
- [*][b]Tabiyet topraklarının kurulabilir ülke gereksinimleri için sayılmasını sağlayın[/b]
- [*][b]Serbest bırakıldığında özel bir ulus (custom nation) olarak oynamaya izin verin[/b]
- [*][b]Toprakları entegre edilmemiş olanlara göre filtreleme seçeneği ekleyin[/b]
- [*][b]Tımar Sistemlerini (Fiefdoms) varsayılan olarak dininizden/kültürünüzden yapma seçeneği ekleyin[/b] - varsayılan olmayan bir oyun kuralı altında olacaktır.
- [*][b]Efendinin tabiyet binalarını yıkmasına izin verin[/b]
- [*][b]Tabiyetlerin efendi tarafından yapılan inşaatları iptal etmesini engelleyin[/b]
- [*][b]Tabiyetlerinizin mevkilerini yeniden adlandırmaya izin verin[/b]
- [*][b]Serbest bırakırken tabiyet hükümet türünü seçmeye izin verin (örneğin krallık, piskoposluk veya cumhuriyet)[/b]
+ [*][b]Tâbi topraklarının kurulabilir devlet gereksinimleri için sayılmasını sağla[/b]
+ [*][b]Serbest bırakıldığında özel bir ulus (custom nation) olarak oynamaya izin ver[/b]
+ [*][b]Toprakları entegre edilmemiş olanlara göre filtreleme seçeneği ekle[/b]
+ [*][b]Tımarların (Fiefdoms) varsayılan olarak dininizi/kültürünüzü benimsemesi seçeneğini ekle[/b] - varsayılan olmayan bir oyun kuralı altında olacaktır.
+ [*][b]Metbu devletin tâbi binalarını yıkmasına izin ver[/b]
+ [*][b]Tâbilerin metbu inşaatlarını iptal etmesini engelle[/b]
+ [*][b]Tâbilerinizin konumlarını yeniden adlandırmanıza izin ver[/b]
+ [*][b]Serbest bırakırken tâbi hükûmet türünü seçmeye izin ver (yani krallık, piskoposluk veya cumhuriyet)[/b]
 [/olist]
 
 [h1]Yerel Çeviriler:[/h1]
 [list]
- [*][b]İngilizce:[/b] Birincil
- [*][b]Çince / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Çince Çeviri) modunda[/url] mevcuttur. ([i]牛奶大魔王[/i]'a teşekkürler).
+ [*][b]İngilizce:[/b] Ana Dil
+ [*][b]Çince / 中文:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]凯撒汉化 (Caesar Chinese Translation) modunda[/url] mevcut. ([i]牛奶大魔王[/i]'a teşekkürler).
 [/list]
 
-[h1]DeepL ile Çevrilen Yerelleştirmeler:[/h1]
+[h1]DeepL ile Çevrilen Diller:[/h1]
 [list]
  [*][b]Fransızca / Français[/b]
  [*][b]Almanca / Deutsch[/b]
@@ -67,8 +69,8 @@ Not: Workshop görselleri güncel değildir; orada gösterilenden çok daha fazl
  [*][b]Türkçe / Türkçe[/b]
 [/list]
 
-[h1]Değişiklik Günlüğü:[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Workshop sayfasındaki Değişiklik Notlarına[/url] göz atın.
+[h1]Değişim Günlüğü:[/h1]
+Workshop sayfasındaki [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3619130338]Değişim Notlarına[/url] bakın.
 
 [h1]Uyumluluk:[/h1]
 [list]
@@ -78,7 +80,7 @@ Not: Workshop görselleri güncel değildir; orada gösterilenden çok daha fazl
  [*]İstek üzerine uyumluluk yamaları ekleyebilirim.
 [/list]
 
-Yorumlar bölümüne ve sabitlenmiş öneriler tartışmasına ek olarak, [url=https://discord.gg/xWTWMBc7Fn]EU5 Topluluk discord sunucusunun #improved-subject-management kanalında[/url] soru sorabilir, hata bildirebilir veya öneride bulunabilirsiniz. Bu modun veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord'da @arealconner üzerinden bana ulaşabilir veya beni ekleyebilirsiniz. Tüm katkılara açığım.
+Yorumlar bölümüne ve sabitlenmiş öneriler tartışmasına ek olarak, [url=https://discord.gg/xWTWMBc7Fn]EU5 Topluluk discord sunucusunun #improved-subject-management kanalında[/url] soru sorabilir, hata bildirebilir veya öneride bulunabilirsiniz. Ayrıca bu modun veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord üzerinden bana @arealconner kullanıcı adıyla ulaşabilir veya ekleyebilirsiniz. Tüm katkılar memnuniyetle karşılanır.
 
-Modun kaynak ve geliştirme sürümleri [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub'da[/url] mevcuttur.
+Modun kaynak ve geliştirme sürümleri [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub[/url] üzerinde mevcuttur.
 
