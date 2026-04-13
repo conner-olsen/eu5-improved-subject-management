@@ -1,8 +1,8 @@
 ﻿l_turkish:
  # Note to translators: The `#E #!` and `#F #!` prefixes are just used to order the interactions in the list.
  # Options
- select_country_to_transfer_land_from: "Toprak devretmek istediğiniz [country|e] seçin:"
- select_country_to_transfer_land_to: "Toprak devretmek istediğiniz [country|e] seçin:"
+ select_country_to_transfer_land_from: "Toprak almak istediğiniz [country|e] seçin:"
+ select_country_to_transfer_land_to: "Toprak vermek istediğiniz [country|e] seçin:"
  select_transfer_mode: "Transfer Modunu Seç"
 
  # Generic Land Transfer
@@ -19,20 +19,20 @@
  select_a_location_to_move_capital: "Tabimizin başkentini taşıyacağımız bir [location|e] seçmek için tıklayın."
 
  # Transfer Land to Subject
- ism_transfer_land_to_subject: "#E #!Şuraya Toprak Devret"
- ism_transfer_land_to_subject_desc: "Tâbimize toprak devredeceğiz."
- ism_transfer_land_to_subject_act: "[SCOPE.sCountry('recipient').GetName] Ülkesine Toprak Devret"
- ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName], [SCOPE.sCountry('recipient').GetName] tarafına toprak devredecek."
- ism_transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName], [SCOPE.sCountry('recipient').GetName] tarafına toprak devretti"
- PROPOSE_ism_transfer_land_to_subject: "Toprakları $RECIPIENT$ tarafına devret?\n$INFO$"
+ ism_transfer_land_to_subject: "#E #!Toprak Ver"
+ ism_transfer_land_to_subject_desc: "Tabimize toprak vereceğiz."
+ ism_transfer_land_to_subject_act: "[SCOPE.sCountry('recipient').GetName]'a Toprak Ver"
+ ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName], [SCOPE.sCountry('recipient').GetName] tarafına toprak verecek"
+ ism_transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName], [SCOPE.sCountry('recipient').GetName] tarafına toprak verdi"
+ PROPOSE_ism_transfer_land_to_subject: "$RECIPIENT$ toprak verilsin mi?\n$INFO$"
 
  # Transfer Land from Subject
- ism_transfer_land_from_subject: "#E #! Şahsından Toprak Aktar"
- ism_transfer_land_from_subject_desc: "Tâbimizden toprak devralacağız."
- ism_transfer_land_from_subject_act: "[SCOPE.sCountry('recipient').GetName] Ülkesinden Toprak Aktar"
- ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName], [SCOPE.sCountry('recipient').GetName] topraklarını transfer edecek"
- ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName], [SCOPE.sCountry('recipient').GetName] üzerinden toprak devretti."
- PROPOSE_ism_transfer_land_from_subject: "$RECIPIENT$ topraklarını devret?\n$INFO$"
+ ism_transfer_land_from_subject: "#E #!Toprak Al"
+ ism_transfer_land_from_subject_desc: "Bağımlımızdan toprak alacağız."
+ ism_transfer_land_from_subject_act: "[SCOPE.sCountry('recipient').GetName]'dan Toprak Al"
+ ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName], [SCOPE.sCountry('recipient').GetName] topraklarını alacak"
+ ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName], [SCOPE.sCountry('recipient').GetName] topraklarını aldı"
+ PROPOSE_ism_transfer_land_from_subject: "$RECIPIENT$ topraklarını al?\n$INFO$"
 
  # Move Subject Capital
  ism_move_subject_capital: "#F #!Başkenti Taşı"

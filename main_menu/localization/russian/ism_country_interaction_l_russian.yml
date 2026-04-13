@@ -1,7 +1,7 @@
 ﻿l_russian:
  # Note to translators: The `#E #!` and `#F #!` prefixes are just used to order the interactions in the list.
  # Options
- select_country_to_transfer_land_from: "Выберите [country|e], из которого вы хотите передать земли:"
+ select_country_to_transfer_land_from: "Выберите [country|e], у которого вы хотите отобрать земли:"
  select_country_to_transfer_land_to: "Выберите [country|e], которому вы хотите передать земли:"
  select_transfer_mode: "Выбрать режим передачи"
 
@@ -20,19 +20,19 @@
 
  # Transfer Land to Subject
  ism_transfer_land_to_subject: "#E #!Передача земли подданному" # LOCK
- ism_transfer_land_to_subject_desc: "Мы передадим земли нашему подданному."
+ ism_transfer_land_to_subject_desc: "Мы передадим земли нашему субъекту."
  ism_transfer_land_to_subject_act: "Передать земли [SCOPE.sCountry('recipient').GetName]"
- ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName] передаст землю [SCOPE.sCountry('recipient').GetName]"
+ ism_transfer_land_to_subject_effect_text: "[SCOPE.sCountry('actor').GetName] передаст земли [SCOPE.sCountry('recipient').GetName]"
  ism_transfer_land_to_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] передал земли [SCOPE.sCountry('recipient').GetName]"
- PROPOSE_ism_transfer_land_to_subject: "Передать землю $RECIPIENT$?\n$INFO$"
+ PROPOSE_ism_transfer_land_to_subject: "Передать земли $RECIPIENT$?\n$INFO$"
 
  # Transfer Land from Subject
  ism_transfer_land_from_subject: "#E #!Передача земли от подданного" # LOCK
- ism_transfer_land_from_subject_desc: "Мы передадим земли от нашего субъекта."
- ism_transfer_land_from_subject_act: "Передать земли от [SCOPE.sCountry('recipient').GetName]"
- ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName] передаст земли от [SCOPE.sCountry('recipient').GetName]"
- ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] передает земли от [SCOPE.sCountry('recipient').GetName]"
- PROPOSE_ism_transfer_land_from_subject: "Передать земли от $RECIPIENT$?\n$INFO$"
+ ism_transfer_land_from_subject_desc: "Мы заберём земли у нашего субъекта."
+ ism_transfer_land_from_subject_act: "Отобрать земли у [SCOPE.sCountry('recipient').GetName]"
+ ism_transfer_land_from_subject_effect_text: "[SCOPE.sCountry('actor').GetName] заберёт земли у [SCOPE.sCountry('recipient').GetName]"
+ ism_transfer_land_from_subject_effect_text_past: "[SCOPE.sCountry('actor').GetName] отобрал земли у [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_ism_transfer_land_from_subject: "Отобрать земли у $RECIPIENT$?\n$INFO$"
 
  # Move Subject Capital
  ism_move_subject_capital: "#F #!Переместить столицу подданного" # LOCK
