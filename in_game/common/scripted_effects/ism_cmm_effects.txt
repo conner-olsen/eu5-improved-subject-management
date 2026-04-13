@@ -89,6 +89,7 @@ ism_handle_cmf_callback = {
 				setting = ism__auto_take_over_subject_wars
 				alias = ism__auto_take_over_subject_wars
 			}
+			ism_take_over_all_subject_wars = yes
 		}
 		flag:ism__auto_subject_map_sharing = {
 			cmm_sync_bool_alias = {
