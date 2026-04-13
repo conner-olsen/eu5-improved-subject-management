@@ -3,7 +3,14 @@
         ism_share_maps
 		ism_take_over_country_wars
 		ism_block_subject_wars
+		ism_block_subject_urbanization_sync
     }
+}
+
+ism_block_subject_urbanization_sync = {
+	effect = {
+		ism_block_subject_urbanization = yes
+	}
 }
 
 ism_share_maps = {

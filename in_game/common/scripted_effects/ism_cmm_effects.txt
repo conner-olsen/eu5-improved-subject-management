@@ -108,6 +108,7 @@ ism_handle_cmf_callback = {
 				setting = ism__block_urbanization
 				alias = ism__block_urbanization
 			}
+			ism_block_subject_urbanization = yes
 		}
 		flag:ism__block_columbian_exchange = {
 			cmm_sync_bool_alias = {
