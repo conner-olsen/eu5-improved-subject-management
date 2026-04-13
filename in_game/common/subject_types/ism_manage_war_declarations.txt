@@ -1,16 +1,18 @@
-﻿# Scaffolding for future feature
-# INJECT:vassal = {
-#     allow_declaring_wars = { ism_can_declare_war = yes }
-# }
-# INJECT:fiefdom = {
-#     allow_declaring_wars = { ism_can_declare_war = yes }
-# }
-# INJECT:march = {
-#     allow_declaring_wars = { ism_can_declare_war = yes }
-# }
-# INJECT:colonial_nation = {
-#     allow_declaring_wars = { ism_can_declare_war = yes }
-# }
+﻿INJECT:vassal = {
+	can_attack = { ism_can_attack = yes }
+}
+INJECT:colonial_nation = {
+	can_attack = { ism_can_attack = yes }
+}
+INJECT:dominion = {
+	can_attack = { ism_can_attack = yes }
+}
+INJECT:imperial_free_city = {
+	can_attack = { ism_can_attack = yes }
+}
+TRY_INJECT:conquistador = {
+	can_attack = { ism_can_attack = yes }
+}
 TRY_INJECT:tributary = {
-	allow_declaring_wars = { ism_can_declare_war = yes }
+	can_attack = { ism_can_attack = yes }
 }

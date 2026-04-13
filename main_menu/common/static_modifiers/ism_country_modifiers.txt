@@ -26,6 +26,16 @@ ism_overlord_blocking_war_declarations = {
         category = country
     }
     blocked_from_declaring_war = yes
+	cannot_declare_no_cb_wars = yes
+	ai_require_cb_for_war = yes
+	ai_months_between_wars = 1000
+	cannot_declare_no_cb_wars_on_members = yes
+	cannot_declare_no_cb_wars_on_religion_head = yes
+	declaring_war_cost_modifier = 100
+	war_breaking_truce_cost_modifier = 100
+	war_on_same_religion_cb_cost_modifier = 100
+	war_on_same_religion_no_cb_cost_modifier = 100
+	war_no_cb_cost_modifier = 100
 }
 
 ism_overlord_blocking_all_subject_war_declarations = {
