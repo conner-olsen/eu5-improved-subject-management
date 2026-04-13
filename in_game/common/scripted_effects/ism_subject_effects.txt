@@ -25,6 +25,7 @@
 						join_war_as_attacker = {
 							war = prev
 							reason = intervene
+							ignore_rules = yes
 						}
 					}
 				}
@@ -33,6 +34,7 @@
 						join_war_as_defender = {
 							war = prev
 							reason = intervene
+							ignore_rules = yes
 						}
 					}
 				}
