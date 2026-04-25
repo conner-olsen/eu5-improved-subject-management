@@ -120,9 +120,13 @@ window = {
 							onclick = "[ShowForeignCountry(RenameDialog.GetCountry)]"
 						}
 
+                        # ISM-CHANGE: ExecuteConsoleCommand bypass only works in singleplayer.
+                        # In multiplayer, fall back to the vanilla accept button, which relies
+                        # on the C++ CanPlayerRenameCountry check (colonial subjects only).
                         button_regular_diamond = {
+                            visible = "[Not(GameIsMultiplayer)]"
                             enabled = yes
-                            name = "accept_button"
+                            name = "accept_button_sp"
                             tooltip_enabled = no
                             text = "CHANGE_THE_NAME"
                             using = button_resize_to_fit_text
@@ -134,6 +138,20 @@ window = {
                             # 2. Close the window
                             onclick = "[DialogConfig.OnAccept]"
 
+                            input_action = "confirm"
+                            use_global_input_instance = yes
+                        }
+
+                        button_regular_diamond = {
+                            visible = "[GameIsMultiplayer]"
+                            enabled = yes
+                            name = "accept_button_mp"
+                            tooltip_enabled = no
+                            text = "CHANGE_THE_NAME"
+                            using = button_resize_to_fit_text
+                            using = snd_UI_popup_confirm
+
+                            onclick = "[DialogConfig.OnAccept]"
                             input_action = "confirm"
                             use_global_input_instance = yes
                         }
