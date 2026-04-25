@@ -6,67 +6,67 @@ Gerenciamento de Súditos Aprimorado / Improved Subject Management
 [b]Este mod agora requer o [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3692202776]Community Mod Framework[/url][/b]
 
 [h1]Visão Geral:[/h1]
-Adiciona novas interações, modificações e automações para melhorar significativamente o gerenciamento de súditos.
+Adiciona novas interações, modificações e automações para melhorar significativamente o gerenciamento de sujeitos.
 
-Nota: As imagens da workshop estão desatualizadas, há muito mais recursos e funcionalidades reformuladas do que o mostrado ali. Em vez disso, veja a lista completa abaixo.
+Nota: As imagens da workshop estão desatualizadas; existem muito mais recursos e funcionalidades reformuladas do que o mostrado ali. Em vez disso, veja a lista completa abaixo.
 
 [h1]Funcionalidades:[/h1]
 [olist]
- [*][b]Menu de Modo[/b] - com várias automações e a habilidade de personalizar os direitos dos súditos
- [*][b]Novas Interações para Transferir terras entre súditos[/b]
+ [*][b]Menu de Modos[/b] - com várias automações e a capacidade de personalizar os direitos dos sujeitos.
+ [*][b]Novas Interações para Transferir terras entre sujeitos[/b]
 	[list]
-	 [*][b]Transferir para:[/b] Dê terras ao seu súdito, seja de outro súdito ou de você mesmo.
-	 [*][b]Transferir de:[/b] Tire terras do seu súdito e dê para outro súdito, ou para você mesmo (se estiver tirando de uma nação colonial).
+	 [*][b]Transferir para:[/b] Dê terras ao seu sujeito, seja de outro sujeito ou de você mesmo.
+	 [*][b]Transferir de:[/b] Tire terras do seu sujeito e as dê para outro sujeito, ou para você mesmo (se estiver tirando de uma nação colonial).
 	[/list]
- [*][b]Nova interação para mudar a capital de súditos[/b] - Às vezes eles escolhem locais terríveis, ou você cria um súdito com uma localização de capital ruim inicialmente e quer consertar depois.
- [*][b]Nova interação para mudar a Língua Litúrgica do seu súdito[/b] - E adiciona uma lealdade de -15 em declínio e um custo de mudança de 1000% ao súdito, impedindo-os de mudar imediatamente.
- [*][b]Nova interação para bloquear e desbloquear um súdito de colonizar[/b]
- [*][b]Nova interação para bloquear e desbloquear um súdito de declarar guerras[/b]
- [*][b]Nova interação para bloquear e desbloquear um súdito de urbanizar[/b] - Impede-os de fundar vilas.
- [*][b]Nova interação para bloquear e desbloquear um súdito de usar o Intercâmbio Colombiano[/b] - para lhe dar controle total e evitar que eles sobrescrevam RGOs valiosos.
- [*][b]Nova interação para entrar e assumir a liderança de guerra de um súdito[/b] - Infelizmente, embora isso faça você entrar na guerra, você não poderá assumir a liderança de guerra em guerras civis devido a limitações do jogo.
- [*][b]Novo recurso de compartilhamento automático de mapa[/b] - Todos os anos, qualquer área descoberta por um súdito e não por seu suserano que faça fronteira com uma área descoberta por seu suserano se espalha para o suserano. Isso espalhará gradualmente todos os mapas dos súditos para seus suseranos.
- [*][b]Novo recurso de entrada automática em guerras de súditos[/b] - Todos os anos você entrará e assumirá quaisquer guerras em que seus súditos estejam (nota: não pode assumir guerras civis)
- [*][b]Bloqueia súditos coloniais com o mesmo suserano de declararem guerra uns aos outros.[/b]
- [*][b]Agora você pode impor a paz aos seus súditos coloniais.[/b]
- [*][b]Você pode selecionar o tamanho da terra a ser transferida: Localização, Província, Área, Região[/b]
- [*][b]Remove a limitação de localização sobre quais terras podem ser transferidas[/b] - No jogo base, é comum você não conseguir dar uma localização a uma província de distância para seus súditos.
- [*][b]Você pode transferir livremente terras entre súditos coloniais e você mesmo[/b] - Você deu a terra a eles para começar e, na maioria dos casos, não é melhor possuir terras coloniais você mesmo, então isso não deve ter efeito no equilíbrio do jogo.
- [*][b]Estar em guerra não bloqueia mais totalmente o gerenciamento das terras dos súditos[/b] - Por que estar em guerra com um país de uma única província do outro lado do mundo me impediria de dar minha terra recém-colonizada ao meu súdito? (Você pode transferir terras entre súditos que estejam na mesma guerra, e sempre pode transferir terras de uma nação colonial.)
- [*][b]Permite chamar aliados para ajudar em guerras de súditos[/b] - Uma vez que você assume uma guerra, pode então chamar aliados.
+ [*][b]Nova interação para mudar a capital de sujeitos[/b] - Às vezes eles escolhem locais terríveis, ou você cria um sujeito com uma localização de capital ruim inicialmente e deseja consertar mais tarde.
+ [*][b]Nova interação para mudar a Língua Litúrgica do seu sujeito[/b] - E adiciona uma penalidade decrescente de -15 de lealdade e 1000% de custo de mudança ao sujeito, impedindo-os de trocar de volta imediatamente.
+ [*][b]Nova interação para bloquear e desbloquear a colonização de um sujeito[/b]
+ [*][b]Nova interação para bloquear e desbloquear a declaração de guerras de um sujeito[/b]
+ [*][b]Nova interação para bloquear e desbloquear a urbanização de um sujeito[/b] - Impede que eles fundem vilas.
+ [*][b]Nova interação para bloquear e desbloquear o uso do Intercâmbio Colombiano por um sujeito[/b] - Para lhe dar controle total e evitar que eles substituam RGOs valiosos.
+ [*][b]Nova interação para entrar e assumir a liderança de guerra de um sujeito[/b] - Infelizmente, embora isso faça você entrar na guerra, você não poderá assumir a liderança de guerra em guerras civis devido a limitações do jogo.
+ [*][b]Novo recurso automático de compartilhamento de mapa[/b] - A cada ano, qualquer área descoberta por um sujeito e não pelo seu soberano que faça fronteira com uma área descoberta pelo soberano será revelada a ele. Isso espalhará constantemente todos os mapas dos sujeitos para seus soberanos.
+ [*][b]Novo recurso automático de entrada em guerras de sujeitos[/b] - A cada ano, você entrará e assumirá quaisquer guerras em que seus sujeitos estejam (nota: não é possível assumir guerras civis).
+ [*][b]Bloqueio de guerras entre sujeitos coloniais do mesmo soberano[/b] - Impede que declarem guerra uns aos outros.
+ [*][b]Agora você pode impor a paz em seus sujeitos coloniais.[/b]
+ [*][b]Você pode selecionar o tamanho da terra a ser transferida: Localidade, Província, Área, Região[/b]
+ [*][b]Remoção da limitação de localização sobre quais terras podem ser transferidas[/b] - No jogo base, é comum não conseguir dar uma localidade a apenas uma província de distância para seus sujeitos.
+ [*][b]Você pode transferir terras livremente entre sujeitos coloniais e você mesmo[/b] - Você deu a terra a eles para começar e, na maioria dos casos, não é melhor possuir terras coloniais diretamente, então isso não deve afetar o equilíbrio do jogo.
+ [*][b]Estar em guerra não bloqueia mais totalmente o gerenciamento de terras de sujeitos[/b] - Por que estar em guerra com um país de uma única província do outro lado do mundo deveria me impedir de dar minha terra recém-colonizada ao meu sujeito? (Você pode transferir terras entre sujeitos que estejam na mesma guerra, e sempre pode transferir terras de uma nação colonial.)
+ [*][b]Permite chamar aliados para ajudar em guerras de sujeitos[/b] - Assim que você assumir uma guerra, poderá chamar seus aliados.
  [*][b]Impede que seus tributários declarem guerra aos seus vassalos/feudos (mas ainda permite contra outros tributários)[/b]
- [*][b]Faz com que o suserano sempre tenha acesso a comida em todos os tipos de súditos (sem ter que solicitar)[/b]
+ [*][b]Faz com que o soberano sempre tenha acesso a comida em todos os tipos de sujeitos (sem ter que solicitar)[/b]
 [/olist]
 
-[h1]Planejado/Em Breve:[/h1]
+[h1]Planejado/Em breve:[/h1]
 [olist]
- [*][b]Fazer com que as terras dos súditos contem para requisitos de nações formáveis[/b]
- [*][b]Permitir jogar como uma nação personalizada ao libertar[/b]
+ [*][b]Fazer com que as terras dos sujeitos contem para requisitos de nações formáveis[/b]
+ [*][b]Permitir jogar como uma nação personalizada ao libertar um sujeito[/b]
  [*][b]Adicionar uma opção para filtrar terras por não integradas[/b]
- [*][b]Permitir a opção de tornar Feudos da sua religião/cultura por padrão[/b] - estará sob uma regra de jogo não padrão.
- [*][b]Permitir que o suserano destrua edifícios de súditos[/b]
- [*][b]Impedir que súditos cancelem construções do suserano[/b]
- [*][b]Permitir renomear as localizações dos seus súditos[/b]
- [*][b]Permitir selecionar o tipo de governo do súdito ao libertar (ex: reino, bispado ou república)[/b]
+ [*][b]Permitir opção para tornar Feudos da sua religião/cultura por padrão[/b] - estará sob uma regra de jogo não padrão.
+ [*][b]Permitir que o soberano destrua edifícios de sujeitos[/b]
+ [*][b]Impedir que sujeitos cancelem construções do soberano[/b]
+ [*][b]Permitir renomear as localidades de seus sujeitos[/b]
+ [*][b]Permitir selecionar o tipo de governo do sujeito ao libertar (ex: reino, bispado ou república)[/b]
 [/olist]
 
 [h1]Localizações Nativas:[/h1]
 [list]
- [*][b]English:[/b] Primary
- [*][b]Chinese / 中文:[/b] Disponível no [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Obrigado a [i]牛奶大魔王[/i]).
+ [*][b]Inglês:[/b] Primário
+ [*][b]Chinês / 中文:[/b] Disponível no [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599706198]mod 凯撒汉化 (Caesar Chinese Translation)[/url]. (Obrigado a [i]牛奶大魔王[/i]).
 [/list]
 
-[h1]Localizações Traduzidas pelo DeepL:[/h1]
+[h1]Localizações Traduzidas via DeepL:[/h1]
 [list]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b] - Com correções graças a @Koufor
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
+ [*][b]Francês / Français[/b]
+ [*][b]Alemão / Deutsch[/b]
+ [*][b]Japonês / 日本語[/b]
+ [*][b]Coreano / 한국어[/b]
+ [*][b]Polonês / Polski[/b]
+ [*][b]Português (Brasil) / Português (Brasil)[/b]
+ [*][b]Russo / Русский[/b] - Com correções graças a @Koufor
+ [*][b]Espanhol / Español[/b]
+ [*][b]Turco / Türkçe[/b]
 [/list]
 
 [h1]Registro de Alterações:[/h1]
@@ -74,13 +74,13 @@ Veja as [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/361913
 
 [h1]Compatibilidade:[/h1]
 [list]
- [*]Não é compatível com Ironman/Conquistas.
+ [*]Não compatível com Ironman/Conquistas.
  [*]Totalmente compatível com jogos salvos (save games).
  [*]Deve funcionar com qualquer mod.
  [*]Posso adicionar patches de compatibilidade mediante solicitação.
 [/list]
 
-Além da seção de comentários e da discussão fixa de sugestões, você também pode tirar dúvidas, relatar bugs ou fazer sugestões no canal [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management do servidor do Discord da Comunidade EU5[/url]. E se você tiver interesse em participar do desenvolvimento deste ou de um dos meus outros mods, pode me chamar ou me adicionar no Discord @arealconner. Todas as contribuições são bem-vindas.
+Além da seção de comentários e da discussão de sugestões fixada, você também pode fazer perguntas, relatar bugs ou dar sugestões no canal [url=https://discord.gg/xWTWMBc7Fn]#improved-subject-management do servidor de Discord da Comunidade EU5[/url]. E se você estiver interessado em participar do desenvolvimento deste ou de um dos meus outros mods, você pode me marcar ou me adicionar no Discord @arealconner. Todas as contribuições são bem-vindas.
 
 As versões de código-fonte e de desenvolvimento do mod estão disponíveis no [url=https://github.com/conner-olsen/eu5-improved-subject-management]GitHub.[/url]
 
