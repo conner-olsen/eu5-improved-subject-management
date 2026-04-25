@@ -54,10 +54,28 @@
 				}
 			}
 
+			# ISM-CHANGE: Allow renaming any subject except tributary in singleplayer.
+			# ExecuteConsoleCommand does not work in multiplayer, so fall back to
+			# the vanilla entry (colonial subjects only) when in a multiplayer game.
 			ContextMenuEntry = {
-				# ISM-CHANGE: Allow renaming any subject except tributary
-				# visible = "[CanPlayerRenameCountry(Country.Self)]"
-				visible = "[And3(Country.GetDiplomacy.GetTopOverlord.IsValid, EqualTo_string(GetPlayer.GetTag, Country.GetDiplomacy.GetTopOverlord.GetTag), Not(EqualTo_string(Country.GetDiplomacy.GetSubjectType.GetNameKey, 'tributary')))]"
+				visible = "[And(Not(GameIsMultiplayer), And3(Country.GetDiplomacy.GetTopOverlord.IsValid, EqualTo_string(GetPlayer.GetTag, Country.GetDiplomacy.GetTopOverlord.GetTag), Not(EqualTo_string(Country.GetDiplomacy.GetSubjectType.GetNameKey, 'tributary'))))]"
+
+				blockoverride "click_action" {
+					title = "RENAME_COUNTRY"
+					on_action = "[OpenRenameCountryDialog(Country.Self)]"
+				}
+
+				blockoverride "entry_icon_texture" {
+					texture = "gfx/interface/icons/flat_icons/rename_country.dds"
+				}
+
+				blockoverride "entry_text" {
+					text = "RENAME_COUNTRY"
+				}
+			}
+
+			ContextMenuEntry = {
+				visible = "[And(GameIsMultiplayer, CanPlayerRenameCountry(Country.Self))]"
 
 				blockoverride "click_action" {
 					title = "RENAME_COUNTRY"
