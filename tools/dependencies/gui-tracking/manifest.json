@@ -1,0 +1,33 @@
+{
+  "definitions": {
+    "type:CountryContextMenuSection": {
+      "base_widget": "ContextMenuSection",
+      "mod_file": "in_game/gui/ism_context_menu.gui",
+      "namespace": "ContextMenuSpecificTypes",
+      "tracking_path": "tools/dependencies/gui-tracking/types/CountryContextMenuSection.gui",
+      "vanilla_file": "in_game/gui/context_menu.gui"
+    },
+    "type:FrontEndNews": {
+      "base_widget": "widget",
+      "mod_file": "main_menu/gui/cmf_dependency_check.gui",
+      "namespace": "cmf_dependency_check",
+      "tracking_path": "tools/dependencies/gui-tracking/types/FrontEndNews.gui",
+      "vanilla_file": "main_menu/gui/frontend_mainview.gui"
+    },
+    "type:playset_create_button": {
+      "base_widget": "vbox",
+      "mod_file": "main_menu/gui/cmf_dependency_check.gui",
+      "namespace": "cmf_dependency_auto_enable",
+      "tracking_path": "tools/dependencies/gui-tracking/types/playset_create_button.gui",
+      "vanilla_file": "main_menu/gui/mods_gui/mods_gui.gui"
+    },
+    "widget:rename_dialog": {
+      "base_widget": null,
+      "mod_file": "in_game/gui/rename_dialog.gui",
+      "namespace": "window",
+      "tracking_path": "tools/dependencies/gui-tracking/widgets/rename_dialog.gui",
+      "vanilla_file": "in_game/gui/rename_dialog.gui"
+    }
+  },
+  "version": 1
+}
