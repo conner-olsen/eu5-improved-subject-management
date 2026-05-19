@@ -100,3 +100,19 @@ TRY_INJECT:give_province_to_subject = {
 		}
 	}
 }
+
+# Vanilla duplicate of my own action (added after mine) but has loyalty cost which I disagree with.
+TRY_INJECT:move_subject_capital = {
+	select_trigger = {
+		looking_for_a = country
+		interaction_source_list = { }
+		target_flag = recipient
+		name = "choose_country"
+		show_if = {
+			scope:actor = { is_human = yes }
+		}
+		visible = {
+			always = no
+		}
+	}
+}
