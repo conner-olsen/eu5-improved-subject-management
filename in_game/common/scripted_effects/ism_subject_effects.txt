@@ -176,3 +176,51 @@ ism_block_subject_war_declarations = {
 		}
 	}
 }
+
+# Scope: subject country. Returns every taken army still held by $overlord$.
+ism_return_taken_units = {
+	every_in_list = {
+		variable = ism_units_taken
+		limit = { owner = $overlord$ }
+		remove_unit_modifier = ism_taken_from_subject
+		change_unit_owner = prev
+	}
+	clear_variable_list = ism_units_taken
+}
+
+# Scope: overlord country. Returns taken armies to subjects that no longer share a war with it.
+ism_auto_return_taken_units = {
+	if = {
+		limit = { is_overlord = yes }
+		save_temporary_scope_as = ism_taken_overlord
+		every_subject = {
+			limit = {
+				has_variable_list = ism_units_taken
+				NOT = { any_current_war = { is_in_war = scope:ism_taken_overlord } }
+			}
+			ism_return_taken_units = { overlord = scope:ism_taken_overlord }
+		}
+	}
+}
+
+# Scope: overlord country. Subjects pay the overlord for each subunit of their taken armies.
+ism_charge_taken_units_upkeep = {
+	save_temporary_scope_as = ism_taken_overlord
+	every_subject = {
+		limit = { has_variable_list = ism_units_taken }
+		save_temporary_scope_as = ism_taken_subject
+		every_in_list = {
+			variable = ism_units_taken
+			limit = { owner = scope:ism_taken_overlord }
+			every_sub_unit = {
+				scope:ism_taken_subject = {
+					add_gold = {
+						value = ism_taken_troops_subunit_upkeep
+						multiply = -1
+					}
+				}
+				scope:ism_taken_overlord = { add_gold = ism_taken_troops_subunit_upkeep }
+			}
+		}
+	}
+}

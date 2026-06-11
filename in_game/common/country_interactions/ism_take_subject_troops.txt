@@ -60,7 +60,6 @@
 			is_army = yes
 			NOT = { any_sub_unit = { is_condottieri = yes } }
 			NOT = { any_sub_unit = { is_mercenary = yes } }
-			NOT = { any_sub_unit = { is_levy = yes } }
 		}
 	}
 
@@ -71,7 +70,19 @@
 				exists = scope:recipient
 			}
 			scope:target = {
-				lend_unit_to_country = scope:actor
+				add_unit_modifier = {
+					modifier = ism_taken_from_subject
+					mode = replace
+				}
+			}
+			scope:recipient = {
+				add_to_variable_list = {
+					name = ism_units_taken
+					target = scope:target
+				}
+			}
+			scope:target = {
+				change_unit_owner = scope:actor
 			}
 		}
 		else = {
@@ -111,10 +122,7 @@ ism_return_subject_troops = {
 			data = name
 		}
 		visible = {
-			any_rented_out_mercenary = {
-				is_lent_unit = yes
-				customer = scope:actor
-			}
+			has_variable_list = ism_units_taken
 		}
 	}
 
@@ -124,13 +132,7 @@ ism_return_subject_troops = {
 				exists = scope:recipient
 			}
 			scope:recipient = {
-				every_rented_out_mercenary = {
-					limit = {
-						is_lent_unit = yes
-						customer = scope:actor
-					}
-					recall_lent_unit = {}
-				}
+				ism_return_taken_units = { overlord = scope:actor }
 			}
 		}
 	}

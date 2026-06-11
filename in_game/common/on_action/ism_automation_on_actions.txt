@@ -72,3 +72,30 @@ ism_block_subject_wars = {
 		ism_block_subject_war_declarations = yes
 	}
 }
+
+cmf_monthly_human_country_pulse = {
+	on_actions = {
+		ism_taken_units_upkeep
+	}
+}
+
+ism_taken_units_upkeep = {
+	trigger = {
+		is_overlord = yes
+	}
+	effect = {
+		ism_charge_taken_units_upkeep = yes
+	}
+}
+
+on_ending_war = {
+	on_actions = {
+		ism_war_ended_return_taken_units
+	}
+}
+
+ism_war_ended_return_taken_units = {
+	effect = {
+		ism_auto_return_taken_units = yes
+	}
+}

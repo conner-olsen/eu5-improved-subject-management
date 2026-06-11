@@ -124,7 +124,7 @@
 
  # Take subject troops
  ism_take_subject_troops: "#D #!Take Command of Troops"
- ism_take_subject_troops_desc: "We will take command of one of our subject's standing armies while we fight a war together. Command returns to our subject when the shared war ends."
+ ism_take_subject_troops_desc: "We will take command of one of our subject's armies while we fight a war together. Our subject keeps paying for their upkeep, and command returns when the shared war ends."
  ism_take_subject_troops_act: "Take Command of Troops from [SCOPE.sCountry('recipient').GetName]"
  ism_take_subject_troops_effect_text: "[SCOPE.sCountry('actor').GetName] takes command of an army of [SCOPE.sCountry('recipient').GetName]"
  ism_take_subject_troops_effect_text_past: "[SCOPE.sCountry('actor').GetName] took command of an army of [SCOPE.sCountry('recipient').GetName]"
