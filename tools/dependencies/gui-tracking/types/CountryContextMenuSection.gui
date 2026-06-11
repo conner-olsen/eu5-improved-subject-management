@@ -1,3 +1,6 @@
+﻿# vanilla: in_game/gui/context_menu.gui
+# mod: in_game/gui/ism_context_menu.gui
+
 	type CountryContextMenuSection = ContextMenuSection {
 		visible = "[Country.IsValid]"
 

@@ -1,3 +1,6 @@
+﻿# vanilla: in_game/gui/rename_dialog.gui
+# mod: in_game/gui/rename_dialog.gui
+
 window = {
 	name = "rename_dialog"
 	parentanchor = center
