@@ -19,15 +19,12 @@
 			button_pin = {
 				size = { 23 23 }
 				visible = "[IsPlayerValid]"
-				onclick = "[ToggleCountryFav(Country.Self)]"
-				checked = "[IsCountryFaved(Country.Self)]"
-				tooltipwidget = {
-					LeftClickButtonTooltip = {
-						blockoverride "onclick_text" {
-							text = "[SelectLocalization(IsCountryFaved(Country.Self), 'UNPIN_OUTLINER', 'PIN_OUTLINER')]"
-						}
-					}
+				action_tooltip = {
+					title = "[SelectLocalization(IsCountryFaved(Country.Self), 'UNPIN_OUTLINER', 'PIN_OUTLINER')]"
+					on_action = "[ToggleCountryFav(Country.Self)]"
 				}
+				tooltipwidget = { BasicFunctionalTooltip = {} }
+				down = "[IsCountryFaved(Country.Self)]"
 			}
 		}
 
@@ -153,6 +150,20 @@
 					ContextMenuEntry = {
 						visible = "[PinCollection.IsPinned( DiplomaticActionItem.GetTag )]"
 						enabled = "[DiplomaticActionItem.IsEnabled]"
+
+						blockoverride "entry_button" {
+							button = {
+								visible = "[Not(EqualTo_string(DiplomaticActionItem.GetTag, 'UNCONDITIONALSURRENDER'))]"
+								using = contextmenu_entry_button_template
+							}
+							button = {
+								visible = "[EqualTo_string(DiplomaticActionItem.GetTag, 'UNCONDITIONALSURRENDER')]"
+								using = contextmenu_entry_button_template
+								blockoverride "button_texture" {
+									using = button_regular_red_texture
+								}
+							}
+						}
 
 						blockoverride "click_action" {
 							title = "[DiplomaticActionItem.GetTitle]"

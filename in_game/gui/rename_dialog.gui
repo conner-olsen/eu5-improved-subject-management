@@ -1,9 +1,9 @@
-window = {
+﻿window = {
 	name = "rename_dialog"
 	parentanchor = center
 	allow_outside = yes
 	size = { 400 300 }
-	
+
 	vbox = {
 		block "msg_size" {
 			minimumsize = { 600 300 }
@@ -26,12 +26,12 @@ window = {
 
 				widget = {
 					allow_outside = yes
-	
+
 					block "desc_spacing" {
 						size = { 1 1 }
 					}
 				}
-	
+
 				vbox = {
 					layoutpolicy_horizontal = expanding
 					margin = {30 0}
@@ -39,7 +39,7 @@ window = {
 						hbox = {
 							layoutpolicy_horizontal = expanding
 							margin = {5 0}
-							using = message_text_box_background		
+							using = message_text_box_background
 							visible = yes
 
 							editbox_single = {
@@ -51,11 +51,9 @@ window = {
 
                                 blockoverride "editbox_properties" {
                                     name = "new_name"
-                                    tooltipwidget = {
-                                        LeftClickButtonTooltip = {
-                                            blockoverride "onclick_text" { text = "EDIT_COUNTRY_NAME" }
-                                        }
-                                    }
+									tooltipwidget = { LeftClickButtonTooltip = { blockoverride "onclick_text" { text = "EDIT_COUNTRY_NAME" } } }
+									# text = "[RenameDialog.GetCountry.GetName]"
+									# onreturnpressed = "[RenameDialog.DerivedOnAccept]"
                                     # MODIFICATION: Save the text to a variable every time you type
                                     ontextchanged = "[GetVariableSystem.Set('renaming_new_name', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
 
@@ -65,10 +63,10 @@ window = {
 							# Keeping in case we desire random naming in the future...
 							# icon_button_small_round = {
 							#	position = { 270 00 }
-							#	size = { 30 30 }			
+							#	size = { 30 30 }
 							#	tooltipwidget = {
 							#		LeftClickButtonTooltip = {
-							#			blockoverride "onclick_text" { text = "EDIT_NEWBORN_RANDOM_FIRST_NAME" } 
+							#			blockoverride "onclick_text" { text = "EDIT_NEWBORN_RANDOM_FIRST_NAME" }
 							#		}
 							#	}
 							#	onclick = "[RenameDialog.GiveRandomName]"
@@ -94,29 +92,29 @@ window = {
 							text = "MESSAGEPOPUP_DECLINE"
 							using = button_resize_to_fit_text
 							using = snd_UI_close
-			
+
 							block "decline_title" {
 								text = "CANCEL_BUTTON"
 							}
-			
+
 							# block "decline_input_action" {
 								onclick = "[DialogConfig.OnDecline]"
 							# }
 						}
-					
+
 						button_regular_diamond = {
 							name = "goto_button"
 							tooltip_enabled = no
 							using = button_resize_to_fit_text
-			
+
 							block "goto_title" {
 								text = "GOTO_GOTO"
 							}
-			
+
 							block "goto_visible" {
 								visible = "[RenameDialog.GetCountry.IsValid]"
 							}
-			
+
 							onclick = "[ShowForeignCountry(RenameDialog.GetCountry)]"
 						}
 
@@ -155,15 +153,15 @@ window = {
                             input_action = "confirm"
                             use_global_input_instance = yes
                         }
-					}	
+					}
 				}
 			}
 
 			hbox = {
-				
+
 				using = bg_age_event_title
 				layoutpolicy_horizontal = expanding
-	
+
 				blockoverride "bg_event_title_texture" {
 					texture = "gfx/interface/component_tiles/bg_big_round_corners_up.dds"
 					texture_density = 2
@@ -172,11 +170,11 @@ window = {
 					margin = {3 0}
 					margin_bottom = -2
 				}
-				
+
 				widget = {
 					layoutpolicy_vertical = expanding
 					size = {5 -1}
-					
+
 					AgeEventDecorationTop = {
 						size = {64 52}
 						position = { -10 -2 }
@@ -195,31 +193,31 @@ window = {
 					layoutpolicy_horizontal = expanding
 					margin = { 40 20 }
 					spacing = 15
-					
+
 					block "message_decoration_left" {}
-	
+
 					block "message_title_content" {
 						hbox = {
-							
+
 							vbox = {
-									
+
 								textbox = {
 									using = text_multi_template
-	
+
 									name = "subtitle"
-									
+
 									autoresize = yes
 									fontsize = 19
 									default_format = "#subtle_name"
 									align = center
 									text = "CHANGE_NAME_SUBTITLE"
 								}
-	
+
 								textbox = {
 									using = text_multi_template
-	
+
 									autoresize = yes
-	
+
 									default_format = "#yellow_titles"
 									fontsize = 22
 									align = center|nobaseline
@@ -228,7 +226,7 @@ window = {
 							}
 						}
 					}
-	
+
 					block "message_decoration_right" {}
 				}
 
@@ -259,7 +257,7 @@ window = {
 		parentanchor = top|right
 		position = {-10 5}
 		size = {55 55}
-		
+
 		# Avoiding using cancel input action in go-to button
 		button_close_alt = {
 			name = "dummy_button"
@@ -272,7 +270,9 @@ window = {
 
 			input_action = "close_window"
 			use_global_input_instance = yes
-			onclick = "[DialogConfig.OnDecline]"
+			blockoverride "close_on_action" {
+				on_action = "[DialogConfig.OnDecline]"
+			}
 			# using = snd_UI_confirm
 			using = bg_circle_piechart
 		}
