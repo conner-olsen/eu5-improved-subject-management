@@ -307,3 +307,43 @@ PERFORM_ism_transfer_region_action_ACTION={
 	pausepopup=no
 	message_category = diplomacy
 }
+
+WE_PERFORM_ism_take_subject_troops_ACTION={
+	log=yes
+	onmap=no
+	popup=no
+	idle=no
+	option=no
+	pausepopup=no
+	message_category = diplomacy
+}
+
+ACTION_ism_take_subject_troops_PERFORMED_ON_US={
+	log=yes
+	onmap=no
+	popup=no
+	idle=no
+	option=no
+	pausepopup=no
+	message_category = diplomacy
+}
+
+WE_PERFORM_ism_return_subject_troops_ACTION={
+	log=yes
+	onmap=no
+	popup=no
+	idle=no
+	option=no
+	pausepopup=no
+	message_category = diplomacy
+}
+
+ACTION_ism_return_subject_troops_PERFORMED_ON_US={
+	log=yes
+	onmap=no
+	popup=no
+	idle=no
+	option=no
+	pausepopup=no
+	message_category = diplomacy
+}

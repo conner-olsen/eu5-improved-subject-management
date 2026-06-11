@@ -4,7 +4,12 @@ ism_transfer_mode_region = {
     monthly_spawn_chance = 0
 
     can_start = { always = no }
-    can_end   = { always = no }
+    can_end = {
+        end_reason = {
+            trigger = { always = no }
+            desc = "permanent"
+        }
+    }
 
     visible   = { always = no }
 
@@ -16,7 +21,12 @@ ism_transfer_mode_region = {
 ism_transfer_mode_area = {
     monthly_spawn_chance = 0
     can_start = { always = no }
-    can_end   = { always = no }
+    can_end = {
+        end_reason = {
+            trigger = { always = no }
+            desc = "permanent"
+        }
+    }
     visible   = { always = no }
     on_start   = { }
     on_monthly = { }
@@ -26,7 +36,12 @@ ism_transfer_mode_area = {
 ism_transfer_mode_province = {
     monthly_spawn_chance = 0
     can_start = { always = no }
-    can_end   = { always = no }
+    can_end = {
+        end_reason = {
+            trigger = { always = no }
+            desc = "permanent"
+        }
+    }
     visible   = { always = no }
     on_start   = { }
     on_monthly = { }
@@ -36,7 +51,12 @@ ism_transfer_mode_province = {
 ism_transfer_mode_location = {
     monthly_spawn_chance = 0
     can_start = { always = no }
-    can_end   = { always = no }
+    can_end = {
+        end_reason = {
+            trigger = { always = no }
+            desc = "permanent"
+        }
+    }
     visible   = { always = no }
     on_start   = { }
     on_monthly = { }

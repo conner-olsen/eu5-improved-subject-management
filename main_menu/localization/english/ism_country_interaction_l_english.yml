@@ -121,3 +121,22 @@
  ism_take_over_wars_effect_text: "[SCOPE.sCountry('actor').GetName] takes over all the wars of [SCOPE.sCountry('recipient').GetName]"
  ism_take_over_wars_effect_text_past: "[SCOPE.sCountry('actor').GetName] has taken over all the wars of [SCOPE.sCountry('recipient').GetName]"
  PROPOSE_ism_take_over_wars: "Take over all of $TARGET$'s wars?"
+
+ # Take subject troops
+ ism_take_subject_troops: "#D #!Take Command of Troops"
+ ism_take_subject_troops_desc: "We will take command of one of our subject's standing armies while we fight a war together. Command returns to our subject when the shared war ends."
+ ism_take_subject_troops_act: "Take Command of Troops from [SCOPE.sCountry('recipient').GetName]"
+ ism_take_subject_troops_effect_text: "[SCOPE.sCountry('actor').GetName] takes command of an army of [SCOPE.sCountry('recipient').GetName]"
+ ism_take_subject_troops_effect_text_past: "[SCOPE.sCountry('actor').GetName] took command of an army of [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_ism_take_subject_troops: "Take command of one of $TARGET$'s armies?"
+ ism_take_subject_troops_choose_unit: "Choose an Army to Take Command of"
+ ism_take_subject_troops_no_units: "@trigger_no! No eligible armies available to take command of."
+ ism_take_subject_troops_select_unit: "Click to select an [army|e] that we should take command of."
+
+ # Return subject troops
+ ism_return_subject_troops: "#D #!Return Troops"
+ ism_return_subject_troops_desc: "We will return command of all armies we have taken from our subject."
+ ism_return_subject_troops_act: "Return Troops to [SCOPE.sCountry('recipient').GetName]"
+ ism_return_subject_troops_effect_text: "[SCOPE.sCountry('actor').GetName] returns all taken armies to [SCOPE.sCountry('recipient').GetName]"
+ ism_return_subject_troops_effect_text_past: "[SCOPE.sCountry('actor').GetName] returned all taken armies to [SCOPE.sCountry('recipient').GetName]"
+ PROPOSE_ism_return_subject_troops: "Return all taken armies to $TARGET$?"
