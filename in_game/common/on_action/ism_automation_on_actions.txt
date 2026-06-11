@@ -76,6 +76,7 @@ ism_block_subject_wars = {
 cmf_monthly_human_country_pulse = {
 	on_actions = {
 		ism_taken_units_upkeep
+		ism_taken_units_reclaim
 	}
 }
 
@@ -85,6 +86,15 @@ ism_taken_units_upkeep = {
 	}
 	effect = {
 		ism_charge_taken_units_upkeep = yes
+	}
+}
+
+ism_taken_units_reclaim = {
+	trigger = {
+		is_overlord = yes
+	}
+	effect = {
+		ism_reclaim_taken_units = yes
 	}
 }
 

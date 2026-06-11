@@ -224,3 +224,15 @@ ism_charge_taken_units_upkeep = {
 		}
 	}
 }
+
+# Scope: overlord country. Disloyal subjects take their armies back.
+ism_reclaim_taken_units = {
+	save_temporary_scope_as = ism_taken_overlord
+	every_subject = {
+		limit = {
+			has_variable_list = ism_units_taken
+			subject_loyalty < ism_taken_troops_reclaim_loyalty
+		}
+		ism_return_taken_units = { overlord = scope:ism_taken_overlord }
+	}
+}

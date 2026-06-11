@@ -38,6 +38,7 @@
 			}
 		}
 		enabled = {
+			subject_loyalty >= MIN_SUBJECT_LOYALTY_FOR_ACTION
 			custom_tooltip = {
 				text = ism_take_subject_troops_shares_war_tt
 				any_current_war = {
