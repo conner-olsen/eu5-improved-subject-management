@@ -3,3 +3,4 @@
  cannot_transfer_capital: "No puedes ceder tu capital."
  is_in_same_war: "No se puede transferir territorio entre naciones que no participan en la misma guerra."
 
+ ism_take_subject_troops_shares_war_tt: "Está luchando en una guerra en nuestro bando"

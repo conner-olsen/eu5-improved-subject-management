@@ -26,3 +26,5 @@
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_urbanization: "Der Lehnsherr gestattet keinem seiner Untertanen, neue Städte zu gründen."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_all_subject_columbian_exchange: "Lehnsherr blockiert Kolumbianischen Austausch des Untertanen"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_columbian_exchange: "Der Lehnsherr gestattet seinen Untertanen nicht, an [columbian_exchange|e] teilzunehmen."
+ STATIC_MODIFIER_NAME_ism_taken_from_subject: "Vom Untertan genommen"
+ STATIC_MODIFIER_DESC_ism_taken_from_subject: "Diese Armee wurde von einem Untertanen übernommen und kehrt zu diesem zurück, sobald der gemeinsame Krieg endet oder falls dessen Loyalität zu niedrig wird."

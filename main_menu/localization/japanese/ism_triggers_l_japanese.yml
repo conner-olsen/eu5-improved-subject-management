@@ -3,3 +3,4 @@
  cannot_transfer_capital: "首都を譲渡することはできません。"
  is_in_same_war: "同じ戦争に参加していない国家間で領土を譲渡することはできません。"
 
+ ism_take_subject_troops_shares_war_tt: "我々の側で参戦している"

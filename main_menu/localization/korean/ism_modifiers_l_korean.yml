@@ -26,3 +26,5 @@
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_urbanization: "종주국은 종속국이 새로운 도시를 건설하는 것을 허가하지 않습니다."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_all_subject_columbian_exchange: "종주국의 종속국 콜럼버스 교환 차단"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_columbian_exchange: "종주국은 종속국이 [columbian_exchange|e]에 참여하는 것을 허용하지 않습니다."
+ STATIC_MODIFIER_NAME_ism_taken_from_subject: "종속국에서 가져옴"
+ STATIC_MODIFIER_DESC_ism_taken_from_subject: "이 군대는 종속국으로부터 차출되었으며, 공동의 전쟁이 종료되거나 종속국의 충성도가 너무 낮아지면 해당 종속국에 반환됩니다."

@@ -26,3 +26,5 @@
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_urbanization: "宗主国は、いかなる従属国に対しても新たな町の建設を許可していません。"
  STATIC_MODIFIER_NAME_ism_overlord_blocking_all_subject_columbian_exchange: "宗主国による従属国のコロンブス交換の阻止"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_columbian_exchange: "宗主国は、いかなる従属国も[columbian_exchange|e]に参加することを許可していません。"
+ STATIC_MODIFIER_NAME_ism_taken_from_subject: "従属国から取得"
+ STATIC_MODIFIER_DESC_ism_taken_from_subject: "この軍隊は従属国から徴用されたものであり、共通の戦争が終結するか、あるいは忠誠度が低下しすぎた場合に返還されます。"

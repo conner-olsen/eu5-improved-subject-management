@@ -26,3 +26,5 @@
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_urbanization: "O suserano não permite que nenhum de seus súditos funde novas cidades."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_all_subject_columbian_exchange: "Soberano Bloqueando Intercâmbio Colombiano do Sujeito"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_columbian_exchange: "O suserano não permite que nenhum de seus sujeitos participe do [columbian_exchange|e]."
+ STATIC_MODIFIER_NAME_ism_taken_from_subject: "Retirado do Sujeito"
+ STATIC_MODIFIER_DESC_ism_taken_from_subject: "Este exército foi retirado de um súdito e retornará a ele quando a guerra conjunta terminar ou se a lealdade dele ficar muito baixa."

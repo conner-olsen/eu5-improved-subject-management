@@ -3,3 +3,4 @@
  cannot_transfer_capital: "수도를 양도할 수 없습니다."
  is_in_same_war: "같은 전쟁에 참여 중이지 않은 국가 간에는 영토를 양도할 수 없습니다."
 
+ ism_take_subject_troops_shares_war_tt: "우리 측으로 전쟁에 참여 중"

@@ -26,3 +26,5 @@
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_urbanization: "Süzeren, hiçbir uyruğunun yeni kasabalar kurmasına izin vermez."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_all_subject_columbian_exchange: "Süzeren Tabi Devletin Kolomb Takasını Engelliyor"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_columbian_exchange: "Süzeren, tebaalarından hiçbirinin [columbian_exchange|e] katılmasına izin vermiyor."
+ STATIC_MODIFIER_NAME_ism_taken_from_subject: "Tabi Ülkeden Alındı"
+ STATIC_MODIFIER_DESC_ism_taken_from_subject: "Bu ordu bir tabiden alınmıştır; ortak savaş sona erdiğinde veya sadakati çok düştüğünde onlara geri döner."

@@ -26,3 +26,5 @@
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_urbanization: "El señor no permite que ninguno de sus súbditos funde nuevas ciudades."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_all_subject_columbian_exchange: "El señor supremo bloquea el intercambio colombino del sujeto"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_columbian_exchange: "El señor no permite que ninguno de sus súbditos participe en el [columbian_exchange|e]."
+ STATIC_MODIFIER_NAME_ism_taken_from_subject: "Arrebatado al súbdito"
+ STATIC_MODIFIER_DESC_ism_taken_from_subject: "Este ejército fue tomado de un sujeto y se le devolverá cuando termine la guerra compartida o si su lealtad cae demasiado."

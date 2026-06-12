@@ -26,3 +26,5 @@
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_urbanization: "Сюзерен запрещает своим подданным основывать новые города."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_all_subject_columbian_exchange: "Блокировка Колумбова обмена подданного сюзереном"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_columbian_exchange: "Сюзерен не позволяет ни одному из своих субъектов участвовать в [columbian_exchange|e]."
+ STATIC_MODIFIER_NAME_ism_taken_from_subject: "Взято у субъекта"
+ STATIC_MODIFIER_DESC_ism_taken_from_subject: "Эта армия была взята у субъекта и вернётся к нему после окончания общей войны или если его лояльность станет слишком низкой."

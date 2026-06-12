@@ -26,3 +26,5 @@
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_urbanization: "Senior nie zezwala żadnemu ze swoich podległych państw na zakładanie nowych miast."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_all_subject_columbian_exchange: "Senior blokuje wielką wymianę kolumbijską poddanemu"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_columbian_exchange: "Senior nie zezwala żadnemu ze swoich poddanych na udział w [columbian_exchange|e]."
+ STATIC_MODIFIER_NAME_ism_taken_from_subject: "Odebrane od podległego"
+ STATIC_MODIFIER_DESC_ism_taken_from_subject: "Ta armia została przejęta od poddanego i powróci do niego po zakończeniu wspólnej wojny lub gdy jego lojalność spadnie zbyt nisko."

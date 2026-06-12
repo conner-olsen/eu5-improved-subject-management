@@ -26,3 +26,5 @@
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_urbanization: "宗主国不允许其任何附庸建立新城镇。"
  STATIC_MODIFIER_NAME_ism_overlord_blocking_all_subject_columbian_exchange: "宗主国禁止从属国哥伦布大交换"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_columbian_exchange: "宗主国不允许其任何附属国参加[columbian_exchange|e]。"
+ STATIC_MODIFIER_NAME_ism_taken_from_subject: "取自附属国"
+ STATIC_MODIFIER_DESC_ism_taken_from_subject: "这支军队是从从属国处征调的，将在共同战争结束或其忠诚度过低时归还给他们。"

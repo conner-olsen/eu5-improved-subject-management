@@ -26,3 +26,5 @@
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_urbanization: "Le suzerain n'autorise aucun de ses sujets à fonder de nouvelles villes."
  STATIC_MODIFIER_NAME_ism_overlord_blocking_all_subject_columbian_exchange: "Suzerain bloquant l'échange colombien du sujet"
  STATIC_MODIFIER_DESC_ism_overlord_blocking_all_subject_columbian_exchange: "Le suzerain n'autorise aucun de ses sujets à participer au [columbian_exchange|e]."
+ STATIC_MODIFIER_NAME_ism_taken_from_subject: "Pris au sujet"
+ STATIC_MODIFIER_DESC_ism_taken_from_subject: "Cette armée a été prélevée sur un sujet et lui sera rendue à la fin de la guerre commune ou si sa loyauté devient trop faible."
