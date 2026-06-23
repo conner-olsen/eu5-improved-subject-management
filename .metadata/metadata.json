@@ -4,6 +4,7 @@
     "version": "1.10.0",
     "game_id": "eu5",
     "supported_game_version": "1.3.*",
+    "ism_last_updated_game_version": "1.3.6",
     "short_description": "Adds new interactions, modifications, and automations to significantly improve subject management.",
     "tags": [
         "Utilities",
