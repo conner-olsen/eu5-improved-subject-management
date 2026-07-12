@@ -77,6 +77,7 @@ cmf_monthly_human_country_pulse = {
 	on_actions = {
 		ism_taken_units_upkeep
 		ism_taken_units_reclaim
+		ism_taken_units_prune
 	}
 }
 
@@ -95,6 +96,15 @@ ism_taken_units_reclaim = {
 	}
 	effect = {
 		ism_reclaim_taken_units = yes
+	}
+}
+
+ism_taken_units_prune = {
+	trigger = {
+		is_overlord = yes
+	}
+	effect = {
+		ism_prune_taken_units = yes
 	}
 }
 

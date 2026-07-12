@@ -181,7 +181,7 @@ ism_block_subject_war_declarations = {
 ism_return_taken_units = {
 	every_in_list = {
 		variable = ism_units_taken
-		limit = { owner = $overlord$ }
+		limit = { exists = this owner = $overlord$ }
 		remove_unit_modifier = ism_taken_from_subject
 		change_unit_owner = prev
 	}
@@ -211,7 +211,7 @@ ism_charge_taken_units_upkeep = {
 		save_temporary_scope_as = ism_taken_subject
 		every_in_list = {
 			variable = ism_units_taken
-			limit = { owner = scope:ism_taken_overlord }
+			limit = { exists = this owner = scope:ism_taken_overlord }
 			every_sub_unit = {
 				scope:ism_taken_subject = {
 					add_gold = {
@@ -234,5 +234,23 @@ ism_reclaim_taken_units = {
 			subject_loyalty < ism_taken_troops_reclaim_loyalty
 		}
 		ism_return_taken_units = { overlord = scope:ism_taken_overlord }
+	}
+}
+
+# Scope: overlord country. Drops bookkeeping for subjects whose taken armies were all consolidated or destroyed.
+ism_prune_taken_units = {
+	save_temporary_scope_as = ism_taken_overlord
+	every_subject = {
+		limit = {
+			has_variable_list = ism_units_taken
+			NOT = {
+				any_in_list = {
+					variable = ism_units_taken
+					exists = this
+					owner = scope:ism_taken_overlord
+				}
+			}
+		}
+		clear_variable_list = ism_units_taken
 	}
 }
