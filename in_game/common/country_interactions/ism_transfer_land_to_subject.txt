@@ -1,6 +1,8 @@
 ﻿ism_transfer_land_to_subject = {
     type = subject
     category = CATEGORY_SUBJECT_ACTIONS
+    show_message = no
+    show_message_to_target = no
     ai_tick = never
     use_enroute = no
 

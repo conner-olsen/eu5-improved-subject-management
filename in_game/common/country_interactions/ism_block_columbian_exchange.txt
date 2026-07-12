@@ -1,6 +1,8 @@
 ﻿ism_block_columbian_exchange = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
+	show_message = no
+	show_message_to_target = no
 
 	potential = {
 		scope:actor = {
@@ -62,6 +64,8 @@
 ism_allow_columbian_exchange = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
+	show_message = no
+	show_message_to_target = no
 
 	potential = {
 	}

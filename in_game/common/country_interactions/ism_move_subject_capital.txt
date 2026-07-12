@@ -1,6 +1,8 @@
 ﻿ism_move_subject_capital = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
+	show_message = no
+	show_message_to_target = no
 
 	ai_tick = never
 	

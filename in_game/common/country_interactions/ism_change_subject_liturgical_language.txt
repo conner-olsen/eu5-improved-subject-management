@@ -1,6 +1,8 @@
 ﻿ism_change_subject_liturgical_language = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
+	show_message = no
+	show_message_to_target = no
 
 	potential = {
 	}

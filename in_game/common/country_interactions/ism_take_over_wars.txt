@@ -1,6 +1,8 @@
 ﻿ism_take_over_wars = {
 	type = subject
 	category = CATEGORY_SUBJECT_ACTIONS
+	show_message = no
+	show_message_to_target = no
 
 	block_when_at_war = no
 
