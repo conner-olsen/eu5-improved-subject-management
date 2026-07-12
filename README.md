@@ -10,7 +10,7 @@ Managing subjects in EU5 can be frustrating due to numerous restrictions and mis
 
 ## Compatibility
 
-- **Not Ironman Compatible**
+- **Ironman and Achievement Compatible**
 - **Fully save game compatible**
 - Should work with any mod
 - Compatibility patches available upon request
