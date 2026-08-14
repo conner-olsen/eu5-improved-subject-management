@@ -1,4 +1,78 @@
 {
+  "file_languages": {
+    "english\\ism_cmm_l_english.yml": {
+      "braz_por": "2bacf503644c7c555e6f03d475041d88d3335ba82136a4ed315c529f04b1bd39",
+      "french": "2bacf503644c7c555e6f03d475041d88d3335ba82136a4ed315c529f04b1bd39",
+      "german": "2bacf503644c7c555e6f03d475041d88d3335ba82136a4ed315c529f04b1bd39",
+      "japanese": "2bacf503644c7c555e6f03d475041d88d3335ba82136a4ed315c529f04b1bd39",
+      "korean": "2bacf503644c7c555e6f03d475041d88d3335ba82136a4ed315c529f04b1bd39",
+      "polish": "2bacf503644c7c555e6f03d475041d88d3335ba82136a4ed315c529f04b1bd39",
+      "russian": "2bacf503644c7c555e6f03d475041d88d3335ba82136a4ed315c529f04b1bd39",
+      "simp_chinese": "2bacf503644c7c555e6f03d475041d88d3335ba82136a4ed315c529f04b1bd39",
+      "spanish": "2bacf503644c7c555e6f03d475041d88d3335ba82136a4ed315c529f04b1bd39",
+      "turkish": "2bacf503644c7c555e6f03d475041d88d3335ba82136a4ed315c529f04b1bd39"
+    },
+    "english\\ism_country_interaction_l_english.yml": {
+      "braz_por": "75c0d684779e526f014ad15c1e2c19ae30a1d2250e6d65b4cdd9e2d12a0f6e1d",
+      "french": "75c0d684779e526f014ad15c1e2c19ae30a1d2250e6d65b4cdd9e2d12a0f6e1d",
+      "german": "75c0d684779e526f014ad15c1e2c19ae30a1d2250e6d65b4cdd9e2d12a0f6e1d",
+      "japanese": "75c0d684779e526f014ad15c1e2c19ae30a1d2250e6d65b4cdd9e2d12a0f6e1d",
+      "korean": "75c0d684779e526f014ad15c1e2c19ae30a1d2250e6d65b4cdd9e2d12a0f6e1d",
+      "polish": "75c0d684779e526f014ad15c1e2c19ae30a1d2250e6d65b4cdd9e2d12a0f6e1d",
+      "russian": "75c0d684779e526f014ad15c1e2c19ae30a1d2250e6d65b4cdd9e2d12a0f6e1d",
+      "simp_chinese": "75c0d684779e526f014ad15c1e2c19ae30a1d2250e6d65b4cdd9e2d12a0f6e1d",
+      "spanish": "75c0d684779e526f014ad15c1e2c19ae30a1d2250e6d65b4cdd9e2d12a0f6e1d",
+      "turkish": "75c0d684779e526f014ad15c1e2c19ae30a1d2250e6d65b4cdd9e2d12a0f6e1d"
+    },
+    "english\\ism_generic_actions_l_english.yml": {
+      "braz_por": "d91a2d5c50dbfcc26fb490d3a637b61f80bba39afe91dd1058f7da069522c6f7",
+      "french": "d91a2d5c50dbfcc26fb490d3a637b61f80bba39afe91dd1058f7da069522c6f7",
+      "german": "d91a2d5c50dbfcc26fb490d3a637b61f80bba39afe91dd1058f7da069522c6f7",
+      "japanese": "d91a2d5c50dbfcc26fb490d3a637b61f80bba39afe91dd1058f7da069522c6f7",
+      "korean": "d91a2d5c50dbfcc26fb490d3a637b61f80bba39afe91dd1058f7da069522c6f7",
+      "polish": "d91a2d5c50dbfcc26fb490d3a637b61f80bba39afe91dd1058f7da069522c6f7",
+      "russian": "d91a2d5c50dbfcc26fb490d3a637b61f80bba39afe91dd1058f7da069522c6f7",
+      "simp_chinese": "d91a2d5c50dbfcc26fb490d3a637b61f80bba39afe91dd1058f7da069522c6f7",
+      "spanish": "d91a2d5c50dbfcc26fb490d3a637b61f80bba39afe91dd1058f7da069522c6f7",
+      "turkish": "d91a2d5c50dbfcc26fb490d3a637b61f80bba39afe91dd1058f7da069522c6f7"
+    },
+    "english\\ism_modifiers_l_english.yml": {
+      "braz_por": "235000447ca8a311b99828f9324616b60828697fc4af8e2148407b34d875af67",
+      "french": "235000447ca8a311b99828f9324616b60828697fc4af8e2148407b34d875af67",
+      "german": "235000447ca8a311b99828f9324616b60828697fc4af8e2148407b34d875af67",
+      "japanese": "235000447ca8a311b99828f9324616b60828697fc4af8e2148407b34d875af67",
+      "korean": "235000447ca8a311b99828f9324616b60828697fc4af8e2148407b34d875af67",
+      "polish": "235000447ca8a311b99828f9324616b60828697fc4af8e2148407b34d875af67",
+      "russian": "235000447ca8a311b99828f9324616b60828697fc4af8e2148407b34d875af67",
+      "simp_chinese": "235000447ca8a311b99828f9324616b60828697fc4af8e2148407b34d875af67",
+      "spanish": "235000447ca8a311b99828f9324616b60828697fc4af8e2148407b34d875af67",
+      "turkish": "235000447ca8a311b99828f9324616b60828697fc4af8e2148407b34d875af67"
+    },
+    "english\\ism_situations_l_english.yml": {
+      "braz_por": "3abec44d444fcfc329109fb0f711a07393f1cf3890f0cafebbc2956977b9efeb",
+      "french": "3abec44d444fcfc329109fb0f711a07393f1cf3890f0cafebbc2956977b9efeb",
+      "german": "3abec44d444fcfc329109fb0f711a07393f1cf3890f0cafebbc2956977b9efeb",
+      "japanese": "3abec44d444fcfc329109fb0f711a07393f1cf3890f0cafebbc2956977b9efeb",
+      "korean": "3abec44d444fcfc329109fb0f711a07393f1cf3890f0cafebbc2956977b9efeb",
+      "polish": "3abec44d444fcfc329109fb0f711a07393f1cf3890f0cafebbc2956977b9efeb",
+      "russian": "3abec44d444fcfc329109fb0f711a07393f1cf3890f0cafebbc2956977b9efeb",
+      "simp_chinese": "3abec44d444fcfc329109fb0f711a07393f1cf3890f0cafebbc2956977b9efeb",
+      "spanish": "3abec44d444fcfc329109fb0f711a07393f1cf3890f0cafebbc2956977b9efeb",
+      "turkish": "3abec44d444fcfc329109fb0f711a07393f1cf3890f0cafebbc2956977b9efeb"
+    },
+    "english\\ism_triggers_l_english.yml": {
+      "braz_por": "7e2402311ec129404eb5754b6c98fc5e719e646fc61f18918b79c2cd18e0d3df",
+      "french": "7e2402311ec129404eb5754b6c98fc5e719e646fc61f18918b79c2cd18e0d3df",
+      "german": "7e2402311ec129404eb5754b6c98fc5e719e646fc61f18918b79c2cd18e0d3df",
+      "japanese": "7e2402311ec129404eb5754b6c98fc5e719e646fc61f18918b79c2cd18e0d3df",
+      "korean": "7e2402311ec129404eb5754b6c98fc5e719e646fc61f18918b79c2cd18e0d3df",
+      "polish": "7e2402311ec129404eb5754b6c98fc5e719e646fc61f18918b79c2cd18e0d3df",
+      "russian": "7e2402311ec129404eb5754b6c98fc5e719e646fc61f18918b79c2cd18e0d3df",
+      "simp_chinese": "7e2402311ec129404eb5754b6c98fc5e719e646fc61f18918b79c2cd18e0d3df",
+      "spanish": "7e2402311ec129404eb5754b6c98fc5e719e646fc61f18918b79c2cd18e0d3df",
+      "turkish": "7e2402311ec129404eb5754b6c98fc5e719e646fc61f18918b79c2cd18e0d3df"
+    }
+  },
   "files": {
     "english\\ism_cmm_l_english.yml": {
       "ism": "10cc63152f707ff3a4e22b356b3954f652b45c42d03425fabc1b29d46592b0eb",
