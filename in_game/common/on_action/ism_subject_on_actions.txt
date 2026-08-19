@@ -1,0 +1,14 @@
+﻿on_subject_created = {
+	on_actions = {
+		ism_record_subject_creator
+	}
+}
+
+ism_record_subject_creator = {
+	effect = {
+		set_variable = {
+			name = ism_created_by
+			value = scope:overlord
+		}
+	}
+}

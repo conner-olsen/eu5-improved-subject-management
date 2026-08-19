@@ -58,6 +58,10 @@
                 text = cannot_transfer_capital
                 ism_allow_transfer_location = yes
             }
+            custom_tooltip = {
+                text = ism_subject_must_keep_a_location
+                ism_giver_keeps_a_location = yes
+            }
         }
     }
 

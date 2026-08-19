@@ -74,6 +74,20 @@ ism_register_cmf_mod = {
 		setting = ism__block_declaring_war
 		alias = ism__block_declaring_war
 	}
+
+	# Other (other) Tab
+	## Balance (balance) Group
+	cmm_register_global_bool_setting = {
+		mod_id = ism
+		setting_id = maintain_vanilla_balance
+		tab_id = other
+		group_id = balance
+		default_value = 0
+	}
+	cmm_sync_bool_alias = {
+		setting = ism__maintain_vanilla_balance
+		alias = ism__maintain_vanilla_balance
+	}
 }
 
 # Callback handler for cmf_on_callback.
@@ -125,6 +139,14 @@ ism_handle_cmf_callback = {
 				alias = ism__block_declaring_war
 			}
 			ism_block_subject_war_declarations = yes
+		}
+		# Other (other) Tab
+		## Balance (balance) Group
+		flag:ism__maintain_vanilla_balance = {
+			cmm_sync_bool_alias = {
+				setting = ism__maintain_vanilla_balance
+				alias = ism__maintain_vanilla_balance
+			}
 		}
 	}
 }

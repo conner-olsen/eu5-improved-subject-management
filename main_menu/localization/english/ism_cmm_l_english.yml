@@ -23,6 +23,13 @@
  ism__block_declaring_war_name: "Block Declaring Wars"
  ism__block_declaring_war_desc: "Blocks all your subjects from declaring war."
 
+ # Other (other) Tab
+ ism__other_name: "Other"
+ ## Balance (balance) Group
+ ism__other__balance_name: "Balance"
+ ism__maintain_vanilla_balance_name: "Maintain Vanilla Balance"
+ ism__maintain_vanilla_balance_desc: "Subjects you did not create, other than colonial subjects, keep their last location, and lose opinion of you when you transfer their land away."
+
  # Optional: self-referencing flag keys to suppress IDE warnings (safe to remove if you want)
  ism: "ism"
  ism__qol: "ism__qol"
@@ -34,3 +41,6 @@
  ism__block_urbanization: "ism__block_urbanization"
  ism__block_columbian_exchange: "ism__block_columbian_exchange"
  ism__block_declaring_war: "ism__block_declaring_war"
+ ism__other: "ism__other"
+ ism__other__balance: "ism__other__balance"
+ ism__maintain_vanilla_balance: "ism__maintain_vanilla_balance"

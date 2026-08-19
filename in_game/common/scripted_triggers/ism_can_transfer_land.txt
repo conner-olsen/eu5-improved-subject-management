@@ -81,6 +81,33 @@ ism_can_transfer_land = {
     }
 }
 
+# Does the Maintain Vanilla Balance rule cover this subject
+# ROOT: any
+# ARGS: $giver$:country
+ism_vanilla_balance_protects = {
+    has_global_variable = ism__maintain_vanilla_balance
+    NOT = { $giver$ = scope:actor }
+    $giver$ = {
+        is_subject = yes
+        is_colonial_subject = no
+        NOT = {
+            AND = {
+                exists = var:ism_created_by
+                var:ism_created_by = scope:actor
+            }
+        }
+    }
+}
+
+# Will the giver still hold land once one more location leaves
+# ROOT: any
+ism_giver_keeps_a_location = {
+    OR = {
+        NOT = { ism_vanilla_balance_protects = { giver = scope:actor.var:ism_giver_nation } }
+        scope:actor.var:ism_giver_nation = { num_locations > 1 }
+    }
+}
+
 # Decides if the $giver$ is allowed to transfer land to the $receiver$
 # Differs from ism_can_transfer_land which only checks if a land transfer is possible.
 # This goes in the `enabled` vs `visible` check.
@@ -117,6 +144,13 @@ ism_allow_transfer_land = {
                     $receiver$ = { at_war = yes }
                 }
             }
+        }
+    }
+    custom_tooltip = {
+        text = "ism_subject_must_keep_a_location"
+        OR = {
+            NOT = { ism_vanilla_balance_protects = { giver = $giver$ } }
+            $giver$ = { num_locations > 1 }
         }
     }
 }

@@ -1,11 +1,30 @@
 ﻿# Executes the land transfer based on the selected transfer_mode
 # ROOT: country interaction
-# ARGS: giver; receiver
+# ARGS: giver; receiver; target_location
 ism_transfer_location_effect = {
     if = {
         limit = {
             $target_location$ = { is_ownable = yes }
             $target_location$ = { owner ?= $giver$ }
+            OR = {
+                NOT = { ism_vanilla_balance_protects = { giver = $giver$ } }
+                $giver$ = { num_locations > 1 }
+            }
+        }
+        if = {
+            limit = { ism_vanilla_balance_protects = { giver = $giver$ } }
+            # Mirrors the penalty vanilla applies before the transfer, so the scale reads the
+            # pre-transfer count: in_game/common/country_interactions/give_subject_location_to_other_subject.txt
+            $giver$ = {
+                add_opinion = {
+                    target = scope:actor
+                    modifier = opinion_gave_away_our_lands
+                    scale = {
+                        value = 1
+                        divide = num_locations
+                    }
+                }
+            }
         }
         $target_location$ = { change_location_owner = $receiver$ }
     }
@@ -14,6 +33,16 @@ ism_transfer_location_effect = {
 ism_transfer_province_effect = {
     $target_province$ = {
         every_location_in_province = {
+            limit = { is_capital = no }
+            ism_transfer_location_effect = {
+                giver = $giver$
+                receiver = $receiver$
+                target_location = this
+            }
+        }
+        # Transfer the giver's capital last so it is the location left behind if nothing else remains.
+        every_location_in_province = {
+            limit = { is_capital = yes }
             ism_transfer_location_effect = {
                 giver = $giver$
                 receiver = $receiver$
@@ -26,6 +55,15 @@ ism_transfer_province_effect = {
 ism_transfer_area_effect = {
     $target_area$ = {
         every_location_in_area = {
+            limit = { is_capital = no }
+            ism_transfer_location_effect = {
+                giver = $giver$
+                receiver = $receiver$
+                target_location = this
+            }
+        }
+        every_location_in_area = {
+            limit = { is_capital = yes }
             ism_transfer_location_effect = {
                 giver = $giver$
                 receiver = $receiver$
@@ -38,6 +76,15 @@ ism_transfer_area_effect = {
 ism_transfer_region_effect = {
     $target_region$ = {
         every_location_in_region = {
+            limit = { is_capital = no }
+            ism_transfer_location_effect = {
+                giver = $giver$
+                receiver = $receiver$
+                target_location = this
+            }
+        }
+        every_location_in_region = {
+            limit = { is_capital = yes }
             ism_transfer_location_effect = {
                 giver = $giver$
                 receiver = $receiver$
