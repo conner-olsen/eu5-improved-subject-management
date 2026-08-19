@@ -15,13 +15,13 @@
  ism__qol__subject_rights_name: "Subject Rights"
  ism__qol__subject_rights_desc: "These are the rights you grant your subjects."
  ism__block_colonization_name: "Block Colonization"
- ism__block_colonization_desc: "Prevent all your subjects from colonizing."
+ ism__block_colonization_desc: "Prevent all your subjects from colonizing. $ism_block_loyalty_note$"
  ism__block_urbanization_name: "Block Urbanization"
- ism__block_urbanization_desc: "Blocks all your subjects from upgrading rural locations to towns."
+ ism__block_urbanization_desc: "Blocks all your subjects from upgrading rural locations to towns. $ism_block_loyalty_note$"
  ism__block_columbian_exchange_name: "Block Columbian Exchange"
- ism__block_columbian_exchange_desc: "Blocks all your subjects from using the Columbian Exchange when available."
+ ism__block_columbian_exchange_desc: "Blocks all your subjects from using the Columbian Exchange when available. $ism_block_loyalty_note$"
  ism__block_declaring_war_name: "Block Declaring Wars"
- ism__block_declaring_war_desc: "Blocks all your subjects from declaring war."
+ ism__block_declaring_war_desc: "Blocks all your subjects from declaring war. $ism_block_loyalty_note$"
 
  # Other (other) Tab
  ism__other_name: "Other"

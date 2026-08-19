@@ -3,3 +3,6 @@ ism_taken_troops_subunit_upkeep = 0.5
 
 # Subjects below this loyalty take their armies back.
 ism_taken_troops_reclaim_loyalty = 45
+
+# Subjects below this loyalty have their overlord's blocks suspended.
+ism_block_suspend_loyalty = 45

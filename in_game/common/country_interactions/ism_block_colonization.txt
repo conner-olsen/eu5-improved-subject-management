@@ -37,9 +37,13 @@
 				country_type = pop
 			}
 			NOT = { modifier:can_colonize = no }
-			NOT = { has_country_modifier = ism_overlord_blocking_colonization }
+			NOR = {
+				has_country_modifier = ism_overlord_blocking_colonization
+				has_variable = ism__suspended_colonization_block
+			}
 		}
-        enabled = {
+		enabled = {
+			subject_loyalty >= MIN_SUBJECT_LOYALTY_FOR_ACTION
 		}
 	}
 
@@ -94,9 +98,12 @@ ism_allow_subject_colonization = {
 				country_type = building
 				country_type = pop
 			}
-			has_country_modifier = ism_overlord_blocking_colonization
+			OR = {
+				has_country_modifier = ism_overlord_blocking_colonization
+				has_variable = ism__suspended_colonization_block
+			}
 		}
-        enabled = {
+		enabled = {
 		}
 	}
 
@@ -106,7 +113,10 @@ ism_allow_subject_colonization = {
 				exists = scope:recipient
 			}
 			scope:recipient = {
-				remove_country_modifier = ism_overlord_blocking_colonization
+				ism_clear_subject_block = {
+					SUBJECT_MODIFIER = ism_overlord_blocking_colonization
+					SUSPENDED_FLAG = ism__suspended_colonization_block
+				}
 			}
 		}
 	}

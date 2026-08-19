@@ -77,103 +77,100 @@ ism_take_over_subject_wars = {
 	}
 }
 
-ism_block_subject_colonization = {
+# Scope: overlord country. Applies or lifts one block across every subject.
+ism_sync_subject_block = {
 	if = {
 		limit = { is_overlord = yes }
-		save_scope_as = overlord_scope
+		save_temporary_scope_as = ism_block_overlord
 		every_subject = {
 			if = {
-				limit = {
-					scope:overlord_scope = { has_variable = ism__block_colonization }
+				limit = { subject_loyalty < ism_block_suspend_loyalty }
+				if = {
+					limit = { has_country_modifier = $SUBJECT_MODIFIER$ }
+					set_variable = $SUSPENDED_FLAG$
+					remove_country_modifier = $SUBJECT_MODIFIER$
 				}
-				add_country_modifier = {
-					modifier = ism_overlord_blocking_all_subject_colonization
-					days = -1
-					mode = replace
+				if = {
+					limit = { has_country_modifier = $ALL_MODIFIER$ }
+					remove_country_modifier = $ALL_MODIFIER$
 				}
 			}
 			else_if = {
-				limit = {
-					has_country_modifier = ism_overlord_blocking_all_subject_colonization
+				limit = { subject_loyalty >= MIN_SUBJECT_LOYALTY_FOR_ACTION }
+				if = {
+					limit = { has_variable = $SUSPENDED_FLAG$ }
+					remove_variable = $SUSPENDED_FLAG$
+					add_country_modifier = {
+						modifier = $SUBJECT_MODIFIER$
+						days = -1
+						mode = replace
+					}
 				}
-				remove_country_modifier = ism_overlord_blocking_all_subject_colonization
+				if = {
+					limit = { scope:ism_block_overlord = { has_variable = $SETTING$ } }
+					add_country_modifier = {
+						modifier = $ALL_MODIFIER$
+						days = -1
+						mode = replace
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = { scope:ism_block_overlord = { has_variable = $SETTING$ } }
+					has_country_modifier = $ALL_MODIFIER$
+				}
+				remove_country_modifier = $ALL_MODIFIER$
 			}
 		}
+	}
+}
+
+# Scope: subject country. Cancels one per-subject block.
+ism_clear_subject_block = {
+	if = {
+		limit = { has_country_modifier = $SUBJECT_MODIFIER$ }
+		remove_country_modifier = $SUBJECT_MODIFIER$
+	}
+	if = {
+		limit = { has_variable = $SUSPENDED_FLAG$ }
+		remove_variable = $SUSPENDED_FLAG$
+	}
+}
+
+ism_block_subject_colonization = {
+	ism_sync_subject_block = {
+		SETTING = ism__block_colonization
+		SUBJECT_MODIFIER = ism_overlord_blocking_colonization
+		ALL_MODIFIER = ism_overlord_blocking_all_subject_colonization
+		SUSPENDED_FLAG = ism__suspended_colonization_block
 	}
 }
 
 ism_block_subject_urbanization = {
-	if = {
-		limit = { is_overlord = yes }
-		save_scope_as = overlord_scope
-		every_subject = {
-			if = {
-				limit = {
-					scope:overlord_scope = { has_variable = ism__block_urbanization }
-				}
-				add_country_modifier = {
-					modifier = ism_overlord_blocking_all_subject_urbanization
-					days = -1
-					mode = replace
-				}
-			}
-			else_if = {
-				limit = {
-					has_country_modifier = ism_overlord_blocking_all_subject_urbanization
-				}
-				remove_country_modifier = ism_overlord_blocking_all_subject_urbanization
-			}
-		}
+	ism_sync_subject_block = {
+		SETTING = ism__block_urbanization
+		SUBJECT_MODIFIER = ism_overlord_blocking_urbanization
+		ALL_MODIFIER = ism_overlord_blocking_all_subject_urbanization
+		SUSPENDED_FLAG = ism__suspended_urbanization_block
 	}
 }
 
 ism_block_subject_columbian_exchange = {
-	if = {
-		limit = { is_overlord = yes }
-		save_scope_as = overlord_scope
-		every_subject = {
-			if = {
-				limit = {
-					scope:overlord_scope = { has_variable = ism__block_columbian_exchange }
-				}
-				add_country_modifier = {
-					modifier = ism_overlord_blocking_all_subject_columbian_exchange
-					days = -1
-					mode = replace
-				}
-			}
-			else_if = {
-				limit = {
-					has_country_modifier = ism_overlord_blocking_all_subject_columbian_exchange
-				}
-				remove_country_modifier = ism_overlord_blocking_all_subject_columbian_exchange
-			}
-		}
+	ism_sync_subject_block = {
+		SETTING = ism__block_columbian_exchange
+		SUBJECT_MODIFIER = ism_overlord_blocking_columbian_exchange
+		ALL_MODIFIER = ism_overlord_blocking_all_subject_columbian_exchange
+		SUSPENDED_FLAG = ism__suspended_columbian_exchange_block
 	}
 }
 
 ism_block_subject_war_declarations = {
-	if = {
-		limit = { is_overlord = yes }
-		save_scope_as = overlord_scope
-		every_subject = {
-			if = {
-				limit = {
-					scope:overlord_scope = { has_variable = ism__block_declaring_war }
-				}
-				add_country_modifier = {
-					modifier = ism_overlord_blocking_all_subject_war_declarations
-					days = -1
-					mode = replace
-				}
-			}
-			else_if = {
-				limit = {
-					has_country_modifier = ism_overlord_blocking_all_subject_war_declarations
-				}
-				remove_country_modifier = ism_overlord_blocking_all_subject_war_declarations
-			}
-		}
+	ism_sync_subject_block = {
+		SETTING = ism__block_declaring_war
+		SUBJECT_MODIFIER = ism_overlord_blocking_war_declarations
+		ALL_MODIFIER = ism_overlord_blocking_all_subject_war_declarations
+		SUSPENDED_FLAG = ism__suspended_war_declaration_block
 	}
 }
 

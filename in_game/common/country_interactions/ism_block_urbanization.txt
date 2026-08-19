@@ -36,9 +36,13 @@
 				country_type = building
 				country_type = pop
 			}
-			NOT = { has_country_modifier = ism_overlord_blocking_urbanization }
+			NOR = {
+				has_country_modifier = ism_overlord_blocking_urbanization
+				has_variable = ism__suspended_urbanization_block
+			}
 		}
-        enabled = {
+		enabled = {
+			subject_loyalty >= MIN_SUBJECT_LOYALTY_FOR_ACTION
 		}
 	}
 
@@ -93,9 +97,12 @@ ism_allow_subject_urbanization = {
 				country_type = building
 				country_type = pop
 			}
-			has_country_modifier = ism_overlord_blocking_urbanization
+			OR = {
+				has_country_modifier = ism_overlord_blocking_urbanization
+				has_variable = ism__suspended_urbanization_block
+			}
 		}
-        enabled = {
+		enabled = {
 		}
 	}
 
@@ -105,7 +112,10 @@ ism_allow_subject_urbanization = {
 				exists = scope:recipient
 			}
 			scope:recipient = {
-				remove_country_modifier = ism_overlord_blocking_urbanization
+				ism_clear_subject_block = {
+					SUBJECT_MODIFIER = ism_overlord_blocking_urbanization
+					SUSPENDED_FLAG = ism__suspended_urbanization_block
+				}
 			}
 		}
 	}

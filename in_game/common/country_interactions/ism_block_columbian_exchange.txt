@@ -39,9 +39,13 @@
 				country_type = building
 				country_type = pop
 			}
-			NOT = { has_country_modifier = ism_overlord_blocking_columbian_exchange }
+			NOR = {
+				has_country_modifier = ism_overlord_blocking_columbian_exchange
+				has_variable = ism__suspended_columbian_exchange_block
+			}
 		}
 		enabled = {
+			subject_loyalty >= MIN_SUBJECT_LOYALTY_FOR_ACTION
 		}
 	}
 
@@ -96,7 +100,10 @@ ism_allow_columbian_exchange = {
 				country_type = building
 				country_type = pop
 			}
-			has_country_modifier = ism_overlord_blocking_columbian_exchange
+			OR = {
+				has_country_modifier = ism_overlord_blocking_columbian_exchange
+				has_variable = ism__suspended_columbian_exchange_block
+			}
 		}
 		enabled = {
 		}
@@ -108,7 +115,10 @@ ism_allow_columbian_exchange = {
 				exists = scope:recipient
 			}
 			scope:recipient = {
-				remove_country_modifier = ism_overlord_blocking_columbian_exchange
+				ism_clear_subject_block = {
+					SUBJECT_MODIFIER = ism_overlord_blocking_columbian_exchange
+					SUSPENDED_FLAG = ism__suspended_columbian_exchange_block
+				}
 			}
 		}
 	}

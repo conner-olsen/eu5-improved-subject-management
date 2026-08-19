@@ -32,10 +32,14 @@
 			data = name
 		}
 		visible = {
-			NOT = { has_country_modifier = ism_overlord_blocking_war_declarations }
+			NOR = {
+				has_country_modifier = ism_overlord_blocking_war_declarations
+				has_variable = ism__suspended_war_declaration_block
+			}
 			NOT = { modifier:blocked_from_declaring_war = yes }
 		}
-        enabled = {
+		enabled = {
+			subject_loyalty >= MIN_SUBJECT_LOYALTY_FOR_ACTION
 		}
 	}
 
@@ -86,9 +90,12 @@ ism_allow_subject_declaring_war = {
 			data = name
 		}
 		visible = {
-			has_country_modifier = ism_overlord_blocking_war_declarations
+			OR = {
+				has_country_modifier = ism_overlord_blocking_war_declarations
+				has_variable = ism__suspended_war_declaration_block
+			}
 		}
-        enabled = {
+		enabled = {
 		}
 	}
 
@@ -98,7 +105,10 @@ ism_allow_subject_declaring_war = {
 				exists = scope:recipient
 			}
 			scope:recipient = {
-				remove_country_modifier = ism_overlord_blocking_war_declarations
+				ism_clear_subject_block = {
+					SUBJECT_MODIFIER = ism_overlord_blocking_war_declarations
+					SUSPENDED_FLAG = ism__suspended_war_declaration_block
+				}
 			}
 		}
 	}
